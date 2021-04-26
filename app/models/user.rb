@@ -5,5 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :menus, through: :week_menu
-  has_many :recipes, through: :menus
+  has_many :recipes, through: :menu
 end
