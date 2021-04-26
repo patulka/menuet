@@ -4,6 +4,6 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  has_many :menus
+  has_many :menus, through: :week_menu
   has_many :recipes, through: :menus
 end
