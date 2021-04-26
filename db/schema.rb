@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2021_04_26_145725) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["recipe_id"], name: "index_menus_on_recipe_id"
-    t.index ["user_id"], name: "index_menus_on_user_id"
+    t.index ["week_menu_id"], name: "index_menus_on_week_menu_id"
   end
 
   create_table "recipes", force: :cascade do |t|
@@ -52,6 +52,6 @@ ActiveRecord::Schema.define(version: 2021_04_26_145725) do
   end
 
   add_foreign_key "menus", "recipes"
-  add_foreign_key "menus", "users"
+  add_foreign_key "menus", "week_menus"
   add_foreign_key "week_menus", "users"
 end
