@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class ="image-row">
+      <div class="col-xs-12 col-sm-6">
+        <% image = @recipe.image %>
+      </div>
+
+      <p><b>Title:></b> <%= @recipe.title %></p>
+      <p><b>Time Require:></b> <%= @recipe.time %></p>
+      <p><b>Title:></b> <%= @recipe.title %></p>
+      <p><b>Ingredients:</b>
+       <% @recipe.Ingredients.each do |ingredient| %>
+         <li>
+          <%= ingredient.quantity %>
+          <%= ingredient.name %>
+         </li>
+      </p>
+      <% end %>
+        <p><b>Instructions:></b> <%= @recipe.instructions %></p>
+    </div>
+  </div>
+</div>
