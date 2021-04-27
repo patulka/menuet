@@ -13,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   color: white;
+  flex-direction: row;
 
   div {
     width: 20%;
@@ -25,7 +26,6 @@
   color: white;
   margin-bottom: 30px;
 }
-
 
 
 
@@ -43,6 +43,14 @@
     margin-top: 40%;
       h1 {
         font-size: 30px;
+      }
+  }
+
+  #why-menuet-reasons {
+    flex-direction: column;
+      div {
+        width: 90%;
+        margin: 20px auto;
       }
   }
 
