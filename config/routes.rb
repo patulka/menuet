@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   # showing all the week menus of the logged in user
   get "my-weeks", to: "week_menus#my_weeks"
 
-  # to be able to save a week of the user
-
+  # to be able to save a week (week_menu) of the user
+  resources :week_menus, only: [:create]
 end

@@ -11,8 +11,16 @@ class WeekMenusController < ApplicationController
   # creates a week == saves it to the user and displays it in my_weeks
   def create
     @user = current_user
-    @week = WeekMenus.new(week_menus_params)
-
-
+    @week_menu = WeekMenu.new
+    @week_menu.user = @user
+    if @week_menu.save
+      redirect_to my_weeks_path(@booking)
+    else
+      render 'weekly-menu'
+    end
   end
+
+
+
+
 end
