@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'recipes/show'
   devise_for :users
   root to: 'pages#home'
   get "weekly-menu", to: "menus#weekly_menu"
