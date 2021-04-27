@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Weekly menu</h1>
 
-  <!-- button to use the week menu only for signed in users -->
+  <!-- button to save the week menu only for signed-in users -->
   <% if user_signed_in? %>
    <%= link_to "Save this week!",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-info mt-3" %>
   <% end %>

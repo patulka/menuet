@@ -1,29 +1,5 @@
-
-<!--
-<%= WeekMenu.where(user_id: current_user.id).first.user.email%>
-<%= WeekMenu.where(user_id: current_user.id).last%>
-
-<p>-------------</p>
-
-<p> EMAILS OF ALL THE USERS, WHO HAVE ALREADY SOME WEEKMENU</p>
-
-<% WeekMenu.all.each do |weekmenu| %>
-  <%= weekmenu.user.email  %>
-<% end %>
-
-
-<p>-------------</p>
-
- -->
-<p>NEED TO SHOW ONLY THOSE RECIPES, WHICH THE USER HAS IN ITS WEEKMENUS</p>
+<p> <strong> showing all recipes which i have in my week_menus (not sorted by weeks yet) </strong></p>
 
 <% @recipes.each do |recipe| %>
   <%= recipe.title %> <br>
 <% end %>
-
-<!-- <p>-------------</p>
-<p>SHOWING ALL RECIPES</p>
-
-<% Recipe.all.each do |recipe| %>
-  <%= recipe.title %> <br>
-<% end %> -->

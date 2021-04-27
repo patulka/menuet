@@ -2,13 +2,13 @@ class WeekMenusController < ApplicationController
   # for now (accesses for not-logged-ins will be set later)
   skip_before_action :authenticate_user!
 
-
-  # displays all the weeks the user saved (by the create function)
+  # displays the recipes the user saved while saving the week_menu (by the create function below)
+  # grouped by weeks (NB! GROUPING CURRENTLY MISSING)
   def my_weeks
     @recipes = current_user.recipes
   end
 
-  # creates a week == saves it to the user and displays it in my_weeks
+  # creates lines in a week_menu db and menu db == saving weeks to be displaied it in my_weeks
   def create
     @week_menu = WeekMenu.new
     @week_menu.user = current_user
