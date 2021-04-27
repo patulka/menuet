@@ -8,13 +8,12 @@
       <p><b>Title:</b> <%= @recipe.title %></p>
       <p>Author: <%= @recipe.author %> </p>
       <p><b>Time Require:</b> <%= @recipe.time %> mins</p>
-      <p><b>Ingredients:</b>
-       <% @recipe.ingredients_list.each do |ingredient| %>
-         <li>
-          <%= ingredient %>
-         </li>
-      </p>
-      <% end %>
+      <p><b>Ingredients:</b></p>
+      <ul>
+        <% @recipe.ingredients_list.each do |ingredient| %>
+          <li><%= ingredient.strip() %></li>
+        <% end %>
+      </ul>
       <p><b>Instructions:</b> <%= @recipe.instructions.html_safe %></p>
     </div>
   </div>
