@@ -16,7 +16,7 @@ class WeekMenusController < ApplicationController
       params["menus"].each { |menu|
         Menu.create(week_menu: @week_menu, recipe_id: menu)
       }
-      redirect_to my_weeks_path(@booking)
+      redirect_to my_weeks_path
     else
       render 'weekly-menu'
     end
