@@ -1,0 +1,18 @@
+.banner {
+  height: 80vh;
+  display: flex;
+  background-image: url("banner.jpg");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: right 0px center;
+}
+
+#banner-text {
+  background-color: white;
+  width: 70%;
+  clip-path: polygon( 0% 0%, 100% 0%, 93% 100%, 0% 100%);
+}
+
+#banner-inner-text {
+  margin-top: 20%;
+}

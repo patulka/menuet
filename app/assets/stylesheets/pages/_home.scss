@@ -1,1 +1,60 @@
 // Specific CSS for your home-page
+
+/*landscape phones and smaller*/
+@media (max-width: 575px) {
+  .banner {
+    background-size: 100%;
+  }
+
+  #text {
+    width: 90%;
+  }
+
+  #inner-text {
+    margin-top: 40%;
+      h1 {
+        font-size: 30px;
+      }
+  }
+
+}
+
+/*tablets and bigger*/
+@media(min-width: 576px) and (max-width:991px) {
+  .banner {
+    background-size: 90%;
+  }
+
+  #banner-text {
+    width: 90%;
+  }
+
+  #banner-inner-text {
+    margin-top: 40%;
+    margin-left: 20px;
+  }
+
+}
+
+/*desktops and bigger*/
+@media(min-width: 992px) and (max-width:1025px) and (orientation:landscape) {
+  .banner {
+    background-size: 40%;
+  }
+  #banner-text {
+    width: 80%;
+  }
+
+  #banner-inner-text {
+    margin-left: 20px;
+  }
+}
+
+
+/*desktops and bigger*/
+@media(min-width: 1026px) {
+  .banner {
+    background-size: 35%;
+  }
+}
+

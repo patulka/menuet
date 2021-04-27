@@ -1,0 +1,28 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: lightgrey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  p {
+    color: white;
+    margin-top: 15px;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.fab {
+  color: white;
+}
