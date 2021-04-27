@@ -5,17 +5,36 @@
           <h1>Stop worrying about your meals</h1>
           <h1>It takes one click</h1>
           <%= form_tag weekly_menu_path, method: :get do %>
-            <div class="d-flex search-form">
+            <div class="search-form">
               <%= text_field_tag :search,
                 params[:search],
                 class: "form-control",
                 placeholder: "Find the recipes"  %>
-
               <%= submit_tag "Search", class: "btn btn-lg btn-info mt-3" %>
             </div>
           <% end %>
-          <%= link_to "Weekly Menu plan ",weekly_menu_path, class: "btn btn-lg btn-info mt-3" %>
+          <%= link_to "Generate Weekly Menu",weekly_menu_path, class: "btn btn-lg btn-info mt-3" %>
         </div>
       </div>
+    </div>
+  </div>
+  <div id="why-menuet">
+    <div class="container">
+      <h2>Why Menuet?</h2>
+      <div id="why-menuet-reasons">
+        <div>
+          <i class="fas fa-hamburger"></i>
+          <h4>Organize your weekly meal plan without a headache</h4>
+        </div>
+        <div>
+          <i class="fas fa-pizza-slice"></i>
+          <h4>We choose among thousands of recipes to fit your taste</h4>
+        </div>
+        <div>
+          <i class="fas fa-ice-cream"></i>
+          <h4>Generate your personalized menus if you subscribe</h4>
+        </div>
+      </div>
+      <h6>Tell me more about subscription</h6>
     </div>
   </div>
