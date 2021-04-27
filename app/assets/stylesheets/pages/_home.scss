@@ -1,4 +1,33 @@
 // Specific CSS for your home-page
+#why-menuet {
+  background-color: green;
+  padding: 100px 0px;
+  text-align: center;
+  color:white;
+  h2 {
+    font-size: 35px;
+  }
+}
+
+#why-menuet-reasons {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  flex-direction: row;
+
+  div {
+    width: 20%;
+    margin: 50px 0px;
+  }
+}
+
+.fas {
+  font-size: 70px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+
 
 /*landscape phones and smaller*/
 @media (max-width: 575px) {
@@ -14,6 +43,14 @@
     margin-top: 40%;
       h1 {
         font-size: 30px;
+      }
+  }
+
+  #why-menuet-reasons {
+    flex-direction: column;
+      div {
+        width: 90%;
+        margin: 20px auto;
       }
   }
 

@@ -10,11 +10,31 @@
                 params[:search],
                 class: "form-control",
                 placeholder: "Find the recipes"  %>
-
-              <%= submit_tag "Create my weekly menu", class: "btn btn-lg btn-info mt-3" %>
+              <%= submit_tag "Search", class: "btn btn-lg btn-info mt-3" %>
             </div>
           <% end %>
+          <%= link_to "Generate Weekly Menu",weekly_menu_path, class: "btn btn-lg btn-info mt-3" %>
         </div>
       </div>
+    </div>
+  </div>
+  <div id="why-menuet">
+    <div class="container">
+      <h2>Why Menuet?</h2>
+      <div id="why-menuet-reasons">
+        <div>
+          <i class="fas fa-hamburger"></i>
+          <h4>Organize your weekly meal plan without a headache</h4>
+        </div>
+        <div>
+          <i class="fas fa-pizza-slice"></i>
+          <h4>We choose among thousands of recipes to fit your taste</h4>
+        </div>
+        <div>
+          <i class="fas fa-ice-cream"></i>
+          <h4>Generate your personalized menus if you subscribe</h4>
+        </div>
+      </div>
+      <h6>Tell me more about subscription</h6>
     </div>
   </div>
