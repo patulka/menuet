@@ -2,12 +2,12 @@
   <div class="row">
     <div class ="image-row">
       <div class="col-xs-12 col-sm-6">
-        <% image = @recipe.image %>
+        <img src=" <%= @recipe.img_url %>" alt="Card image cap">
       </div>
-
-      <p><b>Title:></b> <%= @recipe.title %></p>
-      <p><b>Time Require:></b> <%= @recipe.time %></p>
-      <p><b>Title:></b> <%= @recipe.title %></p>
+      <a href="<%= @recipe.url %>" class="btn btn-primary">See the full recipe</a>
+      <p><b>Title:</b> <%= @recipe.title %></p>
+      <p>Author: <%= @recipe.author %> </p>
+      <p><b>Time Require:</b> <%= @recipe.time %> mins</p>
       <p><b>Ingredients:</b>
        <% @recipe.ingredients_list.each do |ingredient| %>
          <li>
@@ -15,7 +15,7 @@
          </li>
       </p>
       <% end %>
-        <p><b>Instructions:></b> <%= @recipe.instructions %></p>
+      <p><b>Instructions:</b> <%= @recipe.instructions.html_safe %></p>
     </div>
   </div>
 </div>
