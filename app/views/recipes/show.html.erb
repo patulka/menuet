@@ -9,10 +9,9 @@
       <p><b>Time Require:></b> <%= @recipe.time %></p>
       <p><b>Title:></b> <%= @recipe.title %></p>
       <p><b>Ingredients:</b>
-       <% @recipe.ingredients.each do |ingredient| %>
+       <% @recipe.ingredients_list.each do |ingredient| %>
          <li>
-          <%= ingredient.quantity %>
-          <%= ingredient.name %>
+          <%= ingredient %>
          </li>
       </p>
       <% end %>
