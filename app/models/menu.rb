@@ -1,4 +1,4 @@
 class Menu < ApplicationRecord
   belongs_to :recipe
-  belongs_to :user, through: :week_menu
+  belongs_to :week_menu
 end

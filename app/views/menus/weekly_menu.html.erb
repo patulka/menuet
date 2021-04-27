@@ -3,10 +3,10 @@
 
   <!-- button to use the week menu only for signed in users -->
   <% if user_signed_in? %>
-   <%= link_to "Save this week!",week_menus_path(user_id: current_user.id), method: :post, class: "btn btn-lg btn-info mt-3" %>
+   <%= link_to "Save this week!",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-info mt-3" %>
   <% end %>
 
-    <% @menu.each do |recipe| %>
+    <% @menus.each do |recipe| %>
       <div class="card d-flex flex-row w-100" style="width: 18rem;">
         <img class="card-image" src="..." alt="Card image cap">
         <div class="card-body">
