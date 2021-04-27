@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   get "weekly-menu", to: "menus#weekly_menu"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-  get "weekly-menu", to: "menus#weekly_menu"
-
   # showing all the week menus of the logged in user
-  get "my-weeks", to: "week_menus#weeks"
+  get "my-weeks", to: "week_menus#my_weeks"
+
+  # to be able to save a week of the user
+
 end
