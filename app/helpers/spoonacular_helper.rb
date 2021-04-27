@@ -11,6 +11,8 @@ module SpoonacularHelper
     recipes = recipes_json["recipes"]
 
     recipes.map do |recipe|
+      next if Recipe.where("url = '#{recipe['sourceUrl']}'").exists?
+
       ingredients = ""
       recipe["extendedIngredients"].each do |ingredient|
         ingredients += "#{ingredient["name"]}\n"
@@ -25,6 +27,6 @@ module SpoonacularHelper
         ingredients: ingredients,
         instructions: recipe["instructions"]
       )
-    end
+    end.select { |recipe| not recipe.nil? }
   end
 end
