@@ -6,8 +6,12 @@
         <img class="card-image" src="<%= recipe.img_url %>" alt="Card image cap">
         <div class="card-body">
           <h3 class="card-title"> <%= recipe.title %></h3>
-          <p class="card-text"><%= %></p>
-          <a href="<%= recipe.url %>" class="btn btn-primary">Go to the recipe</a>
+          <p class="card-text">Author: <%= recipe.author %></p>
+          <p class="card-text">- <% recipe.ingredients_list.each do |ingredient| %>
+            <%= ingredient %> -
+            <% end %>
+          </p>
+          <%= link_to "See more details", recipe_path(recipe), class: "btn btn-primary"%>
         </div>
       </div>
     <% end %>

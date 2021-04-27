@@ -16,7 +16,7 @@ module SpoonacularHelper
         ingredients += "#{ingredient["name"]}\n"
       end
 
-      Recipe.new(
+      Recipe.create(
         title: recipe["title"],
         author: recipe["creditsText"],
         time: recipe["readyInMinutes"].to_i,
