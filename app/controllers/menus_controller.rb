@@ -7,6 +7,7 @@ class MenusController < ApplicationController
     else
       @menus = Recipe.all.sample(7)
     end
+    @counter = 0
   end
 
   def save_week
