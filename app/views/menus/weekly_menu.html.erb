@@ -1,7 +1,12 @@
 <div class="container">
   <h1>Weekly menu</h1>
 
-    <% @menu.each do |recipe| %>
+  <!-- button to save the week menu only for signed-in users -->
+  <% if user_signed_in? %>
+   <%= link_to "Save this week!",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-info mt-3" %>
+  <% end %>
+
+    <% @menus.each do |recipe| %>
       <div class="card d-flex flex-row w-100" style="width: 18rem;">
         <img class="card-image" src="<%= recipe.img_url %>" alt="Card image cap">
         <div class="card-body">

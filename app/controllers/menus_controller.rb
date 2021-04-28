@@ -8,4 +8,7 @@ class MenusController < ApplicationController
       @menu = SpoonacularHelper.get_random(7)
     end
   end
+
+  def save_week
+  end
 end

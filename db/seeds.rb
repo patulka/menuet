@@ -14,7 +14,7 @@ puts "Cleaning database"
 puts "Seeding recipes..."
 
 
-10.times do
+100.times do
   recipe = Recipe.create!(
     title: Faker::Ancient.god + " soup",
     description: "Very delicious."
