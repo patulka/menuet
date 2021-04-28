@@ -1,4 +1,4 @@
-
+import autocomplete from 'js-autocomplete';
 
 const autocompleteSearch = function() {
   const ingredients = JSON.parse(document.getElementById('search-data').dataset.ingredients)
@@ -20,4 +20,4 @@ const autocompleteSearch = function() {
   }
 };
 
-
+export { autocompleteSearch};
