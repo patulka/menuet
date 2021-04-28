@@ -1,14 +1,38 @@
 puts "Cleaning database"
 
 Recipe.destroy_all
+Ingredient.destroy_all
+RecipeIngredient.destroy_all
 
-puts "Seeding recipes..."
+puts "Seeding recipes, ingredients and connections..."
 
-sql = File.read('db/recipes_seed.sql')
+recipes_sql = File.read('db/recipes_seed.sql')
   connection = ActiveRecord::Base.connection()
 
   ActiveRecord::Base.transaction do
-    connection.execute(sql)
+    connection.execute(recipes_sql)
   end
 
 puts "Recipes seeded."
+
+puts "Seeding ingredients..."
+
+ingredients_sql = File.read('db/ingredients_seed.sql')
+  connection = ActiveRecord::Base.connection()
+
+  ActiveRecord::Base.transaction do
+    connection.execute(ingredients_sql)
+  end
+
+puts "Ingredients seeded."
+
+puts "Seeding connections..."
+
+connections_sql = File.read('db/recipe_ingredients_seed.sql')
+  connection = ActiveRecord::Base.connection()
+
+  ActiveRecord::Base.transaction do
+    connection.execute(connections_sql)
+  end
+
+puts "Connections seeded."
