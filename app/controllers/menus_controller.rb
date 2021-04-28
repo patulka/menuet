@@ -3,7 +3,11 @@ class MenusController < ApplicationController
 
   def weekly_menu
     if params[:q].present?
-      @menus = Recipe.all.sample(7)
+      menus_match = RecipeIngredient.joins(:ingredient)
+                .where("ingredients.name LIKE \'%#{params[:q]}\'")
+                .joins(:recipe).all.sample(7).map { |x| x.recipe }
+      menus_rand = Recipe.all.sample(7 - menus_match.count)
+      @menus = menus_match + menus_rand
     else
       @menus = Recipe.all.sample(7)
     end
