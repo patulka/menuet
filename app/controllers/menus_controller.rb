@@ -9,8 +9,4 @@ class MenusController < ApplicationController
     end
     @counter = 0
   end
-
-  def save_week
-
-  end
 end
