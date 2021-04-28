@@ -1,3 +1,29 @@
+
+
+
+<p>testing</p>
+
+<% @week_menus.each do |week_menu| %>
+  <h3>Week</h3>
+  <% week_menu.menus.each do |menu| %>
+    <%= menu.recipe.title %>
+    <!-- <div class="card d-flex flex-row w-100" style="width: 18rem;"> -->
+    <div class="card" style="width: 18rem;">
+        <img class="card-image" src="<%= menu.recipe.img_url %>" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title"> <%= menu.recipe.title %></h3>
+          <p class="card-text">Author: <%= menu.recipe.author %></p>
+          <p class="card-text">- <% menu.recipe.ingredients_list.each do |ingredient| %>
+            <%= ingredient %> -
+            <% end %>
+          </p>
+          <%= link_to "See more details", recipe_path(menu.recipe), class: "btn btn-primary"%>
+        </div>
+      </div>
+  <% end %>
+<% end %>
+
+
 <p> <strong> showing all recipes which i have in my week_menus (not sorted by weeks yet) </strong></p>
 
 <% @recipes.each do |recipe| %>

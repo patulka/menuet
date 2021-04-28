@@ -3,12 +3,9 @@ class MenusController < ApplicationController
 
   def weekly_menu
     if params[:search].present?
-      @menu = Recipe.all.sample(7)
+      @menus = Recipe.all.sample(7)
     else
-      @menu = Recipe.all.sample(7)
+      @menus = Recipe.all.sample(7)
     end
-  end
-
-  def save_week
   end
 end

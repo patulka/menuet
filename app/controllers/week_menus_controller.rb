@@ -6,6 +6,8 @@ class WeekMenusController < ApplicationController
   # grouped by weeks (NB! GROUPING CURRENTLY MISSING)
   def my_weeks
     @recipes = current_user.recipes
+
+    @week_menus = current_user.week_menus
   end
 
   # creates lines in a week_menu db and menu db == saving weeks to be displaied it in my_weeks
