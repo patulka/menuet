@@ -37,14 +37,14 @@ const autocompleteSearch = function() {
         // map ingredients to name and distance (from searched input)
         let choices = ingredients.map(ingredient => {
           return {
-            'name': ingredient['name'],
-            'distance': distance(input, ingredient['name']),
+            'ingredient': ingredient,
+            'distance': distance(input, ingredient),
           }
         });
         // sorting ascending by distance
         choices = choices.filter(choice => choice['distance'] < MAX_DISTANCE)
         choices.sort((c1, c2) => c1['distance'] - c2['distance']);
-        const matches = choices.slice(0, NUM_RESULTS).map(choice => choice['name']);
+        const matches = choices.slice(0, NUM_RESULTS).map(choice => choice['ingredient']);
         suggest(matches);
       },
     });

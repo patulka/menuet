@@ -5,7 +5,7 @@
           <h1>Stop worrying about your meals</h1>
           <h1>It takes one click</h1>
           <%= form_tag weekly_menu_path, method: :get do %>
-            <div class="search-form" id="search-data" data-ingredients="<%= Ingredient.all.to_json %>">
+            <div class="search-form" id="search-data" data-ingredients="<%= @ingredients.to_json %>">
               <%= text_field_tag :q, nil,
                 autocomplete: :on,
                 class: "form-control search-input",
