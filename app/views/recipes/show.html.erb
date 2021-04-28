@@ -1,3 +1,75 @@
+<h1>HERE ARE SEVERAL OPTIONS - ONE UGLIER THAN OTHER</h1>
+<div class="container">
+  <div class="main-container">
+    <h1 ><strong><%= @recipe.title %></strong></h1>
+    <p ><strong>Author</strong><br><a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
+    <p ><strong>Time Require</strong><br><%= @recipe.time %> mins</p>
+    <p><strong>Ingedrients</strong><br><% @recipe.ingredients_list.each do |ingredient| %>
+      <%= ingredient %> -
+      <% end %>
+    </p>
+
+    <div class="d-flex ">
+      <!-- <img class="mr-4" src="<%= @recipe.img_url %>" alt="Card image cap"> -->
+       <div style= "width:20vw">
+       <%= image_tag @recipe.img_url, :style => "width: 90%; border-radius:0px; margin-right: 20px" %>
+      </div>
+      <div >
+        <p><strong>Instructions</strong><br><%= @recipe.instructions %> </p>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="main-container">
+    <h1 ><strong><%= @recipe.title %></strong></h1>
+    <p ><strong>Author</strong><br><a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
+    <p ><strong>Time Require</strong><br><%= @recipe.time %> mins</p>
+    <p><strong>Ingedrients</strong><br><% @recipe.ingredients_list.each do |ingredient| %>
+      <%= ingredient %> -
+      <% end %>
+    </p>
+
+    <div class="d-flex ">
+      <!-- <img class="mr-4" src="<%= @recipe.img_url %>" alt="Card image cap"> -->
+       <div style= "width:20vw">
+       <%= image_tag @recipe.img_url, :style => "border-radius:0px; margin-right: 20px" %>
+      </div>
+      <div >
+        <p><strong>Instructions</strong><br><%= @recipe.instructions %> </p>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="main-container">
+    <h1 class="card-title"><strong><%= @recipe.title %></strong></h1>
+    <p class="card-text"><strong>Author</strong><br><a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
+    <p class="card-text"><strong>Time Require</strong><br><%= @recipe.time %> mins</p>
+
+    <div class="our-card">
+      <img class="card-image" src="<%= @recipe.img_url %>" alt="Card image cap">
+      <div class="our-card-body">
+
+        <p class="card-text"><strong>Ingedrients</strong><br><% @recipe.ingredients_list.each do |ingredient| %>
+          <%= ingredient %> -
+          <% end %>
+        </p>
+        <p class="card-text"><strong>Instructions</strong><br><%= @recipe.instructions %> </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 <div class="container">
   <div class="row">
     <div class ="image-row">
