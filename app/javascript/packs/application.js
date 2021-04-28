@@ -26,9 +26,11 @@ require("channels")
 import "bootstrap";
 
 // Internal imports, e.g:
-// import { initSelect2 } from '../components/init_select2';
+import { autocompleteSearch } from '../components/autocomplete';
+
 
 document.addEventListener('turbolinks:load', () => {
+  autocompleteSearch()
   // Call your functions here, e.g:
   // initSelect2();
 });
