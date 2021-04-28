@@ -3,10 +3,10 @@ class MenusController < ApplicationController
 
   def weekly_menu
     if params[:q].present?
-      @menu = Recipe.all.sample(7)
+      @menus = Recipe.all.sample(7)
 
     else
-      @menu = Recipe.all.sample(7)
+      @menus = Recipe.all.sample(7)
     end
   end
 end
