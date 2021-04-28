@@ -1,23 +1,35 @@
 <div class="container">
-  <h1>Weekly menu</h1>
+  <div class="main-container">
+    <div id="menu-page-title">
+      <h1>Weekly menu</h1>
 
-  <!-- button to save the week menu only for signed-in users -->
-  <% if user_signed_in? %>
-   <%= link_to "Save this week!",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-info mt-3" %>
-  <% end %>
+      <!-- button to save the week menu only for signed-in users -->
+      <% if user_signed_in? %>
+       <%= link_to "Save this week!",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-info mt-3" %>
+      <% end %>
+    </div>
 
-    <% @menus.each do |recipe| %>
-      <div class="card d-flex flex-row w-100" style="width: 18rem;">
-        <img class="card-image" src="<%= recipe.img_url %>" alt="Card image cap">
-        <div class="card-body">
-          <h3 class="card-title"> <%= recipe.title %></h3>
-          <p class="card-text">Author: <%= recipe.author %></p>
-          <p class="card-text">- <% recipe.ingredients_list.each do |ingredient| %>
-            <%= ingredient %> -
-            <% end %>
-          </p>
-          <%= link_to "See more details", recipe_path(recipe), class: "btn btn-primary"%>
-        </div>
-      </div>
-    <% end %>
+    <div class="recipe-cards">
+
+      <% @menus.each do |recipe| %>
+        <% @counter += 1  %>
+          <div class="our-card">
+            <img class="card-image" src="<%= recipe.img_url %>" alt="Card image cap">
+            <div class="number">
+              <h1><%= @counter %> </h1>
+            </div>
+            <div class="our-card-body">
+              <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
+              <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
+
+              <p class="card-text"><strong>Ingedrients</strong><br><% recipe.ingredients_list.each do |ingredient| %>
+                <%= ingredient %> -
+                <% end %>
+              </p>
+              <%= link_to "See more details", recipe_path(recipe), class: "btn btn-primary"%>
+            </div>
+          </div>
+      <% end %>
+    </div>
+  </div>
 </div>

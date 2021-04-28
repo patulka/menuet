@@ -1,0 +1,16 @@
+#menu-page-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.number {
+  margin-top: 15px;
+  margin-left: -25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  h1 {
+      font-size: 70px;
+  }
+}
