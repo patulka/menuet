@@ -1,12 +1,15 @@
-<% @week_menus.each do |week_menu| %>
+<h1>My menu plans</h1>
 
+<!-- saved menu plans (earlier: weeks) of the current user -->
+<!-- grouped by weeks, ordered from newest to oldest (.reverse) -->
+<% @week_menus.reverse.each do |week_menu| %>
 
-
-  <h3>Week</h3>
+  <!-- box with one menu plan == 7 recipes -->
+  <h3>Week no <%= @week_number %> </h3>
   <div class="d-flex flex-row">
 
+    <!-- card with a recipe -->
     <% week_menu.menus.each do |menu| %>
-
         <div class="card p-2" style="width: 14vw;">
             <img class="card-image" src="<%= menu.recipe.img_url %>" alt="Card image cap">
             <div class="card-body">
@@ -15,12 +18,11 @@
             </div>
         </div>
 
-
     <% end %>
   </div>
 
-
-
+  <!-- the lower on the page, the older week, the lower number -->
+  <% @week_number -= 1 %>
 <% end %>
 
 
@@ -31,8 +33,4 @@
 
 
 
-<p> <strong> showing all recipes which i have in my week_menus (not sorted by weeks yet) </strong></p>
 
-<% @recipes.each do |recipe| %>
-  <%= recipe.title %> <br>
-<% end %>
