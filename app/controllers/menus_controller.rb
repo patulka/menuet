@@ -3,9 +3,9 @@ class MenusController < ApplicationController
 
   def weekly_menu
     if params[:search].present?
-      @menu = SpoonacularHelper.get_random(7)
+      @menu = Recipe.all.sample(7)
     else
-      @menu = SpoonacularHelper.get_random(7)
+      @menu = Recipe.all.sample(7)
     end
   end
 
