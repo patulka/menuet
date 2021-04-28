@@ -1,23 +1,21 @@
-#menu-page-title {
+.menu-plan {
+  margin: 40px 20px;
+  padding: 20px 10px;
+  border: 1px solid green;
+}
+
+.menu-plan-seven {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  flex-direction: row;
 }
-
-
-.number {
-  margin-top: 15px;
-  margin-left: -25px;
-  background-color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  h1 {
-      font-size: 70px;
-  }
-}
-
 
 /*landscape phones and smaller*/
 @media (max-width: 575px) {
+
+  .menu-plan-seven {
+    flex-direction: column;
+  }
 
 }
 
