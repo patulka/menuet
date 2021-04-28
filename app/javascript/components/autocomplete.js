@@ -1,4 +1,27 @@
 import autocomplete from 'js-autocomplete';
+// imports edit-distance functions
+const ed = require('edit-distance');
+
+const NUM_RESULTS = 20;
+const INSERT_COST = 1;
+const REMOVE_COST = 1;
+const SUBSTITUTE_COST = 10;
+const UNMATCH_MUTLIPLIER = 100;
+const MAX_DISTANCE = UNMATCH_MUTLIPLIER * 10;
+
+// Computes distance between two strings as a number.
+const distance = (sA, sB) => {
+  // remove non-alphabetic chars
+  const strA = sA.toLowerCase().replace(/[^a-z]+/g, '');
+  const strB = sB.toLowerCase().replace(/[^a-z]+/g, '');
+  const shorter = strA.length < strB.length ? strA : strB;
+  const longer = strA.length >= strB.length ? strA : strB;
+  let weight = longer.indexOf(shorter) === -1 ? UNMATCH_MUTLIPLIER : 1;
+  // If one is substring of another, make it appear before everything else.
+  const magic = ed.levenshtein(strA, strB, () => INSERT_COST, () => REMOVE_COST, (a, b) => a !== b ? SUBSTITUTE_COST : 0);
+  // Compute distance as number of operations to transform A into B multiplied by weight.
+  return weight * (1 + magic.distance);
+}
 
 const autocompleteSearch = function() {
   const ingredients = JSON.parse(document.getElementById('search-data').dataset.ingredients)
@@ -8,13 +31,21 @@ const autocompleteSearch = function() {
     new autocomplete({
       selector: searchInput,
       minChars: 1,
-      source: function(term, suggest){
-          term = term.toLowerCase();
-          const choices = ingredients;
-          const matches = [];
-          for (let i = 0; i < choices.length; i++)
-              if (~choices[i]['name'].toLowerCase().indexOf(term)) matches.push(choices[i]['name']);
-          suggest(matches);
+      delay: 50,
+      cache: false,
+      source: function(input, suggest) {
+        // map ingredients to name and distance (from searched input)
+        let choices = ingredients.map(ingredient => {
+          return {
+            'name': ingredient['name'],
+            'distance': distance(input, ingredient['name']),
+          }
+        });
+        // sorting ascending by distance
+        choices = choices.filter(choice => choice['distance'] < MAX_DISTANCE)
+        choices.sort((c1, c2) => c1['distance'] - c2['distance']);
+        const matches = choices.slice(0, NUM_RESULTS).map(choice => choice['name']);
+        suggest(matches);
       },
     });
   }
