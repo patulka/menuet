@@ -8,4 +8,7 @@ class MenusController < ApplicationController
       @menu = Recipe.all.sample(7)
     end
   end
+
+  def save_week
+  end
 end
