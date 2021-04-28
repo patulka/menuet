@@ -9,6 +9,21 @@ const SUBSTITUTE_COST = 10;
 const UNMATCH_MUTLIPLIER = 100;
 const MAX_DISTANCE = UNMATCH_MUTLIPLIER * 10;
 
+const selectCallback = (event, ingredient) => {
+  event.preventDefault(); // don't submit form on enter
+  const ingredientInput = document.getElementById('q');
+  const ingredientSetDiv = document.getElementById('ingredient-set');
+  const ingredientSetInput = document.getElementById('ingredient-set-input');
+  const ingredientSet = new Set(ingredientSetInput.value.split(','));
+  // displaying ingredient above search bar and adding to query string
+  if (!ingredientSet.has(ingredient)) {
+    ingredientSet.add(ingredient);
+    ingredientSetInput.value = Array.from(ingredientSet).filter(x => x).join(',');
+    ingredientSetDiv.innerHTML += '<span>' + ingredient + '</span> ';
+    ingredientInput.value = '';
+  }
+ };
+
 // Computes distance between two strings as a number.
 const distance = (sA, sB) => {
   // remove non-alphabetic chars
@@ -24,6 +39,9 @@ const distance = (sA, sB) => {
 }
 
 const autocompleteSearch = function() {
+  if (document.getElementById('search-data') == null) {
+    return
+  }
   const ingredients = JSON.parse(document.getElementById('search-data').dataset.ingredients)
   const searchInput = document.getElementById('q');
 
@@ -33,6 +51,7 @@ const autocompleteSearch = function() {
       minChars: 1,
       delay: 50,
       cache: false,
+      onSelect: selectCallback,
       source: function(input, suggest) {
         // map ingredients to name and distance (from searched input)
         let choices = ingredients.map(ingredient => {

@@ -6,10 +6,12 @@
           <h1>It takes one click</h1>
           <%= form_tag weekly_menu_path, method: :get do %>
             <div class="search-form" id="search-data" data-ingredients="<%= @ingredients.to_json %>">
+              <div id="ingredient-set"></div>
               <%= text_field_tag :q, nil,
                 autocomplete: :on,
                 class: "form-control search-input",
                 placeholder: "Search by ingredients..." %>
+              <input type="hidden" id="ingredient-set-input" name="qq">
               <%= submit_tag "Create my weekly menu", class: "btn btn-lg btn-info mt-3" %>
             </div>
           <% end %>
