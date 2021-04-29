@@ -1,25 +1,22 @@
-.flex-container {
+
+.faq-flex-container {
   display: flex;
-}
-
-.faq_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-}
-
-.main-container {
-  margin-top: 50px;
+  justify-content: space-around;
+  border: 1px solid grey;
+  margin: 30px 0px;
 }
 
 .container-recipe {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 20px;
-  padding-right: 35px;
-  justify-content: space-between;
+  width: 60%;
+  height: 200px;
+  padding: 30px 30px;
+}
+
+.container-image {
+  width: 40%;
+  height: 200px;
+  background-color: red;
+
 }
 
 
