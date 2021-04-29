@@ -14,37 +14,37 @@
 
 #one-menu {
   width: 80%;
+  margin: 40px auto;
 }
 
 #card-lists {
   display: flex;
-  justify-content: space-between;
   flex-flow: row wrap;
 }
 
 
-#bookmark {
+#recipe-card {
   margin-top: 10px;
-  width: 150px;
-  border: 1px solid lightgrey;
+  width: 200px;
   background-color: white;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
-.card-pic {
-  width: 150px;
+.recipe-card-pic {
+  width: 200px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#sidebar {
-  width: 15%;
-  height: 300px;
-  background-color: red;
+.recipe-card-body {
+  padding: 5px;
+
 }
 
-#wrapping-sidebar {
-  display: flex;
-  justify-content: space-around;
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
