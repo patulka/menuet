@@ -9,4 +9,6 @@ Rails.application.routes.draw do
 
   # to be able to save a week (week_menu) of the user
   resources :week_menus, only: [:create]
+
+  get "faq", to: "pages#faq"
 end
