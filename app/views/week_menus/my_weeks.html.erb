@@ -1,11 +1,35 @@
 <div class="container-fluid m-9">
   <div class="main-container">
     <div id="weeks-container">
-      <h1>My menus</h1>
+      <h1>My meal plans</h1>
 
       <!-- saved menu plans (earlier: weeks) of the current user -->
       <!-- grouped by weeks, ordered from newest to oldest (.reverse) -->
       <% @week_menus.reverse.each do |week_menu| %>
+
+        <!-- box with one menu plan == 7 recipes -->
+        <div class="menu-plan">
+          <div id="week-header">
+            <div class="graphic-element"></div>
+            <div class="graphic-element"></div>
+            <h2>Week <%= @week_number %> </h2>
+          </div>
+          <div id="menu-plan-seven">
+
+            <!-- card with a recipe -->
+            <% week_menu.menus.each do |menu| %>
+                <div class="card m-2">
+                    <img class="card-image" src="<%= menu.recipe.img_url %>" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-title"><%= link_to menu.recipe.title, recipe_path(menu.recipe)%></p>
+                    </div>
+                </div>
+
+            <% end %>
+          </div>
+        </div>
+
+
 
         <!-- box with one menu plan == 7 recipes -->
         <div class="menu-plan">
