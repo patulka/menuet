@@ -1,20 +1,37 @@
 <div class="container">
-  <div class="row">
-    <div class ="image-row">
-      <div class="col-xs-12 col-sm-6">
-        <img src=" <%= @recipe.img_url %>" alt="Card image cap">
+  <div class="main-container" >
+
+    <div id="recipe-title">
+      <div class="d-flex">
+        <h1 ><%= @recipe.title %></h1>
+        <p class="align-self-end pl-3"><i class="far fa-clock"></i> <%= @recipe.time %> mins</p>
       </div>
-      <a href="<%= @recipe.url %>" class="btn btn-primary">See the full recipe</a>
-      <p><b>Title:</b> <%= @recipe.title %></p>
-      <p>Author: <%= @recipe.author %> </p>
-      <p><b>Time Require:</b> <%= @recipe.time %> mins</p>
-      <p><b>Ingredients:</b></p>
-      <ul>
-        <% @recipe.ingredients_list.each do |ingredient| %>
+      <p class="mb-3"> <b>Author</b> <a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
+    </div>
+
+    <div class="recipe-show" style="background-image: url('<%= @recipe.img_url %>')">
+      <div id="recipe-show-text" style="padding-right: 30px" >
+         <h3><b> Ingredients </b></h3>
+
+        <div class="ingredients">
+         <div class="first-column" >
+          <%  @recipe.ingredients_list.slice(0, @recipe.ingredients_list.length/2).each do |ingredient|%>
           <li><%= ingredient.strip() %></li>
-        <% end %>
-      </ul>
-      <p><b>Instructions:</b> <%= @recipe.instructions.html_safe %></p>
+          <% end %>
+         </div>
+
+         <div class="second-column">
+           <% @recipe.ingredients_list.slice(@recipe.ingredients_list.length/2, @recipe.ingredients_list.length).each do |ingredient| %>
+            <li><%= ingredient.strip() %></li>
+            <% end %>
+         </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="recipe-instructions">
+      <h3> <b> Instructions </b></h3>
+      <p><%= @recipe.instructions.html_safe %></p>
     </div>
   </div>
 </div>
