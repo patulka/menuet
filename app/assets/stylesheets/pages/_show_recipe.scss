@@ -1,18 +1,78 @@
-// based on sandras _banner.scss for homepage
-
-.recipe-show {
-  height: 80vh;
-  display: flex;
-  // background-size: 35%;
-  background-repeat: no-repeat;
-  background-position: right 0px center;
-
-  max-height: 250px;
+// based on sandras _recipe-show.scss for homepage
+#recipe-title {
+  border-bottom: 2px solid grey;
+  margin-bottom: 10px;
 }
 
-#recipe-text {
+.recipe-show {
+  margin: 50px auto;
+  display: flex;
+  background-color: white;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: right 0px bottom;
+
+  max-height: 350px;
+}
+
+#recipe-show-text {
   background-color: white;
   width: 70%;
   clip-path: polygon( 0% 0%, 100% 0%, 93% 100%, 0% 100%);
+}
+
+#recipe-instructions {
+  margin-bottom: 80px;
+}
+
+.ingredients ul {
+  overflow: auto;
+}
+
+.ingredients li {
+  white-space: nowrap; // stop the wrapping in the first place
+}
+
+
+/*landscape phones and smaller*/
+@media (max-width: 575px) {
+  .recipe-show {
+    background-size: 100%;
+  }
+
+  #recipe-show-text {
+    width: 90%;
+  }
+
+}
+
+/*tablets and bigger*/
+@media(min-width: 576px) and (max-width:991px) {
+  .recipe-show {
+    background-size: 80%;
+  }
+
+  #recipe-show-text {
+    width: 90%;
+  }
+
+}
+
+/*desktops and bigger*/
+@media(min-width: 992px) and (max-width:1025px) and (orientation:landscape) {
+  .recipe-show {
+    background-size: 40%;
+  }
+  #recipe-show-text {
+    width: 80%;
+  }
+}
+
+
+/*desktops and bigger*/
+@media(min-width: 1026px) {
+  .recipe-show {
+    background-size: 40%;
+  }
 }
 

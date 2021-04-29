@@ -1,68 +1,25 @@
-<div class="container" style="width: 50vw">
+<div class="container">
   <div class="main-container" >
 
-    <div class="d-flex">
-      <h1 ><%= @recipe.title %></h1>
-      <p class="align-self-end pl-3"><i class="far fa-clock"></i> <%= @recipe.time %> mins</p>
+    <div id="recipe-title">
+      <div class="d-flex">
+        <h1 ><%= @recipe.title %></h1>
+        <p class="align-self-end pl-3"><i class="far fa-clock"></i> <%= @recipe.time %> mins</p>
+      </div>
+      <p class="mb-3"> <b>Author</b> <a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
     </div>
-    <p class="mb-3"> <b>Author</b><br><a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
 
     <div class="recipe-show" style="background-image: url('<%= @recipe.img_url %>')">
-      <div id="recipe-text" style="padding-right: 30px" >
-         <b> Ingedrients </b>
+      <div id="recipe-show-text" style="padding-right: 30px" >
+         <h3><b> Ingredients </b></h3>
          <% @recipe.ingredients_list.each do |ingredient| %>
           <li><%= ingredient.strip() %></li>
           <% end %>
       </div>
     </div>
-    <br>
-    <p> <b> Instructions </b><br><%= @recipe.instructions.html_safe %> </p>
-
-  </div>
-</div>
-
-<div class="container" style="width: 70vw">
-  <div class="main-container" >
-
-    <div class="d-flex">
-      <h1 ><%= @recipe.title %></h1>
-      <p class="align-self-end pl-3"><i class="far fa-clock"></i> <%= @recipe.time %> mins</p>
+    <div id="recipe-instructions">
+      <h3> <b> Instructions </b></h3>
+      <p><%= @recipe.instructions.html_safe %></p>
     </div>
-    <p class="mb-3"> <b>Author</b><br><a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
-
-    <div class="recipe-show" style="background-image: url('<%= @recipe.img_url %>')">
-      <div id="recipe-text" style="padding-right: 30px" >
-        <b> Ingedrients </b>
-        <% @recipe.ingredients_list.each do |ingredient| %>
-          <li><%= ingredient.strip() %></li>
-        <% end %>
-      </div>
-    </div>
-    <br>
-    <p> <b> Instructions </b><br><%= @recipe.instructions.html_safe %> </p>
-
-  </div>
-</div>
-
-<div class="container">
-  <div class="main-container">
-
-    <div class="d-flex">
-      <h1 ><%= @recipe.title %></h1>
-      <p class="align-self-end pl-3"><i class="far fa-clock"></i> <%= @recipe.time %> mins</p>
-    </div>
-    <p class="mb-3"> <b>Author</b><br><a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
-
-    <div class="recipe-show" style="background-image: url('<%= @recipe.img_url %>')">
-      <div id="recipe-text" style="padding-right: 30px" >
-        <p> <b> Ingedrients </b><br><% @recipe.ingredients_list.each do |ingredient| %>
-          <%= ingredient %> -
-          <% end %>
-        </p>
-      </div>
-    </div>
-    <br>
-    <p> <b> Instructions </b><br><%= @recipe.instructions.html_safe %> </p>
-
   </div>
 </div>
