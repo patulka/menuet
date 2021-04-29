@@ -2667,6 +2667,11 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
+edit-distance@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/edit-distance/-/edit-distance-1.0.4.tgz#02cbf34852ae3aa97a1fa23fa95aedf6fe972f50"
+  integrity sha512-8aNRf6Ux40aGH+NhrPPyBV7mItH2uxmRuGHEot4TFtR3emmGNGPTDV56DZlBbv7o9VOX7AHzmUD3wUgAjtWS6w==
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
