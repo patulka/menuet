@@ -19,16 +19,16 @@
 
 #menu-plan-seven {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
 }
+
+
 
 /*landscape phones and smaller*/
 @media (max-width: 575px) {
 
-  #menu-plan-seven {
-    flex-direction: column;
-  }
 
 }
 
