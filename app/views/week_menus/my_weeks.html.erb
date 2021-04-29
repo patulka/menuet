@@ -1,7 +1,13 @@
 
   <div class="main-container">
+    <h1 style="text-align:center"> My meal plans</h1>
+    <div class="second-container">
+    <div id="sidebar">
+      <h4>Menu 1</h4>
+      <h4>Menu 2</h4>
+      <h4>Menu 3</h4>
+    </div>
     <div id="weeks-container">
-      <h1>My meal plans</h1>
 
       <!-- saved menu plans (earlier: weeks) of the current user -->
       <!-- grouped by weeks, ordered from newest to oldest (.reverse) -->
@@ -10,7 +16,9 @@
         <!-- box with one menu plan == 7 recipes -->
 
           <div id="one-menu">
-            <h3>Week no <%= @week_number %> </h3>
+            <div class="underline">
+              <h3>Week no <%= @week_number %> </h3>
+            </div>
             <div id="card-lists">
 
               <!-- card with a recipe -->
@@ -29,6 +37,7 @@
         <!-- the lower on the page, the older week, the lower number -->
         <% @week_number -= 1 %>
       <% end %>
+    </div>
     </div>
   </div>
 
