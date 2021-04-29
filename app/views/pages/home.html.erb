@@ -14,7 +14,7 @@
                 placeholder: "Search by ingredients..." %>
               <!-- Saving multiple ingredients to search query -->
               <input type="hidden" id="ingredient-set-input" name="qq">
-              <%= submit_tag "Create my weekly menu", class: "btn btn-lg btn-info mt-3" %>
+              <%= submit_tag "Get my meal plan", class: "btn btn-lg btn-info mt-3" %>
             </div>
           <% end %>
         </div>
@@ -23,21 +23,22 @@
   </div>
   <div id="why-menuet">
     <div class="container">
-      <h2>Why Menuet?</h2>
+      <!-- <h2>Why Menuet?</h2> -->
       <div id="why-menuet-reasons">
         <div>
           <i class="fas fa-hamburger"></i>
-          <h4>Organize your weekly meal plan without a headache</h4>
+          <h5>Organize your weekly meal plan without a headache</h5>
         </div>
         <div>
           <i class="fas fa-pizza-slice"></i>
-          <h4>We choose among thousands of recipes to fit your taste</h4>
+          <h5>We choose among thousands of recipes to fit your taste</h5>
         </div>
         <div>
           <i class="fas fa-ice-cream"></i>
-          <h4>Generate your personalized menus if you subscribe</h4>
+          <h5>Generate your personalized menus if you subscribe</h5>
         </div>
       </div>
-      <h6><%= link_to "Tell me more about subscription", faq_path %></h6>
+      <!-- <h6><%= link_to "Tell me more about subscription", faq_path %></h6> -->
+      <h6><%= button_to "Tell me more about subscription", faq_path, id: 'subscription_btn' %></h6>
     </div>
   </div>
