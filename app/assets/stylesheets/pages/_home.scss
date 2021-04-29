@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 #why-menuet {
-  background-color: #CED994;
+  background-color: green;
   padding-bottom: 30px;
   text-align: center;
   color:white;
@@ -37,16 +37,16 @@ input#subscription_btn {
 }
 
 #subscription_btn {
-  color: #46606C;
+  color: white;
   background-color: transparent;
-  border: solid 1px #46606C;
+  border: solid 1px white;
   border-radius: 3px;
 
   &:hover {
     font-weight: bold;
     text-decoration: none;
     background-color: white;
-    border-color: white;
+    color: #46606C;
   }
 }
 
