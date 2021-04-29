@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;
+}
+
+.faq_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.main-container {
+  margin-top: 50px;
+}
+
+.container-recipe {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  padding-right: 35px;
+  justify-content: space-between;
+}
+
+
+
+
+
