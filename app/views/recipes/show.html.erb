@@ -12,9 +12,21 @@
     <div class="recipe-show" style="background-image: url('<%= @recipe.img_url %>')">
       <div id="recipe-show-text" style="padding-right: 30px" >
          <h3><b> Ingredients </b></h3>
-         <% @recipe.ingredients_list.each do |ingredient| %>
+
+        <div class="ingredients">
+         <div class="first-column" >
+          <%  @recipe.ingredients_list.slice(0, @recipe.ingredients_list.length/2).each do |ingredient|%>
           <li><%= ingredient.strip() %></li>
           <% end %>
+         </div>
+
+         <div class="second-column">
+           <% @recipe.ingredients_list.slice(@recipe.ingredients_list.length/2, @recipe.ingredients_list.length).each do |ingredient| %>
+            <li><%= ingredient.strip() %></li>
+            <% end %>
+         </div>
+        </div>
+
       </div>
     </div>
     <div id="recipe-instructions">
