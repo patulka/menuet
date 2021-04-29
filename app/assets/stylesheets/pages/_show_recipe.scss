@@ -1,0 +1,19 @@
+// copied from sandras _banner.scss
+
+.recipe-show {
+  height: 80vh;
+  display: flex;
+  background-image: url("banner.jpg");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: right 0px center;
+
+  max-height: 250px;
+}
+
+#recipe-text {
+  background-color: white;
+  width: 70%;
+  clip-path: polygon( 0% 0%, 100% 0%, 93% 100%, 0% 100%);
+}
+
