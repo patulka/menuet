@@ -3,14 +3,23 @@
 }
 
 .our-card {
-  margin: 40px 0px;
+  width: 100%;
+  margin: 60px 0px;
   display: flex;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   border-bottom: 2px solid darkgrey;
 }
 
 .our-card-body {
-  padding: 50px 20px;
-  background-color: rgba(255, 255, 255, 0.6);
+  padding: 50px 70px;
+  background-color: white;
+  margin-left: -40px;
+  line-height: 30px;
+  clip-path: polygon( 5% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+    h3 {
+      margin-bottom: 20px;
+    }
 }
+
 

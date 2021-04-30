@@ -14,8 +14,8 @@
       <% @menus.each do |recipe| %>
         <% @counter += 1  %>
           <div class="our-card">
-            <img class="card-image" src="<%= recipe.img_url %>" alt="Card image cap">
-            <div class="number">
+            <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
+            <div id="number">
               <h1><%= @counter %> </h1>
             </div>
             <div class="our-card-body">
