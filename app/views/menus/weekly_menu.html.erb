@@ -5,7 +5,7 @@
 
       <!-- button to save the week menu only for signed-in users -->
       <% if user_signed_in? %>
-       <%= link_to "Save this menu",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-info mt-3" %>
+       <%= link_to "Save this menu",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
       <% end %>
     </div>
 
@@ -14,19 +14,17 @@
       <% @menus.each do |recipe| %>
         <% @counter += 1  %>
           <div class="our-card">
-            <img class="card-image" src="<%= recipe.img_url %>" alt="Card image cap">
-            <div class="number">
+            <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
+            <div id="number">
               <h1><%= @counter %> </h1>
             </div>
             <div class="our-card-body">
               <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
               <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
-
-              <p class="card-text"><strong>Ingedrients</strong><br><% recipe.ingredients_list.each do |ingredient| %>
-                <%= ingredient %> -
-                <% end %>
+              <p class="card-text"><strong>Ingedrients</strong><br>
+                <%= recipe.ingredients_list.join(" - ") %>
               </p>
-              <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-primary"%>
+              <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
             </div>
           </div>
       <% end %>

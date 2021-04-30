@@ -1,26 +1,51 @@
-.menu-plan {
-  margin: 40px 20px;
-  padding: 20px 10px;
-  border: 1px solid green;
+#sidebar {
+  width: 300px;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 30px;
+  background-color: #184d47;
+  padding: 20px 20px;
+  height: 40vh;
+  h4 {
+    margin-bottom: 30px;
+    color: white;
+  }
+
 }
 
-.menu-plan-seven {
+.second-container {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  justify-content: space-around;
 }
+
 
 /*landscape phones and smaller*/
 @media (max-width: 575px) {
-
-  .menu-plan-seven {
-    flex-direction: column;
+  #sidebar {
+    display:none;
   }
+
+  #recipe-card {
+  margin-top: 10px;
+  width: 140px;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.recipe-card-pic {
+  width: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 }
 
 /*tablets and bigger*/
 @media(min-width: 576px) and (max-width:991px) {
+  #sidebar {
+    display:none;
+  }
 
 }
 

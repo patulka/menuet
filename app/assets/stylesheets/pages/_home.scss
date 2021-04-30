@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 #why-menuet {
-  background-color: green;
-  padding: 100px 0px;
+  background-color: #184d47;
+  padding-bottom: 30px;
   text-align: center;
   color:white;
   h2 {
@@ -16,27 +16,36 @@
   flex-direction: row;
 
   div {
-    width: 20%;
-    margin: 50px 0px;
+    width: 25%;
+    margin-bottom: 50px;
   }
 }
 
+#why-menuet-header {
+  display: flex;
+  justify-content: space-around;
+  h2 {
+    font-size: 2rem;
+    position: relative;
+    background-color: #184d47;
+    border-radius: 5px;
+    padding: 0.8em;
+    top: -1em;
+    width: fit-content;
+  }
+
+}
+
 .fas {
-  font-size: 70px;
+  font-size: 40px;
   color: white;
   margin-bottom: 30px;
 }
 
-#ingredient-set {
-  margin: 10px;
-  min-height: 20px;
-  span {
-    padding: 5px;
-    background-color: lightgray;
-    border-radius: 3px;
-  }
+.search-input {
+  margin-bottom: 10px;
+  width: 90%;
 }
-
 
 
 /*landscape phones and smaller*/
@@ -63,13 +72,12 @@
         margin: 20px auto;
       }
   }
-
 }
 
 /*tablets and bigger*/
 @media(min-width: 576px) and (max-width:991px) {
   .banner {
-    background-size: 90%;
+    background-size: 80%;
   }
 
   #banner-text {
@@ -77,8 +85,8 @@
   }
 
   #banner-inner-text {
-    margin-top: 40%;
-    margin-left: 20px;
+    margin-top: 20%;
+    margin-left: 40px;
   }
 
 }
@@ -93,7 +101,7 @@
   }
 
   #banner-inner-text {
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 
@@ -101,7 +109,13 @@
 /*desktops and bigger*/
 @media(min-width: 1026px) {
   .banner {
-    background-size: 35%;
+    background-size: 40%;
+  }
+  #banner-inner-text {
+    margin-left: 60px;
+  }
+  .search-input {
+    width: 60%;
   }
 }
 

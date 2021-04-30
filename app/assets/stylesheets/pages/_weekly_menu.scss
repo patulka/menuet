@@ -5,19 +5,27 @@
 }
 
 
-.number {
-  margin-top: 15px;
-  margin-left: -25px;
+#number {
+  width: 100px;
+  height:100px;
   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -40px;
   text-align: center;
   h1 {
       font-size: 70px;
+      margin-top: 15px;
   }
 }
 
 
 /*landscape phones and smaller*/
 @media (max-width: 575px) {
+  .our-card-image {
+    width: 200px;
+  }
 
 }
 

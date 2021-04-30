@@ -2,7 +2,7 @@
   height: 80vh;
   display: flex;
   background-image: url("banner.jpg");
-  background-size: 35%;
+  background-size: 40%;
   background-repeat: no-repeat;
   background-position: right 0px center;
 }
@@ -10,9 +10,25 @@
 #banner-text {
   background-color: white;
   width: 70%;
+  padding-bottom: 8%;
   clip-path: polygon( 0% 0%, 100% 0%, 93% 100%, 0% 100%);
+  h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
 }
 
 #banner-inner-text {
   margin-top: 20%;
+}
+
+#ingredient-set {
+  margin: 20px auto 10px auto;
+  min-height: 20px;
+  span {
+    padding: 5px;
+    background-color: #e8e9ea;
+    border-radius: 3px;
+    color: #46606C;
+  }
 }
