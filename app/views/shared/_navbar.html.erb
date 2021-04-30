@@ -20,6 +20,9 @@
         <li class="nav-item mr-3">
           <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "nav-link" %>
         </li>
+        <li class="nav-item mr-3">
+          <%= link_to "FAQ", faq_path, class: "nav-link" %>
+        </li>
         <li class="nav-item active">
           <p class="nav-link mr-9" style="font-size:18px;">Hi, <%= (current_user.email.split('@')[0]).capitalize %></p>
         </li>
