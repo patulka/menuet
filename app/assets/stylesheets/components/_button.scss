@@ -1,0 +1,38 @@
+.btn-red {
+  background-color: #c64756;
+  border: solid 2px #c64756;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  &:hover {
+    background-color: #fad586;
+    border: solid 2px #fad586;
+    color: #184d47;
+  }
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: solid 1px #c64756;
+  border-radius: 3px;
+  color: #c64756;
+  &:hover {
+    color: white;
+    background-color: #c64756;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+input#subscription_btn {
+  padding: 15px;
+}
+
+#subscription_btn {
+  border-color: white;
+  color: white;
+  &:hover {
+    background-color: white;
+    color: #184d47;
+  }
+}

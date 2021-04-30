@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 #why-menuet {
-  background-color: green;
+  background-color: #184d47;
   padding-bottom: 30px;
   text-align: center;
   color:white;
@@ -27,7 +27,7 @@
   h2 {
     font-size: 2.2rem;
     position: relative;
-    background-color: green;
+    background-color: #184d47;
     border-radius: 5px;
     padding: 0.6em;
     top: -1em;
@@ -45,24 +45,6 @@
 .search-input {
   margin-bottom: 10px;
   width: 90%;
-}
-
-input#subscription_btn {
-  padding: 15px;
-}
-
-#subscription_btn {
-  color: white;
-  background-color: transparent;
-  border: solid 1px white;
-  border-radius: 3px;
-
-  &:hover {
-    font-weight: bold;
-    text-decoration: none;
-    background-color: white;
-    color: #46606C;
-  }
 }
 
 

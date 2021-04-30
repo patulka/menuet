@@ -14,7 +14,7 @@
                 placeholder: "Search by ingredients..." %>
               <!-- Saving multiple ingredients to search query -->
               <input type="hidden" id="ingredient-set-input" name="qq">
-              <%= submit_tag "Get my meal plan", class: "btn btn-lg btn-info mt-3" %>
+              <%= submit_tag "Get my meal plan", class: "btn btn-lg btn-red mt-3" %>
             </div>
           <% end %>
         </div>
@@ -39,6 +39,6 @@
         </div>
       </div>
       <!-- <h6><%= link_to "Tell me more about subscription", faq_path %></h6> -->
-      <h6><%= button_to "Tell me more about subscription", faq_path, method: :get, id: 'subscription_btn' %></h6>
+      <h6><%= button_to "Tell me more about subscription", faq_path, method: :get, class: 'btn-transparent', id: 'subscription_btn' %></h6>
     </div>
   </div>

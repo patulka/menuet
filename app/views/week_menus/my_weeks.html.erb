@@ -26,7 +26,7 @@
                     <div id="recipe-card">
                         <img class="recipe-card-pic" src="<%= menu.recipe.img_url %>" alt="Card image cap">
                         <div class="recipe-card-body truncate">
-                          <p><%= link_to menu.recipe.title, recipe_path(menu.recipe)%></p>
+                          <p><%= link_to menu.recipe.title, recipe_path(menu.recipe), class: 'link-recipes'%></p>
                         </div>
                     </div>
 
