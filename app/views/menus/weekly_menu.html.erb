@@ -1,11 +1,11 @@
 <div class="container">
   <div class="main-container">
     <div id="menu-page-title">
-      <h1>Weekly menu</h1>
+      <h1>Suggested weekly meal plan</h1>
 
       <!-- button to save the week menu only for signed-in users -->
       <% if user_signed_in? %>
-       <%= link_to "Save this menu",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
+       <%= link_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
       <% end %>
     </div>
 
