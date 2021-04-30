@@ -13,12 +13,14 @@
 
 .btn-transparent {
   background-color: transparent;
-  border: solid 1px #c64756;
+  font-weight: bold;
+  border: solid 3px #184d47;
   border-radius: 3px;
-  color: #c64756;
+  color: #184d47;
+  margin-top: 10px;
   &:hover {
     color: white;
-    background-color: #c64756;
+    background-color: #184d47;
     font-weight: bold;
     text-decoration: none;
   }
@@ -29,6 +31,8 @@ input#subscription_btn {
 }
 
 #subscription_btn {
+  border: solid 1px;
+  margin-top: 0;
   border-color: white;
   color: white;
   &:hover {
