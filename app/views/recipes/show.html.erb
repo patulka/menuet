@@ -6,7 +6,7 @@
         <h1 ><%= @recipe.title %></h1>
         <p class="align-self-end pl-3"><i class="far fa-clock"></i> <%= @recipe.time %> mins</p>
       </div>
-      <p class="mb-3"> <b>Author</b> <a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
+      <p class="mb-6"> <b>Author</b> <a href="<%= @recipe.url %>" target="_blank" ><%= @recipe.author %></a></p>
     </div>
 
     <div class="recipe-show" style="background-image: url('<%= @recipe.img_url %>')">
