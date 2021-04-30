@@ -3,9 +3,23 @@
     <h1 style="text-align:center"> My meal plans</h1>
     <div class="second-container">
       <div id="sidebar">
-        <h4>Menu 1</h4>
-        <h4>Menu 2</h4>
-        <h4>Menu 3</h4>
+
+
+      <!-- SIDEBAR OPTION 1: navbar with newest and oldest weeks -->
+        <!--
+          <a href="#newest-week"><h4>The newest week</h4></a>
+          <a href="#oldest-week"><h4>The oldest week</h4></a>
+          <%= link_to "Create new week", weekly_menu_path %>
+      -->
+
+
+      <!-- SIDEBAR OPTION 2: displaying "Week 1-9" in sidebar, (but navigation not figured out yet. if used, the #sidebar height shall be enlarged to fit also many weeks) -->
+        <% @week_number_navbar = @week_menus.count %>
+        <% @week_menus.each do |week_menu| %>
+          <h4>Week <%= @week_number_navbar %></h4>
+          <% @week_number_navbar -= 1 %>
+        <% end %>
+
       </div>
       <div id="weeks-container">
 
@@ -13,11 +27,13 @@
         <!-- grouped by weeks, ordered from newest to oldest (.reverse) -->
         <% @week_menus.reverse.each do |week_menu| %>
 
-          <!-- box with one menu plan == 7 recipes -->
+          <!-- ONLY IF SIDEBAR OPTION 1: navbar with newest and oldest weeks -->
+          <!-- <a id="newest-week"></a> -->
 
+          <!-- box with one menu plan == 7 recipes -->
             <div id="one-menu">
               <div class="underline">
-                <h3>Week no <%= @week_number %> </h3>
+                <h3>Week <%= @week_number %> </h3>
               </div>
               <div id="card-lists">
 
@@ -34,11 +50,14 @@
               </div>
             </div>
 
-        <!-- the lower on the page, the older week, the lower number -->
+          <!-- the lower on the page, the older week, the lower number -->
           <% @week_number -= 1 %>
+
         <% end %>
       </div>
     </div>
+          <!-- ONLY IF SIDEBAR OPTION 1: navbar with newest and oldest weeks -->
+          <!-- <a id="oldest-week"></a> -->
   </div>
 
 
