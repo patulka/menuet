@@ -1,35 +1,46 @@
-<div class="container-fluid m-9">
+
   <div class="main-container">
-    <div id="weeks-container">
-      <h1>My menus</h1>
+    <h1 style="text-align:center"> My meal plans</h1>
+    <div class="second-container">
+      <div id="sidebar">
+        <h4>Menu 1</h4>
+        <h4>Menu 2</h4>
+        <h4>Menu 3</h4>
+      </div>
+      <div id="weeks-container">
 
-      <!-- saved menu plans (earlier: weeks) of the current user -->
-      <!-- grouped by weeks, ordered from newest to oldest (.reverse) -->
-      <% @week_menus.reverse.each do |week_menu| %>
+        <!-- saved menu plans (earlier: weeks) of the current user -->
+        <!-- grouped by weeks, ordered from newest to oldest (.reverse) -->
+        <% @week_menus.reverse.each do |week_menu| %>
 
-        <!-- box with one menu plan == 7 recipes -->
-        <div class="menu-plan">
-            <h3>Week no <%= @week_number %> </h3>
-            <div class="d-flex flex-row">
+          <!-- box with one menu plan == 7 recipes -->
 
-              <!-- card with a recipe -->
-              <% week_menu.menus.each do |menu| %>
-                  <div class="card m-2">
-                      <img class="card-image" src="<%= menu.recipe.img_url %>" alt="Card image cap">
-                      <div class="card-body">
-                        <p class="card-title"><%= link_to menu.recipe.title, recipe_path(menu.recipe)%></p>
-                      </div>
-                  </div>
+            <div id="one-menu">
+              <div class="underline">
+                <h3>Week no <%= @week_number %> </h3>
+              </div>
+              <div id="card-lists">
 
-              <% end %>
+                <!-- card with a recipe -->
+                <% week_menu.menus.each do |menu| %>
+                    <div id="recipe-card">
+                        <img class="recipe-card-pic" src="<%= menu.recipe.img_url %>" alt="Card image cap">
+                        <div class="recipe-card-body truncate">
+                          <p><%= link_to menu.recipe.title, recipe_path(menu.recipe)%></p>
+                        </div>
+                    </div>
+
+                <% end %>
+              </div>
             </div>
-        </div>
+
         <!-- the lower on the page, the older week, the lower number -->
-        <% @week_number -= 1 %>
-      <% end %>
+          <% @week_number -= 1 %>
+        <% end %>
+      </div>
     </div>
   </div>
-</div>
+
 
 
 
