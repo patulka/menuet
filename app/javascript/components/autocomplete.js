@@ -6,7 +6,9 @@ const NUM_RESULTS = 20;
 const INSERT_COST = 1;
 const REMOVE_COST = 1;
 const SUBSTITUTE_COST = 10;
-const UNMATCH_MUTLIPLIER = 100;
+const UNMATCH_MUTLIPLIER = 1000;
+const MIDDLEMATCH_MULTIPLIER = 100;
+const STARTMATCH_MULTIPLIER = 1;
 const MAX_DISTANCE = UNMATCH_MUTLIPLIER * 10;
 
 const selectCallback = (event, ingredient) => {
@@ -31,7 +33,8 @@ const distance = (sA, sB) => {
   const strB = sB.toLowerCase().replace(/[^a-z]+/g, '');
   const shorter = strA.length < strB.length ? strA : strB;
   const longer = strA.length >= strB.length ? strA : strB;
-  let weight = longer.indexOf(shorter) === -1 ? UNMATCH_MUTLIPLIER : 1;
+  const position = longer.indexOf(shorter);
+  let weight = position === -1 ? UNMATCH_MUTLIPLIER : (position === 0 ? STARTMATCH_MULTIPLIER : MIDDLEMATCH_MULTIPLIER);
   // If one is substring of another, make it appear before everything else.
   const magic = ed.levenshtein(strA, strB, () => INSERT_COST, () => REMOVE_COST, (a, b) => a !== b ? SUBSTITUTE_COST : 0);
   // Compute distance as number of operations to transform A into B multiplied by weight.
