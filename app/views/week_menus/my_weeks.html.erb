@@ -1,4 +1,8 @@
-
+<!-- checking, if the user has already any saved menu plan -->
+<% if !@week_menu %>
+  <h1 style="text-align:center"> You do not have any meal plan saved yet.</h1>
+  <div id="btn-div"> <%= link_to "Get my first meal plan", root_path, class: "btn btn-lg btn-red mt-3"%> </div>
+<% else %>
   <div class="main-container">
     <h1 style="text-align:center"> My meal plans</h1>
     <div class="second-container">
@@ -59,6 +63,8 @@
           <!-- ONLY IF SIDEBAR OPTION 1: navbar with newest and oldest weeks -->
           <!-- <a id="oldest-week"></a> -->
   </div>
+
+<% end %>
 
 
 
