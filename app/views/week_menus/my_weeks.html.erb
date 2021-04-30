@@ -1,5 +1,5 @@
 <!-- checking, if the user has already any saved menu plan -->
-<% if !@week_menu %>
+<% if @week_menus.empty? %>
   <h1 style="text-align:center"> You do not have any meal plan saved yet.</h1>
   <div id="btn-div"> <%= link_to "Get my first meal plan", root_path, class: "btn btn-lg btn-red mt-3"%> </div>
 <% else %>
