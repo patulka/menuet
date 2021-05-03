@@ -26,6 +26,23 @@ const selectCallback = (event, ingredient) => {
   }
  };
 
+
+const xselectCallback = (event, ingredient) => {
+  event.preventDefault(); // don't submit form on enter
+  const ingredientXInput = document.getElementById('x');
+  const ingredientXSetDiv = document.getElementById('ingredient-dislike-set');
+  const ingredientXSetInput = document.getElementById('ingredient-dislike-set-input');
+  const ingredientXSet = new Set(ingredientXSetInput.value.split(','));
+  // displaying ingredient above search bar and adding to query string
+  if (!ingredientXSet.has(ingredient)) {
+    ingredientXSet.add(ingredient);
+    ingredientXSetInput.value = Array.from(ingredientXSet).filter(x => x).join(',');
+    ingredientXSetDiv.innerHTML += '<span>' + ingredient + '</span> ';
+    ingredientXInput.value = '';
+  }
+ };
+
+
 // Computes distance between two strings as a number.
 const distance = (sA, sB) => {
   // remove non-alphabetic chars
@@ -42,6 +59,37 @@ const distance = (sA, sB) => {
 }
 
 const autocompleteSearch = function() {
+  if (document.getElementById('search-dislike-data') == null) {
+    return
+  }
+  const Xingredients = JSON.parse(document.getElementById('search-dislike-data').dataset.ingredients)
+  const XsearchInput = document.getElementById('x');
+
+  if (Xingredients && XsearchInput) {
+    new autocomplete({
+      selector: XsearchInput,
+      minChars: 1,
+      delay: 50,
+      cache: false,
+      onSelect: xselectCallback,
+      source: function(input, suggest) {
+        // map ingredients to name and distance (from searched input)
+        let choices = ingredients.map(ingredient => {
+          return {
+            'ingredient': ingredient,
+            'distance': distance(input, ingredient),
+          }
+        });
+        // sorting ascending by distance
+        choices = choices.filter(choice => choice['distance'] < MAX_DISTANCE)
+        choices.sort((c1, c2) => c1['distance'] - c2['distance']);
+        const matches = choices.slice(0, NUM_RESULTS).map(choice => choice['ingredient']);
+        suggest(matches);
+      },
+    });
+  }
+
+
   if (document.getElementById('search-data') == null) {
     return
   }
