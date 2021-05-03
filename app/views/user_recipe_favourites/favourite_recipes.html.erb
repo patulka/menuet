@@ -1,0 +1,39 @@
+<!-- checking, if the user has already any saved recipe plan -->
+
+<% if @favourite_recipes.empty? %>
+<div class="container mt-10">
+  <h1 style="text-align:center"> You do not have any recipe saved yet.</h1>
+  <div id="btn-div"> <%= link_to "Save some recipes", root_path, class: "btn btn-lg btn-red mt-3"%> </div>
+  </div>
+<% else %>
+  <div class="main-container">
+    <h1 style="text-align:center"> My favourite recipes</h1>
+    <div class="second-container">
+      <div id="sidebar">
+
+      </div>
+      <div id="weeks-container">
+          <!-- box with one menu plan == 7 recipes -->
+            <div id="one-menu">
+              <div class="underline">
+                <h3>Week</h3>
+              </div>
+              <div id="card-lists">
+
+                <!-- card with a recipe -->
+                <% @favourite_recipes.each do |favourite| %>
+                    <div id="recipe-card">
+                        <img class="recipe-card-pic" src="<%= favourite.recipe.img_url %>" alt="Card image cap">
+                        <div class="recipe-card-body truncate">
+                          <p><%= link_to favourite.recipe.title, recipe_path(favourite.recipe), class: 'link-recipes'%></p>
+                        </div>
+                    </div>
+
+                <% end %>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+

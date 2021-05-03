@@ -44,10 +44,14 @@
                 <!-- card with a recipe -->
                 <% week_menu.menus.each do |menu| %>
                     <div id="recipe-card">
+                      <!-- adding a div to have the "save to favourites" be on the image-->
+                      <div class="img-and-icon">
+                        <%= link_to "Save", recipe_user_recipe_favourites_path(menu.recipe.id), method: :post, class: "save btn btn-sm btn-red" %>
                         <img class="recipe-card-pic" src="<%= menu.recipe.img_url %>" alt="Card image cap">
-                        <div class="recipe-card-body truncate">
-                          <p><%= link_to menu.recipe.title, recipe_path(menu.recipe), class: 'link-recipes'%></p>
-                        </div>
+                      </div>
+                      <div class="recipe-card-body truncate">
+                        <p><%= link_to menu.recipe.title, recipe_path(menu.recipe), class: 'link-recipes'%></p>
+                      </div>
                     </div>
 
                 <% end %>
@@ -63,7 +67,6 @@
           <!-- ONLY IF SIDEBAR OPTION 1: navbar with newest and oldest weeks -->
           <!-- <a id="oldest-week"></a> -->
   </div>
-
 <% end %>
 
 
