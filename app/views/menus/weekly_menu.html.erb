@@ -1,17 +1,16 @@
 <div class="container">
   <div class="main-container">
 
-    <h1>Suggested weekly meal plan</h1>
-    <!-- refreshing the search with the original queries -- ingredients choden by user -->
-    <%= link_to "Give me different one", weekly_menu_path(:q => @params_q, :qq => @params_qq), :method => :get, class: "btn btn-lg btn-red mt-3" %>
+      <h1>Suggested weekly meal plan</h1>
+      <!-- refreshing the search with the original queries -- ingredients choden by user -->
+      <%= link_to "Give me different one", weekly_menu_path(:q => @params_q, :qq => @params_qq), :method => :get, class: "btn btn-transparent" %>
 
-    <div id="menu-page-title">
-
-      <!-- button to save the week menu only for signed-in users -->
-      <% if user_signed_in? %>
-        <%= link_to "Save this one",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
-      <% end %>
-    </div>
+      <div id="menu-page-title">
+        <!-- button to save the week menu only for signed-in users -->
+        <% if user_signed_in? %>
+          <%= link_to "Save this one",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
+        <% end %>
+      </div>
 
     <div class="recipe-cards">
         <% @menus.each do |recipe| %>
@@ -22,12 +21,18 @@
               <h1><%= @counter %> </h1>
             </div>
             <div class="our-card-body">
+
+              <button class="btn btn-red mt-3 mb-3" id="">Exchange this recipe - NOT WORKING</button>
+
               <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
               <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
               <p class="card-text"><strong>Ingedrients</strong><br>
                 <%= recipe.ingredients_list.join(" - ") %>
               </p>
               <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
+
+
+
             </div>
           </div>
       <% end %>
