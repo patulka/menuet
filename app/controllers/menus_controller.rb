@@ -7,7 +7,7 @@ class MenusController < ApplicationController
     if negative_query_list.empty?
       sql_not_like = ""
     else
-      sql_not_like = negative_query_list.map { |q| "ingredients.name NOT LIKE \'%#{q}%\'"}.join(' OR ')
+      sql_not_like = negative_query_list.map { |q| "ingredients.name NOT LIKE \'%#{q}%\'"}.join(' AND ')
     end
 
     # puts all searched ingredients (that are not an empty string) to one array
