@@ -13,7 +13,11 @@ Rails.application.routes.draw do
   get "favourite-recipes", to: "user_recipe_favourites#favourite_recipes"
 
   # to be able to save a week (week_menu) of the user
-  resources :week_menus, only: [:create]
+  resources :week_menus, only: [:create] do
+    member do
+      get :shopping_list
+    end
+  end
 
   get "faq", to: "pages#faq"
 end
