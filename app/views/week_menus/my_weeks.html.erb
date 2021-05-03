@@ -38,6 +38,10 @@
             <div id="one-menu">
               <div class="underline">
                 <h3>Week <%= @week_number %> </h3>
+
+                <% if user_signed_in? %>
+                 <%= link_to "shopping list",shopping_list_week_menu_path(week_menu), class: "btn btn-lg btn-info mt-3" %>
+                <% end %>
               </div>
               <div id="card-lists">
 

@@ -65,5 +65,10 @@
   width: 130px;
   border-bottom: 2px solid #184d47;
   margin-bottom: 20px;
+  display: inline;
+}
+
+.list {
+  column-count: 3;
 }
 
