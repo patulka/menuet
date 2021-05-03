@@ -9,30 +9,28 @@
   <div class="main-container">
     <h1 style="text-align:center"> My favourite recipes</h1>
     <div class="second-container">
-      <div id="sidebar">
-
-      </div>
       <div id="weeks-container">
           <!-- box with one menu plan == 7 recipes -->
-            <div id="one-menu">
-              <div class="underline">
-                <h3>Week</h3>
-              </div>
-              <div id="card-lists">
-
-                <!-- card with a recipe -->
-                <% @favourite_recipes.each do |favourite| %>
-                    <div id="recipe-card">
-                        <img class="recipe-card-pic" src="<%= favourite.recipe.img_url %>" alt="Card image cap">
-                        <div class="recipe-card-body truncate">
-                          <p><%= link_to favourite.recipe.title, recipe_path(favourite.recipe), class: 'link-recipes'%></p>
-                        </div>
+        <div id="one-menu">
+          <div id="card-lists">
+            <!-- card with a recipe -->
+            <% @favourite_recipes.each do |favourite| %>
+                <div id="recipe-card">
+                    <img class="recipe-card-pic" src="<%= favourite.recipe.img_url %>" alt="Card image cap">
+                    <div class="recipe-card-body">
+                      <p><%= link_to favourite.recipe.title, recipe_path(favourite.recipe), class: 'link-recipes'%></p>
                     </div>
-
-                <% end %>
-              </div>
-            </div>
+                </div>
+            <% end %>
+          </div>
+        </div>
       </div>
+
+      <!-- sidebar is left in case we want a form to create menu -->
+
+      <div id="sidebar" style="background-color: white">
+      </div>
+
     </div>
   </div>
 <% end %>
