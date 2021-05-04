@@ -1,0 +1,2 @@
+class ScraperUrl < ApplicationRecord
+end

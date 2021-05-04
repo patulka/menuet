@@ -20,6 +20,1100 @@ SET row_security = off;
 -- Data for Name: recipes; Type: TABLE DATA; Schema: public; Owner: patricieknopova
 --
 
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (674, 'Chicken Porridge', NULL, '2021-04-27 14:55:55.807534', '2021-04-27 14:55:55.807534', 'https://spoonacular.com/recipeImages/638257-556x370.jpg', 45, '<ol><li>Deep fry shallot till golden brown, drain oil and set aside.  Retain the oil for later use.</li><li>Wash rice and add oil. Mix rice and oil well.  Add chicken stock, chicken breast and carrots and bring to boil.  Turn heat to low and simmer for about 1 hour.  Stir now and then.  When porridge is thicken, turn of heat and dish out the chicken breast and shred it.  Put the shredded chicken meat back into the porridge.  Warm it before serving and garnish with spring onion, parsley, ginger and fried shallots and a few drops of shallot''s oil.</li></ol>', 'http://www.foodista.com/recipe/S6FN8VYN/chicken-porridge', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'carrot
+chicken breast
+chicken stock
+ginger
+ground pepper
+parsley
+rice
+salt
+shallots
+spring onion
+vegetable oil
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (675, 'Spicy Indian-Style Hummus', NULL, '2021-04-27 14:56:13.872671', '2021-04-27 14:56:13.872671', 'https://spoonacular.com/recipeImages/716195-556x370.jpg', 45, '<p>Rinse the chickpeas and soak for 8 hours or overnight covered in several inches of water with a little yogurt whey or lemon juice added.  Drain and rinse, then transfer to a large saucepan.  Cover with several inches of fresh water, bring to a boil, reduce the heat to medium-low and cover.  Simmer for 1 to 1 1/2 hours or until the beans are buttery soft. Drain.In a food processor, combine all of the ingredients and process until you have a thick, smooth paste. You may need to add extra olive oil or a bit of water if you want a thinner paste. Makes 3 cups, nutrition information is based on 1/4 cup serving.</p>', 'http://foodandspice.blogspot.com/2012/07/spicy-hummus-indian-style.html', 'Lisa''s Vegetarian Kitchen', 'asafetida
+cayenne
+dried chickpeas
+fresh chives
+fresh ginger
+fresh parsley
+garlic
+ground coriander
+ground cumin
+ground pepper
+juice of lemon
+olive oil
+red chilies
+sea salt
+tahini
+turmeric
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (676, 'Flawless Chocolate Fudge', NULL, '2021-04-27 14:56:13.890101', '2021-04-27 14:56:13.890101', 'https://spoonacular.com/recipeImages/643129-556x370.jpg', 60, '<ol><li>Combine first five ingredients, stirring over low heat until blended.</li><li>Bring to a boil over moderate heat being careful not to mistake air bubbles for boiling. (VERY IMPORTANT)</li><li>Boil slowly, stirring constantly for a full 5 minutes. (Also very important!).</li><li>Remove from heat and stir in vanilla and chocolate until chocolate is melted. Stir in nuts if needed.</li><li>Turn into a 9 x 9 inch pan that has been sprayed with butter flavored cooking spray and cool completely.</li></ol>', 'http://www.foodista.com/recipe/38ND6CKS/flawless-chocolate-fudge', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'butter
+evaporated milk
+kosher salt
+marshmallow fluff
+semisweet chocolate chips
+sugar
+vanilla extract
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (677, 'Crockpot Chicken and Dumplings', NULL, '2021-04-27 14:56:13.900641', '2021-04-27 14:56:13.900641', 'https://spoonacular.com/recipeImages/640886-556x370.jpg', 45, 'Place chicken in the crock pot. Add butter, cream of chicken soup, chicken broth, diced onion, and parsley.
+Cook on high for 4-6 hours or low for 8-10.
+30 minutes before chicken is finished cooking, cut biscuits into 9 pieces and add to crock pot. Gently stir to coat biscuits. Continue to cook for 30 minutes, then serve!', 'https://www.foodista.com/recipe/DJ5GP3VY/crock-pot-chicken-and-dumplings-recipe', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'skinless boneless chicken breasts
+butter
+cream of chicken soup
+chicken broth
+onion
+dried parsley
+biscuits
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (678, 'Thai Savory Brown Fried Rice', NULL, '2021-04-27 14:56:13.996677', '2021-04-27 14:56:13.996677', 'https://spoonacular.com/recipeImages/663150-556x370.jpg', 45, 'Make my Perfect Brown Rice recipe below.  While brown
+rice is cooking prepare rest of meal.
+
+PERFECT BROWN RICE
+1 cup uncooked brown rice
+1 tsp. olive oil
+2 cups filtered water
+2 basil leaves (optional)
+
+
+Fix brown rice by cooking in 1 tsp. olive oil until lightly browned. Place 2 basil leaves on top of rice and add 2 cups water all at once. Quickly put on lid and bring to boil. Turn down heat to simmer until all water has evaporated (around 40 minutes).
+Heat oil in a wok or large frying pan.  Add the garlic and cook on medium until lightly golden.  Watch carefully so you do not burn garlic.
+Add the red chili peppers, cashew nuts and toasted coconut.  Mix together stevia, Nama Shoyu and apple cider vinegar together.  Cook over medium heat for 1 minutes.
+Push stir-fry to one side of pan and add flax on opposite end.  Cook and stir the flax egg for about a minute and then incorporate into stir-fry mixture.
+Add the green beans, bok choy and brown rice to stir-fry.  Cook and stir on medium for another minute.  Bok Choy will be wilted, but green beans will still be a bit crunchy.
+Spoon into serving dish and add lime wedge on side for squeezing over rice.', 'https://www.foodista.com/recipe/7C3JZV44/thai-savory-brown-fried-rice', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'extra virgin olive oil
+garlic cloves
+chili peppers
+cashew nuts
+coconut
+stevia
+bragg''s liquid aminos
+apple cider vinegar
+flax egg
+fresh green beans
+bok choy
+brown rice
+lime wedges
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (679, 'Deviled Eggs With Crab', NULL, '2021-04-27 14:56:14.034379', '2021-04-27 14:56:14.034379', 'https://spoonacular.com/recipeImages/641461-556x370.jpg', 45, '<ol><li>In a medium-sized mixing bowl combine the crabmeat, celery, sour cream, mayonnaise, Dijon mustard, lemon juice, and chives. Stir until well combined.</li><li>Season, to taste, with salt and pepper.</li><li>Spoon the crab mixture into the egg halves.</li><li>Serve immediately or chilled until ready.</li></ol>', 'http://www.foodista.com/recipe/SG5QX2ZK/deviled-eggs-with-crab', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'celery
+dijon mustard
+eggs
+fresh chives
+lemon juice
+lump crabmeat
+mayonnaise
+salt and pepper
+sour cream
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (680, 'Spicy Salad with Kidney Beans, Cheddar, and Nuts', NULL, '2021-04-27 14:56:14.048554', '2021-04-27 14:56:14.048554', 'https://spoonacular.com/recipeImages/157344-556x370.jpg', 10, '<p>     1. Rinse and drain the kidney beans, cut the sundried tomatoes, and tear the slice of cheese into small pieces.</p><p>     2. Put the mixed greens in a bowl and top with kidney beans, sundried tomatoes, cheddar cheese, and nuts.</p><p>     3. Mix together the olive oil, balsamic vinegar, and hot sauce in a small bowl. Pour the dressing over the salad.</p><p>     Fast, easy, and healthy-- one of my favorite lunches!</p>', 'http://spoonacular.com/-1384191937003', 'coffeebean', 'almonds
+avocado
+balsamic vinegar
+cheddar cheese
+kidney beans
+mixed greens
+olive oil
+salted roasted cashews
+sundried tomatoes
+tabasco
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (763, 'Rapid Stir-Fried Beef', 'One of the great things about Asian-style stir-fries is that they deliver maximum flavor in a snap. In this recipe, we’re tossing the classic combo of beef and broccoli with bouncy noodles and dressing them in a savory soy and hoisin-based sauce. It comes together so swiftly in the pan, it might even be easier than picking up the phone for takeout!', '2021-05-03 16:43:22.490927', '2021-05-03 16:43:22.490927', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-stir-friend-chinese-beef-b5fd1d10.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/uk-stir-fried-chinese-beef-5845b40b2e69d7259304d962', 'HelloFresh.com', 'beef sirloin tips
+scallions
+garlic
+cornstarch
+ginger
+yakisoba noodles
+ketchup
+soy sauce
+hoisin sauce jar
+broccoli florets
+sesame oil
+sriracha
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (694, 'Cranberry and Orange Juice Spareribs', NULL, '2021-04-27 14:56:14.371229', '2021-04-27 14:56:14.371229', 'https://spoonacular.com/recipeImages/640349-556x370.jpg', 210, '<ol><li>Combine all of the ingredients for the marinade in a bowl and stir.</li><li>Place ribs in the marinade and refrigerate for at least one hour or more or up to overnight.</li><li>Preheat oven to 325 degrees F.</li><li>Place the ribs in a roasting pan with the marinade.</li><li>Bake uncovered for 2 – 2 ½ hours or until the ribs are fall off the bone tender. Allow the marinade to evaporate in the cooking process.</li><li>Let the ribs cool slightly; then separate the ribs with a cooking scissor and plate.</li></ol>', 'http://www.foodista.com/recipe/KND4S2Q4/cranberry-and-orange-juice-spareribs', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'black pepper
+cranberry juice
+curry powder
+garlic powder
+ground cumin
+ketchup
+orange juice
+salt
+soy sauce
+spare ribs
+vinegar
+water
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (681, 'Guinness Braised Corned Beef and Cabbage', NULL, '2021-04-27 14:56:14.062912', '2021-04-27 14:56:14.062912', 'https://spoonacular.com/recipeImages/646034-556x370.jpg', 45, 'Season both sides of the corned beef liberally with pepper. The corning of the beef makes the beef salty enough, so no need to add more.
+Heat 1 TBSP oil in a large, shallow oven-safe pot over medium-high heat. Add beef and sear each side for about 3 minutes, just to develop a nice brown crust. This will seal in the beef''s juices.
+Remove beef to a plate. Pour guinness into the pot to deglaze. Scrape up any browned bits. Add beef broth, pickling spice, brown sugar, bay leaf, and minced garlic. Bring mixture up to a simmer.
+Return the beef to the pot with any additional juices that have accumulated on the plate.
+Cover the pot and place on the bottom rack in your oven. Bake for 2 1/2 - 3 hours, or until a fork can easily be inserted into the meat.
+Baste the meat with the surrounding juices every 30 minutes or so.
+After 2 hours, add carrots, parsnips, and potatoes to the pot. They will only take about 25-30 minutes of simmering to cook.
+Remove pot from the oven. Place beef on a cutting board and let it rest for 15 minutes before carving into thin slices (cut against the grain of the meat). Remove vegetables and arrange them on a serving platter. Cover with foil. Place the pot on the burner and bring sauce to a boil. Add cabbage and cook for about 7 minutes, until it has softened. Place the cabbage on the serving platter with the other vegetables.
+Strain the sauce in the pot and stir in 2 or 3 TBSP of spicy honey mustard until dissolved. Place in a small dish or gravy boat with a ladle and serve alongside the beef.
+After slicing the beef and arranging it on the serving platter, ladle the guinness mustard sauce over the top to rehydrate and glaze the beef and vegetables.', 'https://www.foodista.com/recipe/5NNYR6RD/guinness-braised-corned-beef-and-cabbage', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'corned beef brisket
+carrots
+parsnips
+potatoes
+garlic
+guinness
+beef broth
+Spice Rub
+brown sugar
+bay leaf
+honey mustard
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (682, 'Slow Cooker Red Beans and Rice', NULL, '2021-04-27 14:56:14.100086', '2021-04-27 14:56:14.100086', 'https://spoonacular.com/recipeImages/715493-556x370.jpg', 45, 'Place all of your ingredients into the slow cooker and stir to mix everything well. Allow to cook all day on low for 6 hours (if with rice), or longer if needed without rice. Serve with cornbread and enjoy! (I like to take a whole piece and mix it up really well, YUM!)', 'http://www.pinkwhen.com/slow-cooker-red-beans-and-rice-recipe/', 'Jen West', 'ancho chili powder
+bay leaves
+butter
+canned red beans
+canned tomatoes
+cayenne pepper
+red onion
+rice
+sausage
+water
+white pepper
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (683, 'Vegan Peanut Butter Chocolate Fudge', NULL, '2021-04-27 14:56:14.110925', '2021-04-27 14:56:14.110925', 'https://spoonacular.com/recipeImages/664473-556x370.jpg', 45, 'Combine all ingredients in a food processor until smooth.
+Fold mixture into a flat, sealable container and freeze for 1 hour or refrigerate overnight.
+To make your own coconut butter, pulse shredded coconut in a food processor until smooth; about 8-12 minutes.', 'https://www.foodista.com/recipe/QJR5QH5F/vegan-peanut-butter-chocolate-fudge', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'coconut butter
+peanut butter
+bananas
+cocoa powder
+agave nectar
+vanilla extract
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (684, 'Sugared Pecans Gift Idea & Silhouette America Promotion', NULL, '2021-04-27 14:56:14.122794', '2021-04-27 14:56:14.122794', 'https://spoonacular.com/recipeImages/715491-556x370.jpg', 65, 'Heat your oven up to 250 degrees.In a small bowl add the egg white and water and whisk until frothy.Pour in pecans and stir to coat them all evenly.In a separate bowl add sugar, cinnamon, and salt. Mix well.Pour sugar mixture into pecan mixture and mix well until pecans are coated.Place on a non stick sheet or prepare a cookie sheet and then spread out the pecans evenly.Place in the oven for 1 hour, turning the pecans every 15 minutes.', 'http://www.pinkwhen.com/sugared-pecans-silhouette-america/', 'Jen West', 'egg white
+ground cinnamon
+pecan
+salt
+water
+white sugar
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (685, 'Loaded Veggie Omelet', NULL, '2021-04-27 14:56:14.138586', '2021-04-27 14:56:14.138586', 'https://spoonacular.com/recipeImages/650239-556x370.jpg', 45, 'Preheat the oven to warm or 170 degrees. Bring a small saute pan or small omelet pan to a warm.
+Saute the veggies using the olive oil starting with the shallot and garlic, adding the mushrooms until they are tender. Toss in the tomatoes and spinach and remove the pan from the heat.
+Pour a layer of the egg into a small omelet pan or small saute pan. As the egg starts to cook run a spatula around the edge to loosen the egg. Once the egg is almost cooked (slightly runny on the top) sprinkle half the basil, cheese, and sauteed veggies on to one side of the egg. Gently fold the egg over the filling.
+Slide the omelet onto a small oven safe plate and put it in the oven.
+Repeat for the second omelet!', 'https://www.foodista.com/recipe/MTFXZNRX/loaded-veggie-omelet', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'shallot
+garlic
+mushrooms
+cherry tomatoes
+fresh basil
+spinach
+eggs
+cheese
+olive oil
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (686, 'Dessert That''s No Problem: Baked Pears with Oatmeal Crumble', NULL, '2021-04-27 14:56:14.171524', '2021-04-27 14:56:14.171524', 'https://spoonacular.com/recipeImages/641445-556x370.jpg', 45, 'Preheat your oven to 400 degrees F.
+In a small bowl, mix together the oatmeal, brown sugar, flour and cinnamon.
+Place the halved pears in a baking dish.
+Spoon the oatmeal mixture onto the top of each pear half and pat down to make a small mound.
+Dot each of the pear halves with the pieces of butter.
+Bake, uncovered, for about 15 minutes. Turn the oven to broil to allow the topping to brown, just for about 30 seconds. Watch the pears carefully at this point so they dont burn.
+Serve with vanilla ice cream, caramel sauce or plain.', 'https://www.foodista.com/recipe/YBL337T4/dessert-that-s-no-problem-baked-pears-with-oatmeal-crumble', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'pears
+oatmeal
+brown sugar
+flour
+cinnamon
+butter
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (764, 'Spiced Skirt Steak', 'Steak spice is the invention of an ingenious chef from the blend’s namesake city who took pastrami seasonings and added them to grilled meat. It’s got all those deli-style flavors that you’d expect: grassy dill, prickly mustard, and a nice wallop of garlic for some bass. Here, we’re dusting it onto a skirt steak that’s accompanied by a hearty mix of potatoes and Brussels sprouts—the sort of fare that’s perfect for the changing seasons (or for the weather familiar to our friends to the north).', '2021-05-03 16:43:22.640075', '2021-05-03 16:43:22.640075', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/montreal-spiced-skirt-steak-3c4099bc.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/spiced-skirt-steak-59b1b61aa5ed1903dc557142', 'HelloFresh.com', 'brussels sprouts
+sweet potato
+fingerling potatoes
+chives
+pine nuts
+skirt steak
+bold & savory steak spice
+balsamic vinegar
+beef demi-glace
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (687, 'Cheesy Ham and Shrimp Macaroni Au Gratin', NULL, '2021-04-27 14:56:14.189298', '2021-04-27 14:56:14.189298', 'https://spoonacular.com/recipeImages/637658-556x370.jpg', 45, '<ol><li>Cut off base of broccoli stem. Cut broccoli into florets. Remove skin from stem using a peeler and dice it. Wash broccoli thoroughly.</li><li>Blanch broccoli and butter them.</li><li>Rinse and dice mushrooms and ham. Add into sauce and mix well.</li><li>Remove shells from shrimps and devein. Dice and set aside.</li><li>Preheat oven at 250C. Cook pasta accordingly to instructions. Drain.</li><li>Grease tin foils. Put pastas into foils and distribute sauce mixture evenly. Stir well.</li><li>From Step 1 until the above, you can actually prepare ahead of time and refrigerate them with covers if youve guests coming over. Then follow by the rest of the steps below.</li><li>Mix shrimps and broccoli stems evenly. Place broccoli florets, and top with cheese.</li><li>Bake the gratin at 250C till golden brown. My oven took about 7 mins to brown. Look at how cheesy it turned out! Crispy on the outside and creamy inside. Enjoy your Cheesy Ham and Shrimp Macaroni Au Gratin!</li></ol>', 'http://www.foodista.com/recipe/4F3FG5W5/cheesy-ham-and-shrimp-macaroni-au-gratin', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'broccoli
+chocolate ice cream sauce
+elbow pasta
+ham
+mushrooms
+olive oil
+parmesan cheese
+shrimps
+water
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (695, 'Lime S’more Tartlets', NULL, '2021-04-27 14:56:14.378491', '2021-04-27 14:56:14.378491', 'https://spoonacular.com/recipeImages/650092-556x370.jpg', 45, '<ol><li>Prepare the graham crust: Preheat the oven to 350.</li><li>Put the graham crackers into a food processor and pulse until the crackers break down to the consistency of sand. Transfer to a large bowl. Stir in the salt and melted butter and mix until the butter has thoroughly incorporated; it should be the consistency of wet sand.</li><li>Press and pack the wet graham mixture into six buttered 4 -inch tart pans, making sure it goes up all the way on the sides and that the crust is thick and sturdy.</li><li>Arrange the tarts on 1 or 2 cookie sheets and bake for 12 minutes, or until the crusts are golden, but not browned. Remove the tart shells from the oven and set aside to cool.</li><li>If you are not using spring form pans, carefully remove the crusts from the pans at this stage and follow the recipe as follows.</li><li>The tart crusts can be stored in airtight plastic containers, in a single layer, for up to 24 hours.</li><li>Prepare the lime curd: Put the lime juice, sugar, eggs, and yolks in a stainless steel bowl and whisk well.</li><li>Fill a saucepan halfway with water, and bring the water to a boil over high heat, then lower the heat so the water is simmering. Set the bowl over the pot and whisk the lime mixture occasionally until it thickens, approximately 10 minutes. Then whisk in the butter, 1 piece at a time. When all of the butter is melted and incorporated, stir in the lime zest and remove the saucepan from the heat.</li><li>Remove the bowl from the saucepan and let it cool for 5 minutes.</li><li>Transfer the mixture to a blender or food processor, and blend until very smooth. You can also use an immersion/hand blender instead, if you have one.</li><li>The mixture can be made, cooled, covered, and refrigerated for up to 1 week.</li><li>Divide the mixture among the tart shells, leaving about half of space on the top for the chocolate ganache layer. Chill in the refrigerator while making the chocolate ganache, or until set.</li><li>Prepare the chocolate ganache: Over a double boiler (simmer water over low heat in a saucepan and put a heat-resistant bowl on top), melt the chocolate together with the sugar and butter. Stir constantly until the sugar is well incorporated and the mixture is smooth and shiny.</li><li>Remove the melted chocolate from the heat and let it cool for 5 minutes.</li><li>Carefully, pour the liquid chocolate ganache over each tartlet, making sure that the chocolate does not over-flow the graham crust sides. Return the tarts to the refrigerator and chill for 1 to 2 hours, or until the ganache has set. (The ganache on top should take on a smooth matte finish.)</li><li>Prepare the meringue and finish the tarts: In the bowl of a standing mixer fitted with a whip attachment, whip the reserved egg whites until frothy. Slowly add the sugar, then the cream of tartar, continuing to whip until well incorporated. Increase the stand mixer to medium speed and whip until the whites are shiny and form a stiff peak. Do not over-whip or they will become grainy.</li><li>Transfer the meringue into a pastry bag fitted with a star tip, and pipe it around the edge of each tart. Or, transfer it into a large freezer bag, seal tightly, and snip off one corner. Pipe the meringue on as desired.</li><li>Using a brulee torch, quickly brown the meringue, being careful not to melt the chocolate ganache on top. (Due to the chocolate ganache layer, the meringues should not be browned under a broiler.)</li></ol>', 'http://www.foodista.com/recipe/ZPKPSYSG/lime-smore-tartlets', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'bittersweet chocolate
+butter
+cream of tartar
+egg whites
+eggs yolks
+graham crackers
+granulated sugar
+lime juice
+lime zest
+salt
+spring mix
+whole eggs
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (688, 'Avocado Chocolate Bits Frozen Yogurt', NULL, '2021-04-27 14:56:14.208331', '2021-04-27 14:56:14.208331', 'https://spoonacular.com/recipeImages/633139-556x370.jpg', 45, 'Heat milk and sugar over medium heat in a medium saucepan until just comes to a boil, stirring occasionally.  Stir in the vanilla.
+Have ready a large bowl filled with ice and set a small metal bowl over the ice with a strainer set over it.
+Place egg yolks in a medium bowl, lightly beaten.  Ladle some of the milk into the egg yolk, whisk it to prevent curdling.  Pour this mixture back into the rest of the milk in the saucepan.  Cook over low-medium heat until mixture is thick and can cover the back of a wooden spoon, about 4 to 8 minutes.
+Pour the mixture over the strainer into the small bowl; stir in the yogurt.  Whisk the mixture over the ice bath until it cools completely.
+Scoop the avocado meat and puree in a blender or food processor along with the lemon juice and some of the cooled custard.  Pour this mixture back to the rest of the custard, blend them together until it is thick and creamy.
+Freeze the custard in an ice cream maker according to the manufacturers instructions.  Halfway through the freezing process, fold in the chopped bittersweet chocolate.  Transfer the frozen yogurt into a freezer-safe container and freeze until solid, at least 4 hours.', 'https://www.foodista.com/recipe/4RLKWMW5/avocado-chocolate-bits-frozen-yogurt', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'whole milk
+sugar
+vanilla extract
+egg yolks
+skim milk yogurt
+avocados
+lemon juice
+bittersweet chocolate
+sweetened condensed milk
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (689, 'Old Fashioned Vanilla Buttercream Frosting', NULL, '2021-04-27 14:56:14.23371', '2021-04-27 14:56:14.23371', 'https://spoonacular.com/recipeImages/715550-556x370.jpg', 5, 'Instructions
+
+Buttercream Icing Recipe
+
+In a large mixing bowl cream butter and shortening with electric mixer. Add vanilla.
+
+Gradually add in sifted confectioners sugar, one cup at a time beating on medium speed.
+
+Scrape sides and bottom of bowl often. When all of the sugar has been mixed in, icing will appear dry. Add milk and beat at medium speed for 3 minutes.
+
+Keep icing covered with a damp cloth until ready to decorate. For best results, keep icing bowl in refrigerator when not using.
+
+Icing can be stored in an air tight container for up to a week. Just re-whip it in your mixer before using. Makes 3 1/2 cups.', 'https://www.pinkwhen.com/old-fashioned-vanilla-buttercream-frosting/', 'Jen West', 'solid vegetable shortening
+butter
+vanilla
+confectioners sugar
+milk
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (690, 'Turkey and Rice Stuffed Acorn Squash', NULL, '2021-04-27 14:56:14.301315', '2021-04-27 14:56:14.301315', 'https://spoonacular.com/recipeImages/663985-556x370.jpg', 45, 'Prepare rice according to package instructions. (I either cook the rice in chicken stock, or this time I used water and added 1 tablespoon vegeta seasoning to the water to add flavor to the rice as it cooks.)
+Meanwhile preheat oven to 375 degrees. Cut squash in half and drizzle with olive oil, salt and pepper. Roast skin side down for 30 minutes.
+Heat 1 tablespoon olive oil in large skilled. Add diced onions. Cook until translucent. Add garlic and cook for 1 minute longer. Add turkey, 1 tablespoon vegeta, red pepper, salt and pepper. Cook until turkey is browned and almost cooked through. Rough chop the mushrooms and add to the pan. Cook until mushrooms are softened. Add rice and spinach and stir until spinach is just wilted.
+Stuff the squash with the meat and rice mixture and top with bread crumbs. (Either toss bread crumbs with 2 teaspoons olive oil, or I just spray them with spray olive oil to make sure that they brown in the oven.
+Bake stuffed squash in oven until bread crumbs are browned.', 'https://www.foodista.com/recipe/8QRN8DXZ/turkey-and-rice-stuffed-acorn-squash', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'olive oil
+acorn squash
+brown rice
+onion
+garlic
+lean ground turkey
+baby bella mushrooms
+spinach
+vegeta seasoning
+bell pepper
+salt and pepper
+whole wheat bread crumbs
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (691, 'Easiest Breakfast Ever: Sunny Fruit Parfait', NULL, '2021-04-27 14:56:14.317171', '2021-04-27 14:56:14.317171', 'https://spoonacular.com/recipeImages/716433-556x370.jpg', 45, '', 'http://fullbellysisters.blogspot.com/2011/04/easiest-breakfast-ever-sunny-fruit.html', 'Full Belly Sisters', 'apple
+raisins
+sunflower seeds
+yogurt
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (765, 'Hoisin-Glazed Meatballs', 'We’re big fans of baking our meatballs (rather than frying) because that way they get nice, plump, and juicy without heaps of oil. But just to double make sure that they don’t disappoint, we’re coating them in a sweet hoisin glaze and adding snow peas on the side for crispness and crunch. One bite and you’ll be hooked on this combination of Asian-inspired flavors.', '2021-05-03 16:43:22.695024', '2021-05-03 16:43:22.695024', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b47a35aae08b52c151d5682-f2cdb4ef.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/hoisin-glazed-meatballs-5b47a35aae08b52c151d5682', 'HelloFresh.com', 'ginger
+scallions
+snow peas
+ground beef
+panko breadcrumbs
+garlic powder
+eggs
+jasmine rice
+hoisin sauce
+lime
+sesame seeds
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (766, 'One-Pan Ground Beef Tacos', 'You already know that ground beef tacos with cheese and sour cream are about as close as you’ll get to a guaranteed crowd-pleaser. But just in case that isn’t enough, may we point out that in this recipe there’s also has plenty of fresh veggie toppings that everyone can add as they please? Or if you still are pondering, that the whole thing can be made in a single pan? Simple, tasty, and easy—sounds like a winner to us.', '2021-05-03 16:43:22.773329', '2021-05-03 16:43:22.773329', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/one-pan-ground-beef-tacos-12e80b06.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/one-pan-ground-beef-tacos-5ad7bcfaae08b51dd40a9752', 'HelloFresh.com', 'yellow onion
+heirloom grape tomatoes
+lime
+scallions
+sour cream
+southwest spice blend
+taco spice blend
+tomato paste
+ground beef
+cheddar cheese
+flour tortillas
+vegetable oil
+salt
+pepper
+shredded red cabbage');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (692, 'Banana & Cream Cheese Stuffed French Toast', NULL, '2021-04-27 14:56:14.35625', '2021-04-27 14:56:14.35625', 'https://spoonacular.com/recipeImages/633971-556x370.jpg', 45, '<ol><li>In a small bowl combine the softened cream cheese, honey, cinnamon, nutmeg and lemon juice, set aside while preparing the batter.</li><li>Whisk together all of the batter ingredients until thoroughly mixed. (This is a breeze if you use a blender.) Pour the batter into a wide, shallow dish (like a pie plate).</li><li>Spread the filling mixture equally over 1 side of each slice of bread, divide the sliced bananas between 4 slices of the bread, top with the remaining 4 slices, press lightly.</li><li>Melt 2 t. butter and 2 t. oil in a 12 inch nonstick skillet over medium heat until the butter foams and then subsides. Working with one sandwich at a time dip both sides in the batter and let the excess drip away, add to the hot pan, repeat with a second sandwich. Cook until golden brown on the first side, around 3-5 minutes, flip and repeat on the second side. Repeat this process with the remaining, oil, butter and sandwiches. To serve, cut into triangles and serve with maple syrup.</li></ol>', 'http://www.foodista.com/recipe/ZJMSFPMM/banana-cream-cheese-stuffed-french-toast', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'baking powder
+bananas
+butter
+canola oil
+cinnamon
+cream cheese
+eggs
+flour
+ground nutmeg
+honey
+lemon juice
+maple syrup
+milk
+salt
+white sandwich bread
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (693, 'Moroccan Chicken Tagine', NULL, '2021-04-27 14:56:14.363203', '2021-04-27 14:56:14.363203', 'https://spoonacular.com/recipeImages/652421-556x370.jpg', 45, '<ol><li>In a pie plate, combine the flour and Moroccan spice mixture. Add chicken pieces and toss to coat.</li><li>Heat oil in your pressure cooker over medium-high heat. Once hot, add the chicken pieces and allow to brown for one minute per side. Remove chicken from pressure cooker and set aside.</li><li>Reduce heat to medium and add ginger and onions. Saute for three minutes, until onions are semi-translucent. Add garlic and cook for another minute.</li><li>Add the apricots, whole tomatoes, chicken broth or stock, and browned chicken pieces to the pot.</li><li>Cover, and bring to low pressure over medium-high heat. Once you have reached pressure, cook for eight minutes then remove from heat and release the pressure using the quick release method (open the steam valve).</li><li>Stir in the chick peas, almonds, and honey and let them warm for a few minutes.</li><li>Check your chicken for done-ness and taste the tagine. Adjust salt and pepper as needed. Serve over couscous and garnish with cilantro leaves.</li><li>*If using a Dutch Oven instead, follow steps 1-4 as described, then bring the mixture to a boil, reduce to a simmer, and cook for 20-25 minutes or until apricots are tender. Continue with step 6.</li></ol>', 'http://www.foodista.com/recipe/V36XNVKB/moroccan-chicken-tagine', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'Spice Rub
+almond
+apricot
+canned chick peas
+canned tomatoes
+cilantro
+extra virgin olive oil
+fat free chicken broth
+flour
+fresh ginger root
+garlic clove
+ground pepper
+honey
+onion
+skinless boneless chicken breasts
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (696, 'Spinach and Gorgonzola Stuffed Flank Steak', NULL, '2021-04-27 14:56:14.392311', '2021-04-27 14:56:14.392311', 'https://spoonacular.com/recipeImages/661259-556x370.jpg', 45, 'Preheat oven to 375.
+Butterfly the steak by using a long sharp knife holding it parallel to the work surface, cut through the long side of the steak, stopping about  inch from the opposite side. If the steak is already thin, just pound it with a mallet to  inch thick.
+In a large skillet over medium heat add 1 tablespoon olive oil and saut` the shallots until soft, 2 minutes. Add the spinach and cook until just wilted, about 2 to 3 minutes. Transfer to a colander.
+When cool enough to handle, squeeze out all the moisture from the spinach and transfer to a medium bowl. Stir in the bread crumbs and cheese. Season with salt and pepper.
+Place the steak on a sheet of plastic wrap. Smear the spinach mixture evenly over the steak, leaving about 1 inch border along the side edge. Beginning with the side near you and using the plastic wrap as an aid, rollup the steak, gently pressing on the filling.
+Tie the rolled steak with twine at 2-3 inch interval.
+Season the outside with salt and pepper.
+Heat the remaining 2 tablespoons olive oil in a large ovenproof skillet over medium high heat. Sear the roast on all sided, about 2 minutes per side.
+Place in the oven and roast for 20 to 25 minutes.
+Transfer to a cutting board, tend with aluminum foil and allow resting for 10 minutes.
+To serve, remove the twine from the roast and cut into  inch to 1 inch thick slices.', 'https://www.foodista.com/recipe/SWTFLZXM/spinach-and-gorgonzola-stuffed-flank-steak', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'flank steak
+olive oil
+shallot
+spinach
+bread crumbs
+gorgonzola
+salt and pepper
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (697, 'Easy Chicken Tikka Masala', NULL, '2021-04-27 14:56:14.432572', '2021-04-27 14:56:14.432572', NULL, 45, 'In a small bowl mix all the spices including the ginger. Set aside.
+In a large saucepan, heat the oil .
+Add the onions and cook until golden brown.
+Add the garlic and continue to cook for a minute.
+Stir in the spices and allow the flavours to infuse.
+Stir in the tomato paste.
+Add the chopped tomato and pour in the water. Simmer and season with salt to taste.
+Add the chicken pieces stirring well to coat the meat with the sauce. Continue to simmer until the chicken is cooked and the sauce has thickened, about 12 minutes.
+Stir in the yogurt and continue to simmer 5 minutes.
+Garnish with chopped fresh cilantro
+Serve with bismati rice.', 'https://www.foodista.com/recipe/7Q3RC88N/easy-chicken-tikka-masala', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'chicken breasts
+grape seed oil
+onion
+garlic
+garam masala
+cumin
+coriander
+turmeric
+cardamon
+cinnamon
+fresh ginger
+cayenne
+paprika
+tomato paste
+tomato
+water
+plain yogurt
+fresh coriander
+salt
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (767, 'Honey Ginger-Glazed Chicken', 'We all have a soft spot for the sticky-sweet chicken that’s a staple of takeout dinners and mall food court meals. But it’s not exactly something you would chow down on any night of the week—until now. We’re swapping out the heavy glaze for a fresh burst of ginger and a swirl of honey and soy sauce. Served with tender snow peas on a bed of jasmine rice, this recipe will give you good reason to toss the phone number for your local delivery joint.', '2021-05-03 16:43:22.832669', '2021-05-03 16:43:22.832669', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/honey-ginger-glazed-chicken-d625c6e3.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/honey-ginger-glazed-chicken-5835b3747d69bf090873caf2', 'HelloFresh.com', 'chicken tenders
+ginger
+garlic
+soy sauce
+chicken stock concentrate
+honey
+white wine vinegar
+snow peas
+lime
+jasmine rice
+salt
+pepper
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (768, 'Chipotle Black Bean Tacos', 'Bring back Taco Tuesdays with these delicious (and vegetarian!) black bean tacos. We’ve added smoky heat with chipotles in adobo and a touch of creaminess with feta cheese and fresh avocado mash.', '2021-05-03 16:43:22.88174', '2021-05-03 16:43:22.88174', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/54d223886ced6e6f1b8b4569.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chipotle-black-bean-tacos-54d223886ced6e6f1b8b4569', 'HelloFresh.com', 'black beans
+chipotles in adobo
+cumin
+red onion
+garlic
+roma tomato
+avocado
+radishes
+lime
+feta cheese
+corn tortillas
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (698, 'Stuffed Pork Tenderloin with Marsala-Port Sauce', NULL, '2021-04-27 14:56:14.443549', '2021-04-27 14:56:14.443549', 'https://spoonacular.com/recipeImages/662075-556x370.jpg', 45, 'Preheat the oven to 450 .
+In large skillet, over medium heat warm the olive oil. Add the onions, shallots and mushrooms. Cook until the onions are translucent. Remove from the heat.
+In a small food processor add the dried apricots, raisins, dried cranberries, parsley and the onion mushrooms mixture.  Pulse for a few times until everything is minced and well combined.
+Cut the tenderloin in half crosswise. Butterfly each sections making sure not to go completely thru the meat.
+Salt and pepper generously each section. Spread the onion mushroom mixture over on side. Place the other half of the meat  over the mixture and seal the sides with toothpicks. Season generously with salt and pepper on each side.
+In the same pan that the onions were cooked, heat  teaspoon of olive oil and add the pork tenderloin. Sear each side for about 3-5 minutes.
+Place in the hot over and cook for another 20 to 30  minutes, or until no juices are running off the pork tenderloin.
+Remove from the oven, transfer the meat on a dish and cover with aluminum foil.
+Pour off any fat from the pan, or bits of meat that may have fallen from the pork.  Add the marsala and port wine. Bring to a boil and with a spatula scrape up any browned bits on the bottom of the pan. Add any pan juices from the tenderloin and continue cooking until the sauce is reduced to  cup. Remove from the heat and add the butter and cream. Swirl around to ensure butter is melted.
+Remove the toothpicks and cut the pork tenderloin crosswise. Arrange on a plate and pour the sauce over it, or alongside.', 'https://www.foodista.com/recipe/2RKS457F/stuffed-pork-tenderloin-with-marsala-port-sauce', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'shallot
+yellow onion
+mushrooms
+dried apricots
+raisins
+dried cranberries
+flat leaf parsley leaves
+pork tenderloin
+marsala
+port
+butter
+heavy cream
+olive oil
+salt and pepper
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (699, 'Bacon & Egg Toast Cups', NULL, '2021-04-27 14:56:14.453432', '2021-04-27 14:56:14.453432', 'https://spoonacular.com/recipeImages/633265-556x370.jpg', 45, 'Preheat oven to 375.
+Lightly butter six standard muffin cups.
+Flatten the bread slices slightly with a rolling pin, and with a four-and-a-half inch cookie cutter, cut into four rounds. Cut each round in half, then press the two halves into each muffin cup, overlapping slightly and making sure bread comes up to the edges. Use extra bread and crusts to patch any holes if necessary. Brush with remaining butter.
+In a large skillet, cook the bacon until almost crisp, about four minutes, flipping once.
+Lay one bacon slice in each bread cup and crack an egg over each. Season with salt & pepper.
+Bake until egg whites are just set, about twenty-five minutes. The bacon will continue to cook in the oven.
+Run a small knife around cups to loosen toast cups.', 'https://www.foodista.com/recipe/P6LXBQR8/bacon-egg-toast-cups', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'unsalted butter
+white sandwich bread
+bacon
+eggs
+Salt & Pepper
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (700, 'Strawberry-Mango Quinoa Salad', NULL, '2021-04-27 14:56:14.463096', '2021-04-27 14:56:14.463096', 'https://spoonacular.com/recipeImages/661925-556x370.jpg', 45, '<ol><li>Prepare the quinoa: In a medium saucepan combine the quinoa, water and 1/4 t. salt. Bring to a boil, reduce heat to low, cover and simmer until the liquid is just absorbed, about 15 minutes. Spread the cooked quinoa out on a baking sheet to cool for about 20 minutes.</li><li>In a large bowl whisk together lime juice, zest, honey, sour cream and olive oil. Add the cooled quinoa, strawberries, mango, cucumber and mint. Toss well to combine and season with salt &amp; pepper. Serve immediately.</li></ol>', 'http://www.foodista.com/recipe/K2BYJP76/strawberry-mango-quinoa-salad', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'cucumber
+fresh mint
+honey
+lime juice
+lime zest
+mango
+olive oil
+bell pepper
+quinoa
+salt
+sour cream
+strawberries
+water
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (701, 'Rosemary Walnut Bread', NULL, '2021-04-27 14:56:14.499347', '2021-04-27 14:56:14.499347', 'https://spoonacular.com/recipeImages/658813-556x370.jpg', 45, '<ol><li>Combine first four ingredients, add yeast, and let stand for 5 minutes.</li><li>Stir in two cups flour, cover with plastic, and place in a warm spot (85 degrees) for 15 minutes.</li><li>Add rest of flour, nuts, lemon, rosemary, and 2 eggs.</li><li>Mix in bowl until it sticks together, then turn onto floured surface and knead for 10 minutes.</li><li>Rub top with olive oil and place in oiled bowl.</li><li>Cover with damp cloth, and let rise for 1 hour.</li><li>Return dough to floured surface and form into two leaf-shaped loaves.</li><li>Make three diagonal slashes,  inch deep.</li><li>Brush top with egg, and let rise for 30 minutes.</li><li>Bake in 375 degree oven for 40 minutes.</li><li>Let stand twenty minutes before slicingor as long as you can wait.</li></ol>', 'http://www.foodista.com/recipe/74NR222W/rosemary-walnut-bread', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'cream cheese
+dry yeast
+eggs
+flour
+honey
+lemon zest
+milk
+olive oil
+rosemary
+salt
+walnuts
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (703, 'Easy Chicken with White Wine Sauce', NULL, '2021-04-27 14:56:19.448136', '2021-04-27 14:56:19.448136', 'https://spoonacular.com/recipeImages/641912-556x370.jpg', 45, '<ol><li>Heat the oil in a 10-inch skillet over medium heat.  Add the chicken and cook for 10 minutes or until well browned on both sides.  Remove the chicken from the skillet.</li><li>Add the shallot and thyme to the skillet and cook and stir for 30 seconds.  Stir in the wine and cook for 2 minutes or until the mixture is reduced by half.  Stir in the concentrated broth.  Return the chicken to the skillet.  Cook for 5 minutes or until the chicken is cooked through.</li></ol>', 'http://www.foodista.com/recipe/Y7KMH5RY/easy-chicken-with-white-wine-sauce', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'chicken broth
+dry white wine
+fresh thyme leaves
+olive oil
+shallot
+skinless boneless chicken breast halves
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (704, 'Chapchae (Korean Stir-Fried Noodles)', NULL, '2021-04-27 14:56:19.459828', '2021-04-27 14:56:19.459828', 'https://spoonacular.com/recipeImages/637440-556x370.jpg', 45, 'Cook noodles according to package directions
+In a large pan or wok over medium heat, heat olive oil and 1 Tbsp sesame oil
+Add onion slices and garlic and saut for about 1 min
+Add rest of vegetables and cook for 4-5 min, until the vegetables are half-cooked and still a bit crispy
+Turn heat to low and add cooked noodles, soy sauce, sugar, and the remaining sesame oil
+Mix to combine and cook for another 2 min
+Add salt or more soy sauce if needed (or if you want it a bit sweeter, add a touch more sugar)
+If using sesame seeds, add them at finish', 'https://www.foodista.com/recipe/RSDBG48H/chapchae-korean-stir-fried-noodles', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'sweet potato vermicelli
+sweet onion
+garlic
+baby spinach
+carrots
+scallions
+mushrooms
+zucchini
+olive oil
+sesame oil
+soy sauce
+sugar
+salt
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (705, 'Brussels Sprouts with Bacon and Shallots', NULL, '2021-04-27 14:56:19.467251', '2021-04-27 14:56:19.467251', 'https://spoonacular.com/recipeImages/636365-556x370.jpg', 45, '<ol><li>In a large skillet place the bacon and cook until golden brown.</li><li>Add the shallots and cook until tender. Add the Brussels sprouts and saut to high heat to give it a nice golden outside.</li><li>Add a squeeze of lemon, salt and pepper to season and serve.</li></ol>', 'http://www.foodista.com/recipe/G3FR8CXJ/brussels-sprouts-with-bacon-and-shallots', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'bacon
+brussels sprouts
+lemon juice
+salt and pepper
+shallot
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (769, 'Crispy Breaded Tilapia', 'The beautiful thing about fish is that it rarely takes long to make—you can cook fillets on the stove and have them ready in a jiff. And that exactly what’s happening here: tilapia is coated in a crispy panko crust and pan-fried to a beautiful golden brown. Add some asparagus on the side and a few buttered ciabatta toasts and presto! You’ve got one seriously tasty catch of the day.', '2021-05-03 16:43:22.932538', '2021-05-03 16:43:22.932538', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-breaded-tilapia-719d6b8e.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/crispy-breaded-tilapia-599f157a05346806047980b2', 'HelloFresh.com', 'asparagus
+lemon
+chives
+sour cream
+panko breadcrumbs
+tilapia
+ciabatta bread
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (770, 'Rib-Eye Steak and Savory Mushroom Sauce', 'Serious about steak? Then you know that rib-eye is the best of the best. Prized for its marbling, rib-eye is loaded with flavor. Our chefs have amped up that meaty flavor even more with an umami-bomb mushroom sauce. Think: gravy but 100x more luxurious and flecked with fresh ‘shrooms. Cheesy mashed potatoes are the perfect accompaniment for catching extra sauce (and trust us, you won’t want to waste a drop.)', '2021-05-03 16:43:22.972469', '2021-05-03 16:43:22.972469', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w5-r11-ab47c27f.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/2019-w5-r11-5c1159bce3f33907714ba372', 'HelloFresh.com', 'russet potatoes
+scallions
+garlic
+button mushrooms
+ribeye
+sour cream
+monterey jack cheese
+beef stock concentrate
+butter
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (771, 'Slow Cooker Stuffed Peppers', 'Why make stuffed peppers in the slow cooker? Because the “set it and forget it” method produces some of the tenderest, juiciest, and meltiest results you can imagine. In this version, basmati rice, chicken sausage, tomatoes, and our Southwest spice blend are left to simmer away slowly before being topped with a good handful of Italian cheese. Just make sure to plan ahead, since the cooking takes 6–8 hours depending on the heat setting.', '2021-05-03 16:43:23.019403', '2021-05-03 16:43:23.019403', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/slow-cooker-stuffed-peppers-8f618875.jpg', 480, NULL, 'https://www.hellofresh.com/recipes/slow-cooker-stuffed-peppers-5a6f49d3ae08b5023e07ea02', 'HelloFresh.com', 'yellow onion
+bell pepper
+italian chicken sausage mix
+basmati rice
+crushed tomatoes
+southwest spice blend
+scallions
+italian cheese blend
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (772, 'Homestyle Chicken & Biscuit Pot Pie', 'We get very few opportunities to have pie for dinner, which is why we jump at every chance to dig into a chicken pot pie. The only problem: Who has time to make a homemade crust on a weeknight? Enter: biscuit crust, a rich, flaky, time-saving dinner hack. We layer the dough over a creamy filling of chicken breast strips, fresh thyme, and sautéed garlic and veggies, then swipe with melted butter and sprinkle with more thyme. It’s baked until the filling is steamy and the crust is perfectly golden-brown for a comforting dinner that’s easy as—what else?—pie!', '2021-05-03 16:43:23.071752', '2021-05-03 16:43:23.071752', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/homestyle-chicken-biscuit-pot-pie-0f887fa9.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/homestyle-chicken-biscuit-pot-pie-5f049500d95a4007c84095f2', 'HelloFresh.com', 'carrots
+yellow onion
+thyme
+flour
+cream cheese
+celery
+garlic
+chicken breast strips
+chicken stock concentrate
+pillsbury™ buttermilk southern homestyle biscuits
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (773, 'Apple Sage Turkey Burgers', 'Turkey burgers all too often turn out dry, but we’ve discovered the sweet secret to keeping them moist: apples. The grated fruit is blended into the meat, which along with breadcrumbs, herbs, and garlic does an astonishing job of giving you everything you want in a patty. To continue the fruit-forward fall theme, we’ve also added a salad to the side that incorporates cranberries, walnuts, and a lemon dressing.*Please note that this recipe may be packaged with samples that contain peanuts, tree nuts and milk.', '2021-05-03 16:43:23.124736', '2021-05-03 16:43:23.124736', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/apple-sage-turkey-burgers-9fa05f8d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/apple-sage-turkey-burgers-59baf041a2882a1c3e1d5902', 'HelloFresh.com', 'garlic
+sage
+fuji apple
+lemon
+mayonnaise
+panko breadcrumbs
+ground turkey
+brioche buns
+mixed greens
+dried cranberries
+walnuts
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (774, 'Honey Sesame Chicken Tenders', 'Chicken tenders often pop up as a fried finger food, but they’re absolutely delicious when used in other ways, too. They come from the part of the chicken adjacent to the breast, offering white meat that’s just as succulent and, well, tender as the name suggests. In this recipe, we’re tossing them into a takeout-inspired stir-fry and letting them bathe in a sauce loaded with the flavors of fresh ginger and soy.', '2021-05-03 16:43:23.206444', '2021-05-03 16:43:23.206444', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a1f394d043c3c5a3f1b5cb2-19914ad3.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/honey-sesame-chicken-tenders-5a1f394d043c3c5a3f1b5cb2', 'HelloFresh.com', 'garlic
+ginger
+scallions
+jasmine rice
+broccoli florets
+chicken tenders
+cornstarch
+soy sauce
+white wine vinegar
+honey
+sesame oil
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (775, 'Penne with a Kick', 'Maybe it’s just us, but pasta sauce from a jar makes us mad. Its flavors are dull compared to what you can make with a little effort at home. Whoever invented arrabbiata must have had us in mind: the name literally comes from the Italian word for angry. Made with blushing red tomatoes and accented with chili pepper heat, this pasta sauce is lively and bright. It comes together in a cinch, too!', '2021-05-03 16:43:23.257396', '2021-05-03 16:43:23.257396', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/penne-with-a-kick-31f1c741.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/penne-with-a-kick-597b428351d3f11af66a80b2', 'HelloFresh.com', 'red onion
+garlic
+roma tomato
+chili pepper
+pancetta
+penne pasta
+diced tomatoes
+spinach
+parmesan cheese
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (776, 'Better Than Takeout Hoisin Chicken', 'Hopelessly hooked on takeout? We’ve got just the cure. Ditch the overly-expensive white boxes for our tasty, homemade rendition! The chicken is sweet, savory, spicy, and aromatic thanks to a combo of honey, hoisin, sriracha, and fresh ginger. On the side, there’s crisp green beans and a heap of steamy rice. So, skip the takeout joint and find out how easy and delicious it is to whip up this dish in your very own kitchen...in 20 minutes, no less!', '2021-05-03 16:43:23.306441', '2021-05-03 16:43:23.306441', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/better-than-takeout-hoisin-chicken-5e9feb2f.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/better-than-takeout-hoisin-chicken-5d892e375d723231c52770bf', 'HelloFresh.com', 'jasmine rice
+scallions
+ginger
+chili pepper
+hoisin sauce
+sriracha
+honey
+chicken breast strips
+green beans
+sesame seeds
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (777, 'Lemony Cheese Tortelloni', 'Here’s some cheesy, creamy pasta-night bliss for you: these tender tortelloni are coated in a rich combination of sour cream, butter, and lemon. It’s the sort of sauce that sticks to your spoon, encouraging you to lick off every drop of deliciousness. To round things out, we’re also tossing in juicy broiled zucchini slices and crisp pancetta (those are bacon bits with Italian-style flair).', '2021-05-03 16:43:23.353204', '2021-05-03 16:43:23.353204', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemony-cheese-tortelloni-78a388a4.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lemony-cheese-tortelloni-5a6646a92c3e086c0e75f0c2', 'HelloFresh.com', 'zucchini
+cheese tortelloni
+garlic
+lemon
+pancetta
+peas
+sour cream
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (778, 'Steak and Nectarine Salad', 'This juicy steak salad comes together faster than you can say medium-rare. After you’ve sizzled the sirloin and quickly seared the nectarines, the work is practically done. The only thing that would make it simpler is if it assembled itself on top of the vinaigrette-dressed mixed greens on the plate (stay tuned for that feature).', '2021-05-03 16:43:23.394595', '2021-05-03 16:43:23.394595', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/20-minute-steak-and-nectarine-salad-6fd3a943.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/20-minute-steak-and-nectarine-salad-597b4162043c3c325d394662', 'HelloFresh.com', 'nectarine
+shallot
+sirloin steak
+red wine vinegar
+mixed greens
+feta cheese
+pecans
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (779, 'Marinated Steak Tacos', 'There are few things more satisfying than steak for dinner. Until now! These carne-loaded tacos are hearty, filling, and most of all—absolutely delicious! Tender bites of tropical-marinated steak are piled into warm tortillas along with charred veggies, tangy lime crema, and juicy pineapple. Taco’bout a weeknight win.', '2021-05-03 16:43:23.432181', '2021-05-03 16:43:23.432181', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w23-r17-marinated-steak-tacos-bc4fe5c8.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w23-r17-marinated-steak-tacos-5cc216daefe3e40012678a82', 'HelloFresh.com', 'pineapple
+lime
+southwest spice blend
+sirloin steak
+yellow onion
+poblano pepper
+sour cream
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (780, 'Tuscan Chicken Linguine', 'Our chefs just took pasta night to the next level: thanks to linguine, tomatoes, and chicken with Tuscan herbs, this recipe has all the Italian flair you could want and then some. The dish is accompanied by a sauce that has all the creamy goodness you want—it has cream cheese, Parmesan, and garlic herb butter for a trifecta of dairy deliciousness. So get ready: these tasty noodles are waiting to get twirled ‘round your fork.', '2021-05-03 16:43:23.473993', '2021-05-03 16:43:23.473993', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tuscan-chicken-linguine-22369383.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/tuscan-chicken-linguine-5b9be2a530006c12a373f492', 'HelloFresh.com', 'lemon
+roma tomato
+tuscan heat spice
+linguine
+chicken breast strips
+cream cheese
+garlic herb butter
+parmesan cheese
+basil
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (781, 'Cheesy Chicken Penne Bake', 'No matter the weather, it’s pretty much impossible not to daydream about cheesy baked carbs. This killer casserole is guaranteed to make those dreams a reality. In it you’ll find chicken, zucchini, and tender bites of al dente penne all enrobed in a rich marinara sauce. To top things off, there’s a crispy layer of toasty panko and melty mozzarella. Serve it right from the pan for maximum cheese pull potential and wait for the oohs and aahs from your lucky fellow diners.', '2021-05-03 16:43:23.525646', '2021-05-03 16:43:23.525646', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cheesy-chicken-penne-bake-b00c4041.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cheesy-chicken-penne-bake-5d6046777aa3c20014588bde', 'HelloFresh.com', 'chicken breast strips
+marinara sauce
+penne pasta
+chicken stock concentrate
+tuscan heat spice
+mozzarella cheese
+panko breadcrumbs
+zucchini
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (782, 'Creamy Parmesan Chicken Spaghetti', 'Our chefs just took pasta night to the next level: thanks to linguine, tomatoes, and chicken with Tuscan herbs, this recipe has all the Italian flair you could want and then some. The dish is accompanied by a sauce that has all the creamy goodness you want—it has cream cheese, Parmesan, and garlic herb butter for a trifecta of dairy deliciousness. So get ready: these tasty noodles are waiting to get twirled ‘round your fork.', '2021-05-03 16:43:23.571947', '2021-05-03 16:43:23.571947', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e430636195e8804526bc4e4-536a3dba.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamy-parmesan-chicken-spaghetti-5e430636195e8804526bc4e4', 'HelloFresh.com', 'lemon
+roma tomato
+tuscan heat spice
+spaghetti
+chicken breast strips
+cream cheese
+garlic herb butter
+parmesan cheese
+basil
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (783, 'Game-Day Beef Chili', 'If you’re looking for a recipe that’ll satisfy your whole team, chili is a sure bet. In this version, we’re keeping things simmering with ground beef, borlotti beans, poblano peppers, and our special Mexican spice blend, which has just the tiniest bit of heat. It’s mild enough for your kids to gobble up but has plenty of flavor to satisfy the adults—just break out the hot sauce if you like it scorching!', '2021-05-03 16:43:23.616127', '2021-05-03 16:43:23.616127', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/game-day-beef-chili-867ba0fc.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/game-day-beef-chili-5a32a454c288002023572de2', 'HelloFresh.com', 'scallions
+garlic
+poblano pepper
+borlotti beans
+ground beef
+mexican spice blend
+veggie stock concentrate
+crushed tomatoes
+cheddar cheese
+sour cream
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (784, 'Honey-Glazed Pork Tenderloin', 'A honey glaze may sound like something that goes with dessert, but mild-tasting pork loves a sweet sauce too, especially one that has a few savory elements in it for contrast. In this recipe, you’ll be folding an extra-large drizzle of honey into a rich, savory pan sauce, then spooning it onto pork tenderloin (and the roasted sweet potatoes and green beans, if you like).', '2021-05-03 16:43:23.682524', '2021-05-03 16:43:23.682524', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c50742ac445fa6216207ac2-be4b353b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/honey-glazed-pork-tenderloin-5c50742ac445fa6216207ac2', 'HelloFresh.com', 'sweet potato
+pork tenderloin
+garlic
+green beans
+dried thyme
+chicken stock concentrate
+honey
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (785, 'Spring Greens Gnocchi', 'Asparagus and peas are two sure signs that spring is here. The veggies are synonymous with the season—some even say they’re sweeter and more tender at this time of year. We couldn’t resist tucking them into this gnocchi, which features a tarragon cream sauce that’s just light enough to really let those gorgeous greens shine.', '2021-05-03 16:43:23.718395', '2021-05-03 16:43:23.718395', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w13-r9-042f6cbc.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/w13-r9-589cc7a2043c3c78d63a2754', 'HelloFresh.com', 'gnocchi
+tarragon
+garlic
+peas
+asparagus
+parmesan cheese
+sour cream
+walnuts
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (786, 'Blackened Catfish', 'We’re inclined to believe that a good blackening makes anything more delicious. It adds a layer of spice and smokiness while letting the flavor of what’s beneath shine. In this case, that’s tender, mild catfish, which really seems to come alive with all that seasoning. And with blistered veggies and toasty roasted potatoes on the side, there’s plenty of sizzling warmth to go around.', '2021-05-03 16:43:23.758787', '2021-05-03 16:43:23.758787', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w19-r4-5afd63c7.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w19-r4-58d3c6d651d3f174985b6bf2', 'HelloFresh.com', 'red bell pepper
+green beans
+yukon gold potatoes
+lemon
+blackening spice
+catfish
+yellow onion
+garlic
+cilantro
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (787, 'Parmesan-Crusted Chicken', 'Make your nonna proud tonight: this recipe features everything you need to have an Italian-style feast. The centerpiece is the Parmesan-crusted chicken, which is baked in the oven to make the cheese nice and melty. But the linguine pasta on the side is practically a complete dish in its own right, featuring roasted tomatoes with a creamy lemon sauce. Get your knives ready for slicing in and set your forks to twirl, because you’ll wanna eat up every last bite.', '2021-05-03 16:43:23.807763', '2021-05-03 16:43:23.807763', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c1aa3fce3f33931fb144f22-dd10eb0a.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/parmesan-crusted-chicken-5c1aa3fce3f33931fb144f22', 'HelloFresh.com', 'lemon
+panko breadcrumbs
+fry seasoning
+parmesan cheese
+chicken breasts
+dijon mustard
+mayonnaise
+spaghetti
+grape tomatoes
+garlic
+cream cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (788, 'Cheddar Smash Burgers', 'If you love playing whack-a-mole, this recipe’s for you. But instead of bopping critters on the head, you’ll be smashing burger patties until they’re as flat as can be. There’s a point to all that pounding, though (other than stress relief): the extra surface area means a patty that gets crisp and deeply browned for an incredible flavor sensation that’s sure to please even the most discerning burger lovers.', '2021-05-03 16:43:23.860287', '2021-05-03 16:43:23.860287', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ac7896230006c7c7a0cc9c2-8b49eeec.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cheddar-smash-burgers-5ac7896230006c7c7a0cc9c2', 'HelloFresh.com', 'dill pickle
+roma tomato
+lemon
+red onion
+ground beef
+cheddar cheese
+potato buns
+mixed greens
+ketchup
+chipotle powder
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (789, 'Lemon Pepper Chicken Linguine', 'This pasta masterpiece really has it all. First, there are the chicken breasts, which get sliced into tender, juicy pieces that fit right in with the twirly linguine noodles. Then, you’ve got a bunch of hearty spinach to fulfill your veggie wants and needs. And when you add freshly cracked whole peppercorns and a sprinkling of Parmesan cheese, you know this dish is something special indeed.', '2021-05-03 16:43:23.91386', '2021-05-03 16:43:23.91386', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemon-pepper-chicken-linguine-669e3386.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lemon-pepper-chicken-linguine-5bad4291ae08b53d0077dcf2', 'HelloFresh.com', 'tricolored peppercorns
+lemon
+garlic
+linguine
+spinach
+chicken breasts
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (790, 'Crispy Monterey Jack Chicken', 'Crispy chicken is always a recipe for success. Add melty Monterey Jack and Ranch seasoning to the mix and you’ve got yourself a winning dinner. Once baked, the cheesy panko crust turns golden brown while the meat stays juicy and tender. The crunchy cutlets are served with sriracha-spiked mayo and sides of buttery green beans and crispy potato wedges. If this all sounds complicated—it’s not! 35 minutes is all you need for this delicious dish to land on your table.', '2021-05-03 16:43:23.954823', '2021-05-03 16:43:23.954823', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-monterey-jack-chicken-8bca3280.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/crispy-monterey-jack-chicken-5d517cd67cb153000b183ba2', 'HelloFresh.com', 'yukon gold potatoes
+panko breadcrumbs
+ranch spice
+monterey jack cheese
+mayonnaise
+sriracha
+chicken breasts
+green beans
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (791, 'Vegetable Minestrone Soup', 'The familiar ingredients are all here: chunky veggies, macaroni, cannellini beans, tomatoes, garlic, herbs, and fabulous flavor. What you don’t risk in this recipe, however, is minestrone that turns to mush. Because you partially cook your macaroni before adding it to the soup, the end result is toothsome and oh-so-satisfying.', '2021-05-03 16:43:23.998527', '2021-05-03 16:43:23.998527', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w52r8c-vegetable-minestrone-soup-04a3f5a7.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2018w52r8c-vegetable-minestrone-soup-5be4485a30006c41a77c2a22', 'HelloFresh.com', 'carrots
+yellow onion
+scallions
+garlic
+cannellini beans
+italian seasoning
+celery salt
+macaroni pasta
+crushed tomatoes
+veggie stock concentrate
+ciabatta bread
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (792, 'French Onion Meatloaves', 'Caramelized onions taste good on lots of things—maybe you’ve had them on burgers, sandwiches, or steaks. You probably haven’t had them on meatloaf before but trust us—there. they’re still plenty tasty. In this recipe, mini beef loaves are topped with the sweet slivers as well as a heap of melty cheese in a riff on the flavors of French onion soup. On the side, you’ve got mashed potatoes and herby roasted carrots to keep things extra warm and hearty.', '2021-05-03 16:43:24.059322', '2021-05-03 16:43:24.059322', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/french-onion-meatloaves-9801c86d.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/french-onion-meatloaves-5b9be76fae08b536324bfa42', 'HelloFresh.com', 'carrots
+scallions
+ground beef
+meatloaf spice blend
+panko breadcrumbs
+white pepper
+dried thyme
+yukon gold potatoes
+sour cream
+yellow onion
+mozzarella cheese
+beef stock concentrate
+vegetable oil
+butter
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (793, 'Cajun Pork Sausage Stuffed Peppers', 'We’re pretty sure we could invent a stuffed pepper to fit our every mood—after all, they’re endlessly customizable with different combinations of meat, grains, veggies, and spices. For this twist on the Italian classic, we stir peppery Cajun spices into a deeply savory filling of pork sausage, jasmine rice, celery, and chicken stock. Once stuffed, the peppers receive a sprinkle of melty pepper jack and a drizzle of hot sauce crema. One bite’s sure to put a little PEP in your step.', '2021-05-03 16:43:24.130482', '2021-05-03 16:43:24.130482', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/605a5db18b8ca47bc3045d2e-f12a547f.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/cajun-pork-sausage-stuffed-peppers-605a5db18b8ca47bc3045d2e', 'HelloFresh.com', 'jasmine rice
+bell pepper
+celery
+scallions
+italian pork sausage
+cajun spice blend
+chicken stock concentrate
+pepper jack cheese
+sour cream
+hot sauce
+salt
+pepper
+vegetable oil
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (794, 'Shrimp Banh Mi Burger', 'Banh mi is a popular Vietnamese sandwich with a French flair. It’s traditionally made with crusty baguette, a hefty chunk of meat, pickled veggies, and spicy condiments. Our chefs didn’t mess with the veggies or the condiments, but they did swap out baguette for buttery brioche and meat for shrimp. It’s refreshingly light (especially with the carrot fries) but unbelievably satisfying.', '2021-05-03 16:43:24.188499', '2021-05-03 16:43:24.188499', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/shrimp-banh-mi-burger-1432ced2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/shrimp-banh-mi-burger-57eab6b3c7262804a960bcd2', 'HelloFresh.com', 'shrimp
+brioche buns
+mayonnaise
+sriracha
+cilantro
+carrots
+garlic
+persian cucumber
+lime
+white wine vinegar
+sugar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (795, 'Mediterranean Skillet Chicken', 'Paella is a traditional Spanish dish made with fluffy yellow rice. However, in this recipe, our chefs opted for tender, chewy bulgur as their grain of choice. It’s cooked with sweet apricots, colorful veggies, and a dusting of bright lemon zest for a deliciously floral aroma.', '2021-05-03 16:43:24.237508', '2021-05-03 16:43:24.237508', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-skillet-chicken-f034256b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-skillet-chicken-580122ffc72628312c572603', 'HelloFresh.com', 'carrots
+chicken breasts
+bulgur wheat
+zucchini
+dried apricots
+parsley
+lemon
+chicken stock concentrate
+red onion
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (796, 'Spicy Shrimp & Broccoli Stir-Fry', 'Love shrimp and broccoli? Then you’ll adore our tasty twist on the tried-and-true takeout classic. Succulent seared shrimp and tender broccoli are simmered in a sweet chili and soy sauce mixture that’s spiked with fresh ginger. On the side, there’s a heap of steamy jasmine rice (aka the perfect vessel for catching any delicious runaway sauce). Skip the takeout joint and find out how easy and tasty it is to whip up this dish in your very own kitchen...in just 20 minutes, no less!', '2021-05-03 16:43:24.279867', '2021-05-03 16:43:24.279867', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5f049486899ede042d77cfc5-7ed87887.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/spicy-shrimp-broccoli-stir-fry-5f049486899ede042d77cfc5', 'HelloFresh.com', 'jasmine rice
+ginger
+broccoli florets
+cornstarch
+sweet thai chili sauce
+soy sauce
+shrimp
+sesame seeds
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (797, 'Pineapple Poblano Beef Tacos', 'What’s sweet and nice with a little bit of spice? These tacos! Filled with beef tossed in our blend of warm, earthy spices and topped with a fruity pineapple salsa, they’ve got a perfectly pleasant personality with a little bit of a wild streak. And just in case you’re not convinced that they’re as congenial as can be, let it be known that they can be prepared in a jiff and are super-duper easy.', '2021-05-03 16:43:24.320898', '2021-05-03 16:43:24.320898', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c0ad671c445fa500e40b3e2-70046126.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/pineapple-poblano-beef-tacos-5c0ad671c445fa500e40b3e2', 'HelloFresh.com', 'red onion
+poblano pepper
+roma tomato
+cilantro
+lime
+pineapple
+sour cream
+taco spice blend
+ground beef
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (798, 'Classique French Onion Soup', 'The classics are classics for a reason. This dish happens to be extra special, though, and not just because it’s classique. French onion soup is a bistro staple—one of those ultra-comforting dishes you always order but never think to make at home. Well, it’s time to cancel that reservation at Chez Fromage because you’re about to master it from the comfort of your own kitchen! Our elevated take’s got deeply caramelized onions spiked with balsamic and fresh thyme, a rich mushroom stock, and melty gruyere toasts. There’s also a bright Dijon apple side salad to round things out. Bon appétit, mon chéris!', '2021-05-03 16:43:24.374335', '2021-05-03 16:43:24.374335', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/classique-french-onion-soup-cf20e2cb.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/classique-french-onion-soup-5dfd13f1c66033268d0021e4', 'HelloFresh.com', 'yellow onion
+thyme
+demi baguette
+lemon
+dijon mustard
+sherry vinegar
+mushroom stock concentrate
+hudson river fruit rubyfrost apple
+mixed greens
+gruyère cheese
+olive oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (799, 'Beef Tenderloin with Brown Butter Roasted Veggies', 'Beef tenderloin is extra special. True to its name, this cut is luxuriously tender—perfect for impressing your dinner companion (and yourself). Here, it’s seared and then drizzled with an ultra-savory shallot pan sauce. Like any great steak-centric meal, however, the sides might just steal the show. We’re serving up creamy Parmesan mashed potatoes and roasted carrots and parsnips tossed with nutty brown butter. Team Add Butter to Everything!', '2021-05-03 16:43:24.437004', '2021-05-03 16:43:24.437004', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w23-r16-beef-tenderloin-with-brown-butter-roasted-veggies-adc43c82.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/beef-tenderloin-with-brown-butter-roasted-veggies-5cc214348aa674000c23a866', 'HelloFresh.com', 'yukon gold potatoes
+carrots
+parsnip
+shallot
+parsley
+milk
+parmesan cheese
+beef tenderloin
+beef demi-glace
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (800, 'Juicy Tomato Steak', 'Here’s a treat for you and everyone else at your dinner table: steaks dressed up for a classy evening. Beef sirloin is drizzled with a rich gravy featuring tomatoes simmered until they’re tender. And the broccoli and potatoes on the side are quite sophisticated, too, being garnished with pine nuts and thyme respectively. When you bring this one out to eat, everyone will be amazed at the steakhouse-quality feast you just whipped up.', '2021-05-03 16:43:24.48699', '2021-05-03 16:43:24.48699', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/juicy-tomato-steak-c9d116f8.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/juicy-tomato-steak-5b8719dbae08b54a2e2b1d72', 'HelloFresh.com', 'heirloom grape tomatoes
+shallot
+parsley
+thyme
+multicolored fingerling potatoes
+broccoli florets
+pine nuts
+sirloin steak
+beef demi-glace
+garlic herb butter
+parmesan cheese
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (801, 'Cheesy Chicken Shepherd’s Pie', 'When the temperature plummets, we often turn to homey, comforting classics to warm us from the inside out. If this sounds like the perfect cure to all your cold weather woes, look no further. Our chefs took the best parts of chicken pot pie and shepherd’s pie and combined them to create the world’s greatest dinner mash-up. The base is a rich chicken stew with pops of fresh peas and carrots. On top, swoops of creamy mashed potatoes are sprinkled with cheddar, then broiled to create an irresistibly cheesy crust. It all bakes up in one dish, making it easy as...well, you get it!', '2021-05-03 16:43:24.546372', '2021-05-03 16:43:24.546372', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w8-r4-28aee4f7.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w8-r4-5c3ca779e3f3395ead1f7542', 'HelloFresh.com', 'yellow onion
+carrots
+chicken breast strips
+fry seasoning
+yukon gold potatoes
+flour
+chicken stock concentrate
+peas
+cheddar cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (802, 'Peppered Rib-Eye Steak', 'When you want to treat yourself to something luxuriantly tasty, nothing offers instant gratification better than a good steak. And we’ve got a great one with rib-eye, which is prized for its marbling and flavor. All it needs to be perfectly sublime is a simple pan sauce and some equally decadent sides, like almond green beans and truffled mashed potatoes.', '2021-05-03 16:43:24.603696', '2021-05-03 16:43:24.603696', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/peppered-rib-eye-steak-0a297c17.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/peppered-rib-eye-steak-59712984c9fd085960417ac2', 'HelloFresh.com', 'yukon gold potatoes
+tricolored peppercorns
+parsley
+shallot
+green beans
+ribeye
+beef demi-glace
+sour cream
+truffle oil
+almonds
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (803, 'Crispy Chicken Thighs', 'Fried chicken is the ultimate comfort food. The only problem? All that grease and, well, frying. Luckily, our chefs found a way around this by coating chicken thighs with panko breadcrumbs and sour cream. The combination of this richly flavored cut of meat and a super-easy breading technique reproduces the impeccable crispiness of the Southern classic without the gallons of oil.', '2021-05-03 16:43:24.65428', '2021-05-03 16:43:24.65428', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-chicken-thighs-6d75b762.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-chicken-thighs-5ad0b145ae08b51b5f607822', 'HelloFresh.com', 'corn on the cob
+persian cucumber
+grape tomatoes
+chives
+lemon
+panko breadcrumbs
+fry seasoning
+chicken thighs
+sour cream
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (804, 'Melty Monterey Jack Burgers', 'There are a lot of burger recipes out there, we know. But we like to think that this is the burger that tops all burgers, thanks to oozy, melty Monterey Jack cheese and jammy balsamic onions. Oh, and we should mention that this patty comes with breaded zucchini on the side, so you can get your fix of crispy, crunchy finger foods and a dose of veg all in one.', '2021-05-03 16:43:24.700554', '2021-05-03 16:43:24.700554', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c017fb0e3f3391ceb3d7fc2-3e75241e.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/melty-monterey-jack-burgers-5c017fb0e3f3391ceb3d7fc2', 'HelloFresh.com', 'garlic
+red onion
+zucchini
+mayonnaise
+balsamic vinegar
+panko breadcrumbs
+dried oregano
+ground beef
+monterey jack cheese
+potato buns
+ketchup
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (805, 'Mediterranean Roasted Chicken Legs', 'This recipe has everything you could want from a chicken dinner. Spice and herb-rubbed bone-in legs with crisp, crackly skin? Check. Tender roasted veggies with gorgeous browned edges? Check. A simple orzo pasta side to keep things filling? Check. A creamy yogurt sauce for drizzling onto everything? Check! The only thing left to add to this list is you, some cutlery, and a good appetite for devouring all that deliciousness.', '2021-05-03 16:43:24.752722', '2021-05-03 16:43:24.752722', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mediterranean-roasted-chicken-legs-40e4386d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/mediterranean-roasted-chicken-legs-5b916dd930006c59a830d772', 'HelloFresh.com', 'carrots
+red onion
+mediterranean spice blend
+chicken legs
+lemon
+scallions
+roma tomato
+garlic
+yogurt
+honey
+za''atar spice
+orzo pasta
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (806, 'Beefed-Up Bolognese', 'Some bolognese recipes call for hours of slow stovetop simmering, but this recipe isn''t like other recipes, not by a long shot. We''re not only speeding up the path towards beefy, pasta-filled bliss, but also inviting a few new friends along for the ride. Sweet poblano peppers, tender carrots, and even a dollop of sour cream join in on the fun to give this dish a Tex-Mex-inspired twist.', '2021-05-03 16:43:24.815748', '2021-05-03 16:43:24.815748', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/smoky-poblano-bolognese-w01-bdb44a19.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/smoky-poblano-bolognese-w01-58330a77d4d92c39337e49d2', 'HelloFresh.com', 'ground beef
+carrots
+yellow onion
+diced tomatoes
+thyme
+garlic
+poblano pepper
+sour cream
+parmesan cheese
+linguine
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (807, 'Figgy Balsamic Pork', 'You’ve likely come across figs baked into desserts, dried and nestled onto cheese platters, or preserved and slathered on toast for breakfast. But today, we’re mixing things up by pairing fig jam with tangy balsamic vinegar. The result? A sweet and savory sauce that’ll transform the tender pork tenderloin it’s drizzled on top of.', '2021-05-03 16:43:24.860206', '2021-05-03 16:43:24.860206', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e0fae95e7dda303827fe52a-ad495486.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/figgy-balsamic-pork-5e0fae95e7dda303827fe52a', 'HelloFresh.com', 'shallot
+rosemary
+yukon gold potatoes
+pork tenderloin
+green beans
+fig jam
+chicken stock concentrate
+balsamic vinegar
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (808, 'Creamy Turkey Bolognese', 'When you’ve got cavatappi and ground turkey in a creamy marinara sauce with garlic bread on the side, no one will even notice that you snuck in some extra veggies. This hearty pasta dish has both carrots and zucchini, which are perfectly delicious in their own way since they’re seasoned with our Tuscan spice blend. But just in case you’ve got any picky eaters, there’s plenty of the good stuff to satisfy both ways.', '2021-05-03 16:43:24.905494', '2021-05-03 16:43:24.905494', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/creamy-turkey-bolognese-5eb6ef9e.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/creamy-turkey-bolognese-5ad7bc8f30006c1e113a61a2', 'HelloFresh.com', 'demi baguette
+carrots
+zucchini
+parsley
+cavatappi pasta
+tuscan heat spice
+ground turkey
+milk
+chicken stock concentrate
+marinara sauce
+garlic herb butter
+parmesan cheese
+cream cheese
+chili flakes
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (809, 'Cherry-Balsamic Sirloin', 'Steak dinner as you know it has officially been fancified with French flavors. Le menu: Seared sirloin drizzled with a savory-sweet pan sauce. Roasted, Herbs de Provence-scented fingerlings. Tender Brussels sprouts and tangy, balsamic-roasted shallots. Beat that, Paris bistro!', '2021-05-03 16:43:24.964926', '2021-05-03 16:43:24.964926', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cdad34ebfabcd0017251a48-76fc67de.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w4-r16-cherry-balsamic-sirloin-5cdad34ebfabcd0017251a48', 'HelloFresh.com', 'fingerling potatoes
+herbes de provence
+shallot
+balsamic vinegar
+brussels sprouts
+sirloin steak
+dried cherries
+cherry preserves
+beef demi-glace
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (706, 'Fast Tiramisu', NULL, '2021-04-27 14:56:19.540688', '2021-04-27 14:56:19.540688', 'https://spoonacular.com/recipeImages/642614-556x370.jpg', 45, 'First thing: make the coffee and let it cool down, THEN add the rum!
+Second, beat the whipping cream, and put it in the fridge (do not add sugar in it, just vanilla sugar, if you have one envelope in the house)
+Beat the egg yolks with the sugar (6 tbsp sugar) until become thick and lemon colored.
+Then add mascarpone cheese, beat until incorporated, and vanilla bean or vanilla sugar.
+At the end add whipping cream, beat until incorporated.
+In a pan (26cm / 40cm) line up the lady fingers, after you soaked Them one by one into the coffee (just 1 second each side). Add half of the cream, THEN line up the other half of lady fingers (same soaked in coffee) but in the opposite way.
+On the top you put the rest of the cream and garnish with cocoa.
+Put it in the fridge for at Least 6 hours!
+Good luck!
+No baking, just 30 minutes and Tiramisu is ready!', 'https://www.foodista.com/recipe/2QR423YJ/fast-tiramisu', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'egg yolks
+cane sugar
+mascarpone cheese
+heavy whipping cream
+ladyfingers
+coffee liqueur
+coffee
+unsweetened cocoa powder
+vanilla sugar
+');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1, 'Chimichurri Skirt Steak with Grilled Asparagus', NULL, '2021-04-27 12:20:59.425271', '2021-04-27 12:20:59.425271', 'https://spoonacular.com/recipeImages/638626-556x370.jpg', 45, '<ol><li>Place all chimichurri sauce ingredients except for the olive oil in a food processor &amp; pulse until well chopped. While the food processor is going, slowly pour the olive oil into the mixture until blended.  Reserve half of the sauce to serve on the side with the meal.</li><li>Season skirt steaks with salt &amp; pepper on bother sides.  Spoon the remaining chimichurri sauce over the steaks &amp; let marinate for 30 minutes up to overnight.</li><li>Pre-heat the grill to 350 to 400 F.</li><li>In a plastic resealable bag, add asparagus, olive oil, garlic, salt &amp; pepper.  Shake to coat &amp; place in a grill basket.</li><li>Place the steak &amp; grill basket of asparagus directly over a hot grill.  Gently toss the asparagus for even grilling &amp; baste with garlic, olive oil mixture  10 minutes.</li><li>Grill the skirt steak to desired temperature  5 to 8 minutes per side.</li><li>Remove from grill &amp; let steak rest for 10 minutes before slice long strips.  Spoon reserved chimichurri sauce over steak &amp; serve with asparagus on the side.</li></ol>', 'http://www.foodista.com/recipe/3VXHGQB6/chimichurri-skirt-steak-with-grilled-asparagus', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'asparagus
 chili flakes
 flat leaf parsley
@@ -2511,6 +3605,17 @@ cinnamon stick
 dried cherries
 pears
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (810, 'Peppercorn Steak', 'We all love a creamy peppercorn sauce. Pour it over juicy sliced steak and roast potatoes and you’ll have the ultimate dish for Valentine’s Day.', '2021-05-03 16:43:25.012792', '2021-05-03 16:43:25.012792', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/54c906c06ced6e7c1d8b4568.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/peppercorn-steak-54c906c06ced6e7c1d8b4568', 'HelloFresh.com', 'sirloin steak
+spinach
+baby red potatoes
+shallot
+sour cream
+veggie stock concentrate
+black pepper
+butter
+olive oil
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (176, 'Balsamic Roasted Vegetables', NULL, '2021-04-27 14:16:43.021012', '2021-04-27 14:16:43.021012', 'https://spoonacular.com/recipeImages/633942-556x370.jpg', 45, 'Clean and top the beets and, along with the fingerling potatoes, drizzle with enough olive oil just to coat. Roast whole at 400 degrees until softened, but not completely cooked (about 30 minutes). Remove from the oven and carefully peel the beets, then cut in half. You can leave the fingerlings whole, and slice lengthwise in half before serving, or halve them and continue roasting (both ways are delicious!)
 Quarter the fennel and red onion lengthwise, and cut the kabocha into 1/2 inch wedges.
 Toss all the vegetables in a bowl and drizzle enough olive oil to sufficiently coat. Then, add a big splash of balsamic vinegar (approx. 1/4 cup), a couple hearty pinches of Kosher salt, a few good turns of fresh ground black pepper, and a small sprig of fresh rosemary. Let roast another 30-40 minutes, turning every so often to get an even roast.', 'https://www.foodista.com/recipe/LGRN2255/balsamic-roasted-vegetables', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'golden beets
@@ -2800,6 +3905,19 @@ paprika
 water
 bananas
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (811, 'Southwestern Sweet Potato Hash', 'A potato hash may be an anything-goes sort of meal, but we think we’ve nailed it with our highly specific and precise combination of flavors. There’s the candy-like allure of sweet potatoes, the smokiness of bacon, the creaminess of avocado, and the grassiness and mild heat of poblano peppers. In other words, it’s an equation with contrasting but complementary elements that add up to something amazing.', '2021-05-03 16:43:25.066882', '2021-05-03 16:43:25.066882', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwestern-sweet-potato-hash-178a8b1e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/southwestern-sweet-potato-hash-5964ec7e2c9e863a6f796143', 'HelloFresh.com', 'bacon
+sweet potato
+red onion
+roma tomato
+poblano pepper
+black beans
+southwest spice blend
+lime
+cilantro
+avocado
+sour cream
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (207, 'Baked Tofu Cheesecake', NULL, '2021-04-27 14:29:20.363354', '2021-04-27 14:29:20.363354', 'https://spoonacular.com/recipeImages/633851-556x370.jpg', 45, '<ol><li>Preheat oven to 170C. Line a 9" cake tin and wrap with heavy duty aluminium foil to prevent any water from sipping into the cheesecake during baking.</li><li>In a food processor, blend all (A) ingredients until smooth. Put mixture in a large bowl.</li><li>In a separate mixing bowl, beat egg white and caster sugar until semi-firm peaks form to make soft meringue.</li><li>Use a whisk to mix 1/3 soft meringue with mixture.</li><li>Gently fold in the rest with spatula.</li><li>Pour mixture into cake tin and steam bake for about 50 mins at the lower rack of the oven.</li><li>Move the cheesecake to upper rack of the oven and switch temperature to grill for about 30 seconds to one minute to get a nice golden colour on top of the cake.</li><li>Leave cheesecake to cool in room temperature, remove and best to chill before serve.</li></ol>', 'http://www.foodista.com/recipe/Q53P2JNF/baked-tofu-cheesecake', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'cream cheese
 egg whites
 egg yolks
@@ -2965,6 +4083,36 @@ unsalted butter
 vanilla extract
 vegetable oil
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (812, 'Pork Teriyaki Meatballs', 'Do you love meatballs but aren’t sure how to take them beyond the usual? Say hello to bulgogi, a Korean-style sauce that knows what’s up. Based around soy sauce, it has savory complexity for sophisticated palates, plus just enough sweetness to round things out. In this recipe, it’s used to glaze pork meatballs, giving them an outer layer of extra flavor that pairs perfectly with the sesame-accented rice, carrots, and zucchini.', '2021-05-03 16:43:25.115278', '2021-05-03 16:43:25.115278', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-bulgogi-meatballs-1bfe2d9f.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pork-bulgogi-meatballs-5d6e72f231442e00166a165a', 'HelloFresh.com', 'zucchini
+ginger
+lime
+scallions
+ground pork
+panko breadcrumbs
+teriyaki sauce
+shredded carrots
+sesame oil
+jasmine rice
+sriracha
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (813, 'Carne Asada Steak Bowls', 'There are few things more satisfying than steak for dinner. Until now! These carne-loaded bowls are hearty, filling, and most of all—absolutely delicious. Tender bites of seared, Southwest-spiced steak are piled atop fluffy lime rice along with fresh tomato salsa, Monterey Jack cheese, and zingy pickled jalapeño. For a finishing touch, the bowls are topped with avocado crema. One bite will have you bowled over.', '2021-05-03 16:43:25.171016', '2021-05-03 16:43:25.171016', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/carne-asada-steak-bowls-4fa372b7.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/carne-asada-steak-bowls-5d4866089697b100155ba6e9', 'HelloFresh.com', 'scallions
+jasmine rice
+roma tomato
+lime
+jalapeño
+guacamole
+sour cream
+diced steak
+southwest spice blend
+monterey jack cheese
+butter
+vegetable oil
+salt
+pepper
+sugar');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (216, 'Peach Melba', NULL, '2021-04-27 14:29:20.446021', '2021-04-27 14:29:20.446021', 'https://spoonacular.com/recipeImages/655130-556x370.jpg', 45, 'Split cake in half to a thickness of about 3cm and cut 1 half into 4 rounds, roughly the size of a peach half.
 Dice half the peaches.
 Place a round of sponge cake in each glass dish and soak with brandy. Place a peach half on sponge, hollow side up, and place a scoop of ice cream on each peach.
@@ -3036,6 +4184,18 @@ baguette
 olive oil
 brie cheese
 salt and pepper
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (730, 'Green Bean Poriyal', NULL, '2021-04-27 14:56:19.979256', '2021-04-27 14:56:19.979256', 'https://spoonacular.com/recipeImages/795431-556x370.jpg', 45, 'Soak the tamarind pulp in 2/3 cup boiling water for 40 minutes. Strain the tamarind into a small bowl, pressing down on the pulp to squeeze as much liquid as you can. Set the drained tamarind liquid aside.In a large frying pan or wok, heat the oil over medium heat until hot. Add the mustard seeds and cumin seeds to the pan and cook for a few minutes. Now add the urad and toor or chana dals, chilli, asafetida and curry leaves. Fry for another few minutes until the mustard seeds turn grey and begin to splutter and pop.Now add the green beans, about 3 tablespoons of the tamarind water, and salt. Reduce the heat to medium-low and cover. Cook until the beans are tender, about 5 to 7 minutes. Stir in the coconut and cook for another few minutes.Remove from heat and taste for seasoning. Serve warm alongside some fresh cooked white rice and your favorite dal dishes.', 'http://foodandspice.blogspot.com/2016/07/green-bean-poriyal.html', 'Lisa''s Vegetarian Kitchen', 'asafetida
+brown mustard seeds
+chana dal
+coconut oil
+cumin seeds
+curry leaves
+red chili
+sea salt
+tamarind pulp
+unsweetened shredded coconut
+urad dal
 ');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (221, 'Fresh Fig, Walnut, Rosemary Upside Down Cake And A Crisp Citrusy Chardonnay', NULL, '2021-04-27 14:29:20.508012', '2021-04-27 14:29:20.508012', 'https://spoonacular.com/recipeImages/643478-556x370.jpg', 45, 'Position a rack in the center of the oven, and preheat to 350 degrees.
 Add butter to a 9 inch round baking pan and place inside of a warm oven until melted, about 5 minutes.
@@ -3119,6 +4279,19 @@ egg whites
 egg yolks
 ladyfingers
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (814, 'Sirloin Steak Provençal', 'You probably haven’t tasted steak like this before: this sirloin is seasoned with Herbs de Provence—a blend of aromatics from the south of France that includes lavender, rosemary, and tarragon. Together, the meat and aromatics create some truly extraordinary flavors that feel right at home next to the dynamic sides—those would be roasted potatoes and carrots, a rich pan sauce, and a dollop of truffle-flavored sour cream.', '2021-05-03 16:43:25.228718', '2021-05-03 16:43:25.228718', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sirloin-steak-provencal-a038ac4f.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/sirloin-steak-provencal-5d1bb7d62bd5c6000f643103', 'HelloFresh.com', 'yukon gold potatoes
+carrots
+sirloin steak
+scallions
+shallot
+sour cream
+truffle zest
+herbes de provence
+beef stock concentrate
+olive oil
+butter
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (225, 'Carrot Raisin Chocolate Chip Cookies', NULL, '2021-04-27 14:29:20.560461', '2021-04-27 14:29:20.560461', 'https://spoonacular.com/recipeImages/637218-556x370.jpg', 45, 'Preheat oven to 350 degrees. Hydrate the carrot and raisin packet (from the cake mix box) in the 1 cup of hot water for 5 minutes. Drain and squeeze out the extra water. Beat the butter, cake mix and eggs until just combined then add the carrots and raisins and mix well. Stir in the chocolate chips until well combined, using a small ice-cream scoop place cookies on a parchment lined baking sheet about 2 inches apart. Using a knife or offset spatula smooth the top of the cookies. Bake for 12 minutes then let cool on baking sheet for 1 minute before transferring to a cooling rack. Once cookies are completely cooled frost with some cream cheese frosting or eat plain.', 'https://www.foodista.com/recipe/HGGH4FWJ/carrot-raisin-chocolate-chip-cookies', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'white cake mix
 eggs
 butter
@@ -3502,6 +4675,15 @@ pepper
 salt
 shredded cheddar
 worcestershire
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (731, 'Slow Cooker Kahlua Pork with Sweet Chili Pineapple Sauce', NULL, '2021-04-27 14:56:19.998273', '2021-04-27 14:56:19.998273', 'https://spoonacular.com/recipeImages/660288-556x370.jpg', 660, '<ol><li>Place the pork, fat side up, in the slow cooker. Using a fork, pierce the roast all over and pour the liquid smoke over it to coat. Sprinkle the sea salt evenly over the roast and cover. Cook on low for 10 hours (the roast is done when the meat begins to fall apart when shredded with a fork.)</li><li>In a small saucepan, whisk together the pineapple juice, rice vinegar, honey, chili sauce and hoisin sauce. Bring the mixture to a boil and cook the sauce until reduced by half stirring with a heat resistant spatula frequently. Set aside.</li><li>When the roast is done, transfer to a cutting board and shred the meat using two forks. Return the shredded meat back to the slow cooker and serve immediately with the sauce.</li></ol>', 'http://www.foodista.com/recipe/NQB678JF/slow-cooker-kahlua-pork-with-sweet-chili-pineapple-sauce', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'chili-garlic sauce
+hoisin sauce
+honey
+liquid smoke
+pineapple juice
+pork butt
+rice vinegar
+sea-salt
 ');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (252, 'Best Baked Macaroni and Cheese', NULL, '2021-04-27 14:29:21.226368', '2021-04-27 14:29:21.226368', 'https://spoonacular.com/recipeImages/634873-556x370.jpg', 45, '<ol><li>Heat the oven to 375 degrees. Butter a 3-quart casserole dish; set aside. Place bread pieces in a medium bowl. In a small saucepan over medium heat, melt 2 tablespoons butter. Pour butter into the bowl with bread, and toss. Set the breadcrumbs aside. In a medium saucepan set over medium heat, heat milk. Melt remaining 6 tablespoons butter in a high-sided skillet over medium heat. When butter bubbles, add flour. Cook, stirring, 1 minute.</li><li>Slowly pour hot milk into flour-butter mixture while whisking. Continue cooking, whisking constantly, until the mixture bubbles and becomes thick.</li><li>Remove the pan from the heat. Stir in salt, nutmeg, black pepper, cayenne pepper, 3 cups cheddar, and 1 1/2 cups Gruyere. Set cheese sauce aside.</li><li>Fill a large saucepan with water. Bring to a boil. Add macaroni; cook 2 to 3 fewer minutes than manufacturers directions, until outside of pasta is cooked and inside is underdone. (Different brands of macaroni cook at different rates; be sure to read the instructions.) Transfer the macaroni to a colander, rinse under cold running water, and drain well. Stir macaroni into the reserved cheese sauce.</li><li>Pour the mixture into the prepared casserole dish. Sprinkle remaining 1 1/2 cups cheddar and 1/2 cup Gruyere; scatter breadcrumbs over the top. Bake until browned on top, about 30 minutes. Transfer dish to a wire rack to cool for 5 minutes; serve.</li></ol>', 'http://www.foodista.com/recipe/H3FCFX57/best-baked-macaroni-and-cheese', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'black pepper
 cayenne pepper
@@ -4781,6 +5963,20 @@ chia seeds
 maple syrup
 water
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (815, 'Sirloin and Sherry Shallot Sauce', 'A totally real, verified fact that we just made up: people who cook fancier weeknight dinners are more likely to receive a compliment from a stranger, meet their celebrity crush, and/or win the lottery. They’re also guaranteed to be rewarded with a delicious, steakhouse-quality meal without leaving the comforts of their own kitchen. Case in point: this seared sirloin drizzled in a deluxe, sherry vinegar-spiked pan sauce with crispy, cheesy potato rounds, and a heap of roasted green beans.', '2021-05-03 16:43:25.300199', '2021-05-03 16:43:25.300199', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d0d02137606780013582332-2411f2db.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/sirloin-and-sherry-shallot-sauce-5d0d02137606780013582332', 'HelloFresh.com', 'shallot
+yukon gold potatoes
+green beans
+garlic powder
+parmesan cheese
+sirloin steak
+sherry vinegar
+beef stock concentrate
+sour cream
+vegetable oil
+olive oil
+butter
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (355, 'Apple Soft Pound Cake', NULL, '2021-04-27 14:43:19.474638', '2021-04-27 14:43:19.474638', 'https://spoonacular.com/recipeImages/632593-556x370.jpg', 45, 'Spray Non-stick spray evenly in bundt pan or line two loaf pans and set aside.
 Cream butter and sugar till fluffy and pale then add vanilla extract, mix well.
 Add egg yolks into the batter one at a time and mix well before adding in another then slowly add in egg whites and mix well, stop machine.
@@ -6209,6 +7405,23 @@ milk
 canned pumpkin puree
 cinnamon
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (751, 'Seared Pork Chops W/ Mango Salsa', NULL, '2021-04-27 14:56:47.277255', '2021-04-27 14:56:47.277255', 'https://spoonacular.com/recipeImages/659674-556x370.jpg', 45, '<ol><li>In a bowl thoroughly mix dry rub ingredients (cumin, mustard powder, cayenne, garlic powder, onion powder, 1 tablespoon salt, 2 teaspoons black pepper).</li><li>Dust and massage dry rub into pork chops, rest in fridge for about 10min</li><li>Prep mango, bell pepper, onion, scallions, tomato, and cilantro set aside.</li><li>Heat pan w/ oil to med high, sear pork chops. 2-3 minutes on each side.</li><li>Let pork chops rest 5-8 minutes before serving.</li><li>Take salsa bowl, add juice of a whole lime, add salt and pepper to taste.</li><li>Mix thoroughly</li><li>Place pork chop on plate and top with mango salsa.</li></ol>', 'http://www.foodista.com/recipe/D7NJGN5C/seared-pork-chops-w-mango-salsa', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'bell pepper
+bell pepper
+cayenne
+cilantro
+cumin
+garlic powder
+lime
+mango
+mustard powder
+onion
+onion powder
+pork chops
+salt
+scallions
+tomato
+vegetable oil
+');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (466, 'Bing''s Banana Cake', NULL, '2021-04-27 14:47:08.424984', '2021-04-27 14:47:08.424984', 'https://spoonacular.com/recipeImages/634986-556x370.jpg', 45, '<ol><li>Begin by preheating oven to 160C for standard heating oven, 150C for fan-forced oven. I cant stress enough how important it is to have an efficient oven when it comes to baking. So if you intend to bake regularly, please invest in an oven thermometer so that you know the exact temperature your oven heats up to.</li><li>Next, grease and line a 10 X 10 X 3 square baking pan or 11 round pan. Grease first, line with baking paper and then grease again.</li><li>Add 5 large eggs to a large deep mixing bowl.</li><li>Add 1 cup of sugar. Feel free to cut this amount by a tablespoon or two if your bananas are very very ripe. Ripe bananas have alot of sugar in them.</li><li>Add 1 teaspoon of banana flavoured essence.</li><li>Peel about 5 large bananas to get 400g of bananas. Use very ripe bananas. The stronger they smell, the better. You can cut the bananas into large pieces if they are too long for the bowl.</li><li>Add the bananas to the egg and sugar mixture. Beat at low speed for one minute and then at maximum speed for 14 minutes.</li><li>Let the machine whisk the mixture until it resembles whipped cream. If the mixture is still runny or wet, whisk some more. It should be white, stiff and non-dripping.</li><li>While the egg and banana mixture is being whisked, prepare the dry ingredients.</li><li>Sieve 2 & 1/2 cups of plain flour into a bowl. Add 1 & 1/2 teaspoon of baking powder. Add 1/2 teaspoon of bicarbonate of soda.</li><li>Prepare 200g of vegetable oil  about 2/3 cup and 1/4 cup.</li><li>Transfer the whisked egg-banana mixture to a large bowl/pot if necessary.</li><li>Add the flour mixture in 3 parts to the egg-banana mixture. Fold the flour mixture into the egg-banana mixture with your hands. Use large folding movements. Do this step in 3 parts. Dont add all the flour at one time.</li><li>When the flour mixture has been folded into the egg-banana mixture, add the vegetable oil. And fold that in as well. If you have chopped walnuts, add them here too. I liked my cake with no nuts.</li><li>Pour the batter into the greased and lined baking pan.</li><li>Bake at a pre-heated oven of 160C for standard heating oven, 150C for fan-forced oven for 55 minutes or until the cake turns golden brown. A cake pick or satay stick should come out clean when placed into the centre of the cake. A cake pick or satay stick should come out clean when placed into the centre of the cake.</li><li>Place a cake base or plate over the baking pan and invert the cake over. Peel the baking paper away from the cake.</li><li>Use a cooling rack and invert the cake again. Let the cake cool on the cooling rack. If you are in a dry or cold environment, place a clean towel over the cake as it cools so that it would not dry out too quickly.</li><li>Best served warm.</li></ol>', 'http://www.foodista.com/recipe/8RBJ4FVM/bing-s-banana-cake', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'baking powder
 banana
 bananas
@@ -6599,6 +7812,32 @@ sugar
 water
 watermelon chunks
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (752, 'Butternut Squash Frittata', NULL, '2021-04-27 14:56:47.31786', '2021-04-27 14:56:47.31786', 'https://spoonacular.com/recipeImages/636589-556x370.jpg', 45, '<ol><li>Preheat oven to 350</li><li>Spray a 10 oz oven safe dish with cooking spray</li><li>Add your butternut squash</li><li>In a measuring cup add your eggs and milk. Mix until combined. Pour over butternut squash.</li><li>Sprinkle with pepper and top with cheese.</li><li>Bake in oven for 30-35 minutes, until middle is slightly firm</li><li>Let it cool for a few minutes</li></ol>', 'http://www.foodista.com/recipe/XQXFKGHT/butternut-squash-frittata', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'butternut squash
+goat cheese
+liquid egg substitute
+non-fat milk
+bell pepper
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (816, 'Garlic Herb Chicken', 'It doesn’t matter if you’re a novice cook or a master chef: anyone can make a special supper. Especially when you have some classic ingredients that can be made into a simple but delicious feast. This one features hearty chicken breasts that just need an easy sear in a pan, plus spinach and artichoke ravioli that cook super quickly. Afterward, all you have to do is set them out family style and let everyone dig in!', '2021-05-03 16:43:25.400173', '2021-05-03 16:43:25.400173', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-and-cheesy-ravioli-c35bf89d.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/chicken-and-cheesy-ravioli-5b6e046430006c024b08bd52', 'HelloFresh.com', 'shallot
+heirloom grape tomatoes
+lemon
+fresh mozzarella
+chives
+panko breadcrumbs
+chicken breasts
+garlic herb butter
+milk
+chicken stock concentrate
+italian cheese blend
+spinach and artichoke ravioli
+peas
+thyme
+parmesan cheese
+chili flakes
+olive oil
+vegetable oil
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (491, 'Upside-Down Blueberry Puffs Brunch', NULL, '2021-04-27 14:47:11.880747', '2021-04-27 14:47:11.880747', 'https://spoonacular.com/recipeImages/729530-556x370.jpg', 50, 'Preheat oven to 375 degrees.Wash blueberries and pat dry.Spray six 6-ounce custard cups with baking spray.Divide blueberries among custard cups, reserving 6 to top cakes.Combine flour, salt and baking powder in a mixing bowl and set aside.Beat egg white until foamy; add cream of tartar and beat until stiff peaks form. Set egg white aside.Cream butter; gradually add sugar and continue creaming until light.Add eggs and vanilla; mix until well blended.Add flour mixture, alternating with milk, to butter mixture and beat until well combined. Batter will be thick.Gently fold beaten egg white into flour/butter mixture.Spoon batter into custard cups over berries, filling no more than  full.Place custard cups on a baking sheet; bake for 30 minutes or until cakes test done by inserting a toothpick near center.Turn out cakes directly from oven on wire racks.Serve warm or at room temperature. If desired, serve with whipped cream or ice cream topped with a blueberry.', 'http://www.pinkwhen.com/upside-blueberry-puffs/', 'Jen West', 'baking powder
 blueberries
 butter
@@ -7155,6 +8394,21 @@ light brown sugar
 flour
 unsalted butter
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (817, 'Meatloaf Au Poivre', 'Who said meatloaf couldn’t be luxurious? This week, our chefs gave the comfort classic a steak-like treatment by mixing in fresh thyme and spooning a creamy shallot-and-peppercorn-flecked sauce on top. Like any great steakhouse-style meal, the sides are extra-special. There’s garlicky mashed potatoes and crispy roasted green beans so good, you may just break out the white tablecloth. Comfort, meet sophistication.', '2021-05-03 16:43:25.520103', '2021-05-03 16:43:25.520103', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w19-r15f-meatloaf-au-poivre-02b62064.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2019-w19-r15f-meatloaf-au-poivre-5c9bbf91e3f3395b67314862', 'HelloFresh.com', 'shallot
+garlic
+tricolored peppercorns
+yukon gold potatoes
+white bread
+ground beef
+dried thyme
+green beans
+beef stock concentrate
+sour cream
+olive oil
+butter
+vegetable oil
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (534, 'Stuffed Lemons in the Oven', NULL, '2021-04-27 14:47:59.960324', '2021-04-27 14:47:59.960324', 'https://spoonacular.com/recipeImages/662038-556x370.jpg', 45, 'Preheat your oven to 400 F / 215 C
 Remove the ends of the lemons & discard them (dont cut in to deep - you want to keep a closed bottom). Then cut the lemons in half crossways, giving you little lemon bowls.
 Using a small knife, remove the lemon flesh, leaving you with 4 hollow lemon rind bowls. (Again you dont want to break-into the rind)
@@ -7323,6 +8577,32 @@ orange extract
 tapioca flour
 whole wheat pastry flour
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (818, 'Feisty Shrimp Linguine', 'Fra diavolo literally means “brother devil” in Italian. When you get a whiff of its fiery heat, you’ll understand how it earned its infernal name (you can always deploy the heat-packing ingredients to taste, of course). Centered around a thick tomato sauce and filled out with plump shrimp and al dente linguine, it’s got all the features of a classic red-sauce recipe but with the fire turned up a few notches.', '2021-05-03 16:43:25.713051', '2021-05-03 16:43:25.713051', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w08-r03-652f2abc.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w08-r03-5873be304348d22d230d0c62', 'HelloFresh.com', 'shrimp
+linguine
+garlic
+yellow onion
+oregano
+diced tomatoes
+chili flakes
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (819, 'Game Day Black Bean Chili', 'If you’re looking for a recipe that’ll satisfy your whole team, chili is a safe bet. And when you drop the “con carne” and make it with hearty black beans, it becomes a dish that everyone can enjoy. Here, we’re adding in a dynamic spice duo of chili powder and cumin, then finishing it with slices of creamy avocado. It’ll hit the spot anytime, on game day and beyond!', '2021-05-03 16:43:25.841836', '2021-05-03 16:43:25.841836', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwestern-black-bean-chili-0a4112cb.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/southwestern-black-bean-chili-5850451b2e69d7031a4776a3', 'HelloFresh.com', 'yellow onion
+red bell pepper
+garlic
+oregano
+cilantro
+avocado
+black beans
+diced tomatoes
+chili powder
+cumin
+sour cream
+scallions
+salt
+pepper
+olive oil');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (546, 'Cheesy Bacon Burger with Spicy Chipotle Aiolo Sauce', NULL, '2021-04-27 14:48:01.250087', '2021-04-27 14:48:01.250087', 'https://spoonacular.com/recipeImages/637631-556x370.jpg', 45, '<ol><li>For Burgers:</li><li>In a pan cook turkey bacon according to directions on package.</li><li>Once bacon is done being cooked, take the bacon out and set aside. Add bell pepper and onion into same pan, cook until tender about 10 minutes.</li><li>Add ground beef to a small bowl, add garlic powder and ground pepper, mix well.</li><li>Divide the raw meat into 8 equal pieces (I used my scale to measure into 2oz each piece). Flatten out the hamburger, and place 1/2 a cheese wedge onto each piece of hamburger. Take the other pieces of the hamburger and place on top of the cheese , and squish them togther and seal the edges so the cheese doesnt ozzz out. Place on grill and cook until done. About 5 minutes per side.</li><li>Place burger on buns, top the burgers with bacon, peppers & onions and sauce.</li><li>For Spicy Chipotle Aiolo Sauce:</li><li>In a small bowl place all the ingredients together and wisk together until combined.</li><li>Makes 3/4 cups or 12 Tablespoons</li></ol>', 'http://www.foodista.com/recipe/VWDL3M4T/cheesy-bacon-burger-with-spicy-chipotle-aiolo-sauce', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'chipotle chiles in adobo
 fat free mayonnaise
 garlic
@@ -7709,6 +8989,18 @@ sugar
 water
 yeast
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (707, 'Crepes Suzette', NULL, '2021-04-27 14:56:19.581806', '2021-04-27 14:56:19.581806', 'https://spoonacular.com/recipeImages/640767-556x370.jpg', 45, '<ol><li>FOR THE CREPES: Combine all liquid ingredients in a blender. Add the dry ingredients and 1/4 cup melted butter; mix on high.</li><li>Let batter rest for 30 minutes.</li><li>Heat a nonstick 10 inch skillet over medium high heat. Brush bottom and sides of pan with a bit of melted butter.</li><li>Ladle 1/2 cup batter into skillet and swirl to coat bottom evenly. Cook until lightly browned, about 1-2 minutes. Using a spatula or your fingers, flip the crepe and cook the other side until lightly browned, about 30 seconds to 1 minute.</li><li>Transfer crepes to a platter. Layer crepes over each other with parchment paper in between.</li><li>If necessary, add more butter to the pan. Repeat with the rest of the batter.</li><li>FOR THE SAUCE: Melt 1/4 cup butter in a skillet over LOW fire. Add the sugar and allow to melt. Be patient. Make sure that the heat is at its lowest. Add the lemon juice and mix well. Add the lemon zest.</li><li>Add the crepes, 3-4 at a time and allow to cook in the sauce for 1 minute. Remove from the pan. Arrange on a plate and pour the sauce over the crepes and serve warm.</li><li>Makes 8 crepes. Serving size is 2 crepes.</li></ol>', 'http://www.foodista.com/recipe/KD8ZMRJ6/crepes-suzette', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'butter
+eggs
+flour
+lemon juice
+lemon zest
+milk
+salt
+sugar
+unsalted butter
+water
+white sugar
+');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (575, 'Barbecue Chicken Cauliflower Couscous Bowls', NULL, '2021-04-27 14:55:28.239347', '2021-04-27 14:55:28.239347', 'https://spoonacular.com/recipeImages/715420-556x370.jpg', 45, 'In a shallow dish, whisk together the barbecue sauce, orange juice and soy sauce. Add the chicken breasts and toss to fully coat. Set aside to marinate while you prepare the rest of your ingredients.Add the cauliflower florets to the bowl of your food processor. Pulse 5-6 times are until the cauliflower takes on the texture of couscous. Set aside.Heat the butter in a large saut pan over medium heat. Add the onion and cook until tender, about 5-6 minutes. Add the cauliflower, garlic powder and salt and black pepper to taste. Stir to combine. Cook for an additional 5 minutes. Remove from heat and stir in the cheese and cilantro. Cover and set aside until you are ready to serve.Preheat your grill or grill pan over medium to medium-high heat. Grease the grill and then add the chicken. Cook, brushing occasionally with additional marinade, until cooked through, about 10-12 minutes. Flip the chicken about halfway through cooking time. Remove from heat and set aside to rest while you prepare your Swiss chard.Heat the olive oil in a saut pan over medium heat. Add the garlic and cook for 1 minutes, until fragrant. Add the Swiss chard and cook, stirring frequently, until wilted and warm. Season with salt and black pepper.Assemble your bowls, by layering sliced chicken breast and Swiss chard over a bed of cauliflower couscous. Sprinkle with almonds and enjoy immediately!', 'http://www.pinkwhen.com/barbecue-chicken-cauliflower-couscous-bowls/', 'Jen West', 'almonds
 barbecue sauce
 cauliflower
@@ -7769,6 +9061,38 @@ sour cream
 unsalted butter
 white cheddar cheese
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (820, 'New York Strip Steaks in a Cherry Sauce', 'Treat your family to something special tonight: a steakhouse-style recipe that brings a bit of restaurant elegance right into your own kitchen. The centerpiece in this dish is four pieces of New York strip steak, a cut of beef known for its rich flavor. The meat is dressed up in a cherry balsamic sauce that has sophisticated and tart flavors for the adults and just enough sweetness to please the kids. On the side, tender roasted carrots and Parmesan Gruyére mashed potatoes (read: double extra cheesy) make this feast complete.', '2021-05-03 16:43:25.914049', '2021-05-03 16:43:25.914049', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/new-york-strip-steaks-in-a-cherry-sauce-e4562f5f.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/new-york-strip-steaks-in-a-cherry-sauce-5b3e151230006c2781468601', 'HelloFresh.com', 'chives
+yukon gold potatoes
+garlic
+gruyère cheese
+parmesan cheese
+milk
+carrot
+red onion
+dried cherries
+new york strip steak
+beef stock concentrate
+balsamic vinegar
+cherry jam
+butter
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (821, 'Chicken Ranchero Tacos', 'There are few things more satisfying than chicken for dinner. Until now! These smoky, pollo-loaded tacos are hearty, filling, and most of all—absolutely delicious. Tender bites of seared chicken are piled into warm tortillas along with sweet charred corn, tomato salsa, and tangy lime crema. Taco’bout a weeknight win.', '2021-05-03 16:43:25.991649', '2021-05-03 16:43:25.991649', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w29-r17-chicken-ranchero-tacos-f39594e3.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w29-r17-chicken-ranchero-tacos-5cf039c93a938c000e5d7e3c', 'HelloFresh.com', 'roma tomato
+shallot
+lime
+cilantro
+corn on the cob
+ancho chili powder
+sour cream
+chicken breast strips
+southwest seasoning
+flour tortillas
+butter
+vegetable oil
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (580, 'Chicken with Grape Tomatoes and Mushrooms', NULL, '2021-04-27 14:55:28.975225', '2021-04-27 14:55:28.975225', 'https://spoonacular.com/recipeImages/631738-556x370.jpg', 45, 'Heat 1 tablespoon oil in a 12-inch skillet over medium-high heat.  Add the chicken and cook until well browned, stirring often.  Remove the chicken from the skillet.
 Heat the remaining oil in the skillet over medium heat.  Add the mushrooms and cook until tender, stirring occasionally.
 Add the garlic, tomatoes, and onions to the skillet; cook and stir for 1 minute.  Return the chicken to the skillet.  Stir in the Flavor Boost and water; cook until the chicken is cooked through.', 'https://www.foodista.com/recipe/2Y3G5WSH/chicken-with-grape-tomatoes-and-mushrooms', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'olive oil
@@ -7960,6 +9284,20 @@ pecans
 pineapple
 coconut
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (822, 'Melty Mozzarella Burgers', 'Burgers are about as all-American as you can get. But that doesn’t mean they don’t have dreams of voyaging to faraway places. These patties on ciabatta are what happens when cheeseburgers take a trip to Italy. Between the sweetness of the caramelized onion on top, the way the mozzarella melts into loose strands, and the tangy kick brought by balsamic vinegar dressing, you could say these burgers are loaded with dolce vita attitude.', '2021-05-03 16:43:26.040478', '2021-05-03 16:43:26.040478', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a6f48d6ae08b57fff575942-11e04460.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/melty-mozzarella-burgers-5a6f48d6ae08b57fff575942', 'HelloFresh.com', 'red onion
+garlic
+tomato paste
+balsamic vinegar
+ground beef
+mozzarella cheese
+ciabatta bread
+heirloom grape tomatoes
+mixed greens
+dried cranberries
+olive oil
+sugar
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (593, 'Slow Cooker Spicy Hot Wings', NULL, '2021-04-27 14:55:31.033006', '2021-04-27 14:55:31.033006', 'https://spoonacular.com/recipeImages/715419-556x370.jpg', 14, 'Yes, these are called SPICY hot wings for a reason. I like adding the brown sugar to give them a little sweeter taste, but it is by far a delicious spicy recipe more than anything.To get started, mix the brown sugar, crushed garlic, hot sauce, and cayenne pepper into a medium mixing bowl. Mix well and then set aside.Take the cooking spray and spray the entire inside portion of the slow cooker AND also the wings. (Spraying the wings before you grill, bake, or cook chicken keeps the flavor and makes them super juicy. TRUST ME.)Take the wings and add them into the mixing bowl with your spices and toss to get a good even coat over the wings.Place in the slow cooker on low for 4 hours. After 4hours, remove carefully and place on a prepared cookie sheet. Place in the oven under broiler setting for 4-6 minutes, allowing the wings to get a little crisp.Serve immediately with a little blue cheese dressing and celery.', 'http://www.pinkwhen.com/slow-cooker-spicy-hot-wings/', 'Jen West', 'brown sugar
 cayenne pepper
 chicken wings
@@ -8402,6 +9740,21 @@ sugar
 cream
 vanilla
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (708, 'Banana Foster Bread Pudding', NULL, '2021-04-27 14:56:19.594164', '2021-04-27 14:56:19.594164', 'https://spoonacular.com/recipeImages/634091-556x370.jpg', 45, 'Preheat oven to 325 degrees.  In a large bowl, cream together the butter and sugar.  Beat in eggs then stir in the cream, milk, liqueur, cinnamon, vanilla and bread.  Once well combined fold in the sliced bananas carefully.  Pour into a 13x9 baking dish and cook for 90 minutes or until completely set.  This can be served hot, room temp or cold. It can be topped with vanilla ice cream, whipped cream or as I did with the following topping.
+In a sauce pan over medium high heat melt the butter then add the brown sugar.  Once melted add the banana slices and stir gently, cook until the syrup has reduced and the bananas have caramelized.  This will take about 5-10 minutes, be careful to not let your sugar burn. When ready ladle some of this hot sauce over each serving of bread pudding.', 'https://www.foodista.com/recipe/4RYKKRMV/banana-foster-bread-pudding', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'butter
+brown sugar
+eggs
+bread
+heavy cream
+milk
+banana liqueur
+ground cinnamon
+vanilla
+bananas
+bananas
+butter
+brown sugar
+');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (624, 'Dessert Apple Rings With Cinnamon Cream Syrup', NULL, '2021-04-27 14:55:42.033405', '2021-04-27 14:55:42.033405', 'https://spoonacular.com/recipeImages/641435-556x370.jpg', 45, '<ol><li>Whisk egg until frothy and the whisk in water and vanilla. Whisk in flour and salt and let sit while slicing apples.</li><li>Slice peeled apples into 1/2 inch thick slices (you will get about 4 slices per apple).</li><li>Using varying sized biscuit cutters, cut rings out of apple slices, discarding smallest circle containing core.</li><li>Heat oil to 375 degrees.</li><li>Dip apple rings into batter, letting excess drip off.</li><li>Cook in oil in small batches, turning frequently to monitor browning.</li><li>When the rings turn golden brown, remove to a plate and while still hot sprinkle generously with cinnamon sugar.</li><li>Serve immediately with warm drizzled sauce.</li><li>Makes 16 apple rings  serves 4 to 6.</li><li>CINNAMON CREAM SYRUP</li><li>In a small saucepan, combine 1 cup sugar, 1/2 cup corn syrup and 1/2 teaspoon cinnamon. Bring to a boil, stirring for 3 minutes. Remove from heat and cool for 5 minutes. Stir in 1/2 cup evaporated milk. Serve warm.</li></ol>', 'http://www.foodista.com/recipe/DXMVKPRX/dessert-apple-rings-with-cinnamon-cream-syrup', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'all purpose flour
 canola oil
 cinnamon
@@ -8683,6 +10036,16 @@ plain flour
 nuts
 vanilla
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (823, 'Buttered-Up Steak', 'We’re taking things to the height of deliciousness with compound butter—that’s butter mixed with herbs and seasonings. For chefs, this ingredient is the ultimate secret weapon, because it’s just about the easiest and most instantaneous way to sauce up a dish. Here, the stuff is dolloped onto steak to make it taste so incredibly rich. But you might find yourself adding it to everything once you realize just how good it is.', '2021-05-03 16:43:26.097186', '2021-05-03 16:43:26.097186', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/buttered-up-steak-ee380dfa.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/buttered-up-steak-5d6e86767d730d00132e5436', 'HelloFresh.com', 'yukon gold potatoes
+garlic
+parsley
+green beans
+ranch steak
+dijon mustard
+vegetable oil
+butter
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (645, 'Corned Beef Cakes', NULL, '2021-04-27 14:55:51.171637', '2021-04-27 14:55:51.171637', 'https://spoonacular.com/recipeImages/797177-556x370.jpg', 45, 'Wash, peel and boil your potatoes with a pinch of chicken seasoningMash the potatoes and set aside.Mash the corned beef and combine the potatoes, add the chopped onions, parsley, chopped pepper, seasoning and set aside.Whisk the eggs with the milk and pour 3 tablespoons of the mix into the mashed corned beef and potato mix. Scoop a small portion of your mix and mould. Dip it in the egg mix and roll in the breadcrumbs and set aside.In a pan of hot oil, deep fry the corned beef cakes till golden brown. P:S – Place the cakes in gently and also take out gently as this is a softer cake and may crumble easily', 'http://www.afrolems.com/2016/08/08/corned-beef-cakes/', 'Afrolems', 'breadcrumbs
 chicken seasoning
 corned beef
@@ -8780,6 +10143,21 @@ salt
 scallions
 water
 white pepper
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (758, 'Homemade Creamy Ramen Soup', NULL, '2021-04-27 14:56:47.49134', '2021-04-27 14:56:47.49134', 'https://spoonacular.com/recipeImages/646974-556x370.jpg', 45, '<ol><li>In a food processor combine onions, carrots, and garlic and mince well. The pieces should be very small. Heat oil in a soup pot. Add minced vegetables and saute, mixing occasionally, until just soft [7 - 10 minutes]. Add flour, poultry seasoning, turmeric, sea salt, and celery seed and stir constantly for about 30 seconds, coating the vegetables well.</li><li>Pour in the broth and water. Add kombu if you are using it. Bring to boil and then simmer, covered, for 30 minutes.</li><li>After 30 minutes, pour in non-dairy milk and noodles. Let simmer an additional 10 minutes or until noodles are soft.</li><li>Remove from heat and serve immediately.</li></ol>', 'http://www.foodista.com/recipe/8ZNQGLHN/homemade-creamy-ramen-soup', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'carrots
+celery seed
+extra virgin olive oil
+garlic
+gluten-free flour
+kombu
+onions
+poultry seasoning
+rice milk
+rice noodles
+sea-salt
+turmeric
+vegetable broth
+water
 ');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (652, 'Sweet Florida Orange Breakfast Bread', NULL, '2021-04-27 14:55:52.386391', '2021-04-27 14:55:52.386391', 'https://spoonacular.com/recipeImages/662515-556x370.jpg', 45, 'Preheat oven to 350F.
 Grease and lightly flour loaf pans.
@@ -9023,6 +10401,20 @@ sugar
 vanilla extract
 white chocolate
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (824, 'Pork Bolognese Pasta Casserole', 'As the temperature continues to drop, it’s impossible not to daydream about cheesy, baked carbs--a dish that really warms your soul. This killer casserole is guaranteed to satisfy those cold weather cravings. In it, you’ll find Italian-spiced ground pork, hearty kale, and tender bites of al dente penne, all enrobed in a rich tomato sauce. To top things off, there’s a crispy lid of toasty panko and melty mozzarella. The fact that it all comes together in one dish is even more reason to love it.', '2021-05-03 16:43:26.139015', '2021-05-03 16:43:26.139015', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c82a246e3f339140d555ab2-77371d5d.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/pork-bolognese-pasta-casserole-5c82a246e3f339140d555ab2', 'HelloFresh.com', 'penne pasta
+ground pork
+tuscan heat spice
+marinara sauce
+milk
+kale
+chili flakes
+mozzarella cheese
+panko breadcrumbs
+olive oil
+butter
+salt
+pepper
+parsley');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (667, 'Easy Chicken Tandoori', NULL, '2021-04-27 14:55:54.786985', '2021-04-27 14:55:54.786985', 'https://spoonacular.com/recipeImages/641904-556x370.jpg', 45, '<ol><li>Mix the tandoori paste and yogurt well. Marinate the chicken pieces well for about 30 minutes</li><li>Place the chicken pieces along with the marinate into a baking pan and bake until golden brown and then turn over  until chicken is done. Keep turning the chicken pieces a few times while baking. </li><li>Serve with in a bed of rice. Then lay the chicken fillets on the rice and put a bit of greek yogurt</li></ol>', 'http://www.foodista.com/recipe/X8BXB6WT/easy-chicken-tandoori', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'chicken
 curry paste
 fresh coriander leaves
@@ -9110,6 +10502,8513 @@ poppy seeds
 caraway seeds
 sea salt
 ');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (825, 'Cuban Pork Burgers', 'Burgers, like pizza, tend to be good even when they’re just okay. We’ve all hungrily gobbled up overcooked, ketchup-slathered patties on boring buns (on many occasions!) without so much as a second thought. After one bite of this masterpiece, however, your burger standards will undoubtedly sky-rocket. It takes inspo from the Cubano—a beloved, porky sandwich (and true thing of beauty). Our burger-fied rendition boasts toasty, buttered buns, juicy pork patties, melty mozz, crunchy pickles, and a creamy dijon sauce. Plus a side of fries (because how could we not)?', '2021-05-03 16:43:26.189615', '2021-05-03 16:43:26.189615', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w27-r15-cuban-pork-burger-05324246.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w27-r15-cuban-pork-burger-5cdb217a85159500153f7d57', 'HelloFresh.com', 'yukon gold potatoes
+fry seasoning
+dill pickle
+mayonnaise
+dijon mustard
+ground pork
+cumin
+monterey jack cheese
+potato buns
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (826, 'Sriracha Turkey Burgers', 'Have you jumped on the sriracha bandwagon yet? If not, these burgers might convince you to come aboard (and if you already have, they’re sure to delight). The spicy sauce is mixed right into the turkey patties, plus it spikes the mayo that’s slathered on top. Add a ginger-dressed salad to the side, and you’ve got an impeccable combination of both cooling and fiery flavors.', '2021-05-03 16:43:26.239089', '2021-05-03 16:43:26.239089', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w21-r1-8d51dd95.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w21-r1-58e65fea171c586de04c3612', 'HelloFresh.com', 'ground turkey
+shallot
+garlic
+sweet potato
+soy sauce
+sriracha
+ginger
+cilantro
+mixed greens
+potato bun
+mayonnaise
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (827, 'Maple and Rosemary-Glazed Pork Cutlets', 'Apple and maple syrup may sound like ingredients for a breakfast or a baking recipe, but we’ve managed to work those flavors into a quick and simple pork dish. The maple syrup gets stirred into the sauce for the meat, coating each cutlet in sticky deliciousness. The apple, on the other hand, is a highlight in the side salad, which also gets a boost from a creamy dressing. With couscous as a hearty base to back up all those flavors, you’ve got nothing less than sweet, sweet perfection.', '2021-05-03 16:43:26.28832', '2021-05-03 16:43:26.28832', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-r5-03f3f514.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/w10-r5-5a5ce4fbc28800337a57bcd2', 'HelloFresh.com', 'scallions
+rosemary
+apple
+couscous
+pork cutlets
+white wine vinegar
+maple syrup
+chicken stock concentrate
+mayonnaise
+mixed greens
+olive oil
+butter
+salt
+black pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (828, 'French Onion Chicken', 'Meet French onion soup—chicken-fied! Yep, our chefs went and transformed everyone’s favorite cheese-topped soup into a hearty chicken dinner. The two were basically meant to join forces, and once you try a bite, we think you’ll wholeheartedly agree. Think juicy chicken breasts topped with rich, thyme-flecked caramelized onion and melty mozzarella. On the side, there’s roasted carrots and potatoes for good measure. Bon appetit!', '2021-05-03 16:43:26.335603', '2021-05-03 16:43:26.335603', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/french-onion-chicken-653c11d3.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/french-onion-chicken-5df681f313376732637995a1', 'HelloFresh.com', 'carrots
+yukon gold potatoes
+dried thyme
+yellow onion
+red wine vinegar
+chicken stock concentrate
+chicken breasts
+mozzarella cheese
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (829, '"Little Ears" Pasta', 'The backbone of this quick and easy dish is orecchiette—a round-shaped pasta named for the “little ears” they resemble. It’s traditionally associated with Apulia, the southern Italian region from which we drew our inspiration for this recipe. The pasta is tossed with bites of broccoli and sweet sausage, then given a coating of basil-packed pesto and Parmesan cheese.', '2021-05-03 16:43:26.39181', '2021-05-03 16:43:26.39181', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/little-ears-pasta-76dd754b.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/little-ears-pasta-5a99c6d4ae08b574dc28b953', 'HelloFresh.com', 'broccoli florets
+sweet italian pork sausage
+orecchiette pasta
+chili flakes
+pesto
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (830, 'Cauliflower Mac ''n'' Cheese', 'Normally, we don’t mess with classics like mac ’n’ cheese. But when our chefs suggested adding some cauliflower and pancetta, there was no doubt that we just had to go there. The result? A dish that’s as genre-bending as it is comforting. It’s proof that vegetables and comfort food can coexist in melty, creamy, tender, and porky harmony.', '2021-05-03 16:43:26.428244', '2021-05-03 16:43:26.428244', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cauliflower-pancetta-mac-n-cheese-f69048ea.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cauliflower-pancetta-mac-n-cheese-5b5b465e30006c3ad8272442', 'HelloFresh.com', 'scallions
+cauliflower florets
+cavatappi pasta
+pancetta
+flour
+milk
+chicken stock concentrate
+italian cheese blend
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (831, 'Cheesy Beef Tostadas', 'We love a good ground-beef taco, but you don’t need us to tell you how to make one—there are kits for that. Instead, we’re here to show you how to take Tex-Mex night to the next level. So enter the tostada, featuring a flat tortilla baked until crisp, with lots of surface area for piling it on. Thankfully, there are plenty of toppings in this recipe, and not just warmly spiced ground beef—there’s also green pepper, tomato salsa, and a spicy sour cream.', '2021-05-03 16:43:26.472307', '2021-05-03 16:43:26.472307', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e94c0640d7f123476528c9e-f0c6275b.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/cheesy-beef-tostadas-5e94c0640d7f123476528c9e', 'HelloFresh.com', 'roma tomato
+cilantro
+lime
+long green pepper
+yellow onion
+sour cream
+hot sauce
+ground beef
+southwest spice blend
+chili powder
+beef stock concentrate
+flour tortillas
+mexican cheese blend
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (832, 'Pan-Seared Scallops', 'Scallops aren’t just for fancy restaurants. In fact, since all they need to become delectably tender and browned is a quick sear in a pan, they might just be the perfect ingredient for a sophisticated yet simple meal at home. To continue the easy elegance theme, we’re adding toasted hazelnuts, heirloom tomatoes, a buttery potato mash, and a few dashes of Meyer lemon (a fruit that’s a cross between a lemon and an orange and prized for its gently tart flavor).', '2021-05-03 16:43:26.526798', '2021-05-03 16:43:26.526798', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pan-seared-scallops-aa61baf6.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/pan-seared-scallops-59dfb181c94eac0e332dad85', 'HelloFresh.com', 'yukon gold potatoes
+hazelnuts
+shallot
+heirloom grape tomatoes
+chives
+meyer lemon
+milk
+scallops
+white wine vinegar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (833, 'Sizzling Beef Stir-Fry', 'Stir-fries are a handy dish for weeknights because you can get them on the table quickly with minimal fuss. Just prep your protein and veg, whip together a simple sauce, and let those ingredients sizzle in the pan. For this version, we’re tossing beef cubes, bell pepper, and bok choy in a marinade of ginger, garlic, and soy sauce. It’s simple yet tremendously satisfying.', '2021-05-03 16:43:26.573771', '2021-05-03 16:43:26.573771', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/beef-and-garlic-sizzle-stir-fry-a7911f84.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/beef-and-garlic-sizzle-stir-fry-582c27ce5ca1530d2f7e4e52', 'HelloFresh.com', 'beef sirloin tips
+jasmine rice
+soy sauce
+ginger
+garlic
+red onion
+red bell pepper
+baby bok choy
+pepper
+salt
+olive oil
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (834, 'Sweet Pork Tenderloin and Apples', 'Pork has a way of embracing fruity flavors like no other protein. In this recipe, we’re smothering it in chunks of tender, saucy apple, which add a welcome touch of sweetness to the mildness of the meat. On the side, we’ve got sugar snap peas and a mash that tucks cauliflower into the potatoes—it’s so good, no one will notice that you snuck in some extra veggies!', '2021-05-03 16:43:26.617595', '2021-05-03 16:43:26.617595', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/15-04-26660a1e.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/15-04-58af2428c6243b3b7823be54', 'HelloFresh.com', 'pork tenderloin
+cauliflower florets
+yukon gold potatoes
+apple
+sugar snap peas
+dried thyme
+chicken stock concentrate
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (835, 'Pronto Pasta Amatriciana', 'Between their race cars and rapid-fire dialects, the Italians are known for keeping a molto rapido pace. This recipe is an homage to that speed—it turns traditional pasta amatriciana (pasta with pancetta) into a meal that can be prepared in just 20 minutes. You’ll be crushing the tomatoes for the sauce with your hands, just to get a feel for that Old World rusticity. But once they go in the pan, everything comes together with just a few easy stirs.', '2021-05-03 16:43:26.656875', '2021-05-03 16:43:26.656875', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pronto-pasta-amatriciana-97251c0c.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/pronto-pasta-amatriciana-59dfb111a2882a27237b7652', 'HelloFresh.com', 'yellow onion
+asparagus
+pancetta
+italian seasoning
+whole peeled tomatoes
+tagliatelle
+peas
+cream cheese
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (836, 'Parmesan-Crusted Chicken', 'Everything tastes better when cheese is involved, and chicken is no exception. In this recipe, melted Parmesan forms a crispy and super simple crust. We would say it’s the star of the show, but the combination of roasted sweet potatoes, peppery arugula, and tart cranberries is hard to beat.', '2021-05-03 16:43:26.705228', '2021-05-03 16:43:26.705228', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/parmesan-crusted-chicken-w47-5636c329.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/parmesan-crusted-chicken-w47-5807ac03383a7f422a377b72', 'HelloFresh.com', 'sweet potato
+chicken breasts
+parmesan cheese
+panko breadcrumbs
+shallot
+chicken stock concentrate
+lemon
+arugula
+dried cranberries
+pecans
+sour cream
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (837, 'Chili-Loaded Sweet Potatoes', 'To take our chili to the next level, we spiked it with zesty long green pepper, umami’d it up with stock concentrate, and sprinkled in our signature Southwest spice blend. As if that weren’t crazy enough, we piled it all atop split baked sweet potatoes and whipped up a hot sauce crema for dolloping over.', '2021-05-03 16:43:26.756493', '2021-05-03 16:43:26.756493', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cc2016a427b1c00094e8386-ed79f1e7.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/2018w52r15c-chili-loaded-sweet-potatoes-5cc2016a427b1c00094e8386', 'HelloFresh.com', 'long green pepper
+scallions
+garlic
+sweet potato
+ground beef
+southwest spice blend
+tomato paste
+beef stock concentrate
+sour cream
+hot sauce
+monterey jack cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (838, 'Teriyaki-Style Chicken Stir-Fry', 'Forget takeout: the path to sweet-spicy-savory dinner bliss is as simple as breaking out a frying pan! In this recipe, chicken is marinated in a tantalizing ponzu sauce. Tried-and-true steamed broccoli tossed with sesame seeds come together with the chicken over a bed of rice—in 30 minutes, no less! Now that’s a symphony of flavors and textures that are so delicious, you might just lick the plate.', '2021-05-03 16:43:26.824548', '2021-05-03 16:43:26.824548', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/teriyaki-style-chicken-stir-fry-a5efe366.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/teriyaki-style-chicken-stir-fry-606cb5284752ff61a8697db0', 'HelloFresh.com', 'garlic
+ginger
+broccoli florets
+ponzu sauce
+rice wine vinegar
+cornstarch
+sweet soy glaze
+chicken breast strips
+jasmine rice
+sesame seeds
+miso sauce concentrate
+cooking oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (839, 'Slow Cooker Smoky Beef Chili', 'If there ever was a recipe that’s practically made for slow cooking, chili is it. When you make the Southwestern classic in your machine, all of the spices and seasonings have a chance to bring out their best flavors and meld together into savory, satisfying harmony. In our version, the prep is super-duper easy, too. Just make sure to plan ahead, since the cooking takes 6–8 hours depending on the heat setting.', '2021-05-03 16:43:26.879133', '2021-05-03 16:43:26.879133', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-r15-a698695f.jpg', 480, NULL, 'https://www.hellofresh.com/recipes/w10-r15-5a5cf2a02c3e0839cb712632', 'HelloFresh.com', 'tomato paste
+crushed tomatoes
+beef stock concentrate
+smoked paprika
+southwest spice blend
+red onion
+green bell pepper
+ground beef
+black beans
+sour cream
+corn tortillas
+scallions
+monterey jack cheese
+salt
+black pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (840, 'Italian Noodle Soup', 'This is chicken noodle soup the way your Italian grandma would’ve made it. Naturally, there’s a soul-soothing broth flavored with garlic and Tuscan herbs. And it’s got all the veggies to make you strong, like carrot, tomato, and spinach. Although that old-world charm really shines through in the fusilli pasta spirals, sweet chicken sausage, and sprinkle of Parmesan cheese. If you want to claim this one as a generations-old family recipe, we’ll keep it a secret.', '2021-05-03 16:43:26.934578', '2021-05-03 16:43:26.934578', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/italian-noodle-soup-c88ba138.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/italian-noodle-soup-5d60486ff3bf520016127552', 'HelloFresh.com', 'carrot
+yellow onion
+roma tomato
+italian chicken sausage mix
+garlic powder
+italian seasoning
+chicken stock concentrate
+gemelli pasta
+parmesan cheese
+chili flakes
+ciabatta bread
+spinach
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (841, 'Southwest Chicken and Peppers', 'This dish packs all your favorite Southwest flavors into one delicious bowl. Seriously, it’s like a Tex-Mex treasure hunt for tasty toppings. In it, you’ll find chili and cumin spiced chicken, creamy black beans, a tangle of tender peppers, and a dollop of tangy sour cream. The base is a bed of golden-hued rice, which gets its beautiful color from turmeric--a spice that’s been around for centuries. It comes from the root of a plant from the ginger family and it’s known for its earthy flavor and signature deep yellow color. We guarantee you’ll dig this bowl from first to last bite.', '2021-05-03 16:43:26.988227', '2021-05-03 16:43:26.988227', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w4-r14-southwest-chicken-and-peppers-cb5c659c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w4-r14-southwest-chicken-and-peppers-5c0ad8a3c445fa51dd5c4602', 'HelloFresh.com', 'scallions
+long green pepper
+chicken breast strips
+turmeric
+chicken stock concentrate
+jasmine rice
+black beans
+southwest spice blend
+sour cream
+butter
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (842, 'Chicken Lo Mein', 'The secret to supremely slurpable, bouncy lo mein is thick, fresh noodles, which have a satisfying chewiness that you just can’t get with the skinny kind. That’s why our version is such a treat: you’ll be using wide udon noodles, which do an admirable job of soaking up the savory soy and hoisin sauce on each and every one of their squiggly curves. They’re tossed with green beans, carrots, mushrooms, and chicken for a bowlful of veggie- and protein-packed goodness.', '2021-05-03 16:43:27.032553', '2021-05-03 16:43:27.032553', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w18-r5-fam-d39b116d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w18-r5-fam-58cc2ca051d3f119776fea93', 'HelloFresh.com', 'chicken tenders
+green beans
+udon noodles
+ginger
+garlic
+button mushrooms
+veggie stock concentrate
+scallions
+hoisin sauce
+soy sauce
+shredded carrots
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (843, 'Chicken Sausage-Stuffed Zucchini Boats', 'Send your taste buds on a flavorful cruise with this delightful dish. Hollowed-out zucchini “boats” are filled with savory couscous that’s studded with bites of Tuscan-spiced chicken sausage. They’re then blanketed in a layer of Monterey Jack and baked to turn things nice and melty. Once they emerge from the oven, the boats are topped with a spoonful of marinated tomatoes and freshly torn Thai basil. Don’t forget to share all that deliciousness with your first mate!', '2021-05-03 16:43:27.084131', '2021-05-03 16:43:27.084131', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w33-r5-chicken-sausage-stuffed-zucchini-boats-b1d05d8c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w33-r5-chicken-sausage-stuffed-zucchini-boats-5d1b9e1e49fa43001600ccc9', 'HelloFresh.com', 'zucchini
+italian chicken sausage mix
+tuscan heat spice
+israeli couscous
+tomato paste
+roma tomato
+thai basil
+monterey jack cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (844, 'Bavette Steak & Roasted Garlic Pan Sauce', 'Serious about steak? Our chefs are, too. That’s why they took an already-luxurious cut—bavette steak—to the next level by topping it with an equally luxurious pan sauce. Here, roasted garlic and rich beef demi-glace mingle with the fond (aka the crispy bits and drippings left by the seared steak) to create a condiment that you’ll want to drizzle over just about everything. Speaking of delicious things to drizzle with sauce, we’re serving up sides of chive-flecked mashed potatoes and crisp roasted asparagus.', '2021-05-03 16:43:27.120339', '2021-05-03 16:43:27.120339', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/6048cc5b573e7d3b8d555243-044a399e.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/bavette-steak-roasted-garlic-pan-sauce-6048cc5b573e7d3b8d555243', 'HelloFresh.com', 'yukon gold potatoes
+chives
+asparagus
+garlic
+sour cream
+bavette steak
+beef demi-glace
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (845, 'Shrimp and Zucchini Ribbons', 'When sliced thinly, raw zucchini can provide all the fresh crispness of a salad while also holding the fresh flavors of a citrus marinade. Which is why it’s perfect for this recipe, bringing a cool contrast to the chili-accented shrimp and warm jasmine rice. It even gets an additional boost from an infused basil olive oil, which creates a wave of herby aromatics.', '2021-05-03 16:43:27.162145', '2021-05-03 16:43:27.162145', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c3e55f5e3f3394d7a20fe02-ec79361f.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/shrimp-and-zucchini-ribbons-5c3e55f5e3f3394d7a20fe02', 'HelloFresh.com', 'scallions
+jasmine rice
+lemon
+zucchini
+basil oil
+shrimp
+chili flakes
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (846, 'Roast Turkey & Classic Gravy', 'Antibiotics responsibly used only when needed for treatment or prevention of illness. Turkeys raised with no added hormones or steroids. Federal regulations prohibit the use of hormones and steroids in poultry
+See Help Center & FAQ for additional nutrition information.', '2021-05-03 16:43:27.200128', '2021-05-03 16:43:27.200128', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/roast-turkey-4652ad21.jpg', 60, NULL, 'https://www.hellofresh.com/recipes/roast-turkey-5f7cb87cb5dd9a62d7452c96', 'HelloFresh.com', '14-16lb honeysuckle white turkey
+lemon
+shallot
+garlic
+thyme
+garlic herb butter
+salt
+pepper
+dried thyme
+sage
+flour
+chicken demi-glace
+chicken stock concentrate');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (847, 'Crispy Mozzarella Chicken', 'Think of this recipe as a new take on chicken Parmesan. Herbs, breadcrumbs, and mozzarella are heaped onto chicken to create a glorious crown of a crust. In place of marinara, roasted tomatoes add a sweet and tangy punch. On the side, you’ve also got some crispy potatoes because, hey, why not?', '2021-05-03 16:43:27.259619', '2021-05-03 16:43:27.259619', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-mozzarella-chicken-8c82dbd7.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/crispy-mozzarella-chicken-59a83c99c9fd08100c794443', 'HelloFresh.com', 'yukon gold potatoes
+roma tomato
+garlic
+panko breadcrumbs
+dried oregano
+paprika
+mozzarella cheese
+chicken breasts
+thyme
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (848, 'Bavette Steak & Burst Tomato Sauce', 'Tomato sauce is for way more than just pasta, people! Here, it shines atop bavette steak—but this is not your average marinara. Grape tomatoes caramelize and burst in the pan creating their own silky sauce. (Cue the swoons.) To take things to the next level, everything is served over a creamy, dreamy Parmesan risotto. It’s perfect for elevating this already-rich and delicious meal—and for catching any extra sauce! Yeah, you may just feel the need to break out the guest-only plates for this one.', '2021-05-03 16:43:27.301651', '2021-05-03 16:43:27.301651', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/bavette-steak-burst-tomato-sauce-92a677a3.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/bavette-steak-burst-tomato-sauce-5e0a590f9c1aaa0c191a78fc', 'HelloFresh.com', 'garlic
+shallot
+chicken stock concentrate
+arborio rice
+bavette steak
+grape tomatoes
+balsamic vinegar
+parmesan cheese
+crème fraîche
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (849, 'Lauren Conrad''s Chicken Tacos', 'And last, but certainly not least, in the Lauren Conrad Capsule Menu… tacos! These come packed with chicken decked out in our fragrant Southwestern Spice Blend and topped with a beautiful pink radish salsa. Creamy avocado and tangy lime tie everything together for an easy-peasy recipe that’s got Lauren’s stamp of approval.', '2021-05-03 16:43:27.345539', '2021-05-03 16:43:27.345539', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwest-chicken-tacos-4a4c7ca4.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/southwest-chicken-tacos-5c0058bde3f33923ad7851e2', 'HelloFresh.com', 'roma tomato
+radishes
+scallions
+lime
+chicken breast strips
+southwest spice blend
+avocado
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (850, 'Rustic Beef Ragu', 'Tomato-y beef ragù is practically soulmates with spaghetti—we can’t even remember the last time we saw the former without the latter. So it’s something of a scandal to see the sauce gracing a bed of herbed couscous in this recipe. But the fluffy grains do an admirable job of soaking up all that savory flavor, which is rounded out by the addition of veggies like sweet bell pepper and juicy zucchini.', '2021-05-03 16:43:27.384646', '2021-05-03 16:43:27.384646', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w13-r2-5627144a.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w13-r2-589cab5351d3f158d93a98a3', 'HelloFresh.com', 'ground beef
+garlic
+italian seasoning
+beef stock concentrate
+zucchini
+parmesan cheese
+red onion
+red bell pepper
+diced tomatoes
+couscous
+parsley
+rosemary
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (851, 'Monster Mac ''N'' Cheese', 'Mac ’n’ cheese is always guaranteed to be a mega success at dinnertime, but this recipe is truly a monster hit (and not just because it’s Halloween). It’s got plenty of creamy goodness thanks to béchamel sauce and a blend of Italian cheeses. But there are also cubes of porky pancetta (perfect for pleasing your littlest zombies) as well as brainy cauliflower, which doesn’t just look cerebral but is good for your noggin, too.', '2021-05-03 16:43:27.435731', '2021-05-03 16:43:27.435731', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/monster-mac-n-cheese-53730f0a.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/monster-mac-n-cheese-59baf051ad1d6c4ff233acd2', 'HelloFresh.com', 'scallions
+cauliflower florets
+cavatappi pasta
+pancetta
+flour
+milk
+chicken stock concentrate
+italian cheese blend
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (852, 'Scallops Over Corn Risotto', 'Risotto is generally thought of as a wintry dish, but when you carefully pair it with some bright and bold ingredients, as our chefs have done, you’ve got a recipe for a summery delight. Here, the rice is mixed with fresh corn kernels and Parmesan cheese, then topped with buttery scallops. For contrast, tomatoes, basil, and a spicy lime compound butter are scattered on top, which introduce a flash of brilliant flavors.', '2021-05-03 16:43:27.47894', '2021-05-03 16:43:27.47894', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b47c4d7ae08b546e417eef2-c8cd117b.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/w35-r11-5b47c4d7ae08b546e417eef2', 'HelloFresh.com', 'veggie stock concentrate
+corn on the cob
+garlic
+shallot
+lemon
+arborio rice
+heirloom grape tomatoes
+thai basil
+scallops
+parmesan cheese
+chili lime butter
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (853, 'Thai Pork Stir-Fry', 'Thai cuisine may be known for its heat, but it also features more mild recipes that focus on herbs and aromatics. Our spin on a traditional meat and herb stir-fry puts mint and ginger front and center—the pair showers the veggies and pork in bright and cheerful flavors that leap off the plate.', '2021-05-03 16:43:27.532906', '2021-05-03 16:43:27.532906', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-thai-moo-pad-krapow-w03-ff651ba2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/uk-thai-moo-pad-krapow-w03-5841a9826121bb7cb430f1b2', 'HelloFresh.com', 'basmati rice
+mint
+garlic
+green beans
+red bell pepper
+ground pork
+soy sauce
+scallions
+ginger
+honey
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (854, 'Crispy Maple-Mustard Chicken', 'Some say crispy panko-coated chicken is pretty tough to top. Those people clearly don’t know our chefs. They went and made crispy chicken 25x (a scientific number) more delicious by drizzling it with a lick-your-plate-style maple and mustard sauce. On the side, there’s seasoned potato wedges and crispy-edged roasted carrots. The best part? Everything comes together on one baking sheet in under 40 minutes. Because couldn’t we all use a little more time (and much fewer dishes to wash)?', '2021-05-03 16:43:27.577082', '2021-05-03 16:43:27.577082', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e0a4a6d8d603577985a7f87-83827265.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/crispy-maple-mustard-chicken-5e0a4a6d8d603577985a7f87', 'HelloFresh.com', 'yukon gold potatoes
+carrots
+fry seasoning
+panko breadcrumbs
+maple syrup
+dijon mustard
+chicken breasts
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (855, 'Upgraded Steak and Potatoes', 'Talk about restaurant-quality meals at home! This stunner of a dinner comes together with seared steak, a decadent herb pan sauce, and a colorful pairing of sweet potatoes and green beans. There’s even a French flair in there with a sprinkling of crunchy slivered almonds, also known as amandine.', '2021-05-03 16:43:27.613114', '2021-05-03 16:43:27.613114', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/seared-steak-with-butternut-5ccbce1e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/seared-steak-with-butternut-5820aa8dd36aaa3fe32ef7c2', 'HelloFresh.com', 'sirloin steak
+sweet potato
+beef demi-glace
+thyme
+green beans
+almonds
+salt
+pepper
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (856, 'Lobster Ravioli & Shrimp', 'Tender ravioli are pretty much great in any form, but they’re especially great when packed with fresh lobster and pillowy ricotta. Add succulent, seared shrimp to the mix and it’s a crustacean celebration! This divine dish is taken to the next level with a creamy, pink-hued tomato sauce, golden crispy breadcrumbs, and a sprinkle of fresh lemon zest. Be still, our pasta-loving hearts…', '2021-05-03 16:43:27.648156', '2021-05-03 16:43:27.648156', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5f57bc6615204045400fcb59-13cbaf40.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/lobster-ravioli-shrimp-5f57bc6615204045400fcb59', 'HelloFresh.com', 'scallions
+lemon
+shrimp
+panko breadcrumbs
+lobster ravioli
+italian seasoning
+tomato paste
+cream cheese
+sour cream
+parmesan cheese
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (857, 'Kale and Quinoa Power-Up Salad', 'Quinoa kale salad: three words that never fail to capture our attention. This dish isn’t just loaded with the good stuff, it also has plenty of other delicious toppings that make it impossible to resist: a honey Dijon dressing, cranberries, almonds, and feta cheese. In other words, it’s pure and powerful awesomeness in a bowl.', '2021-05-03 16:43:27.707971', '2021-05-03 16:43:27.707971', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/marinated-kale-and-quinoa-salad-a887e8cd.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/marinated-kale-and-quinoa-salad-5845cdf3d4d92c08e441dfa2', 'HelloFresh.com', 'quinoa
+veggie stock concentrate
+tuscan kale
+red wine vinegar
+honey
+almonds
+dill
+feta cheese
+dried cranberries
+dijon mustard
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (858, 'Asparagus Risotto', 'Risotto is the food equivalent of a big bear hug. Sure, whipping up this dish requires a little extra attention (and stirring), but the results are beyond worth it. Luckily, our chefs have made nailing it easier--and tastier--than ever. This version has pops of delicately-crisp asparagus and juicy tomato, and for an extra-special finishing touch, a swirl of garlic herb butter and sprinkle of nutty Parmesan. You had us at risotto.', '2021-05-03 16:43:27.756629', '2021-05-03 16:43:27.756629', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w14-r9-asparagus-risotto-d0385292.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2019-w14-r9-asparagus-risotto-5c6700cfe3f33901af389e42', 'HelloFresh.com', 'veggie stock concentrate
+yellow onion
+arborio rice
+asparagus
+roma tomato
+garlic herb butter
+parmesan cheese
+chili flakes
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (859, 'Creamy Dill Chicken', 'This dish features the key to a crowd-pleasing dinner: sauce! Who could turn down a drizzly herb and Dijon concoction, especially one that’s draped across pan-seared chicken, roasted potatoes, and green beans? No one, we say. At least, not anyone we’ve met. So get ready for the creamiest, most showstopping sauce celebration you have experienced yet.', '2021-05-03 16:43:27.79777', '2021-05-03 16:43:27.79777', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/605a4458d01b8e158a19db53-35d08577.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamy-dill-chicken-605a4458d01b8e158a19db53', 'HelloFresh.com', 'dill
+yukon gold potatoes
+chicken cutlets
+green beans
+sour cream
+chicken stock concentrate
+dijon mustard
+vegetable oil
+salt
+pepper
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (860, 'Creamy Shrimp Tagliatelle', 'Pronto! Pronto! You can make this recipe with the lightning speed of an Italian race car. Thanks to fresh tagliatelle, which cooks faster than the dried kind, you arrive at al dente perfection in a matter of minutes. The shrimp and heirloom tomatoes only need a quick toss in the pan, too, becoming tender on the count of uno, due, tre.', '2021-05-03 16:43:27.838034', '2021-05-03 16:43:27.838034', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a8f0fcbae08b52f161b5832-033c9a4a.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/creamy-shrimp-tagliatelle-5a8f0fcbae08b52f161b5832', 'HelloFresh.com', 'garlic
+scallions
+chili pepper
+heirloom grape tomatoes
+lemon
+shrimp
+tagliatelle pasta
+sour cream
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (861, 'Salsa Verde Enchiladas', 'Saucy, smothered, hearty, and delicious: this enchilada bake has everything you could possibly want in a recipe. You’ll make it by wrapping tortillas around a filling of poblano pepper, tomato, and beans, then coating the bundles with a healthy glug of mild green salsa and a sprinkle of Monterey Jack cheese. Put it in the oven and let it get piping hot and bubbly, and all you’ll have left to do is add a drizzle of spiced sour cream and dig in to that deliciousness.', '2021-05-03 16:43:27.882802', '2021-05-03 16:43:27.882802', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e838ed26d09bc180e655e61-b3fc7c04.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/salsa-verde-enchiladas-5e838ed26d09bc180e655e61', 'HelloFresh.com', 'scallions
+poblano pepper
+roma tomato
+black beans
+southwest spice blend
+flour tortillas
+green salsa
+monterey jack cheese
+sour cream
+vegetable oil
+butter
+salt
+pepper
+chili pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (862, 'Meatloaf Balsamico', 'There’s nothing wrong with the classics, and meatloaf is about as classic as you can get. But since we’re all about keeping it fresh, we figured there also wasn’t anything wrong with giving it a twist. That’s why we’re adding a layer of balsamic ketchup glaze on top. It’s a simple way to upgrade your ’loaf, especially when it’s served with green beans and mashed sweet potatoes.', '2021-05-03 16:43:27.931775', '2021-05-03 16:43:27.931775', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c87d7c8e3f339022e407952-17cc5436.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/meatloaf-balsamico-5c87d7c8e3f339022e407952', 'HelloFresh.com', 'garlic
+parsley
+yellow onion
+balsamic vinegar
+ketchup
+panko breadcrumbs
+ground beef
+sweet potato
+green beans
+honey
+almonds
+olive oil
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (863, 'Cavatappi, Penne & Orzo Pasta Bundle', 'If it were up to us, pasta night would occur at least 3x per week. You too? We’ve got you covered with this bundle of delicious pastas! In it, you’ll find curly cavatappi, classic penne, and tiny-but-mighty orzo. Boil until al dente (that’s “to the tooth” in Italian), then toss each in whatever sauce your heart desires. There’s truly no wrong way to do it. 
+Nutrition information for 3 oz of Cavatappi pasta is as follows: Calories: 320, Fat: 1.5 g, Saturated Fat: 0 g, Cholesterol: 0 mg, Sodium: 0 mg Carbohydrate: 66 g, Sugar: 3 g, Fiber: 3 g, Protein: 11 g. 
+Nutrition information for 3 oz of Penne pasta is as follows: Calories: 320, Fat: 1.5 g, Saturated Fat: 0 g, Cholesterol: 0 mg, Sodium: 0 mg Carbohydrate: 66 g, Sugar: 3 g, Fiber: 3 g, Protein: 11 g. 
+Nutrition information for 3 oz of Orzo pasta is as follows: Calories: 320, Fat: 1.5 g, Saturated Fat: 0 g, Cholesterol: 0 mg, Sodium: 0 mg Carbohydrate: 66 g, Sugar: 3 g, Fiber: 3 g, Protein: 11 g.', '2021-05-03 16:43:27.985677', '2021-05-03 16:43:27.985677', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cavatappi-penne-orzo-pasta-bundle-972048ba.jpg', 9, NULL, 'https://www.hellofresh.com/recipes/cavatappi-penne-orzo-pasta-bundle-601ad60ce3415c70001d4b6a', 'HelloFresh.com', 'cavatappi pasta
+orzo pasta
+penne pasta');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (864, 'Melty Monterey Jack Burger', 'There are a lot of burger recipes out there, we know. But we like to think that this is the burger that tops all burgers, thanks to oozy, melty Monterrey jack cheese and jammy balsamic onions. Oh, and we should mention that this patty comes with zucchini fries on the side, so you can get your fix of crispy, crunchy finger foods and a dose of veg all in one.', '2021-05-03 16:43:28.002212', '2021-05-03 16:43:28.002212', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w08-r05-family-08279d4a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/w08-r05-family-5873c1809df1813ef7099662', 'HelloFresh.com', 'red onion
+garlic
+balsamic vinegar
+zucchini
+ground beef
+dried oregano
+mayonnaise
+ketchup
+panko breadcrumbs
+monterey jack cheese
+potato buns
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (865, 'Glazed Pork Tenderloin with Caramelized Sweet Potato and Crispy Green Beans', 'The sweet and savory combination of maple, thyme, and chicken stock makes for a delectable glaze over juicy pork tenderloin. Roasted sweet potatoes and crispy roasted green beans complete this seasonal plate.', '2021-05-03 16:43:28.052683', '2021-05-03 16:43:28.052683', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5658cc484dab71572d8b4567.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/glazed-pork-tenderloin-with-caramelized-sweet-potato-and-crispy-green-beans-5658cc484dab71572d8b4567', 'HelloFresh.com', 'pork tenderloin
+thyme
+sweet potato
+green beans
+garlic
+maple syrup
+chicken stock concentrate
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (866, 'Crispy Fish Tacos', 'Crispy fish tacos offer something that not all soft tacos have: because the fish is battered and fried, you get a mouthful of satisfying crunch in each bite. But because they’re fried, we’ve usually left making them to the pros—until now. Our hack will have you achieving that perfect golden-brown crust in the pan, no special equipment required. And to double the crunch, there’s also a snappy quick-picked slaw to go on top.', '2021-05-03 16:43:28.085687', '2021-05-03 16:43:28.085687', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-fish-tacos-67718c0a.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-fish-tacos-593190494f78db3b3d54b842', 'HelloFresh.com', 'radishes
+cilantro
+lime
+carrots
+flour
+cornstarch
+baking powder
+tilapia
+blackening spice
+flour tortilla
+sour cream
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (867, 'Sizzling Beef Stir-Fry', 'Stir-fries are a handy dish for weeknights because you can get them on the table quickly with minimal fuss. Just prep your protein and veg, whip together a simple sauce, and let those ingredients sizzle in the pan. For this version, we’re tossing beef cubes, bell pepper, and bok choy in a marinade of ginger, garlic, and soy sauce. It’s simple yet tremendously satisfying.', '2021-05-03 16:43:28.138933', '2021-05-03 16:43:28.138933', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w14-r2-7460327b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w14-r2-58a62dba4f78db0a7d478563', 'HelloFresh.com', 'beef sirloin tips
+jasmine rice
+soy sauce
+ginger
+garlic
+red onion
+red bell pepper
+baby bok choy
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (868, 'Southwest-Spiced Steak', 'Imagine your steak tacos get a serious upgrade- and that’s what''s happening in this dish. Your steak is transformed with this southwest pan sauce. It’s made by adding layers of flavors and spices like chili pepper and cumin with tangy tomato and smooth sour cream. Then roasted sweet potatoes and peppers get mixed with fresh tomato and zesty lime to serve with the steak. The end result is an elevated take on Tex-Mex.', '2021-05-03 16:43:28.193557', '2021-05-03 16:43:28.193557', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwest-spiced-steak-b49e8414.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/southwest-spiced-steak-5c017e5be3f3391c1a53a702', 'HelloFresh.com', 'sweet potato
+poblano pepper
+lime
+roma tomato
+ranch steak
+southwest spice blend
+tomato paste
+beef stock concentrate
+hot sauce
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (869, 'One-Pan Ravioli Gratin', 'Gratin is a fancy French way of saying this dish is topped with cheesy breadcrumbs and heated under the broiler until brown and crispy. So it essentially translates to “delicious,” right? But what takes this dinner to the next level is the fact that it’s made in only one pot. Talk about an easy clean-up.', '2021-05-03 16:43:28.242203', '2021-05-03 16:43:28.242203', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mushroom-ravioli-gratin-c1209ef7.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/mushroom-ravioli-gratin-57c9af39f31cf1b0578b4568', 'HelloFresh.com', 'mushroom ravioli
+button mushrooms
+sour cream
+veggie stock concentrate
+parmesan cheese
+panko breadcrumbs
+yellow onion
+thyme
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (870, 'Thyme Gravy Chicken', 'Food fads come and go. But some recipes are tried, true, and timeless. Like this one: chicken, roasted carrots, and gravy are a trio that’s as top-notch as can be. To jazz things up just a little bit, though, we’re introducing mashed potatoes with Parmesan and black pepper, a combo that’s known in Italy as “cacio e pepe.” Because, hey, even a classic can be improved by the magic powers of cheese.', '2021-05-03 16:43:28.28214', '2021-05-03 16:43:28.28214', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/thyme-gravy-chicken-2f650f11.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/thyme-gravy-chicken-5a14a1b5a5ed193f1a050e62', 'HelloFresh.com', 'carrots
+garlic
+parsley
+russet potatoes
+chicken breasts
+thyme
+chicken demi-glace
+milk
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (871, 'Shrimp with Lobster Ravioli', 'This isn’t your usual ravioli: this is ravioli taken to the heights of luxury. The tender pasta shells are stuffed with lobster meat, so you know they’re going to be special. But it only gets better when you add in tender pink shrimp, turning this dish into a seafood celebration. With a creamy tomato sauce and ribbons of zucchini to finish it off, it becomes the sort of meal you’ll be proud to present as your own.', '2021-05-03 16:43:28.327724', '2021-05-03 16:43:28.327724', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/shrimp-with-lobster-ravioli-6f925197.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/shrimp-with-lobster-ravioli-5d14e1892af8ef00163074d7', 'HelloFresh.com', 'garlic
+shrimp
+tuscan heat spice
+zucchini
+tomato paste
+sour cream
+lobster ravioli
+parmesan cheese
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (872, 'Southwestern Stuffed Peppers', 'This recipe is full of itself—literally. Our roasted bell peppers are stuffed, loaded, pumped up, and packed in a way that is worthy of accolades, all thanks to a ground beef, quinoa, and melty Monterey Jack cheese filling. In the words of one of our happy cooks, this one is “way better than my mom’s family recipe (please don’t tell her that).”', '2021-05-03 16:43:28.374338', '2021-05-03 16:43:28.374338', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwestern-stuffed-peppers-2ee8a156.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/southwestern-stuffed-peppers-5a99c68cae08b574dc28b952', 'HelloFresh.com', 'chicken stock concentrate
+yellow onion
+scallions
+lime
+quinoa
+ground beef
+southwest spice blend
+bell pepper
+crushed tomatoes
+monterey jack cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (873, 'Jerk Chicken Thighs', 'This chicken is liable to vanish from your plate—what a jerk! No, really, it’s coated in jerk seasoning, otherwise known as Jamaica’s gift to spice lovers everywhere. It’s got that island heat and swagger, so to help keep things cool, we added a crisp and refreshing salad with mango and bell pepper. And to really gild the lily, we’re even throwing in some sweet potato wedges dusted with more of that jerk magic.', '2021-05-03 16:43:28.416645', '2021-05-03 16:43:28.416645', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/jerk-chicken-thighs-1c95e20d.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/jerk-chicken-thighs-599f140105346860d1081933', 'HelloFresh.com', 'sweet potato
+jerk seasoning
+garlic
+chicken thighs
+mango
+red bell pepper
+shallot
+lime
+white wine vinegar
+honey
+arugula
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (874, 'Drizzly Balsamic Fig Chicken', 'We''re big fans of pan sauces because they''re a simple way to add extra flavor to dishes. Here, fig jam, balsamic vinegar, and fresh rosemary are allowed to mingle with the natural juices from the chicken to create a sweet and savory condiment that you''ll want to drizzle over everything.', '2021-05-03 16:43:28.465428', '2021-05-03 16:43:28.465428', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/seared-chicken-with-fig-balsamic-ba96cfd2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/seared-chicken-with-fig-balsamic-582636825ca153405516c1e2', 'HelloFresh.com', 'chicken breasts
+shallot
+balsamic vinegar
+chicken stock concentrate
+fig jam
+sweet potato
+rosemary
+arugula
+lemon
+salt
+pepper
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (875, 'Jammy Fig and Brie Grilled Cheese', 'A classic grilled cheese hits the spot for breakfast or lunch. But if you’re going to do it for dinner, you gotta spiff it up. Our version is just fancy enough with brie and sweet fig jam, though all that melty cheese will still take you to a comfy, cozy place. We’re adding on an arugula mushroom salad not just because it’s delish, but also to help keep things classy.', '2021-05-03 16:43:28.510077', '2021-05-03 16:43:28.510077', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/fig-and-brie-grilled-cheese-31750705.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/fig-and-brie-grilled-cheese-58580b4e4348d23f907b9d12', 'HelloFresh.com', 'arugula
+rosemary
+button mushrooms
+brie
+fig jam
+balsamic vinegar
+whole wheat bread
+salt
+pepper
+butter
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (876, 'Rib-Eye Steak Over Truffled Mashed Potatoes', 'When you want to treat yourself to something luxuriantly tasty, nothing offers instant gratification better than a good steak. And we’ve got a great one with our rib-eye, which is prized for its marbling and flavor. All it needs to be perfectly sublime is a simple pan sauce and some equally decadent sides, like almond green beans and truffled mashed potatoes.', '2021-05-03 16:43:28.54701', '2021-05-03 16:43:28.54701', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a7a31cf30006c47e0552392-501facb5.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/strip-steak-over-truffled-mashed-potatoes-5a7a31cf30006c47e0552392', 'HelloFresh.com', 'yukon gold potatoes
+tricolored peppercorns
+parsley
+shallot
+green beans
+ribeye
+beef demi-glace
+sour cream
+truffle oil
+almonds
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (877, 'Good Gravy Pork Chops', 'Goodness gracious! A way to make broccoli that’s kid-approved? Yes, we’ve done it, and it turns out all it takes to make instantly crave-able veggies is a little cheese on top. To complete this cheddar-ific masterpiece, there’s pan-seared pork chops, roasted sweet potatoes, and a classic gravy. We challenge you to find another combination that’s as all-around satisfying.', '2021-05-03 16:43:28.607343', '2021-05-03 16:43:28.607343', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/good-gravy-pork-chops-1f6e12aa.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/good-gravy-pork-chops-59fb7c0b2c9e8679c45363c2', 'HelloFresh.com', 'shallot
+scallions
+sweet potato
+pork chops
+italian seasoning
+flour
+milk
+chicken demi-glace
+broccoli florets
+cheddar cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (878, 'Sweet Apple Pork Chops', 'Pork has a way of embracing fruity flavors like no other protein. In this recipe, we’re smothering it in chunks of tender, saucy apple, which add a welcome touch of sweetness to the mild flavor of the meat. On the side, we’ve got sugar snap peas and a mash that tucks cauliflower into the potatoes—it’s so good, your kids won’t notice you snuck in some extra veggies!', '2021-05-03 16:43:28.658634', '2021-05-03 16:43:28.658634', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-with-cauliflower-mash-w04-1b19f348.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pork-with-cauliflower-mash-w04-5845ca38d4d92c01a105d0a3', 'HelloFresh.com', 'boneless pork chops
+cauliflower florets
+yukon gold potatoes
+apple
+sugar snap peas
+dried thyme
+chicken stock concentrate
+vegetable oil
+salt
+pepper
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (879, 'Herbed Chicken Cutlets', 'At its heart, this is a simple, classic dish: you can’t get much more timeless than mashed sweet potatoes, green beans, chicken, and gravy. But we’ve dressed them up in a way that has both grown-up sophistication and kid-friendly wholesomeness. The meat is seasoned with Italian herbs, and the veg is sprinkled with toasty slices of almond. Plus there’s a dash of brown sugar in the potatoes to provide plenty of pizzazz.', '2021-05-03 16:43:28.69746', '2021-05-03 16:43:28.69746', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/herbed-chicken-cutlets-9914de0d.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/herbed-chicken-cutlets-5b1feda8ae08b50cb1060a72', 'HelloFresh.com', 'shallot
+scallions
+sweet potato
+brown sugar
+green beans
+almonds
+chicken cutlets
+italian seasoning
+flour
+chicken demi-glace
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (880, 'Sweet Chili Chicken', 'One of the most popular sauces used in Thai cuisine is nam jim kai—a sweet concoction that blends hot peppers into a syrup base. Fans of spicy heat will want to drizzle this stuff on everything. But first, we’ll show you how to turn it into a delectable glaze for chicken cutlets. After cooking the meat in the pan, you’ll add Thai chili, some sriracha, sugar, honey, and water, then simmer it down until it coats everything in sticky deliciousness. Meanwhile, the jasmine rice and green beans will be cooking away following some easy prep.', '2021-05-03 16:43:28.744766', '2021-05-03 16:43:28.744766', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w50-r4-sweet-thai-chili-chicken-dce30904.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2018w50-r4-sweet-thai-chili-chicken-5bcf499dae08b51bcb3d39a2', 'HelloFresh.com', 'lime
+ginger
+garlic
+chili pepper
+jasmine rice
+green beans
+chicken cutlets
+honey
+sriracha
+olive oil
+sugar
+vegetable oil
+salt
+pepper
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (881, 'Mustard Pork Chops and Potato Rosti', 'If the name rösti (ROW-shtee) sounds complicated, let us clarify: these are the hash brown cakes of your dreams. Hailing from Switzerland, they involve little more than pan-frying grated potatoes until they’re gloriously golden and crisp. On the plate, they’re perfect for swiping up whatever sauce you’ve got—here, that’s an herby mustard pan sauce that also adorns juicy pork chops.', '2021-05-03 16:43:28.795118', '2021-05-03 16:43:28.795118', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-r04-7f84744f.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/w10-r04-588bac7114d0f164f72d4eb2', 'HelloFresh.com', 'boneless pork chops
+dijon mustard
+thyme
+green beans
+shallot
+yukon gold potatoes
+chicken stock concentrate
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (882, 'Crispy Chicken Milanese', 'The secret to flawless chicken Milanese is butterflying—that means splitting the breasts into cutlets so that you not only have more surface area for the crispy breadcrumbs to adhere to, but also a thinner piece of meat that cooks quickly in the pan. All that deliciousness is best with an easy breezy side—in this case, a lemony arugula salad with slices of succulent yellow squash.', '2021-05-03 16:43:28.829286', '2021-05-03 16:43:28.829286', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-chicken-milanese-6ec4e9a4.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-chicken-milanese-59baee5930a03b56793f2302', 'HelloFresh.com', 'heirloom grape tomatoes
+shallot
+lemon
+yellow squash
+panko breadcrumbs
+chicken breasts
+italian seasoning
+sour cream
+arugula
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (883, 'Yogurt-Marinated Chicken', 'On the menu for tonight is the furthest thing from a boring chicken dinner. Our chefs combined berbere (an Ethiopian spice blend with garlic, red pepper, cardamom, coriander, and fenugreek) with garlic and yogurt for a tangy marinade that becomes ever-so-slightly charred under the broiler. What are you waiting for? Get cooking!', '2021-05-03 16:43:28.8715', '2021-05-03 16:43:28.8715', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chermoula-and-yogurt-spiced-chic-433da6fb.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/chermoula-and-yogurt-spiced-chic-57eab0d8cc7bd0624c566692', 'HelloFresh.com', 'chicken breasts
+berbere
+yogurt
+yellow onion
+zucchini
+garlic
+cilantro
+basmati rice
+lemon
+chicken stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (884, 'Southwest Chicken with Cilantro Chimichurri', 'Chimichurri is the perfect condiment: it’s bright, tangy, herbaceous, and so versatile. Cilantro, garlic, and lime provide punchy flavors that lift everything it touches to new, delicious heights...so why should steaks have all the fun? This week, chimichurri is drizzled over chicken cutlets, along with a lime-spiked jumble of roasted sweet potatoes and green peppers. Don’t be surprised when you find yourself drizzling this sauce over fries or cheese, or spooning it directly into your mouth.', '2021-05-03 16:43:28.91659', '2021-05-03 16:43:28.91659', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w6-r14-chimichurri-chicken-cutlet-5a083a1f.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w6-r14-chimichurri-chicken-cutlet-5c1aa863e3f33935a72f9442', 'HelloFresh.com', 'sweet potato
+green bell pepper
+lime
+garlic
+cilantro
+southwest spice blend
+chicken cutlets
+chicken stock concentrate
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (885, 'Barbecue Pulled Pork Flatbreads', 'Your backyard cookout just met pizza night—worlds collide. The crispy flatbread crust in this dish is loaded with barbecue favorites like ready-to-heat pulled pork and a smoky sauce, then given an Italian accent via mozzarella cheese and tomato. In other words, it’s both lick-your-lips, stick-to-your-fingers good as well as a piping hot piece of pie perfection.', '2021-05-03 16:43:28.957519', '2021-05-03 16:43:28.957519', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/barbecue-pulled-pork-flatbreads-212afd19.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/barbecue-pulled-pork-flatbreads-5aaac04c30006c537937dd82', 'HelloFresh.com', 'roma tomato
+scallions
+pulled pork
+sweet and smoky bbq seasoning
+flatbreads
+mozzarella cheese
+bbq sauce
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (886, 'Cheddar-Crusted Chicken', 'Crispy panko-coated chicken sounded pretty tough to top, but our chefs were up to the challenge. They went and made it 35x (a scientific number) more delicious by adding cheddar cheese and zesty Fry Seasoning to the crunchy coating. And while chicken in this dish is the main event, the sides are excellent accompanying acts. We’re serving up silky mashed sweet potatoes and crispy-edged roasted broccoli for a sweet-and-savory sensation. The best part? Everything comes together in 30 minutes! Talk about a weeknight win.', '2021-05-03 16:43:29.000483', '2021-05-03 16:43:29.000483', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w26-r15-cheddar-crusted-chicken-f46385e1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w26-r15-cheddar-crusted-chicken-5cdad28aa2346500171cb292', 'HelloFresh.com', 'sweet potato
+panko breadcrumbs
+cheddar cheese
+fry seasoning
+chicken breasts
+sour cream
+broccoli florets
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (887, 'Chicken and Spaghetti Alfredo With a Twist', 'This spin on pasta alfredo delivers all the creamy, cheesy goodness you crave … and so much more. Think chunks of seared chicken breast coated with our specialty blend of Mediterranean spices, a serious hit of garlic herb butter (we roast the garlic for you), sautéed shallot, and flecks of chopped fresh parsley. Sold yet? We were the moment we smelled it cooking in our test kitchen.', '2021-05-03 16:43:29.050141', '2021-05-03 16:43:29.050141', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w51r14-chicken-and-spaghetti-alfredo-with-a-twist-24608e2f.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2018w51r14-chicken-and-spaghetti-alfredo-with-a-twist-5bdc544530006c54523e62c2', 'HelloFresh.com', 'chicken breasts
+tuscan heat spice
+garlic herb butter
+shallot
+garlic
+parsley
+spaghetti
+flour
+milk
+cream cheese
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (888, 'Shrimp and Asparagus Risotto', 'One of our favorite things about risottos is that they can breathe new life into otherwise ordinary ingredients. Like shrimp and asparagus, which in any other context might seem like the start of a crisp salad or stir-fry, but here become cozy, warm, and tender when folded into the oozy grains. To freshen things up, we’re adding a dash of Meyer lemon, the hybrid citrus fruit that’s part orange, part lemon, and all tangy deliciousness.', '2021-05-03 16:43:29.101556', '2021-05-03 16:43:29.101556', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w12-r4-ce722a6b.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/w12-r4-589a11c49df1813d8b5d9cb2', 'HelloFresh.com', 'shrimp
+arborio rice
+asparagus
+yellow onion
+garlic
+parmesan cheese
+veggie stock concentrate
+meyer lemon
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (889, 'Sweet ''N'' Smoky Pork Chops', 'If you’re craving something that’s good and hearty, this recipe has got you covered. Pork chops are rubbed with cinnamon and smoked paprika, which bring a layer of warm aromatics to the meat. They’re then roasted and drizzled with a cherry jam sauce that adds sweetness to all that savory. The mashed potatoes on the side stay creamy and classic, but there’s also a crisp apple and carrot slaw to keep things snappy.', '2021-05-03 16:43:29.142695', '2021-05-03 16:43:29.142695', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ccb40a5600e76000c33b4b1-866c0df6.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/sweet-n-smoky-pork-chops-5ccb40a5600e76000c33b4b1', 'HelloFresh.com', 'scallions
+mayonnaise
+white wine vinegar
+shredded carrots
+yukon gold potatoes
+pork chops
+smoky cinnamon paprika spice
+apple
+cherry jam
+sour cream
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (890, 'Hot Honey Chicken', 'Crispy panko-coated chicken, smoky barbecue-spiced potatoes, and easy-peasy steamed broccoli are a pretty obvious recipe for dinnertime success. It’s got your classic trifecta of meat, potatoes, and veg—could you ask for much more? How about a drizzle of hot honey? The stuff combines sweet sensations with spicy good vibrations, making it perfect for taking things beyond ordinary.', '2021-05-03 16:43:29.192141', '2021-05-03 16:43:29.192141', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c4792dae3f339519e330ce2-804fe25d.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/hot-honey-chicken-5c4792dae3f339519e330ce2', 'HelloFresh.com', 'yukon gold potatoes
+sweet and smoky bbq seasoning
+panko breadcrumbs
+chicken breasts
+sour cream
+broccoli florets
+hot honey
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (891, 'Mighty Meatless Bolognese', 'Meat sauce without the meat may seem like an impossible feat. But by golly, we’ve figured it out! Italian-style veggie crumbles have the texture and heartiness that’s essential to any good Bolognese, along with a few built-in seasonings that give them that Old World taste. They also look (and taste) really good smothered in tomato sauce and clinging to strips of tagliatelle pasta. So get those forks ready: everyone will be twirling up every last bite of this Italian-inspired classic.', '2021-05-03 16:43:29.232646', '2021-05-03 16:43:29.232646', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mighty-meatless-bolognese-07c54e0e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/mighty-meatless-bolognese-5a6f473bae08b57ed374f862', 'HelloFresh.com', 'garlic
+shallot
+parsley
+tagliatelle
+italian veggie crumbles
+tuscan heat spice
+crushed tomatoes
+veggie stock concentrate
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (892, 'Apricot-Glazed Chicken', 'Want to add tons of restaurant-level flavor to your chicken with almost no effort? Allow us to introduce you to the mighty pan sauce. Here, sweet apricot jam, shallot, and tangy lemon juice mingle with the fond--the crispy bits and drippings left by the chicken--to create a condiment that you’ll want to drizzle over everything. Speaking of, we’re serving up sides of fluffy couscous swirled with garlic herb butter and simply roasted carrots for maximum dinnertime deliciousness.', '2021-05-03 16:43:29.277241', '2021-05-03 16:43:29.277241', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w16-r14-apricot-glazed-chicken-daabb6fb.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2019-w16-r14-apricot-glazed-chicken-5c798030e3f339182162c042', 'HelloFresh.com', 'carrots
+shallot
+lemon
+chicken stock concentrate
+couscous
+chicken breasts
+apricot jam
+garlic herb butter
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (893, 'Lemon Rosemary Chicken Cutlets', 'A quicker chicken dinner? Check! We’ve got you covered. These cutlets are ready and on the table in just about 20 minutes, yet they’re as sophisticated as something you’d find at your favorite bistro. All this light, summery recipe takes is a little sautéing action for the meat and heirloom grape tomatoes, plus a quick boil for the herbed couscous.', '2021-05-03 16:43:29.321537', '2021-05-03 16:43:29.321537', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemon-rosemary-chicken-cutlets-4c9e65fe.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/lemon-rosemary-chicken-cutlets-5b16caa630006c1b9a6fb0a2', 'HelloFresh.com', 'chicken cutlets
+israeli couscous
+lemon
+heirloom grape tomatoes
+rosemary
+garlic
+chili flakes
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (894, 'Winning Pork Medallions', 'Ladies and gentlemen, I think we have a winner! These medallions might not bring you literal gold, but they’ll guarantee victory at dinnertime, at least. Made from pork tenderloin, the rounds get their name from their medal-like shape. They’re served with a crispy Brussels sprouts hash, potatoes, and an herby tarragon cream sauce—basically, a recipe that’s about as classic and accomplishment-worthy as can be.', '2021-05-03 16:43:29.36217', '2021-05-03 16:43:29.36217', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w18-r4-0eedd82f.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w18-r4-58cc2c37043c3c732d4a8ef2', 'HelloFresh.com', 'pork tenderloin
+brussels sprouts
+yukon gold potatoes
+tarragon
+sour cream
+chicken stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (895, 'Tunisian-Spiced Meatballs', 'Move over, spaghetti, because we’re all about sweet and savory jeweled rice with our meatballs! Yep, the classic Italian dish took a trip East and it’s more delicious and flavorful than ever. To start, ground beef is mixed with Tunisian spice blend⁠—full of warm spices like coriander, smoked paprika, turmeric, cinnamon, and chili powder—then formed into meatballs. They’re roasted to perfection alongside onion wedges and zucchini. The veggies are then stirred into fluffy yellow rice studded with minced onion, sweet golden raisins, toasty almonds, and lemon zest. For a finishing touch, the dish is drizzled with a creamy lemon sauce. Sayonara, marinara!', '2021-05-03 16:43:29.394834', '2021-05-03 16:43:29.394834', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tunisian-spiced-meatballs-35421158.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/tunisian-spiced-meatballs-5d3ef2e0265a5e000c558c49', 'HelloFresh.com', 'zucchini
+red onion
+lemon
+basmati rice
+golden raisins
+turmeric
+chicken stock concentrate
+ground beef
+panko breadcrumbs
+tunisian spice blend
+sour cream
+almonds
+hot sauce
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (896, 'Chipotle Cheddar Mac ''N'' Cheese', 'Mac ''n'' cheese gets along well with everybody and everything. This is a fact. It would practically be a shoo-in for Miss Congeniality if you put it in a pageant. So it’s no surprise that in this recipe, it pairs with tender cauliflower florets and a dash of smoky chipotle chili like they’re the best of friends. The resulting dish is creamy, bubbly, piping hot, and just a little bit fiery and feisty—everything you want from cheesy pasta and then some.', '2021-05-03 16:43:29.452641', '2021-05-03 16:43:29.452641', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chipotle-cheddar-mac-n-cheese-b55b5c0f.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chipotle-cheddar-mac-n-cheese-5a6643fbc288006c45741a72', 'HelloFresh.com', 'cauliflower florets
+garlic powder
+chipotle powder
+fusilli pasta
+panko breadcrumbs
+scallions
+flour
+milk
+cream cheese
+cheddar cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (897, 'Bavette Steak in a Mushroom Sauce', 'Our bavette steak has such a deep, rich, and gloriously meaty flavor that it could be a stand-alone dish with little more than salt and pepper for seasoning. But we’re still adding some top-notch sides and a full-bodied sauce to this recipe so that it soars above and beyond. Ultra-creamy mashed potatoes and tender roasted carrots make it filling and hearty, while the mushroom pan sauce that’s spooned on top has savory complexity.', '2021-05-03 16:43:29.515757', '2021-05-03 16:43:29.515757', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/605a5c8903085f3ea67c2b7e-5cd83cd4.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/bavette-steak-in-a-mushroom-sauce-605a5c8903085f3ea67c2b7e', 'HelloFresh.com', 'yellow onion
+garlic
+carrots
+button mushrooms
+yukon gold potatoes
+sour cream
+bavette steak
+beef demi-glace
+dijon mustard
+vegetable oil
+butter
+salt
+pepper
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (898, 'Mexican Chicken and Rice Bowl', 'The beauty of a bowl-style dinner is the DIY-element. This meal begins with aromatic yellow rice and Southwest-spiced chicken, all jazzed up with homemade salsa and a limey crema. When ready to build your bowl, feel free to go crazy with assembly. Crema on bottom! Rice on top of chicken! Hot sauce on everything!!', '2021-05-03 16:43:29.564676', '2021-05-03 16:43:29.564676', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/enchilada-chicken-stir-fry-bowl-e4fc4dda.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/enchilada-chicken-stir-fry-bowl-5beee55fae08b53506682182', 'HelloFresh.com', 'chicken stock concentrate
+turmeric
+jasmine rice
+long green pepper
+roma tomato
+scallions
+lime
+southwest spice blend
+chicken breast strips
+sour cream
+hot sauce
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (899, 'Meatloaf and Mash', 'These meatloaves have got it. By it, we mean that timeless, classic quality that makes this dish as likely to please picky eaters as those with sophisticated tastes. That’s because it’s built around four no-fail, super-satisfying elements: tender ground beef loaves, creamy mashed potatoes, roasted green beans, and a rich gravy. It might just be our biggest crowd-pleaser yet.', '2021-05-03 16:43:29.615189', '2021-05-03 16:43:29.615189', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/meatloaf-and-mash-7f684371.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/meatloaf-and-mash-5ade5f35ae08b52db3631cb2', 'HelloFresh.com', 'white bread
+milk
+ground beef
+meatloaf spice blend
+ketchup
+yukon gold potatoes
+shallot
+chives
+green beans
+chicken stock concentrate
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (900, 'Pan-Seared Scallops & Lemon Butter Sauce', 'If you think perfectly cooked scallops are only achievable with a dinner reservation at a fancy restaurant, think again! Here, you’ll master the art of the perfect sear, cooking the scallops until they form a beautifully caramelized, golden crust. The garlic-lemon pan sauce that’s drizzled over top is also delicious swiped through bites of crème fraîche mashed potatoes and chili roasted zucchini. Our compliments to the chef… oh yeah, that’s you!', '2021-05-03 16:43:29.662103', '2021-05-03 16:43:29.662103', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pan-seared-scallops-lemon-butter-sauce-c1fc577a.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pan-seared-scallops-lemon-butter-sauce-5fea610f581b1c3485727945', 'HelloFresh.com', 'yukon gold potatoes
+garlic
+chives
+lemon
+crème fraîche
+zucchini
+smoked paprika
+jumbo sea scallops
+seafood stock concentrate
+chili flakes
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (901, 'Lemon Basil Shrimp Skewers', 'We’re bringing back one of your favorite summer grilling recipes and inducting it into the HelloFresh Hall of Fame. These skewers were a big hit with you all last season because they make throwing shrimp on the barbie about as easy as can be. Plus, they’re drizzled in a lemon basil butter sauce that is as delightful as you’d expect it to be—let it dribble onto the orzo with avocado and tomatoes for the ultimate flavor experience.', '2021-05-03 16:43:29.713836', '2021-05-03 16:43:29.713836', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemon-basil-shrimp-skewers-0c856476.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lemon-basil-shrimp-skewers-590c7f243131001c5f56d143', 'HelloFresh.com', 'wooden skewers
+grape tomatoes
+garlic
+lemon
+basil
+white wine vinegar
+orzo pasta
+avocado
+shrimp
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (902, 'Baked Chicken Parmesan', 'Chicken Parmesan is one of those dishes we could eat any night of the week: crispy chicken, melty cheese, tomato-y sauce—what’s not to love? The only obstacle to actually doing so is the cleanup it involves. We were determined to come up with a version that’s quicker and simpler, and we think we’ve just succeeded. The breadcrumb-topped chicken is simply baked in the oven, then nestled into a pan of marinara and served with melty cheese atop al dente rigatoni.', '2021-05-03 16:43:29.756215', '2021-05-03 16:43:29.756215', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w13-r6-4b13cd1a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/w13-r6-589cc56c99052d23550e1084', 'HelloFresh.com', 'chicken breasts
+crushed tomatoes
+garlic
+rigatoni pasta
+fresh mozzarella
+italian seasoning
+onion powder
+panko breadcrumbs
+parmesan cheese
+grape tomatoes
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (903, 'Perfect Penne Bake', 'When we say this recipe is perfect, we really mean it. It’s got all the gooey deliciousness of lasagna with none of the hassle or tedious layering. Featuring tender kale, meaty chicken sausage, a healthy sprinkle of cheese, and penne cooked until it’s just al dente, everything about it is a pasta-lover’s fantasy.', '2021-05-03 16:43:29.802032', '2021-05-03 16:43:29.802032', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/baked-penne-with-chicken-sausage-d986fb6c.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/baked-penne-with-chicken-sausage-58503b914348d24fef7cea62', 'HelloFresh.com', 'italian chicken sausage mix
+red onion
+garlic
+diced tomatoes
+thyme
+penne pasta
+kale
+mozzarella cheese
+parmesan cheese
+tuscan heat spice
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (904, 'Wasabi Lime Salmon', 'It’s not often that you see wasabi outside of a sushi plate. But the sinus-clearing condiment can be used to add an unexpected lift to all sorts of dishes—like this meal of pan-seared salmon and bok choy over soy sauce–infused rice, which is taken from basic to bold with a wasabi lime dressing. Just be sure to add the paste to taste; you want it to have a kick, not a wallop.', '2021-05-03 16:43:29.850322', '2021-05-03 16:43:29.850322', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/wasabi-lime-salmon-1e63bfb0.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/wasabi-lime-salmon-592dcd7e99052d64f4604612', 'HelloFresh.com', 'skin-on salmon
+baby bok choy
+veggie stock concentrate
+jasmine rice
+soy sauce
+ginger
+garlic
+wasabi paste
+mayonnaise
+scallions
+lime
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (905, '"Little Ears" Pasta', 'The backbone of this quick and easy dish is orecchiette—a round-shaped pasta named for the “little ears” they resemble. It’s traditionally associated with Apulia, the southern Italian region from which we drew our inspiration for this recipe. The pasta is tossed with bites of baby broccoli and sweet sausage, then given a nice coating of basil-packing pesto and Parmesan cheese.', '2021-05-03 16:43:29.899021', '2021-05-03 16:43:29.899021', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ab3bdd9ae08b53fd3288602-072b8463.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/little-ears-pasta-5ab3bdd9ae08b53fd3288602', 'HelloFresh.com', 'baby broccoli
+sweet italian pork sausage
+orecchiette pasta
+chili flakes
+pesto
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (906, 'Maple-Glazed Chicken', 'This recipe was made for anyone with an insatiable sweet tooth. You know, the eaters who usually need an extra nudge to eat their veggies. With cinnamon-spiced sweet potatoes and a maple syrup glaze, there will be no shortage of candy-like flavors on the plate, nor of nutrients like vitamin A. But because this is dinnertime, there are still savory elements to anchor it all, like white meat chicken and crisp, garlicky green beans.', '2021-05-03 16:43:29.94464', '2021-05-03 16:43:29.94464', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/maple-glazed-chicken-f2f5fdf5.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/maple-glazed-chicken-59d68d31c94eac138308dec2', 'HelloFresh.com', 'sweet potato
+chicken breasts
+garlic
+green beans
+cinnamon
+maple syrup
+balsamic vinegar
+pecans
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (907, 'Argentine-Spiced Steak', 'Enjoy a taste of Argentina without ever leaving your kitchen thanks to the unbeatable combination of cumin-scented steak and bright green chimichurri sauce. Instead of traditional herbs, we used mellow scallion greens for our own twist on the sauce.', '2021-05-03 16:43:29.98898', '2021-05-03 16:43:29.98898', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/argentine-spiced-steak-a98e8d43.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/argentine-spiced-steak-58012436c7262878fc31ca32', 'HelloFresh.com', 'tri tip steak
+israeli couscous
+lemon
+garlic
+scallions
+red bell pepper
+spinach
+cumin
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (908, 'Pan-Seared Wild Sockeye Salmon', 'Wild sockeye salmon is delicious and luxurious on its own, but our chefs found a way to make it truly incredible thanks to a rich pan sauce. Butter, garlic, Italian herbs, lemon juice, creme fraiche, and chives mingle to create an elixir you’ll want to drizzle over everything. (And now you can!) As if that weren’t enough, there’s also sides of crispy green beans amandine and silky-smooth mashed potatoes. Bon appétit!', '2021-05-03 16:43:30.028088', '2021-05-03 16:43:30.028088', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pan-seared-sockeye-salmon-03a9d4d6.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/pan-seared-sockeye-salmon-5db8943ef2d359448e638536', 'HelloFresh.com', 'wild sockeye salmon
+yukon gold potatoes
+chives
+garlic
+green beans
+seafood stock concentrate
+italian seasoning
+lemon
+almonds
+olive oil
+butter
+salt
+pepper
+crème fraîche');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (909, 'Teriyaki Steak', 'Hankering for a plate of good ol’ steak and potatoes? We’ve got your back. This recipe takes the classics above and beyond with a few flavorful twists. There’s seared steak, creamy wasabi-spiked mashed potatoes, and sesame-sprinkled roasted broccoli. And on top? Sweet teriyaki sauce and fresh ginger create a rich elixir you’ll want to drizzle over everything. And now you can!', '2021-05-03 16:43:30.078957', '2021-05-03 16:43:30.078957', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/teriyaki-steak-6ce73db1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/teriyaki-steak-5dfd129d14ead61489462f43', 'HelloFresh.com', 'broccoli florets
+yukon gold potatoes
+ginger
+sour cream
+wasabi paste
+sesame seeds
+steak
+teriyaki sauce
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (910, 'Teriyaki Chicken Tenders', 'Soy to the world! The time for a simple chicken stir-fry recipe has come. These tenders are tossed in a thick teriyaki glaze, which coats each piece in a flavorful blend of soy sauce, garlic, ginger, and sesame. Served atop a bed of jasmine rice with green beans to the side, they bring a tour-de-force of Asian-style flavors that both kids and adults will find easy to love.', '2021-05-03 16:43:30.124152', '2021-05-03 16:43:30.124152', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a664231ad1d6c6f007d0d72-0c9bca71.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/teriyaki-chicken-tenders-5a664231ad1d6c6f007d0d72', 'HelloFresh.com', 'ginger
+garlic
+scallions
+lime
+jasmine rice
+green beans
+sesame oil
+sesame seeds
+chicken tenders
+soy sauce
+white wine vinegar
+cornstarch
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (911, 'Char-Grilled Barbecue Chicken', 'With the temperatures rising, we’re getting in the mood for some more grill-friendly fare. To scratch that itch, we’re kicking off ’cue season with a favorite: barbecue chicken thighs. They get beautifully smoky and charred on the grill (but are just as delicious if you’d rather make them in your oven). And because there’s no need to mess with a classic, we’re adding a traditional creamy potato salad with green beans on the side.', '2021-05-03 16:43:30.175521', '2021-05-03 16:43:30.175521', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w20-r4-251489f2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w20-r4-58dd64fc3bddb554c0542c12', 'HelloFresh.com', 'chicken thighs
+green beans
+yukon gold potatoes
+scallions
+white wine vinegar
+mayonnaise
+bbq sauce
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (912, 'Chicken Sausage Orzotto', 'Put away your colander, your jumbo-sized pot, and all of those kitchen doodads: everything here can be prepared in one pan, no draining or straining required. This hearty orzo pasta dish is prepared risotto-style, meaning it’s cooked with only the minimum amount of water needed to make it nicely al dente. Plus, fewer tools means quicker cleanup—can we get an aww yeah?', '2021-05-03 16:43:30.209461', '2021-05-03 16:43:30.209461', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-sausage-orzotto-5604a2d2.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/chicken-sausage-orzotto-5c1155f9e3f33903eb462832', 'HelloFresh.com', 'zucchini
+scallions
+italian chicken sausage mix
+italian seasoning
+orzo pasta
+chicken stock concentrate
+crushed tomatoes
+mozzarella cheese
+panko breadcrumbs
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (913, 'Smoky Chicken Fajitas with Charred Pepper and Onion, Garlic-Lime Crema, and Quick-Pickled Jalapeno', 'Fajitas are the ultimate crowd pleaser, especially with fixings as delicious as these. We''re upping the ante with our custom Southwest Spice Blend and an unbeatable lime crema. Finished with tangy quick-pickled jalapenos, this will be a fajita night to remember.', '2021-05-03 16:43:30.255736', '2021-05-03 16:43:30.255736', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5639053afd2cb9c46e8b4567.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/smoky-chicken-fajitas-with-charred-pepper-and-onion-garlic-lime-crema-and-quick-pickled-jalapeno-5639053afd2cb9c46e8b4567', 'HelloFresh.com', 'chicken breasts
+red bell pepper
+lime
+red onion
+jalapeño
+southwest spice blend
+flour tortilla
+sour cream
+cheddar cheese
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (914, 'Meatloaf Balsamico', 'No matter which way you try to dress it up, a meatloaf is all about the meat. Which is why we’re adding little more than a few breadcrumbs to keep it moist and a smattering of balsamic ketchup glaze to keep things interesting. That’s all you really need (along with some green beans and mashed sweet potato) to emphasize the classic timelessness of this dish.', '2021-05-03 16:43:30.29167', '2021-05-03 16:43:30.29167', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/balsamic-glazed-meatloaves-b0a2a140.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/balsamic-glazed-meatloaves-586bd88b7d69bf6ef569b832', 'HelloFresh.com', 'ground beef
+sweet potato
+parsley
+garlic
+yellow onion
+panko breadcrumbs
+ketchup
+balsamic vinegar
+green beans
+almonds
+honey
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (915, 'BBQ Chicken Tacos', 'Everything tastes better in taco form. Case in point: this marvelous mash-up! Steamy tortillas are filled with savory-sweet BBQ chicken and topped with a creamy apple-cabbage slaw and crunchy scallion greens. The best part? They’re ready in a jiff (just 20 minutes!) and couldn’t be easier to whip up. Yep, taco night just got a whole lot better.', '2021-05-03 16:43:30.34131', '2021-05-03 16:43:30.34131', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/bbq-chicken-tacos-23cfb850.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/bbq-chicken-tacos-5d920e2e5d723231c527714b', 'HelloFresh.com', 'firstfruits opal apple
+lime
+scallions
+sour cream
+shredded red cabbage
+chicken breast strips
+bbq sauce
+flour tortillas
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (916, 'Aioli-Topped Crab Cakes', 'Crab cakes are like an express ticket to dinnertime luxury. These prepared patties just need a quick sear in the pan to bring out their brilliant flavor. But they aren’t on their own when it comes to delivering simple deliciousness: not only are they dressed with an impeccably creamy lemon paprika aioli, they also come with an autumn-appropriate cranberry walnut salad and warm, toasty sweet potato wedges that just need a bake in the oven.', '2021-05-03 16:43:30.399402', '2021-05-03 16:43:30.399402', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c798b69c445fa3c0312a642-d9055f39.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/aioli-dressed-crab-cakes-5c798b69c445fa3c0312a642', 'HelloFresh.com', 'sweet potato
+fry seasoning
+dried cranberries
+walnuts
+garlic
+lemon
+mayonnaise
+hot smoked paprika
+crab cakes
+mixed greens
+vegetable oil
+sugar
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (917, 'Soy-Marinated Steak', 'Beef and broccoli over rice is a tried-and-true Asian-style favorite. But to get it just right, you’ve got to hone in on more than just the beef or the broccoli—really, it’s all about the sauce, which can make or break the dish. Luckily, we’ve got a good one: we’re blending creamy peanut butter with garlic and soy, then drizzling it all over to create waves of savory flavor throughout.', '2021-05-03 16:43:30.458834', '2021-05-03 16:43:30.458834', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w21-r2-f2cf4a72.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/w21-r2-58e65ffcd56afa71220915b2', 'HelloFresh.com', 'beef stir-fry
+soy sauce
+lime
+broccoli florets
+jasmine rice
+peanut butter
+scallions
+garlic
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (918, 'Ground Beef and Guacamole Tacos', 'You might’ve made beef tacos from a box before. But beef tacos from a HelloFresh box are in a class of their own, because they’re filled with ingredients that are anything but standard-issue. Between the fresh DIY guacamole, crunchy sliced radishes, juicy bell peppers, and smoky Southwestern-spiced beef, there’s no mistaking these tasty tortillas for the ones you’ve had before. In fact, they’re more than Tex-Mex—they’re Tex-Fresh, if we do say so.', '2021-05-03 16:43:30.501552', '2021-05-03 16:43:30.501552', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-r02-09f51c46.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w10-r02-588bab602e69d707392fab13', 'HelloFresh.com', 'ground beef
+flour tortilla
+avocado
+scallions
+radishes
+red bell pepper
+southwest spice blend
+sour cream
+lime
+vegetable oil
+pepper
+salt');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (919, 'Balsamic-Drizzled Skirt Steak', 'Balsamic vinegar does multiple magical things in this recipe. First, it’s stirred into the sauce to give it an acidity that cuts through and livens up the robust flavor of skirt steak. Then, it’s tossed into an arugula salad and topped with pear, providing a rounded contrast to the sweetness of the fruit. Some of it will inevitably drip into a deep, dark pool on your plate, but luckily the baguette toasts on the side, brushed in a garlic-herb butter, do a swell job of sopping it up.', '2021-05-03 16:43:30.542245', '2021-05-03 16:43:30.542245', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/balsamic-drizzled-skirt-steak-1f91941a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/balsamic-drizzled-skirt-steak-5983800451d3f106a71a2482', 'HelloFresh.com', 'pear
+demi baguette
+button mushrooms
+skirt steak
+garlic herb butter
+balsamic vinegar
+chicken demi-glace
+arugula
+ricotta salata
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (920, 'Bisteccha con Fichi (Steak with Fig Sauce)', 'Sure, we love figs baked into desserts, dried and nestled onto cheese platters, and preserved and slathered on toast for breakfast. But have you ever had them on your dinner plate? For this restaurant-worthy dish, we’re mixing things up by pairing fig jam with tangy balsamic vinegar, plus sautéed shallot, butter, and beef stock. The result? A sweet and savory sauce that’ll totally transform the seared steak it’s drizzled over. And if a little of that sauce also touches the sides of roasted potatoes and almond-studded green beans, lucky you—it goes with everything!', '2021-05-03 16:43:30.588977', '2021-05-03 16:43:30.588977', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/bisteccha-con-fichi-steak-with-fig-sauce-48f01381.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/bisteccha-con-fichi-steak-with-fig-sauce-5fe12203de7084059e3c408f', 'HelloFresh.com', 'yukon gold potatoes
+shallot
+green beans
+sliced almonds
+sirloin steak
+balsamic vinegar
+fig jam
+beef stock concentrate
+salt
+pepper
+olive oil
+vegetable oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (921, 'Butter-Basted Chicken with Cacio e Pepe Mashed Potatoes and Thyme-Roasted Carrots', 'Glazing chicken in a mixture of butter, chicken stock, garlic, and thyme is the ultimate way to ensure juicy, ultra-flavorful meat. Cacio e pepe, a traditional Italian pasta dish, was the inspiration behind these Parmesan and black pepper-spiked potatoes.', '2021-05-03 16:43:30.632561', '2021-05-03 16:43:30.632561', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/560aa82e79a23c30058b4567.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/butter-basted-chicken-with-cacio-e-pepe-mashed-potatoes-and-thyme-roasted-carrots-560aa82e79a23c30058b4567', 'HelloFresh.com', 'chicken breasts
+thyme
+garlic
+idaho potato
+milk
+parmesan cheese
+carrots
+veggie stock concentrate
+butter
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (922, 'Brown Sugar Bourbon Steak', 'Steak and bourbon are a classic pairing, and for good reason—the sweetness of the bourbon complements the beef’s richly savory notes. Here, we take the whiskey in spice-rub form, seasoning the meat with a brown sugar bourbon spice blend for smoky, savory-sweet depth, then sear to perfection. On the side, there’s crispy roasted Brussels sprouts and buttery, scallion-laced mashed potatoes. Think it can’t get any better? More of the spices go into a creamy mustard pan sauce for drizzling over top, because we just can’t get enough.', '2021-05-03 16:43:30.672946', '2021-05-03 16:43:30.672946', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/brown-sugar-bourbon-steak-f7b9250f.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/brown-sugar-bourbon-steak-5edfb15060c9542723786885', 'HelloFresh.com', 'yukon gold potatoes
+brussels sprouts
+ranch steak
+dijon mustard
+mccormick grill mates brown sugar bourbon seasoning
+scallions
+sour cream
+beef stock concentrate
+salt
+pepper
+vegetable oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (923, 'Thai-Spiced Pork and Rice Noodle Stir-Fry', 'Our Thai seasoning is a flavor powerhouse, featuring fragrant coriander and cinnamon and a pinch of chili heat. In this recipe, it transforms mild-mannered ground pork into something incredible, working aromatics into every nook. Sweet mini bell peppers, crunchy peanuts, and a tangle of rice noodles also get thrown into the mix, coming together in a jumble that is a delight to slurp right up.', '2021-05-03 16:43:30.715727', '2021-05-03 16:43:30.715727', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w12-r3-ec15bc7f.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w12-r3-589a10f77d69bf3ccc1c3942', 'HelloFresh.com', 'ground pork
+soy sauce
+lime
+shredded red cabbage
+scallions
+sesame oil
+wide rice noodles
+mini bell peppers
+pork ramen stock concentrate
+peanuts
+thai seasoning blend
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (924, 'Orange-Glazed Chicken', 'Love orange chicken? Then you’ll adore our fresh take on the tried-and-true takeout classic. To get it just right, we knew it had to be all about the sauce. Luckily, ours has a secret weapon: fresh Cara Cara oranges. This pink-hued citrus lends a perfectly sweet-and-sour note to the addicting glaze. On the side, there’s a heap of roasted Brussels sprouts and spiced sweet potatoes (i.e. more delicious things to dip in the sauce). Skip the takeout joint and find out how easy (and tasty) it is to whip up this dish in your very own kitchen!', '2021-05-03 16:43:30.773317', '2021-05-03 16:43:30.773317', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w13-r15-orange-glazed-chicken-cbff466a.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2019-w13-r15-orange-glazed-chicken-5c619b75c445fa47245f0762', 'HelloFresh.com', 'sweet potato
+brussels sprouts
+scallions
+chicken breasts
+cara cara orange
+southwest spice blend
+chicken stock concentrate
+chili flakes
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (925, 'Butter-Basted Chicken', 'Basting is a fancy way of saying juices are poured over meat during cooking to keep it extra moist. In this recipe, thyme-infused butter adds a world of flavor and just the right amount of indulgence to the seared chicken. The meal is rounded out with crispy carrots and mashed potatoes spiked with pepper and creamy Parmesan.', '2021-05-03 16:43:30.821612', '2021-05-03 16:43:30.821612', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/butter-basted-chicken-9e9d4dad.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/butter-basted-chicken-58120773d36aaa0be0661532', 'HelloFresh.com', 'chicken breasts
+gluten free chicken demi glace
+thyme
+garlic
+milk
+carrots
+russet potatoes
+parmesan cheese
+salt
+pepper
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (926, 'Italian Pork Burgers', 'Not to get cheesy, but we’re head over heels for these bodacious burgers. Juicy, Italian-spiced pork patties are topped with melty mozz and a tangle of tangy-sweet balsamic caramelized onions. Everything is then tucked into toasty garlic butter buns (read: garlic bread!) and served with a heap of crispy potato wedges. Pig out!', '2021-05-03 16:43:30.876648', '2021-05-03 16:43:30.876648', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w25-r14-italian-pork-burgers-a726b52a.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w25-r14-italian-pork-burgers-5cd30fdb6d9f0000163437a2', 'HelloFresh.com', 'yukon gold potatoes
+red onion
+brioche buns
+fry seasoning
+balsamic vinegar
+ground pork
+italian seasoning
+garlic powder
+mozzarella cheese
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (927, 'Classic Beef Tacos', 'The week just isn’t complete without a taco night. If you agree (and how could you not?), you’re in luck! Our chefs put together a deliciously classic taco that’s sure to satisfy. Basically, it’s what you picture when you hear (see: dream about) “tacos for dinner.” There’s spiced beef and onion, fresh tomato salsa, chipotle lime crema, and Monterey Jack all piled into steamy-soft tortillas. Taco’bout a killer meal.', '2021-05-03 16:43:30.924902', '2021-05-03 16:43:30.924902', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/classic-beef-tacos-cf4226b3.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/classic-beef-tacos-5df00d27a9e8c74b095cc2f6', 'HelloFresh.com', 'red onion
+roma tomato
+lime
+cilantro
+sour cream
+chipotle powder
+tomato paste
+southwest spice blend
+ground beef
+flour tortillas
+monterey jack cheese
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (928, 'Figgy Balsamic Pork', 'You’ve likely come across figs baked into desserts, dried and nestled onto cheese platters, or preserved and slathered on toast for breakfast. But today, we’re mixing things up by pairing fig jam with tangy balsamic vinegar. The result? A sweet and savory sauce that’ll transform the tender pork tenderloin it’s drizzled on top of.', '2021-05-03 16:43:30.976077', '2021-05-03 16:43:30.976077', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/figgy-balsamic-pork-c01c7c2c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/figgy-balsamic-pork-5d2f8ee9f6202300124402dd', 'HelloFresh.com', 'shallot
+rosemary
+fingerling potatoes
+pork tenderloin
+green beans
+fig jam
+chicken stock concentrate
+balsamic vinegar
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (929, 'Japanese-Style Panko Pork Cutlets', 'Our chefs took inspiration from the dish katsu when coming up with the recipe—think of katsu as Japan’s answer to schnitzel, featuring breaded meat with a savory–sweet sauce. They’ve adapted it slightly, using sour cream as extra insurance to make sure that the crumbs stick to the thin-cut pork. But that change makes a world of difference, guaranteeing a crispy, golden brown crust.', '2021-05-03 16:43:31.016049', '2021-05-03 16:43:31.016049', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/japanese-style-panko-pork-cutlets-c5c3e0c6.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/japanese-style-panko-pork-cutlets-5a2b0d2905346868a85a06e2', 'HelloFresh.com', 'jasmine rice
+panko breadcrumbs
+pork cutlets
+sour cream
+persian cucumber
+scallions
+sesame oil
+sesame seeds
+white wine vinegar
+hoisin sauce
+garlic powder
+ketchup
+soy sauce
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (930, 'Fully Loaded Pork Taquitos', 'Don’t get us wrong, we love a traditional taco—but when we’re in the mood to mix things up, we love taquitos, also known as rolled-up tacos with a crispy outer shell. Here, we achieve the signature taquito crunch factor by baking the stuffed tortillas (full of zesty pork and Mexican cheese) for perfectly golden results—no messy deep-frying required. That crispy crust is the perfect canvas for all our favorite toppings: pico de gallo, creamy guacamole, and hot sauce. Yes, you really can have it all.', '2021-05-03 16:43:31.07455', '2021-05-03 16:43:31.07455', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/60646f2d380e247ef72316db-f2a4fb0c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/fully-loaded-pork-taquitos-60646f2d380e247ef72316db', 'HelloFresh.com', 'yellow onion
+ground pork
+southwest spice blend
+tex-mex paste
+flour tortillas
+mexican cheese blend
+lime
+roma tomato
+sour cream
+guacamole
+hot sauce
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (931, 'Teriyaki Chicken Tacos', 'REMIX! Here at HelloFresh, we’re all about a mash-up. This week, our chefs combined two dishes that were totally meant to be. Sweet-and-savory teriyaki chicken is piled into steamy tortillas along with pickled red onion and a tangy, crunchy slaw. For a finishing touch, the tacos are sprinkled with sesame seeds. One bite will make your taste buds sing.', '2021-05-03 16:43:31.125784', '2021-05-03 16:43:31.125784', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/teriyaki-chicken-tacos-c5e88df8.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/teriyaki-chicken-tacos-5d9e14998e7bc016802dbfb1', 'HelloFresh.com', 'red onion
+red wine vinegar
+sriracha
+sour cream
+shredded red cabbage
+chicken breast strips
+teriyaki sauce
+sesame seeds
+flour tortillas
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (932, 'One-Pan Orzo Marinara', 'If there’s a cooking equivalent of an “easy” button, it’s the one-pan recipe—there’s no random kitchen doodads to search for, no hours spent cleaning. So if easy is what you’re looking for, you’ve come to the right place. Even the orzo pasta here skips the usual separate pot of boiling water and cooks right in the tomato sauce, along with the sausage, onion, and kale. The final step, in which the whole thing is baked to give it a crispy, cheesy finish, doesn’t even need a casserole dish—as long as your pan is ovenproof, it can go straight in the oven.', '2021-05-03 16:43:31.170311', '2021-05-03 16:43:31.170311', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/one-pot-marinara-2cb40b24.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/one-pot-marinara-5b7dabed30006c45ed407ab2', 'HelloFresh.com', 'yellow onion
+orzo pasta
+italian chicken sausage mix
+kale
+italian seasoning
+chili flakes
+crushed tomatoes
+parmesan cheese
+panko breadcrumbs
+italian cheese blend
+olive oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (933, 'Sausage and Pepper Pomodoro Skillet', 'No matter the weather, it’s pretty much impossible not to daydream about cheesy baked carbs. This killer skillet is guaranteed to make those dreams a reality. In it, you’ll find slices of Italian sausage, roasted bell pepper, and fluffy rice all enrobed in a rich marinara sauce. To top things off, there’s a melty layer of mozzarella and Italian cheese. Serve it right from the pan for maximum cheese pull potential and wait for the oohs and aahs from your lucky fellow diners.', '2021-05-03 16:43:31.220062', '2021-05-03 16:43:31.220062', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sausage-and-pepper-pomodoro-skillet-bfc32ce2.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sausage-and-pepper-pomodoro-skillet-5d6e859c764e8b000c075cb5', 'HelloFresh.com', 'bell pepper
+italian pork sausage
+jasmine rice
+yellow onion
+garlic
+italian cheese blend
+tuscan heat spice
+diced tomatoes
+mozzarella cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (934, 'Crantastic Turkey Burgers', 'Is anyone else as crazy about Thanksgiving as we are? We’re happy to indulge in November’s favorite foods well past their season. You will be too after trying these turkey burgers slathered in cranberry mayo, with a cranberry-studded salad on the side. They’ll make you thankful that you can get your gobble gobble on at burger night—or any time of year.', '2021-05-03 16:43:31.26066', '2021-05-03 16:43:31.26066', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-r7-f5f9ddc3.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w10-r7-5a5ce62e2c3e0832746298d2', 'HelloFresh.com', 'sage
+shallot
+ground turkey
+dried thyme
+panko breadcrumbs
+mayonnaise
+cranberry jam
+potato buns
+mixed greens
+dried cranberries
+pecans
+balsamic vinegar
+vegetable oil
+olive oil
+black pepper
+salt');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (935, 'One-Pan Tropical Chicken Tacos', 'It’s not always easy to eat enough fruit. Luckily, these tacos feature plenty of it—plus some bonus veggies, too—thanks to a kiwi, pineapple, and lime salsa (with a bit of onion and cilantro tossed in) that’s probably the easiest way to get picky eaters to eat their produce. The salsa joins warmly spiced chicken and a hot-sauce crema inside warm tortillas. Oh, and bonus alert: it can all be made with just one pan, so cleanup will be a breeze.', '2021-05-03 16:43:31.330245', '2021-05-03 16:43:31.330245', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/one-pan-tropical-chicken-tacos-83ce42f9.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/one-pan-tropical-chicken-tacos-5b3e14b6ae08b5410d11d262', 'HelloFresh.com', 'red onion
+bell pepper
+kiwi
+cilantro
+lime
+pineapple
+chicken breast strips
+blackening spice
+southwest spice blend
+sour cream
+hot sauce
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (936, 'Tuscan Heat Spice', 'Every great home cook needs a well-stocked spice rack—that’s just a fact! We think Tuscan Heat Spice, with dried herbs, garlic powder, and a kick of cayenne, is essential. Add it to your collection today. Perfectly seasoned dishes await. 
+Nutrient values are representative of a 1 Tablespoon.', '2021-05-03 16:43:31.383582', '2021-05-03 16:43:31.383582', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-tuscan-heat-spice-76ebce54.jpg', 1, NULL, 'https://www.hellofresh.com/recipes/tuscan-heat-spice-601069e9eb16cb7fd3099102', 'HelloFresh.com', 'tuscan heat spice');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (759, 'Chilled Swiss Oatmeal', NULL, '2021-04-27 14:56:47.528145', '2021-04-27 14:56:47.528145', 'https://spoonacular.com/recipeImages/638604-556x370.jpg', 10, '<p>-In a small bowl, add oatmeal, yogurt, milk and combine. Let it sit for few minutes or several hours in the refrigerator.  Then add apples, banana, dried fruits and stir until well combined. Top with nuts before serving.</p><p>Note: it tastes best when allowed to sit overnight. Add fruits right before serving to prevent browning and being mushy.</p>', 'https://www.foodista.com/recipe/K232GXCT/chilled-swiss-oatmeal', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'old-fashioned oatmeal
+vanilla yogurt
+milk
+apple
+banana
+cranberry
+walnuts
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (760, 'Easy Banana Pudding', NULL, '2021-04-27 14:56:47.548002', '2021-04-27 14:56:47.548002', 'https://spoonacular.com/recipeImages/715407-556x370.jpg', 45, 'In a mixing bowl combine your 2 cups of milk with your vanilla pudding mix, and beat accordingly for 2 minutes. Add in your condensed milk and stir well. Add your entire can of whipped cream and your tbsp of vanilla. Mix well.Place in your refrigerator for 30 minutes covered with Saran Wrap. Once cooled and gelled, remove from fridge and alternate pudding, wafers, and banana slices into the serving bowl of your choice. Serve immediately, or place back in the refrigerator until serving.', 'http://www.pinkwhen.com/easy-banana-pudding-recipe/', 'Jen West', 'bananas
+instant vanilla pudding
+milk
+sweetened condensed milk
+vanilla
+vanilla wafers
+whipped cream
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (937, 'Cranberry Pineapple Pork Chops', 'Cranberries and pineapple may seem like opposites. One is associated with New England’s cool climes while the other is most likely to be found at a Hawaiian luau. But when they meet in the middle, the result is a fantastically fruit-ful sauce that tastes amazing on pork. Add a cauliflower and potato mash to the side along with some green beans, and you’ve got a produce-filled meal that’s sure to be a hit in every state.', '2021-05-03 16:43:31.39088', '2021-05-03 16:43:31.39088', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5afb3ef5ae08b54f3e77b092-7fd5c120.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/cranberry-pineapple-pork-chops-5afb3ef5ae08b54f3e77b092', 'HelloFresh.com', 'yukon gold potatoes
+cauliflower florets
+parsley
+sour cream
+milk
+pork chops
+pineapple
+cranberry jam
+chicken demi-glace
+soy sauce
+green beans
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (938, 'Vietnamese-Marinated Steak', 'Do you know what the secret is to perfectly caramelized marinades? A pinch of sugar! It adds a hint of sweetness to balance out the spiciness of the jalapeños and tanginess of the lime juice. The other star of this meal is the pickled cucumber and radish salad. It’s quick, crunchy, and one of our go-to side dishes.', '2021-05-03 16:43:31.448488', '2021-05-03 16:43:31.448488', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/vietnamese-steak-a01eb1e8.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/vietnamese-steak-57c9aaa116a8666d028b4568', 'HelloFresh.com', 'sirloin steak
+soy sauce
+garlic
+jalapeño
+radishes
+cucumber
+white wine vinegar
+lime
+mint
+jasmine rice
+sugar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (939, 'Cheesy Chicken Casserole', 'Broccoli and cheddar have a famous friendship—they always taste great together. But these besties also know how to play well with others. Here, they let in chicken and creamy rice for some fun. Everything is all cooked together in one pan, including the last step where it gets baked to melty, bubbly perfection. There’s so much fun, flavorful goodness going on, it’s practically a party.', '2021-05-03 16:43:31.525744', '2021-05-03 16:43:31.525744', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cheesy-chicken-casserole-bf1edea5.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/cheesy-chicken-casserole-5ab3b772ae08b53aea25cd02', 'HelloFresh.com', 'yellow onion
+broccoli florets
+scallions
+roma tomato
+lemon
+chicken breasts
+italian seasoning
+chicken stock concentrate
+chicken demi-glace
+milk
+basmati rice
+italian cheese blend
+cheddar cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (940, 'Penne Primavera', 'Here’s a recipe to celebrate the arrival of spring and its bounty of tender, sweet vegetables. It features a power lineup of baby spinach, peas, and fresh mint that fills the plate with a garden’s worth of green. The trio is tossed into al dente penne pasta and coated in a rich sauce that has both Parmesan and ricotta cheeses. If you love dishes that are wholesome and produce-heavy but with a comforting twist, this one is sure to be right up your alley.', '2021-05-03 16:43:31.586456', '2021-05-03 16:43:31.586456', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/penne-primavera-c6c7c054.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/penne-primavera-5a8360ffae08b51fba45e622', 'HelloFresh.com', 'yellow onion
+lemon
+garlic
+mint
+penne pasta
+spinach
+peas
+ricotta cheese
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (941, 'Lobster Stuffed Ravioli & Shrimp', 'Tender ravioli are pretty much great in any form, but they’re especially great when packed with fresh lobster and pillowy ricotta. Add succulent, seared shrimp to the mix and it’s a crustacean celebration! This divine dish is taken to the next level with a creamy, pink-hued tomato sauce, golden crispy breadcrumbs, and a sprinkle of fresh lemon zest. Be still, our pasta-loving hearts…', '2021-05-03 16:43:31.629868', '2021-05-03 16:43:31.629868', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/606471f505cb795572549d8d-13cbaf40.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/lobster-stuffed-ravioli-shrimp-606471f505cb795572549d8d', 'HelloFresh.com', 'scallions
+lemon
+shrimp
+panko breadcrumbs
+lobster ravioli
+italian seasoning
+tomato paste
+cream cheese
+sour cream
+parmesan cheese
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (942, 'Sirloin & Roasted Garlic Pan Sauce', 'Serious about steak? Our chefs are, too. That’s why they took sirloin steak to the next level by topping it with a luxurious pan sauce. Here, roasted garlic and rich beef demi-glace mingle with the fond (aka the crispy bits and drippings left in the pan by the meat) to create a condiment you’ll want to drizzle over just about everything. Speaking of delicious things to drizzle with sauce, we’re serving up sides of chive-flecked mashed potatoes and roasted broccoli.', '2021-05-03 16:43:31.678607', '2021-05-03 16:43:31.678607', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/601046e74a46755e44641fc2-e2968f9f.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/sirloin-roasted-garlic-pan-sauce-601046e74a46755e44641fc2', 'HelloFresh.com', 'yukon gold potatoes
+chives
+broccoli
+garlic
+sour cream
+sirloin steak
+beef demi-glace
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (943, 'Peppercorn-Gravy Steak', 'The essential elements of this recipe are simple: pan-seared steak, broccoli, and toasts with butter and garlic. And simple is just the thing to support a show-stealing sauce. The gravy uses freshly-crushed peppercorns—when you put a little effort into grinding them yourself, you’ll be rewarded with more vivid and vibrant flavors. That’s because the crushing releases essential oils, bringing a whole ’nother dimension to this dish.', '2021-05-03 16:43:31.718999', '2021-05-03 16:43:31.718999', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5de6dca5e52f114fe46dbbd9-218a7d3d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/peppercorn-gravy-steak-5de6dca5e52f114fe46dbbd9', 'HelloFresh.com', 'garlic
+scallions
+ciabatta bread
+black peppercorns
+broccoli florets
+ranch steak
+beef stock concentrate
+dijon mustard
+sour cream
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (944, 'Vietnamese Marinated Steak', 'Vietnamese cuisine is known for its embrace of electric ingredients, from the nipping jolt of lime juice to the umami-rich swagger of soy sauce and the prickly heat of fresh chiles. And when you combine those forceful flavors and use them to marinate steak, as we’ve done in this recipe, sparks start flying. Each slice of tender, robust sirloin sings with vivid juices, which are matched only by the crisp acidity of the quick-pickled veggie salad on the side.', '2021-05-03 16:43:31.77777', '2021-05-03 16:43:31.77777', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/vietnamese-marinated-steak-52ae56a5.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/vietnamese-marinated-steak-58f9353d2310a834606b6e42', 'HelloFresh.com', 'sirloin steak
+brown sugar
+soy sauce
+garlic
+jalapeño
+radishes
+cucumber
+white wine vinegar
+lime
+mint
+jasmine rice
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (945, 'Berbere Chicken and Zucchini', 'On the menu for tonight is the furthest thing from a boring chicken dinner. Our chefs created a tangy yogurt marinade that features berbere, a potent Ethiopian spice blend with garlic, red pepper, cardamom, coriander, and fenugreek. It’s slathered onto chicken breasts, becoming ever-so-slightly charred under the broiler and imparting some fiercely aromatic flavors.', '2021-05-03 16:43:31.827271', '2021-05-03 16:43:31.827271', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w20-r1-f4faf289.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w20-r1-58dd64ba4f78db51935d53a2', 'HelloFresh.com', 'chicken breasts
+berbere
+yogurt
+yellow onion
+zucchini
+garlic
+cilantro
+basmati rice
+lemon
+chicken stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (946, 'Quick and Easy Spanish Chicken', 'We’re helping you get one big step closer to slow-cooked perfection with our ready-to-heat pulled chicken. We’ve already taken care of making the meat fork-tender; you’ve just got to warm it up with some spices for extra flavor. You’ll be serving it with savory yellow rice and juicy sautéed bell pepper, which add lots of hearty, Spanish-style charm.', '2021-05-03 16:43:31.873245', '2021-05-03 16:43:31.873245', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spanish-chicken-e46341f8.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/spanish-chicken-5bc0c3de30006c656c5b4182', 'HelloFresh.com', 'garlic
+chicken stock concentrate
+turmeric
+jasmine rice
+bell pepper
+scallions
+pulled chicken
+cumin
+tomato paste
+hot smoked paprika
+lemon
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (947, 'Beef Bulgogi Bowls', 'If you can’t get enough of Asian-inspired flavors, bulgogi is sure to leave you satisfied. This Korean dish centers around beef in a sesame and soy sauce marinade with a little bit of sweetness. But the meat is just one out of many highlights: there’s also crisp quick-pickled cucumbers, tender carrots, and a spicy sour cream, all over fluffy white rice—clearly, it’s jam-packed and has a little bit of something for everyone.', '2021-05-03 16:43:31.926462', '2021-05-03 16:43:31.926462', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d0a8aa133dd96000b2aa386-e01f5093.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/ground-beef-bulgogi-bowls-5d0a8aa133dd96000b2aa386', 'HelloFresh.com', 'jasmine rice
+scallions
+white wine vinegar
+cucumber
+shredded carrots
+ground beef
+sesame seeds
+bulgogi sauce
+sour cream
+sriracha
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (948, 'Duck a l’Orange', 'Think a dish like ‘duck a’lorange’ requires a plane ticket to France, or, at the very least, a reservation at le fanciest French restaurant in town? Think again! This luxurious meal can be whipped up from the comfort of your very own kitchen—in 40 minutes, no less. There’s pan-seared duck glazed in a savory-sweet, thyme-flecked orange sauce, creamy duck fat mashed potatoes, and an arugula salad bursting with juicy orange segments, pickled shallot, and almonds. Treat your taste buds to a trip—no passport required!', '2021-05-03 16:43:31.980862', '2021-05-03 16:43:31.980862', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/605a5b4a8b8ca47bc3045d27-69964691.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/duck-a-l-orange-605a5b4a8b8ca47bc3045d27', 'HelloFresh.com', 'yukon gold potatoes
+thyme
+duck breasts
+shallot
+red wine vinegar
+orange
+apricot jam
+chicken stock concentrate
+sour cream
+dijon mustard
+arugula
+almonds
+sugar
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (949, 'Spiced Steak Fajitas', 'The spiced steak strips in these fajitas are the star of the show. And like any scene-stealer, they outshine the other ingredients inside these tortillas. But if your kids hesitate when given veggies, that might actually be a good thing. Strips of green and yellow peppers and a fresh tomato salsa are snuck in, tucked beneath a cover up of sour cream, and cheddar cheese. You might even be shocked at how fast they gobble it all up.', '2021-05-03 16:43:32.039935', '2021-05-03 16:43:32.039935', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spiced-steak-fajitas-ddfa5d72.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/spiced-steak-fajitas-59d68dac30a03b5cde7c1312', 'HelloFresh.com', 'red onion
+yellow bell pepper
+green bell pepper
+roma tomato
+cilantro
+lime
+beef stir-fry
+fajita spice blend
+flour tortillas
+cheddar cheese
+sour cream
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (950, 'Thai Pork Stir-Fry', 'Thai cuisine may be known for its heat, but it also features more mild recipes that focus on herbs and aromatics. Our spin on a traditional meat and herb stir-fry puts mint and ginger front and center—the pair showers the veggies and pork in bright and cheerful flavors that leap off the plate.', '2021-05-03 16:43:32.087927', '2021-05-03 16:43:32.087927', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/thai-pork-stir-fry-950d522e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/thai-pork-stir-fry-59f0d52dad1d6c56d55a4052', 'HelloFresh.com', 'green beans
+ginger
+scallions
+garlic
+bell pepper
+mint
+basmati rice
+ground pork
+soy sauce
+honey
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (951, 'Steak with Shallot Pan Sauce', 'A drizzle of buttery pan sauce takes perfectly-cooked steaks from good to mind-blowing. After the meat is seared, we utilize those precious pan drippings to create a silky, aromatic sauce that’s beefed up with rich broth, finely chopped shallot, and a pat of butter. It’s all served with garlic bread and spicy roasted green beans for a complete (and dare we say elegant?) meal.', '2021-05-03 16:43:32.13048', '2021-05-03 16:43:32.13048', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w13-r17-steak-with-shallot-pan-sauce-26a5dcf7.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/2019-w13-r17-steak-with-shallot-pan-sauce-5c619cd2e3f339697553ee82', 'HelloFresh.com', 'shallot
+green beans
+garlic
+demi baguette
+sirloin steak
+beef stock concentrate
+chili flakes
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (952, 'Southwest Chicken Sausage and Rice Skillet', 'With the temperature outside nose-diving, we’re in search of a hearty one-pan meal that’ll stand up to the coldest of winter days. Enter this Southwest-inspired skillet supper. The bold flavors will transport your taste buds and warm you from the inside out. There’s tender rice, bites of chicken sausage, and sautéed pepper and onion. It’s all topped with gooey melted cheese, fresh salsa, and a dollop of tangy lime crema. Need we say more?', '2021-05-03 16:43:32.16849', '2021-05-03 16:43:32.16849', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w10-r15-southwest-chicken-sausage-and-rice-skillet-35197e07.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w10-r15-southwest-chicken-sausage-and-rice-skillet-5c478688e3f33946395b8c52', 'HelloFresh.com', 'yellow onion
+long green pepper
+roma tomato
+lime
+italian chicken sausage mix
+southwest spice blend
+jasmine rice
+chicken stock concentrate
+sour cream
+pepper jack cheese
+hot sauce
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (953, 'Chicken and Pineapple Quesadillas', 'If you thought sweet-and-savory combos were delicious, prepare to be blown away by this creamy cheese and pineapple dream-come-true. Although we recommend using only one chicken breast for the filling, feel free to use both for a super stuffed quesadilla.', '2021-05-03 16:43:32.232726', '2021-05-03 16:43:32.232726', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-and-pineapple-quesadilla-bed599c4.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-and-pineapple-quesadilla-57d85305518c880d0e8b4568', 'HelloFresh.com', 'chicken breasts
+green bell pepper
+red onion
+grape tomatoes
+southwest spice blend
+monterey jack cheese
+whole wheat tortillas
+cilantro
+lime
+sour cream
+pineapple
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (954, 'New York Strip Steak', 'When you want to treat yourself to something luxuriantly tasty, nothing offers instant gratification better than a good steak. All it needs is a simple pan sauce to be perfectly sublime. Just make sure to pair it with some equally decadent sides: in this recipe, we’ve got almond green beans and truffled mashed potatoes to help you on your way to a satisfied appetite.', '2021-05-03 16:43:32.283551', '2021-05-03 16:43:32.283551', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/premium-steak-au-poivre-7a5f8bb0.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/premium-new-york-strip-587e34ab2e69d77b215146c2', 'HelloFresh.com', 'yukon gold potatoes
+green beans
+almonds
+shallot
+sour cream
+beef demi-glace
+tricolored peppercorns
+parsley
+truffle zest
+new york strip steak
+olive oil
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (955, 'Sesame Beef Tacos', 'Instead of going the traditional route with these tacos, we decided to mix things up with a Korean-style sesame beef filling. The filling gets a kick from gochugaru—chili flakes traditionally used in dishes like kimchi and bulgogi. It’s an unconventional choice, perhaps, but one that lives up to the maxim that everything tastes better in a tortilla.', '2021-05-03 16:43:32.334026', '2021-05-03 16:43:32.334026', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d3b354b265a5e000b6055c8-7b33dbc2.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/sesame-beef-tacos-5d3b354b265a5e000b6055c8', 'HelloFresh.com', 'radishes
+persian cucumber
+scallions
+cilantro
+white wine vinegar
+sour cream
+korean chili flakes
+shredded red cabbage
+ground beef
+garlic powder
+sesame oil
+sriracha
+soy sauce
+flour tortillas
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (956, 'Peppercorn Sirloin Steak', 'Dinner with family is always a special time. With this recipe, our chefs wanted to create something that would be perfect for sharing with the favorite people in your life. It has elements that are guaranteed to please all palates, like pan-seared sirloin steaks, cheesy gratin potatoes, and roasted carrots. But there are a few elevated touches—such as freshly cracked peppercorns and garlic herb butter—for an extra-rich flavor. Sunday supper just stepped up its game.', '2021-05-03 16:43:32.414897', '2021-05-03 16:43:32.414897', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w38-r17-e84cb16c.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/w38-r17-5b637a8aae08b5578e5147a2', 'HelloFresh.com', 'thyme
+scallions
+lemon
+tricolored peppercorns
+carrot
+fingerling potatoes
+garlic herb butter
+flour
+milk
+gruyère cheese
+parmesan cheese
+sirloin steak
+beef demi-glace
+panko breadcrumbs
+olive oil
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (957, 'Sweet-As-Honey Chicken', 'We all have a soft spot for the sticky-sweet chicken that’s a staple of takeout dinners. But it’s not exactly a meal for any night of the week—until now. We’re swapping out the heavy glaze for a fresh burst of ginger and a swirl of honey and soy sauce. Served with tender green beans on a bed of jasmine rice, it’ll give you a good reason to toss out the phone number for your delivery joint.', '2021-05-03 16:43:32.483498', '2021-05-03 16:43:32.483498', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-as-honey-chicken-959d60ad.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sweet-as-honey-chicken-5d2f8ec77ac6d400086d304d', 'HelloFresh.com', 'garlic
+lime
+ginger
+jasmine rice
+chicken breasts
+white wine vinegar
+chicken stock concentrate
+honey
+soy sauce
+green beans
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (958, 'Italian Meatball Soup', 'This is soup the way your Italian grandma would’ve made it. Naturally, there’s a soul-soothing broth flavored with Tuscan herbs. And it’s got all the veggies—like kale, carrot, and onion—to make you strong. But that old-world charm really shines through in the pork meatballs, orzo pasta, and garlic toasts. If you want to claim this one as a generations-old family recipe, we’ll keep it a secret.', '2021-05-03 16:43:32.528165', '2021-05-03 16:43:32.528165', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c477ed0c445fa5d6d508ef2-6b30237e.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/italian-meatball-soup-5c477ed0c445fa5d6d508ef2', 'HelloFresh.com', 'carrots
+yellow onion
+garlic
+kale
+ground pork
+panko breadcrumbs
+tuscan heat spice
+chicken stock concentrate
+orzo pasta
+demi baguette
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (959, 'Seared Sirloin and Creamy Shallot Sauce', 'Hankering for a plate of good ol’ steak and potatoes? Look no further! This recipe takes the classics above and beyond with a few flavorful twists. There’s seared sirloin, sour cream mashed potatoes, honey lemon glazed carrots—and then there’s the pan sauce. Here, shallot, fresh thyme, rich demi-glace, and tangy lemon juice mingle with the fond (aka: all those crispy bits and drippings left behind by the seared steak) to create an addictive sauce you’ll want to drizzle over everything. Now you can!', '2021-05-03 16:43:32.580488', '2021-05-03 16:43:32.580488', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w22-r16-seared-sirloin-and-creamy-shallot-sauce-aab67c59.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w22-r16-seared-sirloin-and-creamy-shallot-sauce-5cb77e5bc445fa4be171a342', 'HelloFresh.com', 'carrots
+yukon gold potatoes
+shallot
+lemon
+thyme
+garlic
+sour cream
+sirloin steak
+beef demi-glace
+honey
+chili flakes
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (960, 'Honey Mustard-Glazed Chicken', 'Parsley, rosemary, and thyme? Yes, we’re going there. This power trio of herbs is used to enhance the flavor of roasted winter veggies in this recipe, as well as to make a flavorful pan sauce that gets drizzled over everything. Served with brown rice, it’s a healthy, fortifying meal that’ll help you stay energized through the week.', '2021-05-03 16:43:32.631418', '2021-05-03 16:43:32.631418', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/au-honey-mustard-chicken-w01-fam-d41f58bd.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/au-honey-mustard-chicken-w01-fam-58331726b32fbe10c91bea62', 'HelloFresh.com', 'chicken breasts
+red onion
+zucchini
+sweet potato
+honey
+whole grain mustard
+garlic
+white wine vinegar
+parsley
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (961, 'One-Pot Beef and Black Bean Chili', 'A good chili has well-seasoned beef, creamy beans, and tender vegetables. A great chili, however, has all that and comes together in one pot in under an hour. This chili is one of the greats. And once you take a bite, we can guarantee you’ll agree. Not to mention, these beefy bowls are adorned with some delicious fixings: tangy hot sauce crema and melty Monterey Jack. If you’ve got some on hand, why not crumble up some tortilla chips and sprinkle them on top for a crunch?', '2021-05-03 16:43:32.688458', '2021-05-03 16:43:32.688458', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/one-pot-beef-black-bean-chili-d2f5e646.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/one-pot-beef-black-bean-chili-5d76b40292f8cd000f15374a', 'HelloFresh.com', 'yellow onion
+jalapeño
+ground beef
+mexican spice blend
+southwest spice blend
+tomato paste
+diced tomatoes
+black beans
+beef stock concentrate
+sour cream
+hot sauce
+monterey jack cheese
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (962, 'Pork Carnitas Tacos', 'Think of this as a quicker, weeknight-friendly version of carnitas, one that doesn’t involve hours of slow-cooking like it typically would. To create that deep, warm profile in minimal time, you’ll add a spice blend and a bit of stock to ground pork, which makes it nice, rich, and saucy. It’s the centerpiece of these tacos, which come with lots of tasty toppings that everyone can add as they please.', '2021-05-03 16:43:32.740002', '2021-05-03 16:43:32.740002', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a04abf5a2882a5e7f3e0fe2-0af52f06.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/one-pan-pork-carnita-tacos-5a04abf5a2882a5e7f3e0fe2', 'HelloFresh.com', 'red onion
+poblano pepper
+cilantro
+romaine lettuce
+lime
+white wine vinegar
+ground pork
+fajita spice blend
+tomato paste
+chicken stock concentrate
+sour cream
+flour tortillas
+monterey jack cheese
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (963, 'Honey Mustard Glazed Salmon', 'Honey mustard deserves recognition beyond the salad bar. In this recipe, we''re using it to glaze salmon before burying it in a crunchy walnut crust. With some fluffy couscous and snappy roasted broccoli on the side, this dish becomes a harmonious medley of contrasting flavors and textures, venturing from spicy to sweet to tender to crispy.', '2021-05-03 16:43:32.802685', '2021-05-03 16:43:32.802685', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/walnut-crusted-salmon-w51-0219df84.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/walnut-crusted-salmon-w51-5826377525898b4d3a157913', 'HelloFresh.com', 'skin-on salmon
+panko breadcrumbs
+dijon mustard
+walnuts
+couscous
+broccoli florets
+shallot
+veggie stock concentrate
+honey
+salt
+pepper
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (964, 'Shrimp Saganaki', 'Fun fact: the word saganaki is a diminutive of the Greek word sagani, which means “frying pan.” In other words, a saganaki is a teeny-tiny single-serve skillet—or a dish prepared in one. Although the name might suggest that it’s little, this recipe is certainly not lacking in big personality: from briny olives and feta to flavorful shrimp, all the ingredients come together with characteristically Mediterranean gusto.', '2021-05-03 16:43:32.849518', '2021-05-03 16:43:32.849518', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w18-r3-4dc56c40.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w18-r3-58cc2c04171c581aca41e562', 'HelloFresh.com', 'shrimp
+yellow onion
+garlic
+crushed tomatoes
+chili flakes
+feta cheese
+parsley
+israeli couscous
+green olives
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (965, 'Thai Ginger Curry', 'If your craving for a creamy, flavorful curry just can’t wait, you’re in luck: This version comes together in just 30 minutes. Green beans and bell pepper simmer in a coconut curry spiked with ginger, spicy-sweet Thai chili sauce, and lime juice. Once the veggies are tender and the sauce is thickened, it’s time to spoon everything over zesty jasmine rice and sprinkle with fresh cilantro and crunchy peanuts. Talk about game-changing dinner!', '2021-05-03 16:43:32.897175', '2021-05-03 16:43:32.897175', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/thai-ginger-curry-6adf5223.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/thai-ginger-curry-6075d8b8a1082237297bd696', 'HelloFresh.com', 'jasmine rice
+bell pepper
+green beans
+shallot
+ginger
+lime
+cilantro
+curry powder
+coconut milk
+sweet thai chili sauce
+veggie stock concentrate
+peanuts
+cooking oil
+sugar
+butter
+salt');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (966, 'Oven-Baked Chicken Legs', 'Crispy breaded chicken. Mac ’n’ cheese. Easy-peasy broccoli. Need we say more about this unstoppable trifecta? Probably not, but we could go on and on about how it’s worth the effort. The chicken is about as crisp as can be thanks to a seasoned panko breadcrumb coating. It only gets better when you move on to the pasta, which is extra rich thanks to a bit of sour cream. After steaming the broccoli in the microwave and dividing everything between plates, add the magic finishing touch: a drizzle of spicy honey.', '2021-05-03 16:43:32.962648', '2021-05-03 16:43:32.962648', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/oven-baked-chicken-legs-75b2283e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/oven-baked-chicken-legs-5af4562330006c43ad7d49a2', 'HelloFresh.com', 'gemelli pasta
+dijon mustard
+sour cream
+ranch spice
+milk
+panko breadcrumbs
+flour
+paprika
+chicken legs
+scallions
+honey
+hot sauce
+monterey jack cheese
+broccoli florets
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (967, 'Soy-Glazed Steak with Wasabi Mashed Potatoes and Sesame Spinach', 'A sweet and savory soy glaze gives this steak a winning finish. These mashed potatoes have both wasabi for kick and sour cream for silkiness, making them hard to resist. Paired with sesame-infused spinach, this steak and potatoes twist is one you’ll be making again and again.', '2021-05-03 16:43:33.034046', '2021-05-03 16:43:33.034046', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5654aa5bfd2cb9d6278b4567.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/soy-glazed-steak-with-wasabi-mashed-potatoes-and-sesame-spinach-5654aa5bfd2cb9d6278b4567', 'HelloFresh.com', 'sirloin steak
+russet potatoes
+scallions
+wasabi paste
+sour cream
+soy sauce
+ginger
+spinach
+sesame seeds
+beef stock concentrate
+olive oil
+butter
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (968, 'Creamy Dreamy Mushroom Gemelli', 'If you’re mad for mushrooms, a fan of fungi, or crazy for creminis, this pasta will treat you right: it’s loaded with ’shroom slices. They’re the flavor backbone of this recipe, bringing all those deep, earthy flavors that you know and love. We’ve added springy fusilli spirals, a creamy garlic herb sauce, and a sprinkling of Parmesan cheese (mushrooms, pasta, and dairy are pretty much best friends, after all). Get ready for this umami bomb to make waves at your dinner table.', '2021-05-03 16:43:33.090002', '2021-05-03 16:43:33.090002', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d6e74aad611f800157039a2-545a37ce.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamy-dreamy-mushroom-gemelli-5d6e74aad611f800157039a2', 'HelloFresh.com', 'scallions
+cremini mushrooms
+gemelli pasta
+flour
+milk
+cream cheese
+garlic herb butter
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (969, 'Cuban-Spiced Steak', 'Steak gets a whole new spin when you coat it in aromatic seasonings. In this recipe, we’re taking sirloin and giving it a Cuban-inspired accent by rubbing it with earthy cumin and herbaceous oregano. The results are big, bold, and full of flavor, especially when paired with spiced rice, caramelized onion, poblano pepper, and a zesty lime sour cream.', '2021-05-03 16:43:33.141829', '2021-05-03 16:43:33.141829', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cuban-spiced-steak-b852869c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cuban-spiced-steak-5ad7b8e230006c1acd0ef9c2', 'HelloFresh.com', 'basmati rice
+cumin
+dried oregano
+yellow onion
+poblano pepper
+garlic
+sirloin steak
+lime
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (970, 'Chicken Bulgogi Bowls', 'If you’re a fan of our beef bulgogi bowl, then you’ll love this chicken rendition. It’s just as sweet, savory, tangy, and delicious—but it features crispy, pan-seared pieces of chicken instead of ground beef. The chicken is finished in the same signature sesame-and-soy-spiked concoction known as bulgogi sauce (cue the swoons). There’s also quick-pickled cucumber ribbons, tender shredded carrots, and a spicy sriracha crema all arranged over a bed of fluffy white rice. Dig in!', '2021-05-03 16:43:33.210361', '2021-05-03 16:43:33.210361', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d8123f89f92a815ec07f6f9-427f6d15.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/chicken-bulgogi-bowl-5d8123f89f92a815ec07f6f9', 'HelloFresh.com', 'jasmine rice
+white wine vinegar
+cucumber
+shredded carrots
+chicken breast strips
+bulgogi sauce
+sour cream
+sriracha
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (971, 'Chimichurri Chicken Paillards', 'Chimichurri is an Argentinian herb sauce that’s most often drizzled onto steak (the South American nation is known for its beef, after all). But it’s also a sauce of many talents and pairs well with most proteins. Here, we’re taking that flavorful, fragrant action to pan-seared chicken breasts, letting the parsley, garlic, earthy spices, and lemon dribble all over the meat—which also has some great company from roasted sweet potato wedges and a fresh salad.', '2021-05-03 16:43:33.261878', '2021-05-03 16:43:33.261878', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chumichurri-chicken-paillards-ea60c4de.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chimichurri-chicken-paillards-5a7a321a30006c48244cd3b2', 'HelloFresh.com', 'sweet potato
+cumin
+lemon
+garlic
+parsley
+grape tomatoes
+chicken breasts
+honey
+mixed greens
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (972, 'Sesame Sriracha Beef Stir-Fry', 'If you’ve never been too keen on carrots, we’ve found a pretty nifty trick that might just get you to think again about the vitamin A-rich veg. In this recipe, they’re shaved into ribbons and tossed with beef in a sesame, honey, and soy-based sauce that packs sweet and savory flavors. Paired with fluffy Jasmine rice, this is the sort simple weeknight stir-fry that will make your taste buds sing.', '2021-05-03 16:43:33.309455', '2021-05-03 16:43:33.309455', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sesame-sriracha-beef-stir-fry-93c1078d.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sesame-sriracha-beef-stir-fry-5a835ff230006c1d735decd2', 'HelloFresh.com', 'carrots
+garlic
+scallions
+lime
+jasmine rice
+sesame oil
+soy sauce
+honey
+sriracha
+ground beef
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (973, 'Quick Sausage Bolognese', 'From Italian trattorias to the ordinary American kitchen, spaghetti with tomato sauce is one of those timeless dishes that has a place on virtually every dinner table. But how do you keep a recipe that’s so well-worn exciting? You fill it up with flavorful ingredients. In our version, Italian sausage, mushrooms, and spinach are brought in to add an umami-packed boost and make the sauce rich, thick, and hearty. It’s comfortingly classic without being boring.', '2021-05-03 16:43:33.3665', '2021-05-03 16:43:33.3665', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/quick-sausage-bolognese-71ec0066.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/quick-sausage-bolognese-5b3683d5ae08b530553eead4', 'HelloFresh.com', 'yellow onion
+carrots
+garlic
+button mushrooms
+parsley
+spaghetti
+sweet italian pork sausage
+crushed tomatoes
+chicken stock concentrate
+spinach
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (974, 'Pineapple Chipotle Chicken Legs', 'Pineapple’s sweet vibes are guaranteed to please, even when tucked into an otherwise savory recipe like this one. Crispy-skinned chicken legs are oven-roasted before being topped with chunks of the golden fruit and a glaze made from the juice. With scallion butter rice and tender snap peas on the side, every bite will make your taste buds do the hula.', '2021-05-03 16:43:33.420715', '2021-05-03 16:43:33.420715', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pineapple-chipotle-chicken-legs-9a3c30d1.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/pineapple-chipotle-chicken-legs-5abd4747ae08b549c815f852', 'HelloFresh.com', 'scallions
+pineapple
+sugar snap peas
+lime
+chicken legs
+jasmine rice
+ketchup
+soy sauce
+chipotle powder
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (975, 'Pork Bolognese Pasta Casserole', 'Why bake pasta in the oven when it can be done on a stovetop? Because it’s the best way to ensure that your sauce is bubbly and piping hot, the cheese reaches peak meltiness, and the edges of the noodles get a bit of crispness, like lasagna. We promise it’s worth heating up the stove for, especially in this recipe featuring ground pork, kale, fresh mozzarella, and penne.', '2021-05-03 16:43:33.477065', '2021-05-03 16:43:33.477065', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b6377d130006c360809dac2-23628c3b.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/pork-bolognese-pasta-casserole-5b6377d130006c360809dac2', 'HelloFresh.com', 'kale
+fresh mozzarella
+basil
+penne pasta
+ground pork
+tuscan heat spice
+marinara sauce
+milk
+chili flakes
+panko breadcrumbs
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (976, 'Chicken Gyro Couscous Bowls', 'Hummus and pita chips go together like...well, hummus and pita chips! And while that may be, we firmly believe that hummus is destined for bigger and better things. Case in point: this delicious, layered bowl. It starts with a base of hummus, then it’s piled with chewy Isareli couscous, za’atar-spiced chicken, lemony chopped salad, tangy feta sauce, and a sprinkle of fresh dill. This mix of vibrant, crunchy, creamy, and savory components is sure to satisfy. Beat that, chips!', '2021-05-03 16:43:33.528192', '2021-05-03 16:43:33.528192', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-gyro-couscous-bowls-753b1e88.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-gyro-couscous-bowls-5db89647bf86901f1432f7a1', 'HelloFresh.com', 'shallot
+heirloom grape tomatoes
+persian cucumber
+lemon
+dill
+israeli couscous
+chicken stock concentrate
+chicken cutlets
+za''atar spice
+feta cheese
+sour cream
+olive oil
+salt
+pepper
+sabra® classic hummus');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (977, 'Blackened Barramundi and Pineapple Salsa', 'Pineapple salsa is our favorite way to feel warm weather vibes all year round. It’s sweet, juicy, and tangy, making it the perfect complement to crispy spiced barramundi. On the side, there’s roasted green beans and fluffy rice mixed with scallions and a squeeze of lime juice. No matter the temperature, one bite of this delicious dish will make everything feel a whole lot sunnier.', '2021-05-03 16:43:33.595481', '2021-05-03 16:43:33.595481', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w20-r13-blackened-barramundi-and-pineapple-salsa-b18e43c5.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w20-r13-blackened-barramundi-and-pineapple-salsa-5ca4fa90e3f3397ab6046be2', 'HelloFresh.com', 'scallions
+jasmine rice
+pineapple
+green beans
+lime
+barramundi
+southwest spice blend
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (978, 'Hoisin-Sriracha Pork Chops', 'In this twist on your classic protein, starch, and veg, a hoisin-sriracha glaze adds a layer of sweet and spicy flavor to tender pork chops. On the side, jasmine rice is steamed with sizzly ginger to give it an aromatic punch, and broccoli is simply roasted until the edges are browned and crispy and stems are tender.', '2021-05-03 16:43:33.645651', '2021-05-03 16:43:33.645651', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/hoisin-sriracha-pork-chops-5476ca5c.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/hoisin-sriracha-pork-chops-5c2a652fc445fa3f480d08e2', 'HelloFresh.com', 'ginger
+broccoli florets
+jasmine rice
+hoisin sauce
+sriracha
+pork chops
+vegetable oil
+butter
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (979, 'Parmesan-Crusted Pork Tenderloin', 'Parm’s the charm with this next-level pork recipe. The cheese is mixed with panko breadcrumbs to create a crust that coats the tenderloin like a glorious golden-brown crown. That way, you get meltiness, juiciness, and crunch in every bite. But this recipe isn’t just about the meat: there’s also roasted rosemary potatoes and a crisp apple walnut salad to round things out.', '2021-05-03 16:43:33.708694', '2021-05-03 16:43:33.708694', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/parmesan-crusted-pork-tenderloin-66608000.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/parmesan-crusted-pork-tenderloin-5a958c5930006c345376eb62', 'HelloFresh.com', 'rosemary
+yukon gold potatoes
+parmesan cheese
+garlic powder
+panko breadcrumbs
+pork tenderloin
+sour cream
+lemon
+apple
+mixed greens
+dried cranberries
+walnuts
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (980, 'Tuscan-Spiced Shrimp and Orzo', 'Seafood pasta is one of your best bets when you’re in the mood for a meal that’s lighter but still perfectly satisfying. This dish is just that, featuring shrimp seasoned in our blend of Tuscan herbs and spices and folded into a heap of al dente orzo pasta. Tomato wedges are added on top, after being roasted in the oven to bring out their flavor and release their juices. Everything is finished with a sprinkle of breadcrumbs for a satisfying touch of crunch.', '2021-05-03 16:43:33.768531', '2021-05-03 16:43:33.768531', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tuscan-spiced-shrimp-and-orzo-17d963c4.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/tuscan-spiced-shrimp-and-orzo-5a6647022c3e086c450f7882', 'HelloFresh.com', 'roma tomato
+scallions
+lemon
+panko breadcrumbs
+tuscan heat spice
+orzo pasta
+shrimp
+chicken stock concentrate
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (981, 'Creamiest Mushroom Ravioli', 'Getting stuffed inside pasta is pretty fly for a fungi: these ravioli are packed with big umami flavors thanks to a mix of hearty mushrooms. To match all that serious ’shroom personality, we’re adding a creamy Parmesan sauce and pieces of mushroom and tomato for their veggie appeal. The result is a colorful, hearty dish that’s guaranteed to become a pasta-night classic in your home.', '2021-05-03 16:43:33.81535', '2021-05-03 16:43:33.81535', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5dc044fd82939e10532e25a3-7dfcc370.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamiest-mushroom-ravioli-5dc044fd82939e10532e25a3', 'HelloFresh.com', 'button mushrooms
+shallot
+heirloom grape tomatoes
+parsley
+chili flakes
+mushroom ravioli
+sour cream
+parmesan cheese
+mushroom stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (982, 'Steakhouse-Style New York Strip', 'Get your sharpest knives out and tuck your napkin in like a bib: this is steak like they serve it at the swankiest of steakhouses. The seared, herb-seasoned New York strip drizzled in a prickly, piquant horseradish sauce will grab everyone’s attention and engage all the senses as it arrives at the dinner table. And while it may not come with a bow-tied maître d’ to deliver it to you personally, you’ll still feel like royalty as you carve into that tender meat.', '2021-05-03 16:43:33.872304', '2021-05-03 16:43:33.872304', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/steakhouse-style-new-york-strip-15ed387c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/steakhouse-style-new-york-strip-599f1551ad1d6c3da32fab12', 'HelloFresh.com', 'fingerling potatoes
+italian seasoning
+heirloom grape tomatoes
+lemon
+new york strip steak
+sour cream
+mayonnaise
+dijon mustard
+horseradish powder
+mixed greens
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (983, 'Chicken Sausage Flatbreads', 'Put down the phone for delivery: this dinner is all about creating a masterful flatbread on your own terms. You’ll practice topping the base with layers of tomato sauce, cheese, and sausage. And because a little bit of green is always a plus, there are slices of zucchini and some fresh oregano, too. All these ingredients work together to deliver a baked masterpiece that will keep you by the oven door, anticipating the moment of peak meltiness.', '2021-05-03 16:43:33.932287', '2021-05-03 16:43:33.932287', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-sausage-flatbreads-029a9509.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-sausage-flatbreads-5d35ca08e203d2000a03b72f', 'HelloFresh.com', 'zucchini
+oregano
+italian seasoning
+italian chicken sausage mix
+flatbreads
+crushed tomatoes
+mozzarella cheese
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (984, 'Hawaiian Chicken Poke Bowls', 'Discover a world of flavor from the comfort of your kitchen with globally inspired recipes on the menu every week this month. This time, say aloha to poke, Hawaii’s topping-packed take on a rice bowl. In addition to pieces of chicken sweetened with pineapple, it also features plenty of vibrant ingredients, like coconut, cashews, and a soy lime marinade. P.S.: When you order one of these deliciously diverse meals, you’ll be entered for the chance to win an all-expenses-paid trip to Asia or a pair of tickets to a food tour in a city of your choosing, along with a food tour courtesy of our friends at Secret Food Tours!', '2021-05-03 16:43:33.981389', '2021-05-03 16:43:33.981389', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w32-r4-4cc5476d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w32-r4-5b1fec09ae08b50b2e32aef2', 'HelloFresh.com', 'ginger
+scallions
+pineapple
+coconut crunch cashews
+shredded coconut
+jasmine rice
+chicken breast strips
+lime
+chili pepper
+soy sauce
+shredded carrots
+sour cream
+sriracha
+butter
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (985, 'Slow-Roasted Citrus Trout', 'Fishing for a sea-faring meal that’s light, bright, and super satisfying? You’ve come to the right place: this dish is all that and then some! Trout fillets are layered with lemon and blood orange slices, then slow-roasted until deliciously tender. For a dynamic finish, the roasty citrusy trout is drizzled with chive crème fraîche sauce. Served alongside savory rice pilaf and an arugula, pistachio, and orange salad, one bite will have you hooked!', '2021-05-03 16:43:34.061478', '2021-05-03 16:43:34.061478', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/603f9b2ddf085d7000361852-052bb316.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/slow-roasted-citrus-trout-603f9b2ddf085d7000361852', 'HelloFresh.com', 'sunkist® blood orange
+yellow onion
+basmati rice
+chives
+arugula
+lemon
+steelhead trout
+chicken stock concentrate
+pistachios
+crème fraîche
+salt
+pepper
+olive oil
+butter
+garlic powder');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (986, 'Pork Sausage & Broccoli Gnocchi', 'Pork sausage and broccoli are a classic pasta pairing. You heard it here first, folks: our chefs have officially raised the noodle stakes by swapping out the usual ear-shaped orecchiette for pillowy potato gnocchi. Talk about a tasty upgrade! The newly-debuted pair is tossed in a creamy, lemon-spiked sauce and topped with nutty Parmesan cheese and a pinch of chili flakes. Yep, pasta night just got a whole lot more awesome.', '2021-05-03 16:43:34.130821', '2021-05-03 16:43:34.130821', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2020-w19-r4-pork-sausage-broccoli-gnocchi-f18eb67d.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pork-sausage-broccoli-gnocchi-5e7a44ab498a464b5a413493', 'HelloFresh.com', 'broccoli florets
+chili pepper
+cream cheese
+parmesan cheese
+lemon
+gnocchi
+chicken stock concentrate
+sour cream
+olive oil
+butter
+salt
+pepper
+italian pork sausage');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (987, 'Crispy Chicken Parmesan Salad', 'Best part of chicken Parmesan? The thick layer of gooey, creamy cheese melted on top of crispy chicken. In this dish, we’ve recreated the same dreamy combination but given it a lighter twist by tossing in some greens. Needless to say, it’s the best of both worlds.', '2021-05-03 16:43:34.186803', '2021-05-03 16:43:34.186803', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-crispy-chicken-parmigiana-sal-6f59279d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/uk-crispy-chicken-parmigiana-sal-57acd49f544b1828478b4568', 'HelloFresh.com', 'spinach
+chicken breasts
+garlic powder
+lemon
+yukon gold potatoes
+panko breadcrumbs
+parmesan cheese
+sour cream
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (988, 'Thai Pork Meatballs', 'Meatballs get a major flavor upgrade when our special Thai pork seasoning is involved. Oh—and the addition of garlic, ginger, and a sweet-and-salty sesame soy sauce doesn’t hurt, either.', '2021-05-03 16:43:34.253949', '2021-05-03 16:43:34.253949', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/au-spicy-pork-meatballs-46d54927.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/au-spicy-pork-meatballs-57e2ee41b0a36064065e9274', 'HelloFresh.com', 'ground pork
+scallions
+soy sauce
+garlic
+yakisoba noodles
+green beans
+chili pepper
+honey
+lime
+sesame oil
+thai seasoning blend
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (989, 'Bacon Caprese Chicken', 'Sometimes, the key to creating a great dinner is just combining everything you love to eat. Case in point: this killer dish. First off, chicken breasts are seared in bacon fat, resulting in a smoky, caramelized coating. They’re then topped off with pieces of crispy bacon, fresh mozzarella, and a rich balsamic glaze. On the side, there’s a lemon-doused green salad with pops of juicy tomatoes. To round it all out, a pile of crispy roasted potatoes, of course! These spuds pack a punch with a coating of oregano, chili flakes, and lemon zest. This is sure to be an instant fave around your dinner table.', '2021-05-03 16:43:34.31103', '2021-05-03 16:43:34.31103', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w9-r16f-c4440f3b.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2019-w9-r16f-5c3e5956e3f33950865cf626', 'HelloFresh.com', 'yukon gold potatoes
+grape tomatoes
+lemon
+fresh mozzarella
+dried oregano
+chili flakes
+bacon
+chicken breasts
+mixed greens
+balsamic glaze
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (990, 'Bacon Apple Breakfast Flatbreads', 'Pizza for breakfast doesn’t have to mean a cold, leftover slice. In fact, it can be a beautifully toasty and golden crust, a mouthwatering spread of creamy ricotta, and, because it’s breakfast, a cascade of bacon and apple pieces. Trust us, after trying this made-for-mornings version, you’ll understand why pizza is a perfect food at any time of day.', '2021-05-03 16:43:34.36642', '2021-05-03 16:43:34.36642', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/bacon-apple-flatbreads-796c42ce.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/bacon-apple-flatbreads-58b997f5c6243b70c04cca73', 'HelloFresh.com', 'flatbreads
+red onion
+honey
+balsamic vinegar
+ricotta cheese
+granny smith apple
+bacon
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (991, 'Mediterranean Couscous Bowls', 'Hummus: not just for pita chips anymore! This versatile dip is the perfect topper for these Mediterranean power bowls. Here, it’s mixed with smoky paprika for a delicious flavor boost. In case you were wondering, underneath the hummus lies a whole world of deliciousness. At the base, there’s fluffy, Turkish-spiced couscous mixed with lemon zest. On top, you’ve also got cucumber-dill salad, roasted bell pepper and tomato, creamy lemon sauce, and crumbly feta cheese. Together, it’s a multi-layered melange that’ll knock your chickpea-loving socks off.', '2021-05-03 16:43:34.41443', '2021-05-03 16:43:34.41443', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mediterranean-hummus-couscous-bowls-9aa1b9c2.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/mediterranean-hummus-couscous-bowls-5dcb270d75717c39e2461100', 'HelloFresh.com', 'bell pepper
+turkish spice blend
+grape tomatoes
+persian cucumber
+dill
+lemon
+sour cream
+veggie stock concentrate
+couscous
+sabra® classic hummus
+smoked paprika
+feta cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (992, 'Pan-Seared Garlic Chicken', 'Peru might be better known for its mountains and llamas, but it’s also home to myriad culinary delights. In this recipe, we’re taking a cue from the country’s papa a la huancaína—that’s potatoes smothered in a slightly spicy citrus-spiked cheese sauce. Served alongside garlic-coated chicken and roasted broccoli, it feels comfortingly familiar, regardless of whether you’ve been to South America or not.', '2021-05-03 16:43:34.481342', '2021-05-03 16:43:34.481342', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pan-seared-garlic-chicken-881166ef.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pan-seared-garlic-chicken-5927170651d3f177de477a53', 'HelloFresh.com', 'yukon gold potatoes
+broccoli florets
+chives
+garlic
+lime
+jalapeño
+cream cheese
+chicken breasts
+garlic powder
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (993, 'Pump Up The Jam Chicken', 'How do you get a party going? By pumping up the jam. So in order to really boogie down with this recipe, you gotta pump up the saucy apricot preserves with chunks of dried fruit. Its sticky sheen coats the chicken, adding a sweetness that makes it the life of the party (or at least this dish). And because every shindig needs a crowd that’s jumpin’, we’ve brought in a lively mix of couscous, almonds, and peas that adds to the fun.', '2021-05-03 16:43:34.533349', '2021-05-03 16:43:34.533349', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-thighs-with-apricot-sauce-ecc8b34b.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/chicken-thighs-with-apricot-sauce-58b995db171c5868706e78a4', 'HelloFresh.com', 'chicken thighs
+peas
+couscous
+apricot jam
+parsley
+gluten free chicken demi glace
+lemon
+almonds
+shallot
+dried apricots
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (994, '"Little Ears" Pasta', 'The backbone of this dish is orecchiette—a round-shaped pasta named for the “little ears” they resemble. The pasta is tossed with bites of broccoli and sweet sausage, and then given a nice coating of basil-packing pesto and Parmesan cheese. It works wonderfully as a side dish for 6-8 hungry mouths (just in time for Thanksgiving), but you can also enjoy it as a meal for two any night of the week.', '2021-05-03 16:43:34.597504', '2021-05-03 16:43:34.597504', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/little-ears-pasta-5dfffdc4.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/little-ears-pasta-59d68d242c9e86496d30a502', 'HelloFresh.com', 'baby broccoli
+sweet italian pork sausage
+orecchiette pasta
+chili flakes
+pesto
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (995, 'Southwestern Steak Tacos', 'The color gold signifies riches, glitz, and extravagance—all apt adjectives to describe this dish. Its centerpiece is a salsa based around SunGold kiwis, which have sweet flesh in that opulent hue. But there are also some equally luxe accompaniments, like deeply spiced strips of beef and a nice dab of sour cream.', '2021-05-03 16:43:34.6426', '2021-05-03 16:43:34.6426', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwestern-steak-tacos-ebba5d63.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/southwestern-steak-tacos-5942a1bfc6243b6b1c042162', 'HelloFresh.com', 'red onion
+poblano pepper
+sungold kiwi
+avocado
+cilantro
+lime
+chili pepper
+beef stir-fry
+southwest spice blend
+flour tortilla
+sour cream
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (996, 'One-Pan Pork Carnitas Tacos', 'Think of this as a quicker, weeknight-friendly version of carnitas, one that doesn’t involve hours of slow-cooking like it typically would. To create that deep, warm profile in minimal time, you’ll add a spice blend and a bit of stock to ground pork, which makes it nice, rich, and saucy. It’s the centerpiece of these tacos, which come with lots of tasty toppings that everyone can add as they please.', '2021-05-03 16:43:34.711127', '2021-05-03 16:43:34.711127', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/one-pan-pork-carnita-tacos-d3a37bee.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/one-pan-pork-carnita-tacos-5bc9f4deae08b509612bee22', 'HelloFresh.com', 'red onion
+poblano pepper
+cilantro
+tomato
+lime
+white wine vinegar
+ground pork
+fajita spice blend
+tomato paste
+chicken stock concentrate
+sour cream
+flour tortillas
+monterey jack cheese
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (997, 'Crispy Southwestern Chicken Cutlets', 'Crispy chicken is always a recipe for success. Add melty Monterey Jack and warm Southwestern spices to the mix, and you’ve got a winning dinner. Once baked, the crust turns golden-brown while the meat stays juicy and tender. The crunchy cutlets are served alongside creamy mashed potatoes and a fajita-reminiscent tangle of roasted poblanos and onions. If this all sounds complicated--it’s not! 30 minutes is all you need for this delicious dish to land on your table.', '2021-05-03 16:43:34.794401', '2021-05-03 16:43:34.794401', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5dadd2f81aca561a4045138a-179e34b2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-southwestern-chicken-cutlets-5dadd2f81aca561a4045138a', 'HelloFresh.com', 'yukon gold potatoes
+yellow onion
+poblano pepper
+panko breadcrumbs
+monterey jack cheese
+southwest spice blend
+chili powder
+chicken breasts
+sour cream
+hot sauce
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (998, 'Quickest Crispy Chicken', 'This chicken doesn’t just cross the road. It races down it at lightning speed. You can have these crispy, breadcrumb-coated cutlets on the table in 20 minutes flat (and that includes the toasty garlic bread and green salad that come on the side). The only thing we suggest slowing down for is savoring all those scrumptious flavors once they’re on your plate.', '2021-05-03 16:43:34.879284', '2021-05-03 16:43:34.879284', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/quickest-crispy-chicken-d3f68ace.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/quickest-crispy-chicken-59b1b4a4a2882a16ea10bcd1', 'HelloFresh.com', 'garlic
+italian seasoning
+demi baguette
+panko breadcrumbs
+chicken breasts
+sour cream
+roma tomato
+lemon
+arugula
+dried cranberries
+butter
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (999, 'Sweet Potato and Black Bean Tacos', 'Not many tacos can boast that they’re rich in vitamin A. Ours, however, are full of it, thanks to tender roasted cubes of sweet potato. They’re joined by black beans and a zesty avocado crema to make for some of the most delectable veggie goodness you’ll find inside the fold of a tortilla.', '2021-05-03 16:43:34.952038', '2021-05-03 16:43:34.952038', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-potato-and-black-bean-taco-f01d75dd.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/sweet-potato-and-black-bean-taco-5845cbac9df1812e372da892', 'HelloFresh.com', 'sweet potato
+yellow onion
+avocado
+lime
+cilantro
+garlic
+black beans
+cumin
+honey
+sour cream
+flour tortilla
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1000, 'Beef Bulgogi Bowls', 'If you can’t get enough of Asian-inspired flavors, bulgogi is sure to leave you satisfied. This Korean dish centers around beef in a sesame and soy sauce marinade with a little bit of sweetness. But the meat is just one out of many highlights: there’s also crisp quick-pickled cucumbers, tender carrots, and a spicy sour cream, all over fluffy white rice—clearly, it’s jam-packed and has a little bit of something for everyone.', '2021-05-03 16:43:35.014842', '2021-05-03 16:43:35.014842', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/ground-beef-bulgogi-bowls-bb6d7489.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/ground-beef-bulgogi-bowls-5df3de8e1ffc032efe0109f1', 'HelloFresh.com', 'jasmine rice
+scallions
+white wine vinegar
+cucumber
+shredded carrots
+ground beef
+sesame seeds
+bulgogi sauce
+sour cream
+sriracha
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1001, 'Buffalo Chicken Flatbread', 'If there’s one thing we can agree on here, it’s that buffalo chicken and ranch are an almost-perfect pair. When you take that tried-and-true combo and put it on a flatbread (along with an almost-instant tomato sauce and fresh mozzarella), well, you’ve got yourself a perfectly perfect meal.', '2021-05-03 16:43:35.08315', '2021-05-03 16:43:35.08315', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w51r15f-buffalo-chicken-flatbread-825f3c50.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/2018w51r15f-buffalo-chicken-flatbread-5bdc56dcae08b5732b045f22', 'HelloFresh.com', 'long green pepper
+roma tomato
+chicken breast strips
+celery salt
+ranch spice
+flatbreads
+mozzarella cheese
+honey
+hot sauce
+sriracha
+sour cream
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1002, 'Ginger Beef Stir-Fry', 'A HelloFresh classic! Tender beef and crisp, springy asparagus are quickly stir-fried with warming ginger and served over fluffy basmati rice. Hoisin sauce adds a touch of sweetness and an incredible umami depth. It’s so sweet and succulent, we’re sure you’ll agree with us that this is a recipe worth visiting again and again.', '2021-05-03 16:43:35.150573', '2021-05-03 16:43:35.150573', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w08-r02-731bfbb1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w08-r02-5873bb3db32fbe1a1b00abe2', 'HelloFresh.com', 'beef sirloin tips
+basmati rice
+asparagus
+garlic
+ginger
+hoisin sauce jar
+sesame seeds
+scallions
+soy sauce
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1003, 'Parmesan Chicken Strips', 'A balanced meal that’s adult AND kid approved? Yes, please! Our chefs opted to toast the panko to ensure it’s as crunchy as possible before combining it with Parmesan and using it to bread chicken-breast strips. After they’re baked to deep golden perfection in the oven alongside green beans and potato wedges, there’s nothing stopping everyone in your gang from gobbling it all right up.', '2021-05-03 16:43:35.207355', '2021-05-03 16:43:35.207355', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a1455daa5ed196b746d6d52-648011bc.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/parmesan-chicken-strips-5a1455daa5ed196b746d6d52', 'HelloFresh.com', 'yukon gold potatoes
+panko breadcrumbs
+parmesan cheese
+dried rosemary
+chicken breasts
+eggs
+green beans
+honey
+dijon mustard
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1004, 'Sweet and Sour Chicken', 'Sweet and sour may be a Chinese takeout staple, but our DIY version is proof that some things are even better when made at home (and totally worth the effort). That’s because there’s less grease and more veggies in it, so it feels lighter and tastes brighter, too. There’s even some bonus pineapple thrown into the mix of chicken and peppers to ensure that you get plenty of sweet, sweet satisfaction.', '2021-05-03 16:43:35.268026', '2021-05-03 16:43:35.268026', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-and-sour-chicken-5f547a93.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/sweet-and-sour-chicken-5b03394a30006c19316d2f92', 'HelloFresh.com', 'ginger
+scallions
+bell pepper
+poblano pepper
+pineapple
+chicken breasts
+fry seasoning
+cornstarch
+jasmine rice
+apple cider vinegar
+soy sauce
+chicken stock concentrate
+vegetable oil
+butter
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1005, 'Spinach and Ricotta Ravioli', 'Mamma mia! Here’s some perfect pasta prepared at pronto speed. It starts with chopped tomato and pieces of chicken sausage that cook up quickly in a pan. Once you’ve got your water boiling, in go the ravioli, which become perfectly al dente in a flash since they’re fresh. After that, all you gotta do is stir in the creamy sauce and put it on a plate. Then you mangiare! Mangiare!! Just like mamma would’ve said.', '2021-05-03 16:43:35.349035', '2021-05-03 16:43:35.349035', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c017ca9c445fa172d48f262-99a4aab4.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/spinach-ricotta-ravioli-5c017ca9c445fa172d48f262', 'HelloFresh.com', 'scallions
+roma tomato
+lemon
+italian chicken sausage mix
+italian seasoning
+spinach ricotta ravioli
+chicken stock concentrate
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1006, 'Chipotle Pulled Chicken Sandwiches', 'Delicious pulled chicken sandwiches in just 20 minutes? Yep! We’re making it happen. These bad boys in buns contain precooked pulled chicken—all you have to do is heat it in a pan and you’re at tender, juicy bliss. Although that meat isn’t the only star of the show. To keep things fresh, there’s also an apple carrot slaw, plus a spiced chipotle sour cream for a bit of smoky intrigue.', '2021-05-03 16:43:35.428517', '2021-05-03 16:43:35.428517', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chipotle-pulled-chicken-sandwiches-65b51ae9.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/chipotle-pulled-chicken-sandwiches-5af35ed430006c7dfb79ce72', 'HelloFresh.com', 'scallions
+apple
+shredded carrots
+white wine vinegar
+pulled chicken
+chipotle powder
+adobo sauce
+chicken stock concentrate
+sour cream
+brioche buns
+olive oil
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1007, 'Oven-Baked Parmesan Chicken', 'Weeknights feeling busier and more jam-packed than ever? We hear you! That’s why we’re bringing you our quickest, easiest meals yet. Introducing Oven-Ready Dinners. All you have to do is assemble in our aluminum trays, pop ’em in the oven, and dig in! No need to worry about prep or dirtying multiple dishes. This week, we’re featuring crunchy Parmesan-and-panko-coated chicken, crisp broccoli, and garlic butter baguettes—all ready in under 30 minutes. Now that’s a weeknight win.', '2021-05-03 16:43:35.494486', '2021-05-03 16:43:35.494486', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/oven-baked-parmesan-chicken-20c0d908.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/oven-baked-parmesan-chicken-5db89117a9a1a656d72a7317', 'HelloFresh.com', 'parmesan cheese
+panko breadcrumbs
+paprika
+chicken breasts
+broccoli florets
+demi baguette
+garlic herb butter
+olive oil
+salt
+pepper
+oven-ready aluminum trays');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1008, 'Cavatappi in a Tomato Cream Sauce', 'Everyone knows that in order to make great pasta, you’ve got to make a great sauce, too. But while the pasta part is a cinch for anyone who can boil water, the sauce part requires a bit more strategy. Luckily, we’re here to lead the way: we’re making a tomato cream sauce that’s as timeless as can be, thickening it with a roux (that’s a fancy term for using flour to make your sauce unctuous and spoon-coating). It clings to each curl of cavatappi, giving you tangy, dairy-rich goodness with each bite.', '2021-05-03 16:43:35.543869', '2021-05-03 16:43:35.543869', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w20-r13-6e1c658d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w20-r13-58de5dcc3131003a4a2b15d2', 'HelloFresh.com', 'cavatappi pasta
+parmesan cheese
+pancetta
+milk
+flour
+garlic
+parsley
+crushed tomatoes
+spinach
+panko breadcrumbs
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1009, 'Sugar-Sweet Pork Chops', 'If you think pork chops are dull, think again. In this recipe, the tender cut takes on a shine, literally. You’ll be coating them in a glistening sweet glaze that marries caramelized sugar with herb-y thyme and a hint of cayenne heat. On the side, we’ve got roasted carrots, onions, and parsnips—yep, parsnips (trust us, you’ll love ’em).', '2021-05-03 16:43:35.602306', '2021-05-03 16:43:35.602306', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sugar-rubbed-pork-chops-115afb0b.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sugar-rubbed-pork-chops-5857fe017d69bf14620dc0a2', 'HelloFresh.com', 'cayenne pepper
+boneless pork chops
+parsnip
+carrots
+red onion
+thyme
+garlic
+chicken stock concentrate
+salt
+pepper
+vegetable oil
+sugar
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1010, 'Oven-Baked Apricot Chicken Legs', 'Get a leg up at dinnertime with this recipe that has all the flavors, like apricot jam, Dijon mustard, and a hint of lemon swirled into a delectable glaze for crispy-skinned roasted chicken. Each bite of juicy dark meat feel like a revelation of sweet, savory, and tangy flavors. And it only gets better when you factor in the sides: potato wedges seasoned with warm spices and easy-peasy microwaved broccoli with a touch of lemon, butter, and chili flakes.', '2021-05-03 16:43:35.657563', '2021-05-03 16:43:35.657563', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d1bb77c49fa430009046815-94e90847.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/oven-baked-apricot-chicken-legs-5d1bb77c49fa430009046815', 'HelloFresh.com', 'chicken legs
+paprika
+yukon gold potatoes
+fry seasoning
+lemon
+apricot jam
+dijon mustard
+broccoli florets
+chili flakes
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1011, 'Butter-Basted Chicken Breasts', 'Your average chicken breast is amped up with a rich pan sauce and flavorful sides like sweet potatoes and candied bacon brussels sprouts. The “candied” here refers to brown sugar that is added to the brussels and bacon and then baked in the oven to form a gorgeous caramelized layer. The dish is finished with a silky, flavor-packed pan sauce, made from garlic butter, our rich demi-glace and tangy sour cream. Served with velvety sweet potatoes to bring it all together, this decadent meal is one for the books.', '2021-05-03 16:43:35.711585', '2021-05-03 16:43:35.711585', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/butter-basted-chicken-breasts-74c56d61.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/butter-basted-chicken-breasts-5c018155e3f3391e986ad6d2', 'HelloFresh.com', 'brussels sprouts
+scallions
+shallot
+sweet potato
+bacon
+brown sugar
+chicken breasts
+garlic herb butter
+chicken demi-glace
+sour cream
+chili flakes
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1012, 'Hoisin Sriracha Chicken', 'Chicken breasts with sweet potatoes and broccoli may not be anything new, but the way in which our chefs have dressed them up certainly is. In this twist on your classic protein, starch, and veg, a hoisin glaze is used to add a layer of sweet Asian-style flavor to the meat. Then the broccoli on the side is tossed with ginger to give it extra zing. The sweet potatoes, however, are already a powerhouse and are simply roasted to let them shine.', '2021-05-03 16:43:35.777748', '2021-05-03 16:43:35.777748', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/hoisin-sriracha-chicken-21a4090c.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/hoisin-sriracha-chicken-5ad7bc43ae08b51d424f6552', 'HelloFresh.com', 'ginger
+scallions
+sweet potato
+broccoli florets
+chicken breasts
+hoisin sauce
+sriracha
+honey
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1013, 'Thyme Gravy Pork Chops', 'Although we love exploring new cuisines and flavors, not every night of the week has to be an adventure. Sometimes, you just wanna kick back with the classics. This recipe was made for just that. Mashed potatoes, pork chops, and roasted asparagus with an herby gravy mean no funny business here. Just pure deliciousness that everyone in your family will love.', '2021-05-03 16:43:35.829343', '2021-05-03 16:43:35.829343', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a53abe22c9e86757b651682-1c1ebf8b.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/thyme-gravy-pork-chops-5a53abe22c9e86757b651682', 'HelloFresh.com', 'yukon gold potatoes
+asparagus
+chives
+lemon
+pork chops
+flour
+chicken demi-glace
+thyme
+milk
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1014, 'Cherry Balsamic Pork Chops', 'Part sweet, part tangy, and all-around delicious—that’s the thick and super flavorful glaze we have in store for you tonight drizzled over these pork chops. The rich cherry and balsamic flavors balance each other out perfectly. So we’ve kept the sides simple with roasted broccoli and potatoes to allow the meat and sauce to shine. And boy, do they steal the show.', '2021-05-03 16:43:35.884857', '2021-05-03 16:43:35.884857', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cherry-balsamic-pork-chops-3529f35d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cherry-balsamic-pork-chops-605a5c60c5359c635229ca51', 'HelloFresh.com', 'yukon gold potatoes
+shallot
+dried thyme
+pork chops
+broccoli florets
+balsamic vinegar
+cherry jam
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1015, 'Pork Tenderloin à L''Orange', 'Pork loves a good, fruity sauce—it’s known to be charming in cherry and appealing in apple. Here, we’re making it opulent in orange. Tenderloin is drizzled in a citrusy pan sauce and served atop a kale salad studded with pecans, cranberries, and wild rice. The whole dish is hearty enough for dinner, but with a brightness and kick that will do nicely in any leftovers for lunch.', '2021-05-03 16:43:35.943054', '2021-05-03 16:43:35.943054', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-tenderloin-a-lorange-2f477b34.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/pork-tenderloin-a-lorange-59712a1d51d3f12b335f76a2', 'HelloFresh.com', 'wild rice
+tuscan kale
+orange
+pork tenderloin
+white wine vinegar
+honey
+dried cranberries
+pecans
+veggie stock concentrate
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1016, 'Buffalo-Spiced Chicken with Blue Cheese', 'Are you the type of person who only goes to sporting events because of the fact that buffalo wings may be present? We’re with you, and that’s why our chefs took the beloved dish from messy app to epic weeknight dinner. First, chicken is brushed with sour cream, then coated in a Frank’s Red Hot spiced panko mixture. It’s roasted to juicy, crunchy perfection, then drizzled with creamy flecked blue cheese sauce. Oh, and did we mention there’s roasted carrots and sour cream and chive mashed potatoes on the side?! Yeah, it’s safe to say this dish is a slam dunk.', '2021-05-03 16:43:36.017207', '2021-05-03 16:43:36.017207', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-buffalo-spiced-chicken-98340cd1.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/buffalo-spiced-chicken-with-blue-cheese-5e46e5e8194a911d314a5b1b', 'HelloFresh.com', 'yukon gold potatoes
+chives
+sour cream
+panko breadcrumbs
+blue cheese dressing
+carrots
+fry seasoning
+chicken cutlets
+hot sauce
+olive oil
+vegetable oil
+butter
+salt
+pepper
+frank''s redhot® original seasoning blend');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1017, 'Caramelized Pineapple Teriyaki Burger', 'Take your taste buds on a trip to the tropics! This recipe has warm and sunny flavors guaranteed to brighten up dinnertime. Teriyaki-glazed burgers are topped with charred onion slices and juicy, caramelized pineapple (aka happiness in a bun). On the side, there’s a heap of crispy sweet potato wedges and creamy sriracha mayo for dunking. Sweet, savory, and spicy--these bodacious burgers hit all the right notes. Plus, they’re a breeze to whip up!', '2021-05-03 16:43:36.08639', '2021-05-03 16:43:36.08639', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w14-r7-caramelized-pineapple-teriyaki-burger-18822721.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w14-r7-caramelized-pineapple-teriyaki-burger-5c66ff54e3f3397f526bce41', 'HelloFresh.com', 'sweet potato
+red onion
+pineapple
+mayonnaise
+sriracha
+ground beef
+teriyaki sauce
+potato buns
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1018, 'Creamy Mushroom Pork Chops', 'Pork chops blanketed in a creamy mushroom sauce is a recipe that’s an oldie and a goodie. The combo of savory mushrooms, rich dairy, and lean pork is enduring and familiar, yet it never fails to remind you of how good it is every time. On the side, oven-roasted potato wedges and Brussels sprouts complete this comfortingly classic meal.', '2021-05-03 16:43:36.132594', '2021-05-03 16:43:36.132594', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w14-r3-0b5dea88.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w14-r3-58a62e6251d3f1540961c574', 'HelloFresh.com', 'sour cream
+boneless pork chops
+brussels sprouts
+yukon gold potatoes
+button mushrooms
+shallot
+veggie stock concentrate
+parsley
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1019, 'Quickest Mac and Cheese', 'If you think mac and cheese is just pasta and cheese, think again. Our chefs managed to sneak tomato and spinach into this super speedy comfort dish. But don’t worry—your kids will be too distracted by the crunchiness of the panko breadcrumbs and creaminess of the cheddar cheese to even notice.', '2021-05-03 16:43:36.18447', '2021-05-03 16:43:36.18447', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/quickest-mac-and-cheese-2dc3a3ef.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/quickest-mac-and-cheese-57e2be72d36aaa3f2f0c2592', 'HelloFresh.com', 'gemelli pasta
+cheddar cheese
+cream cheese
+spinach
+roma tomato
+yellow onion
+milk
+panko breadcrumbs
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1020, 'Pecan-Crusted Trout', 'Is there anything better than tender, buttery fish with a crunchy, nutty topping? Why, yes! How about Steelhead trout fillets coated in a creamy honey mustard sauce, then crusted in a mixture of crushed pecans, panko, fresh thyme, and butter? (To be honest, we’d eat anything with that sprinkled on top!) The topping turns toasty and crispy in the oven as the fish cooks to juicy perfection. As if that weren’t enough to sell you, on the side, we’re also serving up thyme-roasted potato rounds and mixed greens with apple slices. Weeknight luxury is just 35 minutes away!', '2021-05-03 16:43:36.234838', '2021-05-03 16:43:36.234838', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/606cb08122ae7124f50872af-506a9e1f.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pecan-crusted-trout-606cb08122ae7124f50872af', 'HelloFresh.com', 'yukon gold potatoes
+thyme
+pecans
+panko breadcrumbs
+honey
+dijon mustard
+mayonnaise
+steelhead trout
+lemon
+apple
+mixed greens
+salt
+pepper
+vegetable oil
+butter
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1021, 'Cheesy Chicken Enchilada Bake', 'It’s time to take your Taco Tuesday rotation to the next level with a tortilla casserole bake. This version is essentially an oversized sandwich of melty, saucy, and meaty flavors, featuring a layer of tortillas topped with chicken and bell peppers that then get crowned with another layer of tortillas, plus a tomato enchilada sauce and a sprinkling of cheese. When it comes out of the oven, it’s bubbling, piping hot, and steamy—how could it not impress?', '2021-05-03 16:43:36.306623', '2021-05-03 16:43:36.306623', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cheesy-chicken-enchilada-bake-bae7dd47.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/cheesy-chicken-enchilada-bake-5a8f104d30006c306e3d5fe2', 'HelloFresh.com', 'chicken breasts
+southwest spice blend
+bell pepper
+scallions
+enchilada sauce
+flour tortillas
+monterey jack cheese
+lime
+sour cream
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1022, 'Sirloin and Mustard Shallot Cream Sauce', 'Our chefs are always looking to take “meat and potatoes” to the next level. This week, they really raised the steaks. (We’ll show ourselves out...) In this recipe, sirloin is pan-seared with butter and floral Herbs de Provence, then drizzled with a rich and creamy mustard-shallot sauce. On the side, there’s crispy roasted potatoes and carrot green bean amandine. Never heard of amandine? Basically, it’s any dish finished with a sprinkle of almonds. This version happens to be extra special—roasted veggies are topped with toasted, lightly caramelized almonds.', '2021-05-03 16:43:36.368046', '2021-05-03 16:43:36.368046', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d517d30aa31b0001608058f-5b370eee.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sirloin-and-mustard-shallot-cream-sauce-5d517d30aa31b0001608058f', 'HelloFresh.com', 'sirloin steak
+yukon gold potatoes
+fry seasoning
+shallot
+carrots
+green beans
+almonds
+beef stock concentrate
+dijon mustard
+herbes de provence
+sour cream
+olive oil
+butter
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1023, 'Hot ''N'' Hearty Chicken Pizzas', 'Chicken, cheese, and a crispy crust: they’re three Cs that are guaranteed to make your mouth do the cha-cha. If that’s not enough reason to check out this pizza recipe, how about juicy roasted zucchini, Italian herbs, and a layer of tomato sauce? Still haven’t hit “select”? Well then, champ, maybe the chili flakes on top will be enough to make you chuffed for that spicy finishing touch.', '2021-05-03 16:43:36.44428', '2021-05-03 16:43:36.44428', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/hot-n-hearty-chicken-pizzas-28f1e7a1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/hot-n-hearty-chicken-pizzas-5a99c7c9ae08b575c96a3012', 'HelloFresh.com', 'chicken breast strips
+italian seasoning
+zucchini
+shallot
+garlic
+flatbreads
+crushed tomatoes
+fresh mozzarella
+chili flakes
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1024, 'Sizzling Hoisin Shrimp', 'If you’re like us, you’ve seen a lot of stir-fries in your day. But thanks to our sweet hoisin shrimp marinade, aromatic rice, and a sprinkle of nutty sesame seeds, this one is bound to top them all. It cooks super-quickly and brings a tour de force of Asian-style flavors that even the pickiest of eaters will love. Sounds like a win-win to us.', '2021-05-03 16:43:36.503881', '2021-05-03 16:43:36.503881', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e430f8750a9d354d87026e3-e2fec9ba.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sizzling-hoisin-shrimp-5e430f8750a9d354d87026e3', 'HelloFresh.com', 'scallions
+ginger
+garlic
+lime
+jasmine rice
+shrimp
+hoisin sauce
+green beans
+sesame seeds
+vegetable oil
+salt
+pepper
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1025, 'Chicken Sausage and Spinach Ricotta Ravioli', 'Mamma mia! Here’s some perfect pasta prepared at pronto speed. It starts with chopped tomato and pieces of chicken sausage that cook up quickly in a pan. Once you’ve got your water boiling, in go the ravioli, which become perfectly al dente in a flash since they’re fresh. After that, all you gotta do is stir in the creamy sauce and put it on a plate. Then you mangiare! Mangiare!! Just like mamma would’ve said.', '2021-05-03 16:43:36.58364', '2021-05-03 16:43:36.58364', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spinach-ricotta-ravioli-8952341c.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/spinach-ricotta-ravioli-5ca4f65ec445fa48f603f0a2', 'HelloFresh.com', 'scallions
+roma tomato
+lemon
+italian chicken sausage mix
+italian seasoning
+spinach ricotta ravioli
+chicken stock concentrate
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1026, 'Italian Noodle Soup', 'This is chicken noodle soup the way your Italian grandma would’ve made it. Naturally, there’s a soul-soothing broth flavored with garlic and Tuscan herbs. And it’s got all the veggies to make you strong, like carrot, tomato, and spinach. Although that old-world charm really shines through in the fusilli pasta spirals, sweet chicken sausage, and sprinkle of Parmesan cheese. If you want to claim this one as a generations-old family recipe, we’ll keep it a secret.', '2021-05-03 16:43:36.632017', '2021-05-03 16:43:36.632017', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5bf3097eae08b554ca415a92-82a0f940.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/italian-noodle-soup-5bf3097eae08b554ca415a92', 'HelloFresh.com', 'carrots
+yellow onion
+roma tomato
+italian chicken sausage mix
+tuscan heat spice
+garlic powder
+chicken stock concentrate
+fusilli pasta
+parmesan cheese
+chili flakes
+ciabatta roll
+spinach
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1027, 'Balsamic-and-Fig Beef Tenderloin', 'Gettin’ figgy with it! Fig jam, that is. Here, the sweet stuff is paired with balsamic vinegar to create a rich and tangy pan sauce for drizzling over beef tenderloin. Garlicky mashed potatoes are the perfect accompaniment for catching any runoff sauce (and trust us, you won’t want to waste a drop.) Tender, caramelized brussels sprouts join the mix, topped with crunchy, golden breadcrumbs. This dish is bursting with flavors and textures that’ll make your mouth dance.', '2021-05-03 16:43:36.701148', '2021-05-03 16:43:36.701148', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d814971f6fd0e736c656e5f-f318a6db.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/balsamic-fig-beef-tenderloin-5d814971f6fd0e736c656e5f', 'HelloFresh.com', 'yukon gold potatoes
+brussels sprouts
+shallot
+rosemary
+garlic
+sour cream
+panko breadcrumbs
+beef tenderloin
+beef stock concentrate
+fig jam
+balsamic vinegar
+butter
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1028, 'Butter-Basted Sirloin Steak', 'A juicy, seared steak is a sure route to maximal flavor with minimal effort. But when chefs want to really raise the steaks, they add a not-so-secret ingredient: butter. It not only delivers rich flavor, but also helps the meat achieve a beautiful, brown crust. To that end, you’ll be basting sirloin in butter, garlic, and herbs in this recipe. The sides are no slouch, either: parsnip wedges roasted until they’re sweet, plus tender spinach decked out with sour cream.', '2021-05-03 16:43:36.76811', '2021-05-03 16:43:36.76811', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w09-r02-1d294a53.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w09-r02-58821ec19f236a40b6565fe3', 'HelloFresh.com', 'sirloin steak
+rosemary
+parsnip
+spinach
+sour cream
+garlic
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1029, 'Pancetta and Chorizo Penne', 'Double the meat, double the cheese: that’s what you get with this rich, hearty pasta that uses both pancetta and chorizo as well as Parmesan and cream cheese. They’re tossed into a tomato-y sauce, fulfilling all of your pasta-night dreams. You can’t have all that deliciousness without a few veggies, of course, so we’re also adding juicy roasted tomato wedges and sweet peas.', '2021-05-03 16:43:36.815035', '2021-05-03 16:43:36.815035', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pancetta-and-chorizo-penne-8f26a6d9.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pancetta-and-chorizo-penne-5addf61930006c5339780a52', 'HelloFresh.com', 'roma tomato
+garlic
+parsley
+dried chorizo
+penne pasta
+pancetta
+tomato paste
+cream cheese
+peas
+chili flakes
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1030, 'Stuffed Meatball Rigatoni Bake', 'Sure, you’ve heard of a cheese-stuffed burger, but a cheese-stuffed meatball?! Now that’s next-level culinary innovation. Tuscan-spiced ground beef is wrapped around shredded mozzarella and then baked. While they’re in the oven, you’ll be boiling rigatoni and whipping up a marinara sauce any Nonna would be proud of. Everything is tossed together, then topped with buttery panko, Parmesan and more mozz. A trip under the broiler transforms the topping into crunchy, melty perfection. “Now that’s a cheesy meatball!”', '2021-05-03 16:43:36.892047', '2021-05-03 16:43:36.892047', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/stuffed-meatball-rigatoni-bake-70e9aabe.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/stuffed-meatball-rigatoni-bake-5dfd1187dd368f2cf134dd1b', 'HelloFresh.com', 'mozzarella cheese
+rigatoni pasta
+panko breadcrumbs
+ground beef
+tuscan heat spice
+marinara sauce
+parmesan cheese
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1031, 'Peppercorn-Crusted Beef Tenderloin', 'If nothing says “date night” like a juicy steak, then this dish is the equivalent of getting down on one knee. Pan-seared, pepper-crusted steaks are drizzled with a chive-flecked butter sauce (cue the swoons). But it’s not just any pepper, and it’s not just any steak: here, freshly cracked tri-colored peppercorns provide a spicy, crunchy coating for melt-in-your-mouth beef tenderloin. On the side, there’s delicately crisp asparagus with toasty almonds and creamy mashed sweet potatoes. No matter who you cook this for, we have a good feeling they’ll be quite smitten.', '2021-05-03 16:43:36.951559', '2021-05-03 16:43:36.951559', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d6e860dd611f800141d86c4-8b9cede0.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/peppercorn-crusted-beef-tenderloin-5d6e860dd611f800141d86c4', 'HelloFresh.com', 'sweet potato
+chives
+asparagus
+tricolored peppercorns
+beef tenderloin
+beef stock concentrate
+almonds
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1032, 'Garlic Herb Tortelloni', 'Crispy breadcrumbs are a low-effort way to add tons of flavor and texture to your meal. This scene-stealing garnish originates from the Italian pangrattato, otherwise known as grated stale bread, which was used in place of Parmesan. Lucky you, we’ve upped the ante and combined both to create one comforting yet elevated weeknight dish. This tasty topping perfectly accentuates tender, cheese-stuffed tortelloni. The pillowy pasta is coated in rich garlic-herb butter and tossed with sweet sautéed shallot and roasted veggies for bite after bite deliciousness. Can you say pasta night bliss?', '2021-05-03 16:43:37.010053', '2021-05-03 16:43:37.010053', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5dd837ba4772495455492c76-ce119b19.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/garlic-herb-tortelloni-5dd837ba4772495455492c76', 'HelloFresh.com', 'zucchini
+roma tomato
+shallot
+garlic
+italian seasoning
+chili flakes
+panko breadcrumbs
+cheese tortelloni
+parmesan cheese
+butter
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1033, 'Phantom Tortelloni Bolognese', 'It’s alive! Well, the flavors in this dish are, at least. Tangy tomatoes, fragrant basil, and tender spinach are swirled together with cheese-filled tortelloni, then buried as deep as a crypt under a cheesy Parmesan and panko topping. All that deliciousness won’t stay six feet under for long, however. This is the sort of timeless pasta dish that your family will eat up and make vanish like a ghost.', '2021-05-03 16:43:37.080052', '2021-05-03 16:43:37.080052', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/phantom-tortelloni-bolognese-170eb333.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/phantom-tortelloni-bolognese-59baef5aad1d6c09a3395b52', 'HelloFresh.com', 'yellow onion
+garlic
+basil
+ground beef
+crushed tomatoes
+cheese tortelloni
+panko breadcrumbs
+parmesan cheese
+spinach
+sour cream
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1034, 'One-Pot Southwestern Beef Tacos', 'We’re big fans of adding extra crunch to tacos. In this recipe, we said goodbye to creamy cabbage and HELLO to veggie ribbon slaw. Whipped up with a peeler and a flick of the wrist, this is our new favorite way to adorn tacos, veggie bowls, pizza, oatmeal...you get the idea.', '2021-05-03 16:43:37.165923', '2021-05-03 16:43:37.165923', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019w2r14-one-pot-southwestern-beef-tacos-e728f2a7.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019w2r14-one-pot-southwestern-beef-tacos-5bf30b4430006c387a600701', 'HelloFresh.com', 'scallions
+carrots
+zucchini
+red wine vinegar
+southwest spice blend
+lime
+sour cream
+ground beef
+chili powder
+beef stock concentrate
+flour tortillas
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1035, 'Do the Dukkah Chicken', 'Dukkah (pronounced DOO-kah) is a great way to bring the crunch. The Egyptian blend of crushed nuts, spices, and seeds is fine enough to sprinkle on like a seasoning, but it has enough rugged texture to keep it satisfyingly crisp. Here, it’s used two ways: to add a coating to butterflied chicken breasts and to bring an extra dash of flavor to roasted sweet potatoes.', '2021-05-03 16:43:37.230625', '2021-05-03 16:43:37.230625', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-pan-fried-chicken-with-sweet--a849e8bc.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/uk-pan-fried-chicken-with-sweet-5857fc5d14d0f16d6175eb32', 'HelloFresh.com', 'chicken breasts
+sweet potato
+dukkah
+lime
+sugar snap peas
+sour cream
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1036, 'Pork Bulgogi Meatballs', 'Do you love meatballs but aren’t sure how to take them beyond the usual? Say hello to bulgogi, a Korean-style sauce that knows what’s up. Based around soy sauce, it has savory complexity for sophisticated palates, plus just enough sweetness to round things out. In this recipe, it’s used to glaze pork meatballs, giving them an outer layer of extra flavor that pairs perfectly with the sesame-accented rice, carrots, and zucchini.', '2021-05-03 16:43:37.274826', '2021-05-03 16:43:37.274826', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-bulgogi-meatballs-7ade28d6.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/pork-bulgogi-meatballs-5c1157cfe3f33906126b9672', 'HelloFresh.com', 'zucchini
+ginger
+lime
+scallions
+ground pork
+panko breadcrumbs
+bulgogi sauce
+shredded carrots
+sesame oil
+microwaveable jasmine rice
+sriracha
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1037, 'Cauliflower Bacon Mac ''N'' Cheese', 'Bacon. Mac ‘n’ cheese. Need we say more? Okay, how about gooey, melty, bouncy, smoky, savory, and cascading with curls of cavatappi? Not convinced? Well, there’s a good amount of calcium-rich cauliflower in there too—roasted, not boiled, to bring out its natural sweetness and give it a crisp-edged tenderness that is sure to please.', '2021-05-03 16:43:37.341233', '2021-05-03 16:43:37.341233', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cauliflower-bacon-mac-n-cheese-bda3eb35.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/cauliflower-bacon-mac-n-cheese-5cc20c420c391500087fa578', 'HelloFresh.com', 'scallions
+cauliflower florets
+cavatappi pasta
+bacon
+flour
+milk
+chicken stock concentrate
+italian cheese blend
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1038, 'Cheesy Beef Tostadas', 'We love a good ground-beef taco, but you don’t need us to tell you how to make one—there are kits for that. Instead, we’re here to show you how to take Tex-Mex night to the next level. So enter the tostada, featuring a flat tortilla baked until crisp, with lots of surface area for piling it on. Thankfully, there are plenty of toppings in this recipe, and not just warmly spiced ground beef—there’s also green pepper, tomato salsa, and a spicy sour cream.', '2021-05-03 16:43:37.398749', '2021-05-03 16:43:37.398749', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d6e7de4267dd400115aadf6-f0c6275b.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/cheesy-beef-tostadas-5d6e7de4267dd400115aadf6', 'HelloFresh.com', 'roma tomato
+cilantro
+lime
+long green pepper
+yellow onion
+sour cream
+hot sauce
+ground beef
+southwest spice blend
+chili powder
+beef stock concentrate
+flour tortillas
+mexican cheese blend
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1039, 'Lobster Filled Ravioli & Shrimp', 'Tender ravioli are pretty much great in any form, but they’re especially great when packed with fresh lobster and pillowy ricotta. Add succulent, seared shrimp to the mix and it’s a crustacean celebration! This divine dish is taken to the next level with a creamy, pink-hued tomato sauce, golden crispy breadcrumbs, and a sprinkle of fresh lemon zest. Be still, our pasta-loving hearts…', '2021-05-03 16:43:37.500331', '2021-05-03 16:43:37.500331', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/602c3cf7d59a534cb41c576e-13cbaf40.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/lobster-filled-ravioli-shrimp-602c3cf7d59a534cb41c576e', 'HelloFresh.com', 'scallions
+lemon
+shrimp
+panko breadcrumbs
+lobster ravioli
+italian seasoning
+tomato paste
+cream cheese
+sour cream
+parmesan cheese
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1040, 'BBQ Baby Back Ribs', 'Looking for an excuse to serve up one epic barbecue-night? Here, we send you all the fixin’s so you can make sticky, saucy baby back ribs dusted with ancho chili spices, loaded gooey cheddar and jalapeño biscuits, and our easy riff on charred street corn. Licking your fingers already? We won’t judge.', '2021-05-03 16:43:37.571129', '2021-05-03 16:43:37.571129', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/ancho-bbq-baby-back-ribs-8a40ea40.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/bbq-baby-back-ribs-6076d342059f375d013f9927', 'HelloFresh.com', 'bbq baby back ribs
+ancho chili powder
+jalapeño
+roma tomato
+scallions
+cilantro
+cheddar cheese
+cream cheese
+buttermilk biscuits
+corn
+lime
+buttermilk ranch dressing
+cooking oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1041, 'Baja Chicken Quesadillas', 'Making a fine quesadilla is easy (just ask your college self—all you needed was a tortilla, whatever cheese you happened to have on hand, and a microwave). Making a great quesadilla, however, requires just a bit more finesse. Take this one, for instance. It’s golden and crispy on the outside (thanks, butter!) and filled with spiced chicken and two kinds of melty cheese. The finishing touches? Spoonfuls of fresh tomato salsa and a drizzle of tangy lime crema. It’s a classic...just a little bit better.', '2021-05-03 16:43:37.673917', '2021-05-03 16:43:37.673917', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w26-r14-baja-chicken-quesadilla-e4f0ad1b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w26-r14-baja-chicken-quesadilla-5cd9dfa0d5c2f800105388bc', 'HelloFresh.com', 'red onion
+chicken breast strips
+blackening spice
+lime
+roma tomato
+sour cream
+flour tortilla
+mozzarella cheese
+mexican cheese blend
+hot sauce
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1042, 'Crispy Cheddar Frico Cheeseburgers', 'We’ve taken cheeseburgers to the next level with the help of a little something called frico (aka cheese crisps). They look fancy-schmancy, but making them simply involves baking cheddar cheese until it reaches crispy, golden-brown perfection. On top of burgers with onion jam, tomatoes, and ketchup, they feel like a crowning achievement in topping technology.', '2021-05-03 16:43:37.725442', '2021-05-03 16:43:37.725442', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-frico-cheeseburgers-6d866c6d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-frico-cheeseburgers-5c9bae5de3f3394d967dd482', 'HelloFresh.com', 'yellow onion
+roma tomato
+brioche buns
+ground beef
+broccoli florets
+sherry vinegar
+cheddar cheese
+ketchup
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1043, 'Creamy Chive Chicken', 'We’re big fans of pan sauces because they’re an easy way to add tons of restaurant-level flavor to your dish. Here, tangy lemon juice, punchy dijon, sour cream, and fresh chives mingle to create a condiment that truly takes seared chicken to the next level. On the side, there’s zesty lemon rice and a green salad that’s bursting with crispy pieces of apple...because you only deserve the best!', '2021-05-03 16:43:37.806956', '2021-05-03 16:43:37.806956', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5dc047615197ee55a945fc4f-7e914ca3.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamy-chive-chicken-5dc047615197ee55a945fc4f', 'HelloFresh.com', 'hudson river fruit snapdragon apple
+chives
+lemon
+jasmine rice
+dijon mustard
+chicken breasts
+chicken stock concentrate
+sour cream
+mixed greens
+sugar
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1044, 'Cayenne Ranch Chicken', 'Do you love ranch-flavored things as much as we do? Good. You and us both are in for a treat with these chicken breasts coated in a layer of breadcrumbs and ranch seasoning (yes, you read that right—ranch-flavored crispy chicken). The fun doesn’t stop there, either—there’s also a creamy ranch sauce for dipping the side sweet potatoes and green beans into. So mosey on over to our ranch for a tasty ol’ time.', '2021-05-03 16:43:37.89559', '2021-05-03 16:43:37.89559', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/ranch-crusted-chicken-daa36329.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/ranch-crusted-chicken-5b47a7deae08b530117dcdc2', 'HelloFresh.com', 'sweet potato
+lemon juice
+sour cream
+ranch spice
+cayenne pepper
+panko breadcrumbs
+chicken breasts
+shallot
+broccoli florets
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1045, 'Mozzarella Pesto Chicken', 'Cheesy chicken sounded pretty tough to top, but our chefs were up to the challenge. They went and made it 25x (a scientific number) more delicious by spreading a layer of bright, herby pesto beneath melty mozzarella. And while chicken is the main event here, the sides are excellent accompanying acts. We’re serving up crispy-edged roasted carrots and buttery, lemony rice for a sweet-and-savory sensation.', '2021-05-03 16:43:37.979273', '2021-05-03 16:43:37.979273', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/melty-mozzarella-pesto-chicken-fb4b2448.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/melty-mozzarella-pesto-chicken-5d35ceb1a641a5000f49d8dc', 'HelloFresh.com', 'carrots
+lemon
+chicken cutlets
+jasmine rice
+pesto
+mozzarella cheese
+chili flakes
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1046, 'Penne Limone with Chicken', 'When life gives you lemons… you could make lemonade, but wouldn’t you rather whip up a delectable homemade pasta limone? This rich, tangy, oh-so-easy sauce comes together in a flash with lemon juice and zest, Parmesan, and butter—plus toasted garlic and a cream sauce base for good measure. It’s all tossed with penne noodles, sautéed zucchini, and chicken breast strips, then garnished with fresh basil and more Parm. Each bowl’s served with lemon wedges for squeezing over. This dish is truly the best of the zest.', '2021-05-03 16:43:38.051889', '2021-05-03 16:43:38.051889', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/penne-limone-with-chicken-af83edc0.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/penne-limone-with-chicken-5efb35e1b0680f29d078f249', 'HelloFresh.com', 'garlic
+lemon
+penne pasta
+cream sauce base
+zucchini
+basil
+chicken breast strips
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1047, 'Melty Mozzarella Chicken Pomodoro Bake', 'As the temperature continues to plummet, it’s impossible not to daydream about a soul-warming dish. Well, folks, the search is over. This bubbly bake has Tuscan-spiced chicken and tender bites of al dente penne cloaked in a savory tomato sauce. It’s topped off with toasted breadcrumbs and melty mozzarella before being broiled to golden-brown perfection. This one-pan wonder is guaranteed to satisfy all cold weather cravings. We’re all about making dreams come true.', '2021-05-03 16:43:38.137418', '2021-05-03 16:43:38.137418', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w13-r14-melty-mozzarella-chicken-pomodoro-bake-da6638e9.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/2019-w13-r14-melty-mozzarella-chicken-pomodoro-bake-5c619a5fc445fa469747ec11', 'HelloFresh.com', 'fresh mozzarella
+chicken breast strips
+tuscan heat spice
+penne pasta
+crushed tomatoes
+chicken stock concentrate
+panko breadcrumbs
+vegetable oil
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1048, 'The Great Caper: Cod Piccata', 'Piccata may sound like a fancy Italian dish that only your nonna can do right. But really, all it demands is swirling lemon, capers, herbs, and butter in a pan until they come together in tart and tangy harmony. Here, we’re drizzling the combo over flaky cod, tender spinach, and bubbly couscous so that they soak up all that amazing flavor.', '2021-05-03 16:43:38.223344', '2021-05-03 16:43:38.223344', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cod-picatta-0109d426.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cod-picatta-585803b26121bb65ad2e9d13', 'HelloFresh.com', 'cod fillets
+shallot
+capers
+israeli couscous
+veggie stock concentrate
+thyme
+spinach
+lemon
+salt
+pepper
+butter
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1049, 'Spanish One-Pan Chicken', 'In Spain, paella is something of a festive dish, made for large gatherings or celebrations and almost always cooked over a wood fire. Don''t tell the Spaniards, but we think it''s also a pretty great, quick and easy, one-pan stovetop recipe that can be enjoyed even in cozy and intimate settings. Filled with chicken, chorizo, and bright red peppers, our version feels like a meaty, savory, flavor-filled jubilee.', '2021-05-03 16:43:38.32033', '2021-05-03 16:43:38.32033', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spanish-one-pot-chicken-7dc5fcf4.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/spanish-one-pot-chicken-582c97682e69d7666b64ed42', 'HelloFresh.com', 'chicken breasts
+basmati rice
+dried chorizo
+yellow onion
+red bell pepper
+parsley
+lemon
+garlic
+chicken stock concentrate
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1050, 'Toasted Rice and Shrimp Bowl', 'Oh rice, how we adore you. You pair well with pretty much every veggie and spice we can think of, add a satisfying heartiness to any meal, and—most importantly—are loved by even the pickiest eaters. So we’re pretty sure that you’ll take to the colorful veggies, flavorful shrimp, and dashes of juicy lime that fill out this dish like they’re your dearest pals, making for a fried rice friendship that’s built on harmony.', '2021-05-03 16:43:38.420096', '2021-05-03 16:43:38.420096', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/15-03-90cc620b.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/15-03-58af241c3131003d9424e2f3', 'HelloFresh.com', 'shrimp
+basmati rice
+garlic
+scallions
+red bell pepper
+lime
+soy sauce
+chili flakes
+peanuts
+sesame oil
+corn
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1051, 'Lobster Ravioli and Shrimp', 'Tender pasta pillows are good in any form, but they’re especially great when packed with fresh lobster. Add succulent, seared shrimp to the mix and it’s a crustacean celebration! This sumptuous dish is taken to the next level with a tarragon cream sauce. The lightly sweet, anise-scented herb mingles perfectly with seafaring flavors. You may feel the need to break out the fancy plates for this deluxe dinner.', '2021-05-03 16:43:38.521468', '2021-05-03 16:43:38.521468', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d517904aa31b00012131155-fddcebeb.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lobster-ravioli-and-shrimp-5d517904aa31b00012131155', 'HelloFresh.com', 'grape tomatoes
+garlic
+tarragon
+lobster ravioli
+shrimp
+sour cream
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1052, 'Winner Winner Chicken Orzo Dinner', 'Although the zucchini and tomato veggie medley is a side, it takes center stage in our eyes. It’s equally as creamy as it is crispy, and the combination of panko, mozzarella, and Parmesan cheese is to thank for that. With the addition of juicy chicken breast and lemony orzo, this is a light but satisfying meal to remember.', '2021-05-03 16:43:38.598618', '2021-05-03 16:43:38.598618', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-and-spinach-salad-a67ea610.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-and-spinach-salad-5820aa2ad36aaa3d7a3ed3c2', 'HelloFresh.com', 'chicken breasts
+parmesan cheese
+roma tomato
+panko breadcrumbs
+italian seasoning
+fresh mozzarella
+zucchini
+lemon
+orzo pasta
+pepper
+salt
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1053, 'One-Pan Mexican Pork Meatballs', 'There’s a world full of ways to prepare meatballs. This week, our chefs decided on Mexican albondigas. In this recipe, pork balls are simmered in a tomato sauce with bell and green peppers, onion, and spices (for picky eaters, it still has all of the elements of the version with marinara, just with more veggies and some subtle aromas added in). Served on top of quick-cooking microwaveable rice and topped with cheese and sour cream, they offer a brand-new twist on flavors and ingredients that you already know and love.', '2021-05-03 16:43:38.714813', '2021-05-03 16:43:38.714813', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/one-pan-mexican-pork-meatballs-5dd95af7.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/one-pan-mexican-pork-meatballs-5b3686d230006c176f2989e2', 'HelloFresh.com', 'bell pepper
+long green pepper
+red onion
+cilantro
+lime
+ground pork
+mexican spice blend
+panko breadcrumbs
+smoked paprika
+crushed tomatoes
+microwaveable jasmine rice
+sour cream
+mexican cheese blend
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1054, 'Parmesan-Crusted Cod', 'So you think you''re fancy, huh? Well, here’s a recipe for you: this elegant cod recipe is worthy of the upper crust, literally. The fish fillets are topped with an herbed panko and Parmesan crust that gets nicely browned in the oven. It looks pretty highfalutin, but really, making it is as easy as can be.', '2021-05-03 16:43:38.812196', '2021-05-03 16:43:38.812196', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/parmesan-crusted-cod-dc9a79c2.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/parmesan-crusted-cod-585038979f236a62f0410652', 'HelloFresh.com', 'cod fillets
+yukon gold potatoes
+carrots
+lemon
+garlic
+parsley
+dried oregano
+panko breadcrumbs
+parmesan cheese
+salt
+pepper
+butter
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1055, 'Sirloin and Tangy Steak Sauce', 'Le menu: Seared sirloin drizzled with savory pan glaze. Roasted rosemary-scented potatoes. Buttery green beans topped with garlicky toasted bread crumbs. Your upcoming restaurant reservation: cancel that!', '2021-05-03 16:43:38.895965', '2021-05-03 16:43:38.895965', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w52r16c-steakhouse-sirloin-87eb08b9.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sirloin-and-tangy-steak-sauce-5be44d9aae08b568a34cb8a2', 'HelloFresh.com', 'baby red potatoes
+rosemary
+garlic
+green beans
+panko breadcrumbs
+sirloin steak
+beef stock concentrate
+dijon mustard
+ketchup
+hot sauce
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1056, 'Country Gravy Pork Chops', 'Pork chops and gravy is a timeless, simple, and classic combination—how can you go wrong with tender lean meat smothered in a rich and creamy pan sauce? Adding potatoes and collard greens only makes it better. The spuds bring plenty of crispy roasted comfort, while the veg adds heartiness (and lots of vitamin A and C).', '2021-05-03 16:43:38.983087', '2021-05-03 16:43:38.983087', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/country-gravy-pork-chops-dc580d10.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/country-gravy-pork-chops-5a53ad2ea2882a05cc4f2da2', 'HelloFresh.com', 'yukon gold potatoes
+yellow onion
+collard greens
+flour
+cajun spice blend
+pork chops
+chicken stock concentrate
+sour cream
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1057, 'Creamy Mushroom Pork Chops', 'Pork chops blanketed in a creamy mushroom sauce is a recipe that’s an oldie and a goodie. The combo of savory mushrooms, rich dairy, and lean pork is enduring and familiar, yet it never fails to remind you of how good it is every time. On the side, oven-roasted potatoes and Brussels sprouts complete this comfortingly classic meal.', '2021-05-03 16:43:39.055224', '2021-05-03 16:43:39.055224', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/creamy-mushroom-pork-chops-60763d57.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/creamy-mushroom-pork-chops-59b1b4940534681cf6276062', 'HelloFresh.com', 'brussels sprouts
+white potatoes
+shallot
+button mushrooms
+parsley
+pork chops
+veggie stock concentrate
+sour cream
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1058, 'Beef Tenderloin in a Mustard Sauce', 'This luxurious dish is the definition of umami. Not sure if you’ve ever experienced the ‘fifth taste?’ After one bite of this dish, you’ll totally understand the obsession. Every element is positively bursting with sumptuous, savory flavors. Melt-in-your-mouth beef tenderloin is served on top of chewy couscous swirled with black truffle butter and Parmesan, then topped with a creamy mustard sauce. On the side, there’s crispy-edged roasted green beans. Yeah, this is the type of dish you might just feel inclined to eat with your pinky up.', '2021-05-03 16:43:39.140894', '2021-05-03 16:43:39.140894', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/beef-tenderloin-in-a-mustard-sauce-84f11ea2.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/beef-tenderloin-in-a-mustard-sauce-5d35cf96769619000b758ad0', 'HelloFresh.com', 'scallions
+green beans
+beef tenderloin
+israeli couscous
+truffle butter
+parmesan cheese
+bold & savory steak spice
+beef stock concentrate
+dijon mustard
+vegetable oil
+olive oil
+salt
+pepper
+sour cream');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1059, 'Sweet-As-Honey Chicken', 'We all have a soft spot for the sticky-sweet chicken that’s a staple of takeout dinners. But it’s not exactly a meal for any night of the week—until now. We’re swapping out the heavy glaze for a fresh burst of ginger and a swirl of honey and soy sauce. Served with tender snow peas on a bed of jasmine rice, it’ll give you a good reason to toss the phone number for your delivery joint.', '2021-05-03 16:43:39.24255', '2021-05-03 16:43:39.24255', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a32a2c430a03b4f29290302-324cad72.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sweet-as-honey-chicken-5a32a2c430a03b4f29290302', 'HelloFresh.com', 'garlic
+lime
+snow peas
+ginger
+jasmine rice
+chicken breasts
+white wine vinegar
+soy sauce
+chicken stock concentrate
+honey
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1060, 'Country Chicken & Honey Butter Biscuits', 'Craving some down-home-style comfort? We reckon you’ve come to the right place! We’re serving up chicken coated in a mix of panko, Monterey Jack, and bold blackening spices, flaky buttermilk biscuits slathered in honey butter, and a side of creamy coleslaw. The best part, though? Everything comes together in just 35 minutes! Dinner is served, ya’ll.', '2021-05-03 16:43:39.336348', '2021-05-03 16:43:39.336348', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/country-chicken-honey-butter-biscuits-6eafcfa7.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/country-chicken-honey-butter-biscuits-5efb3a5d96a8a3453c60f8c4', 'HelloFresh.com', 'panko breadcrumbs
+blackening spice
+garlic powder
+coleslaw mix
+honey
+monterey jack cheese
+mayonnaise
+chicken cutlets
+celery salt
+pillsbury™ buttermilk southern homestyle biscuits
+salt
+pepper
+vegetable oil
+sugar
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1061, 'Honey Ancho Chicken', 'We’re always brainstorming new ways to make chicken-for-dinner more awesome. Our favorite way to take things up a notch? A delicious, lick-your-plate-clean pan sauce. This week, pan-seared chicken breasts are coated in a particularly addicting glaze. It’s sweet, savory, and smoky thanks to secret flavor weapon ancho chili powder. On the side, there’s crispy roasted green beans doused with lemon and scallion-studded rice. Don’t be chicken--try it!', '2021-05-03 16:43:39.443166', '2021-05-03 16:43:39.443166', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w12-r14-1554a1cb.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w12-r14-5c50ac76c445fa11d9245d32', 'HelloFresh.com', 'scallions
+lemon
+jasmine rice
+chicken breasts
+green beans
+ancho chili powder
+chicken stock concentrate
+honey
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1062, 'Fajita Chicken Tenders Over Yellow Rice', 'Dinner is saved by the bell (pepper)! This recipe features three main components that are practically no-fail and guaranteed to please: chicken tenders seasoned in a zesty blend of spices, savory and sunshine-y yellow rice, and adorable mini bell peppers broiled ’til they’re soft and sweet. Most of the cooking happens under the broiler, which means that it’s easy-to-make and easy-to-love—your new dinner motto might just be “fajitas forever!”', '2021-05-03 16:43:39.543395', '2021-05-03 16:43:39.543395', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-r06-4ff8134a.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w10-r06-588bae50b32fbe2ebe42dd22', 'HelloFresh.com', 'yellow onion
+cilantro
+garlic
+sour cream
+jasmine rice
+chicken stock concentrate
+turmeric
+lime
+chicken tenders
+mini bell peppers
+fajita spice blend
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1063, 'Pulled Pork Grilled Cheese Sandwiches', 'The grilled cheese is one of those classic comforts that can put a smile on your face and take you to a happy place. So how could it possibly be improved upon? By adding juicy, fall-apart-tender pulled pork, which basically makes this sandwich a hug for your taste buds. All that warm, gooey goodness needs something cool to calm it down, so we’re adding a tomato cucumber salad to make the meal complete.', '2021-05-03 16:43:39.615854', '2021-05-03 16:43:39.615854', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pulled-pork-grilled-cheese-sandwiches-90eff2ca.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/pulled-pork-grilled-cheese-sandwiches-5ade5dc030006c2c4b16a0d4', 'HelloFresh.com', 'yellow onion
+roma tomato
+persian cucumber
+white wine vinegar
+pulled pork
+sourdough bread
+cheddar cheese
+butter
+olive oil
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1064, 'Ginger Beef Stir-Fry', 'A HelloFresh classic! Tender beef and crisp snap peas are quickly stir-fried with warming ginger and served over fluffy basmati rice. Hoisin sauce adds a touch of sweetness and incredible umami depth.', '2021-05-03 16:43:39.687174', '2021-05-03 16:43:39.687174', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/ginger-beef-stir-fry-w03-29e87e34.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/ginger-beef-stir-fry-w03-5841c1fd6121bb50614be8e2', 'HelloFresh.com', 'beef sirloin tips
+basmati rice
+sugar snap peas
+garlic
+ginger
+hoisin sauce jar
+sesame seeds
+scallions
+soy sauce
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1065, 'Triple Mushroom Truffle Gnocchi', 'Treat yourself to truffles with tonight’s ‘shroom-packed pasta. You’ll start with pillowy potato gnocchi, which you’ll cook until tender, then toss in a silky, savory sauce of sautéed button mushrooms, garlic powder, mushroom stock, cream cheese, and Parmesan. A swirl of butter and dusting of truffle zest take the rich and umami flavors to the next level. Garnish everything with crunchy, garlicky panko, then pour yourself a glass of wine and toast to a restaurant-worthy dinner.', '2021-05-03 16:43:39.753666', '2021-05-03 16:43:39.753666', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/606474e0e24b9128f1375d72-eff972dd.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/triple-mushroom-truffle-gnocchi-606474e0e24b9128f1375d72', 'HelloFresh.com', 'button mushrooms
+scallions
+roma tomato
+panko breadcrumbs
+garlic powder
+mushroom stock concentrate
+cream cheese
+parmesan cheese
+truffle zest
+gnocchi
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1066, 'Garlic Lime Chicken', 'Tomatillos like to hide their charms. First, there’s the outer husks, which have to be peeled away in order to reveal the fruit. And even once you get to that fruit, it still looks a bit funny, like a green tomato gone awry. But once you cook tomatillos, they release all of their delicious, succulent juices, which mingle with creamy avocado, garlic-rubbed chicken, and sweet buttered corn in this recipe.', '2021-05-03 16:43:39.834245', '2021-05-03 16:43:39.834245', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/garlic-lime-chicken-4b84a048.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/garlic-lime-chicken-595655d4043c3c0e6160fd72', 'HelloFresh.com', 'tomatillos
+corn on the cob
+lime
+garlic
+shallot
+jalapeño
+chicken breasts
+honey
+avocado
+butter
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1067, 'Seared Sirloin Steak', 'Hankering for a plate of good ol’ steak and potatoes? We’ve got your back. This recipe takes the classics above and beyond with a few flavorful twists. There’s seared steak, creamy chive-flecked mashed potatoes, and honey-roasted carrots. And then there’s the pan sauce. Here, demi-glace and garlic herb butter mingle with the fond--the crispy bits and drippings left by the steak--to create a rich elixir you’ll want to drizzle over everything. And now you can!', '2021-05-03 16:43:39.913021', '2021-05-03 16:43:39.913021', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w14-r16-seared-sirloin-steak-4e43a137.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w14-r16-seared-sirloin-steak-5c6704dde3f33904fc2e4e22', 'HelloFresh.com', 'yukon gold potatoes
+carrots
+chives
+honey
+sirloin steak
+beef demi-glace
+garlic herb butter
+sour cream
+chili flakes
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1068, 'Seitan Tacos El Diablo', 'It’s time to get your seitan on: the wheat protein is the backbone of these tacos, and it’s seasoned with spices that make it smoky and a little bit feisty, too. There’s also a kiwi and tomato salsa to keep things bright, tangy, and a sassy. Just drizzle a bit of zesty lime crema over it all, and you’ve got a devilishly good combo of textures and flavors.', '2021-05-03 16:43:39.995985', '2021-05-03 16:43:39.995985', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a32a53e043c3c0a923f3592-bd7f3c98.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/seitan-tacos-el-diablo-5a32a53e043c3c0a923f3592', 'HelloFresh.com', 'red onion
+poblano pepper
+roma tomato
+kiwi
+cilantro
+lime
+veggie chorizo crumbles
+sour cream
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1069, 'Oven-Fried Chicken', 'Think of this as a twist on fried chicken with mac ’n’ cheese, except lighter and more weeknight-friendly. Instead of a batter, the chicken is coated in panko breadcrumbs and baked in the oven for a crispy crunch without loads of oil. And the pasta is plenty creamy but still packs in some bright green peas. When you’ve got that balance between crowd-pleasing classics and a few wholesome twists, you’re guaranteed a dinnertime win.', '2021-05-03 16:43:40.081178', '2021-05-03 16:43:40.081178', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/oven-fried-chicken-28b48f47.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/oven-fried-chicken-5b6e037d30006c0175208092', 'HelloFresh.com', 'lemon
+sour cream
+panko breadcrumbs
+italian seasoning
+paprika
+parmesan cheese
+chicken legs
+macaroni pasta
+scallions
+peas
+garlic herb butter
+italian cheese blend
+monterey jack cheese
+cream cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1070, 'Peppercorn-Crusted Rib-Eye Steak', 'When mac ’n’ cheese is on the menu, you know you’re in for a treat. But we’re turning that treat into a bona fide feast with the addition of a glorious rib-eye steak seasoned in freshly cracked peppercorns and a bright salad with heirloom tomatoes. Plus, there’s sumptuous, deeply flavored truffle zest mixed right into the pasta, which is practically guaranteed to make this meal dazzle and delight.', '2021-05-03 16:43:40.197697', '2021-05-03 16:43:40.197697', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/peppercorn-crusted-rib-eye-steak-3263114d.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/peppercorn-crusted-rib-eye-steak-5a2b0877a2882a5eb8586f92', 'HelloFresh.com', 'shallot
+heirloom grape tomatoes
+lemon
+black peppercorns
+panko breadcrumbs
+gemelli pasta
+ribeye
+flour
+milk
+mozzarella cheese
+truffle zest
+beef stock concentrate
+mixed greens
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1071, 'Good Gravy! Pork Chops', 'Goodness gracious! It’s pork like you’ve never experienced it before. These pan-seared chops are drizzled with a creamy honey mustard gravy that will have kids and adults alike licking up every last drop of sweet and savory flavor. And although that rich sauce pairs perfectly with the lean meat, we have a feeling you’ll want to put it on everything, including the roasted broccoli and carrot and sweet potato mash on the side.', '2021-05-03 16:43:40.322669', '2021-05-03 16:43:40.322669', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/good-gravy-pork-chops-6d6a8cd9.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/good-gravy-pork-chops-5b8715e3ae08b546975d7aa2', 'HelloFresh.com', 'scallions
+carrots
+sweet potato
+broccoli florets
+pork chops
+smoked paprika
+chicken stock concentrate
+dijon mustard
+honey
+sour cream
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1072, 'Honey Ginger Glazed Chicken', 'We all have a soft spot for the sticky-sweet chicken that’s a staple of takeout dinners and mall food court meals. But it’s not exactly something you would chow down on any night of the week—until now. We’re swapping out the heavy glaze for a fresh burst of ginger and a swirl of honey and soy sauce. Served with tender snow peas on a bed of jasmine rice, this recipe will give you good reason to toss the phone number for your local delivery joint.', '2021-05-03 16:43:40.408979', '2021-05-03 16:43:40.408979', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/honey-ginger-glazed-chicken-a1fd5c7e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/honey-ginger-glazed-chicken-590c7d332310a865ef2d8892', 'HelloFresh.com', 'snow peas
+lime
+ginger
+garlic
+jasmine rice
+chicken tenders
+white wine vinegar
+soy sauce
+chicken stock concentrate
+honey
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1073, 'Chicken Pineapple Quesadillas', 'If you think sweet-and-savory combos are amazing, prepare to be blown away by this Tex-Mex creation. Chicken, Monterey Jack, and pepper jack (you read that right: 2 cheeses!) bring the classic comforts you crave, while our Southwest spice blend adds some smoky warmth. But any notions you might have about quesadillas go out the window when the pineapple comes to shake things up in the most delicious way', '2021-05-03 16:43:40.485067', '2021-05-03 16:43:40.485067', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-pineapple-quesadillas-bcede76b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-pineapple-quesadillas-5e1e2e45eba4f939816b6cc7', 'HelloFresh.com', 'yellow onion
+green bell pepper
+pineapple
+roma tomato
+cilantro
+lime
+chicken breast strips
+southwest spice blend
+flour tortillas
+monterey jack cheese
+pepper jack cheese
+sour cream
+salt
+pepper
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1074, 'Chipotle Chicken and Savory Yellow Rice', 'Bowls have gone beyond “having a moment” and officially transformed into a dinnertime staple. And why not? They’re hearty, comforting, and so versatile. This version’s got kickin’ chicken served over a bed of savory turmeric rice, topped with fresh salsa and tangy chipotle-lime crema. Yep, this bodacious bowl is sure to satisfy.', '2021-05-03 16:43:40.573114', '2021-05-03 16:43:40.573114', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chipotle-chicken-and-savory-yellow-rice-4adcb188.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/chipotle-chicken-and-savory-yellow-rice-5dadc48faad7a05b7b3a00d2', 'HelloFresh.com', 'red onion
+roma tomato
+lime
+cilantro
+chicken stock concentrate
+turmeric
+jasmine rice
+chicken cutlets
+chipotle powder
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1075, 'Balsamic Rosemary Strip Steak', 'Balsamic vinegar does multiple magnificent things in this recipe. First, it’s stirred into the sauce to give it an acidity that cuts through and livens up the robust flavor of the steak. Then, it’s tossed into an apple-topped arugula salad, providing a rounded contrast to the sweetness of the fruit. Even the baguette toasts on the side, brushed in a garlic herb butter, are great for sopping up all that flavor.', '2021-05-03 16:43:40.660069', '2021-05-03 16:43:40.660069', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/balsamic-rosemary-strip-steak-60c7cdae.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/balsamic-rosemary-strip-steak-5abd497aae08b54b9a2484a2', 'HelloFresh.com', 'demi baguette
+apple
+shallot
+rosemary
+garlic herb butter
+new york strip steak
+balsamic vinegar
+chicken demi-glace
+arugula
+ricotta salata
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1076, 'Creamy Chicken Pasta Casserole', 'We’re obsessed with the flavor of ranch seasoning—then again, who isn’t? It’s one of those things that we just want to put in everything. With this recipe, we found a way to sneak it into a creamy, cheesy pasta bake with chicken and broccoli. Your family might start to wonder where all of those familiar, comforting flavors are coming from—that’s the tasty mix of ranch herbs and aromatics.', '2021-05-03 16:43:40.749143', '2021-05-03 16:43:40.749143', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/creamy-chicken-pasta-casserole-191de602.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/creamy-chicken-pasta-casserole-5a99cbd2ae08b57864312002', 'HelloFresh.com', 'cavatappi pasta
+chicken breasts
+broccoli florets
+flour
+ranch spice
+milk
+cream cheese
+cheddar cheese
+mozzarella cheese
+panko breadcrumbs
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1077, 'Chicken Breasts in a Shallot Demi-Glace Sauce', 'This feast features not one, not two, but three powerhouse parts. First, there are the chicken breasts drizzled in a savory pan sauce with silky sweet shallots. Then, you’ve got roasted broccoli, which always delights with its satisfyingly crisp edges. And last but most definitely not least is the mac ‘n’ cheese with bacon—we probably don’t need to tell you that this is about as good as it gets.', '2021-05-03 16:43:40.844387', '2021-05-03 16:43:40.844387', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-breasts-in-a-shallot-demi-glace-sauce-1dc09734.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/chicken-breasts-in-a-shallot-demi-glace-sauce-5ba559a430006c2805388507', 'HelloFresh.com', 'bacon
+shallot
+cavatappi pasta
+broccoli florets
+chicken breasts
+chicken demi-glace
+flour
+milk
+monterey jack cheese
+cream cheese
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1078, 'Panko Parm Poulet with Potatoes', 'The words “chicken parm” usually have us reaching for our stretchy pants, but this version has all of the cheesy, breaded goodness you know and love in a less over-the-top package. The chicken breasts are baked, not fried, while the heavy sauce is swapped out for a spinach salad with a fresh-squeezed creamy lemon dressing.', '2021-05-03 16:43:40.948078', '2021-05-03 16:43:40.948078', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/15-01-7aa8ddb8.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/15-01-58af23eac9fd080f2d1aa0e3', 'HelloFresh.com', 'spinach
+chicken breasts
+garlic powder
+lemon
+yukon gold potatoes
+panko breadcrumbs
+parmesan cheese
+sour cream
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1079, 'Juicy Apple Pork Burgers', 'A surprise ingredient is the key to a plump and moist pork burger: apples. The fruit does more than just sneak in an extra healthy boost. It also helps keep the meat moist without adding any fat. We’re serving these patties with rosemary-seasoned potato wedges and an apple salad to match.', '2021-05-03 16:43:41.025525', '2021-05-03 16:43:41.025525', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-pork-and-apple-burgers-w03-43796e50.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/uk-pork-and-apple-burgers-w03-5841b1e9803b505bee599f82', 'HelloFresh.com', 'rosemary
+yukon gold potatoes
+granny smith apple
+ground pork
+potato buns
+balsamic vinegar
+mixed greens
+mayonnaise
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1080, 'Truffle Rib-Eye Steaks', 'Rib-eye is a cut of beef prized for its flavor and tenderness. So you know that this is a meal worth putting your fancy pants on for. But just in case you want to break out the cuff links or pearls as well, we’re drizzling the meat with some seriously sophisticated truffle sauce. There are also some cozy comforts included, like toasty potato wedges and tender-crisp green beans. So if you wanna eat like a king or queen in your pajamas, there’s room for that too.', '2021-05-03 16:43:41.121764', '2021-05-03 16:43:41.121764', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w50-r16c-rib-eye-steak-with-truffle-sauce-1c44c316.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2018w50-r16c-rib-eye-steak-with-truffle-sauce-5bcf59fd30006c0fa012d612', 'HelloFresh.com', 'yukon gold potatoes
+shallot
+ribeye
+bold & savory steak spice
+beef stock concentrate
+truffle zest
+green beans
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1081, 'Pork Sausage Spaghetti alla Positano', 'Does your love for pasta know no bounds? We’ve got the perfect recipe for any self-professed carb connoisseur. Crispy pork sausage, tender bites of zucchini, jammy tomato, and a lemon-spiked garlic herb sauce are tossed with spaghetti for a dish that’s hearty, satisfying, and comforting. A sprinkle of Parmesan and chili flakes take the dish to new heights of bellissimo.', '2021-05-03 16:43:41.195281', '2021-05-03 16:43:41.195281', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w20-r5-pork-sausage-and-garlic-herb-spaghetti-fbf6e1bf.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w20-r5-pork-sausage-and-garlic-herb-spaghetti-5ca4f4a2e3f33975f7019622', 'HelloFresh.com', 'spaghetti
+zucchini
+roma tomato
+lemon
+chili pepper
+italian pork sausage
+garlic herb butter
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1082, 'Grilled Caprese Burgers', 'It’s easy to get into the al fresco spirit when you’ve got burgers featuring an Italian topping trio of mozzarella, tomato, and basil. The classic red, white, and green combo makes this more than just another burger recipe, adding a blast of fresh flavors and cheesy goodness. And although we recommend cooking the beef patties on the grill for maximum summertime vibes, you can also make them on the stovetop, if that’s more your style.', '2021-05-03 16:43:41.263678', '2021-05-03 16:43:41.263678', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/grilled-caprese-burgers-86021711.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/grilled-caprese-burgers-5b16cda4ae08b5359e5277d2', 'HelloFresh.com', 'zucchini
+ciabatta bread
+ground beef
+italian seasoning
+parmesan cheese
+chili flakes
+fresh mozzarella
+tomato
+basil
+ketchup
+balsamic glaze
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1083, 'Spiced Dijon Salmon', 'We all know that salmon isn’t just good, but good for you, too. So could there any better way to get your omega-3s than beautiful fillets seasoned in cumin, garlic, coriander, and chili from our Turkish spice blend? Probably not. Just to make sure there’s wholesome deliciousness throughout, we’re also adding an apple salad, couscous, and a mustard cream sauce.', '2021-05-03 16:43:41.35488', '2021-05-03 16:43:41.35488', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5aaac4f0ae08b55641175d92-8a3af891.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/spiced-dijon-salmon-5aaac4f0ae08b55641175d92', 'HelloFresh.com', 'veggie stock concentrate
+couscous
+skin-on salmon
+turkish spice blend
+lemon
+apple
+brown sugar
+dijon mustard
+sour cream
+arugula
+pecans
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1084, 'Brown Sugar-Glazed Pork Chops', 'Think this is just another pork chop dinner? Think again! Here, juicy chops are coated in a sweet-and-savory glaze that’s so good...you might just lick the plate. Brown sugar provides a hint of sweetness while dijon balances it out with a tangy kick. To round it all out, we’re serving up sides of tender roasted zucchini and fluffy garlic herb couscous. Get ready for a flavor explosion.', '2021-05-03 16:43:41.445301', '2021-05-03 16:43:41.445301', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w31-r15-brown-sugar-glazed-pork-chops-b59d500e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w31-r15-brown-sugar-glazed-pork-chops-5d0beeb6d7bcf2000e65e338', 'HelloFresh.com', 'zucchini
+lemon
+chicken stock concentrate
+brown sugar
+dijon mustard
+garlic herb butter
+couscous
+boneless pork chops
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1085, 'Speedy Springtime Pasta', 'The simplest way to create a meal that’s fast and easy but still tasty is by focusing on a few thoughtfully paired powerhouse ingredients. In this case, that’s pancetta, which brings tons of porky flavor even when used lightly; mint, for a fresh herbiness; and peas, which add a touch of sweet green. When tossed into this quick, creamy pasta, they immediately create contrasts and flavor combos that feel new with each bite.', '2021-05-03 16:43:41.522254', '2021-05-03 16:43:41.522254', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w22-r13-48984c11.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/w22-r13-58f0cffa171c5830db24d822', 'HelloFresh.com', 'mint
+garlic
+penne pasta
+veggie stock concentrate
+pine nuts
+pancetta
+peas
+sour cream
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1086, 'Sizzling Southwestern Chicken', 'Red and yellow peppers, orange sweet potatoes, scallion greens and lime—okay, so we might be missing the BIV part of ROYGBIV, but the first four letters are well-represented on this plate. The bright and colorful veggie jumble is bursting with concentrated, oven-roasted flavors, while the spice-rubbed chicken breasts on top bring plenty of Southwestern flair.', '2021-05-03 16:43:41.605833', '2021-05-03 16:43:41.605833', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sizzling-southwestern-chicken-de2034b2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sizzling-southwestern-chicken-59318e5551d3f10d1b41e3c2', 'HelloFresh.com', 'sweet potato
+red bell pepper
+yellow bell pepper
+scallions
+lime
+southwest spice blend
+chicken breasts
+feta cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1087, 'Butter-Basted Chicken Breasts', 'Your average chicken breast is amped up with a rich pan sauce and flavorful sides like sweet potatoes and candied bacon brussels sprouts. The “candied” here refers to brown sugar that is added to the brussels and bacon and then baked in the oven to form a gorgeous caramelized layer. The dish is finished with a silky, flavor-packed pan sauce, made from garlic butter, our rich demi-glace and tangy sour cream. Served with velvety sweet potatoes to bring it all together, this decadent meal is one for the books.', '2021-05-03 16:43:41.688429', '2021-05-03 16:43:41.688429', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/butter-basted-chicken-breasts-2e423ffa.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/butter-basted-chicken-breasts-5d07d5c61bb27a0008080d42', 'HelloFresh.com', 'brussels sprouts
+scallions
+shallot
+yukon gold potatoes
+bacon
+brown sugar
+chicken breasts
+garlic herb butter
+chicken demi-glace
+sour cream
+chili flakes
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1088, 'Brown Sugar Dijon Glazed Trout', 'Is there anything better than tender, buttery fish with a flavorful crust? Why, yes! How about Steelhead trout fillets coated in a blend of brown sugar, paprika, Dijon mustard, and lemon juice? The topping caramelizes in the oven as the fish cooks to tender perfection before getting topped with rich, lemony crème fraîche. On the side, there’s chive mashed potatoes and roasted asparagus for a plate of weeknight luxury that’s ready in just 30 minutes.', '2021-05-03 16:43:41.804984', '2021-05-03 16:43:41.804984', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/brown-sugar-dijon-glazed-trout-1c2cb4d7.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/brown-sugar-dijon-glazed-trout-5f5fa0e5f8f9c802c074bd77', 'HelloFresh.com', 'yukon gold potatoes
+asparagus
+chives
+lemon
+crème fraîche
+brown sugar
+paprika
+dijon mustard
+steelhead trout
+olive oil
+butter
+salt
+pepper
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1089, 'Cheesy Stuffed Mexican Meatloaves', 'When we say cheesy, we’re serious. These mini loaves are not only stuffed with our blend of Mexican cheeses, but have MORE gooey cheese melted on top. (Step aside, cheeseburger). Ground pork makes the meatloaves extra-juicy, which is the perfect textural contrast to all the aforementioned cheesiness. If that doesn’t grab you yet, how about piling poblano peppers, fresh tomato salsa, and lime crema on the meatloaves? Bye bye, boring!', '2021-05-03 16:43:41.934597', '2021-05-03 16:43:41.934597', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cheesy-stuffed-mexican-meatloaves-398fd371.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/cheesy-stuffed-mexican-meatloaves-5beeec50ae08b53afc7dd872', 'HelloFresh.com', 'scallions
+poblano pepper
+jalapeño
+lime
+jasmine rice
+ground pork
+panko breadcrumbs
+southwest spice blend
+mexican cheese blend
+roma tomato
+sour cream
+sugar
+olive oil
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1090, 'Wonder-ful Italian Cheeseburgers', 'Sharing a delicious home-cooked meal with loved ones is one of our favorite ways to show kindness. So to help spread the message, we’re joining forces with the movie Wonder to inspire you and your family to be kind both in and out of the kitchen. First up? This Wonder-ful Italian-American cheeseburger with balsamic onions and herby seasoning. We think everyone will agree that these unique but easy-to-like flavors taste even better when enjoyed with your loved ones.', '2021-05-03 16:43:42.030948', '2021-05-03 16:43:42.030948', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/wonder-ful-italian-cheeseburgers-fd9322f1.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/wonder-ful-italian-cheeseburgers-59ce4c0da5ed1904d15c9b93', 'HelloFresh.com', 'red onion
+roma tomato
+brioche buns
+balsamic vinegar
+ground beef
+italian seasoning
+italian cheese blend
+chili powder
+ketchup
+mixed greens
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1091, 'Super-Stuffed Turkey Tacos', 'Check out these tortillas con todo: although this meal can be made with just a single pan, it still has all the works, with plenty of fillings and toppings to choose from. Although the turkey in a mildly spiced tomato sauce is the center of attention, there are other ingredients vying for the spotlight: sliced peppers, a tomato salsa, sour cream, and lime and cilantro for garnish. You and your family can enjoy it all or mix and match the different components just the way you like.', '2021-05-03 16:43:42.113857', '2021-05-03 16:43:42.113857', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/super-stuffed-turkey-tacos-1e495710.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/super-stuffed-turkey-tacos-59ea12982c9e86493d5dcb72', 'HelloFresh.com', 'red onion
+garlic
+red bell pepper
+poblano pepper
+grape tomatoes
+cilantro
+lime
+ground turkey
+mexican spice blend
+diced tomatoes
+chicken stock concentrate
+corn
+southwest spice blend
+sour cream
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1092, 'New York Strip Steak Panzanella', 'Steak and salad is one of those “best of both worlds” meals: you’ve got robustly flavored, juicy meat balanced with light, bright, and cheery veggies. But in our version of Tuscan panzanella, it’s really the best of all worlds because you’ve also got big garlic- and herb-tossed chunks of bread gloriously drenched in a rich balsamic sauce.', '2021-05-03 16:43:42.215484', '2021-05-03 16:43:42.215484', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/new-york-strip-steak-panzanella-a8a6c951.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/new-york-strip-steak-panzanella-5964ec712c9e863a6f796142', 'HelloFresh.com', 'shallot
+ciabatta bread
+heirloom grape tomatoes
+thyme
+garlic
+new york strip steak
+beef demi-glace
+balsamic vinegar
+arugula
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1093, 'Tomato-y Tortelloni Soup', 'Give the dishwasher a break tonight: all you need to put this recipe together is a pot and a couple of utensils for stirring and chopping. But just because it involves minimal effort doesn’t mean that it has minimal flavor. Loaded with cheesy tortelloni, slices of sweet sausage, tender spinach leaves, and a tomato-y broth, the soup brims and bubbles with plenty of filling, Italian-inspired flavors.', '2021-05-03 16:43:42.300332', '2021-05-03 16:43:42.300332', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tomato-y-tortelloni-soup-47668673.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/tomato-y-tortelloni-soup-5a7a2eadae08b52d2b47e082', 'HelloFresh.com', 'yellow onion
+basil
+sweet italian pork sausage
+garlic powder
+dried oregano
+crushed tomatoes
+chicken stock concentrate
+cheese tortelloni
+spinach
+parmesan cheese
+chili flakes
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1094, 'Presto Pesto Panko Chicken', 'Pesto: you’ve had it on pasta or maybe as a dip. Let us introduce you to yet another way to use this Italian favorite. Here, we’re spreading it onto oven-roasted chicken breasts, using it as a glue to hold down a layer of panko breadcrumbs. That way, you get herby aromatics, meaty juices, and crispy golden goodness in every bite.', '2021-05-03 16:43:42.395693', '2021-05-03 16:43:42.395693', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/presto-pesto-panko-chicken-a5a908a2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/presto-pesto-panko-chicken-5a1f37b6c94eac1017102d22', 'HelloFresh.com', 'yukon gold potatoes
+panko breadcrumbs
+mozzarella cheese
+chicken breasts
+pesto
+lemon
+mixed greens
+dried cranberries
+almonds
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1095, 'Honey-Glazed Pork Tenderloin', 'A honey glaze may sound like something that goes with dessert, but mild-tasting pork loves a sweet sauce too, especially one that has a few savory elements in it for contrast. In this recipe, you’ll be folding an extra-large drizzle of honey into a rich, savory pan sauce, then spooning it onto pork tenderloin (and the roasted sweet potatoes and green beans, if you like).', '2021-05-03 16:43:42.484971', '2021-05-03 16:43:42.484971', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cb7953de3f33908c97aeda2-6b768aaf.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/honey-glazed-pork-tenderloin-5cb7953de3f33908c97aeda2', 'HelloFresh.com', 'yukon gold potatoes
+pork tenderloin
+garlic
+green beans
+dried thyme
+chicken stock concentrate
+honey
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1096, 'Roasted Broccoli and Potato Chowder', 'We couldn’t be prouda this chowda! Our chefs have totally turned broccoli cheese soup on its head by introducing rich, deep flavors into the equation. Roasted broccoli imparts a toasty, caramelized flavor while yukon gold potatoes add body. The spuds are gently mashed into the broth to create a creamy, velvety consistency without feeling too heavy. For a decadent final touch, the chowder is swirled with Pepper Jack and tangy sour cream. On the side, there’s garlicky toasts for dunking and swiping (trust us, you won’t want to waste a drop).', '2021-05-03 16:43:42.567148', '2021-05-03 16:43:42.567148', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w13-r8-roasted-broccoli-and-potato-chowder-b641390f.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w13-r8-roasted-broccoli-and-potato-chowder-5c61968ee3f339643c73b902', 'HelloFresh.com', 'broccoli florets
+yellow onion
+yukon gold potatoes
+flour
+garlic powder
+milk
+veggie stock concentrate
+demi baguette
+pepper jack cheese
+sour cream
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1097, 'A Caesar Salad to Rule Them All', 'The Caesar in Caesar salad takes its name from the restaurateur who is credited with its invention, Caesar Cardini, not Julius. Nevertheless, the combo of crisp lettuce, creamy dressing, toasty croutons, and sharp Parmesan cheese rules just as hard as any Roman emperor. Our version introduces a squeeze of lemon and rosemary-seasoned chicken breasts to give it extra citrus and herb-driven power.', '2021-05-03 16:43:42.661487', '2021-05-03 16:43:42.661487', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/a-caesar-salad-to-rule-them-all-140ab59d.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/a-caesar-salad-to-rule-them-all-58f93531171c58372156c102', 'HelloFresh.com', 'chicken breasts
+romaine lettuce
+ciabatta bread
+parmesan cheese
+lemon
+grape tomatoes
+dried rosemary
+garlic
+dijon mustard
+mayonnaise
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1098, 'When Steak Met Potatoes', 'When cooking a date-night dinner for a loved one (or indulging in some personal TLC), it’s best to keep it simple, cupid. You’re more likely to impress by showing off your mastery of the classics than by breaking out the brulee blowtorch and nearly setting something on fire. So say “I love you” with a meal that never fails to please: steak and potatoes with creamed veggies and a peppercorn sauce. Call it steak au poivre if you wanna get fancy.', '2021-05-03 16:43:42.728429', '2021-05-03 16:43:42.728429', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/peppercorn-steak-w06-e4014085.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/peppercorn-steak-w06-5857fcd16121bb11c124f383', 'HelloFresh.com', 'sirloin steak
+kale
+yukon gold potatoes
+shallot
+sour cream
+black peppercorns
+beef stock concentrate
+salt
+pepper
+vegetable oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1099, 'Thai Beef Skewers aka Satay', 'Satay is a popular dish throughout Southeast Asia that features skewered meat and a creamy peanut sauce. It’s commonly served as a snack food, but we bulked it up into a meal with the help of fragrant jasmine rice and crispy roasted broccoli.', '2021-05-03 16:43:42.782128', '2021-05-03 16:43:42.782128', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/steak-satay-with-peanut-sauce-w4-6d0b2f6b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/steak-satay-with-peanut-sauce-w4-58121083d36aaa3cd95825e2', 'HelloFresh.com', 'beef sirloin tips
+wooden skewers
+soy sauce
+lime
+broccoli florets
+jasmine rice
+peanut butter
+scallions
+garlic
+salt
+pepper
+olive oil
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1100, 'Tortellini Gratin with Kale and Parmesan Breadcrumbs', 'This skillet pasta bake truly is a one-pot wonder – even the creamy pesto sauce thickens in the pan while the tortellini cook! A crispy topping of panko and Parmesan goes under the boiler for a few minutes until bubbly, browned, and irresistible.', '2021-05-03 16:43:42.858682', '2021-05-03 16:43:42.858682', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/563a77fd4dab71c03b8b4567.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/tortellini-gratin-with-kale-and-parmesan-breadcrumbs-563a77fd4dab71c03b8b4567', 'HelloFresh.com', 'kale
+garlic
+milk
+parmesan cheese
+pesto
+panko breadcrumbs
+veggie stock concentrate
+cheese tortelloni
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1101, 'Figgy Pork Tenderloin', 'You’ve likely come across figs baked into desserts, dried and nestled onto cheese platters, or preserved and slathered on toast for breakfast. But today, we’re mixing things up by pairing fig jam with tangy balsamic vinegar. The result? A sweet and savory sauce that’ll transform the tender pork tenderloin it’s drizzled on top of.', '2021-05-03 16:43:42.913808', '2021-05-03 16:43:42.913808', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c3ca92ae3f33960617c23d2-13816bd5.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/figgy-pork-tenderloin-5c3ca92ae3f33960617c23d2', 'HelloFresh.com', 'shallot
+rosemary
+yukon gold potatoes
+pork tenderloin
+fig jam
+chicken stock concentrate
+balsamic vinegar
+green beans
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1102, 'Sizzling Southwestern Chicken', 'Red and yellow peppers, orange sweet potatoes, scallion greens, and lime—okay, so we might be missing the BIV part of ROYGBIV, but the first four letters are well-represented on this plate. The bright and colorful veggie jumble is bursting with concentrated, oven-roasted flavors, while the spice-rubbed chicken breasts on top bring Southwestern flair.', '2021-05-03 16:43:42.993411', '2021-05-03 16:43:42.993411', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sizzling-southwestern-chicken-eb3c2e46.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sizzling-southwestern-chicken-59c42774a5ed19691435c2b2', 'HelloFresh.com', 'sweet potato
+red bell pepper
+yellow bell pepper
+scallions
+lime
+southwest spice blend
+chicken breasts
+feta cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1103, 'Stovetop Mac ''N'' Cheese', 'Mac ’n’ cheese is the perfect example of a timeless, can’t-go-wrong recipe. So how do you take it to the next level? With broccoli, pancetta, and a trio of cheeses. The veg brings the nutritious deliciousness that you know you need, while the meat weaves bursts of porky, salty flavor throughout. When you toss them with fusilli pasta and a luxuriant, creamy sauce, the results are classic enough to please the pickiest eaters but with enough razzle-dazzle to satisfy anyone craving a little more sophistication.', '2021-05-03 16:43:43.067125', '2021-05-03 16:43:43.067125', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/stovetop-mac-n-cheese-72a6e996.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/stovetop-mac-n-cheese-5a8f0def30006c2e6c06c4d2', 'HelloFresh.com', 'scallions
+broccoli florets
+fusilli pasta
+pancetta
+flour
+milk
+chicken stock concentrate
+cream cheese
+italian cheese blend
+parmesan cheese
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1104, 'Sage-Butter Pork Chops with Roasted Broccolini and Citrusy Potato Salad', 'This luxurious dinner is simple enough for any weeknight. Perfectly seared pork chops are topped with an herby brown butter sauce for an unbelievably juicy outcome. A bright, lemony potato salad adds a welcome contrast.', '2021-05-03 16:43:43.154611', '2021-05-03 16:43:43.154611', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/565dce7b79a23c2d678b4567.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sage-butter-pork-chops-with-roasted-broccolini-and-citrusy-potato-salad-565dce7b79a23c2d678b4567', 'HelloFresh.com', 'pork chops
+baby broccoli
+garlic
+yukon gold potatoes
+sage
+lemon
+sour cream
+butter
+olive oil
+pepper
+salt');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1105, 'Mozzarella-Stuffed Meatball Bake', 'Sure, you’ve heard of a cheese-stuffed burger, but a cheese-stuffed meatball?! Now that’s next-level culinary innovation. Tuscan-spiced ground beef is wrapped around pieces of fresh mozzarella and then baked. While they’re in the oven, you’ll be boiling cavatappi and whipping up a from-scratch tomato sauce. Everything is stirred together, then topped with buttery panko and more fresh mozzarella. A trip under the broiler transforms the topping into crunchy, melty perfection. Now that’s a cheesy meatball!', '2021-05-03 16:43:43.233184', '2021-05-03 16:43:43.233184', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mozzarella-stuffed-meatball-bake-496f6e24.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/mozzarella-stuffed-meatball-bake-5d485cff697799001517c622', 'HelloFresh.com', 'yellow onion
+fresh mozzarella
+panko breadcrumbs
+ground beef
+tuscan heat spice
+cavatappi pasta
+crushed tomatoes
+tomato paste
+olive oil
+sugar
+butter
+salt
+pepper
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1106, 'Creamy Bearnaise Rib-Eye Steak', 'Steak and béarnaise is about as classically French as you can get. The thick, rich sauce is accented with tarragon and white wine vinegar to give it an herby, slightly tart accent that melds and meshes with the beef harmoniously. To help lighten things up against all that decadence, we’re keeping the sides simple: roasted fingerling potatoes and a green bean and tomato mix that fits right in.', '2021-05-03 16:43:43.329535', '2021-05-03 16:43:43.329535', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/creamy-bearnaise-strip-steak-2f517924.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/creamy-bearnaise-strip-steak-5a296b3430a03b366a4aa522', 'HelloFresh.com', 'fingerling potatoes
+shallot
+green beans
+tarragon
+heirloom grape tomatoes
+white wine vinegar
+dijon mustard
+sour cream
+ribeye
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1107, 'Cranberry Apple Pork Chops', 'Apples, cranberries, baby carrots, potatoes, onion, and parsley: that’s not a shopping list for your next trip to the produce market. It’s all the fruit and veg bounty that’s in this recipe. So you can rest assured that your family will get their fill of their five-a-day with this dinner, plus a hearty serving of protein from the succulent, sauce-drizzled pork chops.', '2021-05-03 16:43:43.419429', '2021-05-03 16:43:43.419429', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cranberry-apple-pork-chops-4431130a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/cranberry-apple-pork-chops-5c798d55e3f33922084679c2', 'HelloFresh.com', 'yukon gold potatoes
+carrot
+fall harvest spice blend
+pork chops
+apple
+yellow onion
+parsley
+dried cranberries
+chicken stock concentrate
+cinnamon
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1108, 'Chicken Legs with Scallion Chimichurri', 'When it comes to chicken, we’re always looking for two things: gorgeous, crackly skin and juicy, flavorful meat. You too? Enter: these pan-seared chicken legs. To make things even more delicious, they’re drizzled with a bright and tangy scallion chimichurri, which perfectly balances the meat’s richness. It’s all sitting atop a bed of fluffy rice, alongside creamy black beans and a cooling lime crema. Sound too good to be true? It’s not! This delicious dish all comes together in 40 minutes. What are you waiting for?!', '2021-05-03 16:43:43.530974', '2021-05-03 16:43:43.530974', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cf0329ccf2d63001662686d-bc585d03.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2019-w4-r4-crispy-chicken-legs-with-scallion-chimichurri-5cf0329ccf2d63001662686d', 'HelloFresh.com', 'scallions
+garlic
+roma tomato
+lime
+black beans
+chicken legs
+southwest spice blend
+jasmine rice
+chicken stock concentrate
+sour cream
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1109, 'Steak & Green Pepper Quesadillas', 'Cheesy, crispy, and stuffed with delectable delights, quesadillas are one of our all-time favorite easy dinners. In fact, if left to our own devices, we could probably eat them every night of the week (and may have done so once or twice). Here, tortillas are layered with not one, but TWO types of cheese, plus zesty spiced steak and sautéed green pepper. They toast up in the pan until gooey on the inside and golden outside—the perfect pairing for a dollop of smoky red pepper crema and a dash of hot sauce. Try to top that!', '2021-05-03 16:43:43.608808', '2021-05-03 16:43:43.608808', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/steak-green-pepper-quesadillas-98636bb4.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/steak-green-pepper-quesadillas-5ea8310a56a9d32f9d717bc9', 'HelloFresh.com', 'long green pepper
+southwest spice blend
+pepper jack cheese
+smoky red pepper crema
+diced steak
+flour tortillas
+mexican cheese blend
+hot sauce
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1110, 'Dukkah-Crusted Chicken', 'Dukkah (pronounced DOO-kah) is a great way to bring the crunch. The Egyptian blend of crushed nuts, spices, and seeds is fine enough to sprinkle on like a seasoning, but it has enough rugged texture to keep it satisfyingly crisp. Here, it’s used two ways: to add a coating to butterflied chicken breasts and to bring an extra dash of flavor to roasted sweet potatoes.', '2021-05-03 16:43:43.675935', '2021-05-03 16:43:43.675935', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/dukkah-crusted-chicken-99f66ae1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/dukkah-crusted-chicken-592dca28d0d6bd55f104e2b2', 'HelloFresh.com', 'chicken breasts
+sweet potato
+dukkah
+lime
+sugar snap peas
+sour cream
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1111, 'Smoky Grilled Pork Chops', 'Pork chops on the grill, a creamy potato salad, crisp snap peas, and a sweet peach salsa: do you need any more proof that summer is here? Probably not, but our chefs took a few extra steps to make sure that this recipe has plenty of warm-weather vibes, like seasoning the meat in our special blend of barbecue spices. It makes for a perfect occasion to cook and eat outdoors (although it can be adapted for the stovetop, just in case).', '2021-05-03 16:43:43.735543', '2021-05-03 16:43:43.735543', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/smoky-grilled-pork-chops-32c935aa.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/smoky-grilled-pork-chops-5b106e0cae08b539ff5d62e2', 'HelloFresh.com', 'pork chops
+sweet and smoky bbq seasoning
+baby red potatoes
+scallions
+mayonnaise
+sour cream
+ranch spice
+peach
+jalapeño
+lime
+honey
+sugar snap peas
+sugar
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1112, 'One-Pan Shrimp Lo Mein', 'Udon noodles lend themselves naturally to stir-frys. Because they’re thick and chewy, they do a great job of soaking up the sauce (here, that’s a mix of hoisin and soy). All that’s needed to make a recipe like this complete is a mix of veggies and a hearty protein; we’re providing you with crisp green beans, crunchy carrot, and perfectly plump shrimp.', '2021-05-03 16:43:43.832949', '2021-05-03 16:43:43.832949', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a1f3b44ad1d6c4d4d6c5ef2-752ab2b6.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/one-pan-shrimp-lo-mein-5a1f3b44ad1d6c4d4d6c5ef2', 'HelloFresh.com', 'green beans
+ginger
+garlic
+scallions
+carrots
+soy sauce
+organic veggie stock
+hoisin sauce
+shrimp
+udon noodles
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1113, 'Korean-Style Beef', 'Stir-frying is one of the simplest, fastest, and most delicious ways to get dinner on the table during busy weeknights. In this recipe, beef is marinated with intensely aromatic ingredients like soy sauce, sesame oil, hoisin sauce, and ginger for a restaurant-worthy result.', '2021-05-03 16:43:43.919174', '2021-05-03 16:43:43.919174', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/korean-style-beef-ce33b318.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/korean-style-beef-57f687ffbfba3d7be00f4592', 'HelloFresh.com', 'ground beef
+hoisin sauce jar
+soy sauce
+scallions
+sesame seeds
+garlic
+broccoli florets
+ginger
+sesame oil
+jasmine rice
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1114, 'Sweet ''N'' Smoky Pork Tenderloin', 'If you’re craving something that’s good and hearty, this recipe has got you covered. Pork tenderloin is rubbed with cinnamon and smoked paprika, which brings a layer of warm aromatics to the meat. It’s then roasted and drizzled in a cherry jam sauce that adds sweetness to all that savory. The mashed potatoes on the side stay creamy and classic, but there’s also a crisp apple and carrot slaw to keep things snappy.', '2021-05-03 16:43:44.001579', '2021-05-03 16:43:44.001579', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-n-smoky-pork-tenderloin-09899a73.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/sweet-n-smoky-pork-tenderloin-5cf0305a8b02f000132817d9', 'HelloFresh.com', 'scallions
+mayonnaise
+white wine vinegar
+shredded carrots
+yukon gold potatoes
+pork tenderloin
+smoky cinnamon paprika spice
+apple
+cherry jam
+sour cream
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1115, 'Bavette Steak & Sherry Shallot Sauce', 'A totally real, verified fact that we just made up: People who cook fancier weeknight dinners are more likely to receive a compliment from a stranger, meet their celebrity crush, and/or win the lottery. They’re also guaranteed to be rewarded with a delicious, steakhouse-quality meal without leaving the comforts of their own kitchen. Case in point: this seared bavette steak that’s drizzled in a deluxe, sherry vinegar-spiked pan sauce with crispy, cheesy potato rounds and a heap of roasted green beans.', '2021-05-03 16:43:44.092874', '2021-05-03 16:43:44.092874', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ff4c61b0db29f13450fd740-d5baf15a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/bavette-steak-sherry-shallot-sauce-5ff4c61b0db29f13450fd740', 'HelloFresh.com', 'shallot
+yukon gold potatoes
+green beans
+garlic powder
+parmesan cheese
+bavette steak
+sherry vinegar
+beef stock concentrate
+sour cream
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1116, 'Bellissimo Bruschetta Burgers', 'Bruschetta, or to some, “broo-sketta,” is one of those foods that’s just as fun to say as it is to eat. The delicious mixture of chopped tomatoes, balsamic vinegar, garlic, and fresh herbs—usually piled on top of bread—is pretty tough to beat. Well, our chef-innovators clearly took that as a challenge and gave it the most delicious upgrade possible: swapping out that bread for juicy, mozz-topped beef patties! Everything is assembled between toasty garlic butter buns and served alongside Italian-seasoned potato wedges and roasted asparagus sprinkled with Parmesan. One bite will transport your tastebuds to the Italian countryside.', '2021-05-03 16:43:44.184806', '2021-05-03 16:43:44.184806', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/606476eaf55a4b3c69743d62-d67d8403.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/bellissimo-bruschetta-burgers-606476eaf55a4b3c69743d62', 'HelloFresh.com', 'yukon gold potatoes
+asparagus
+garlic
+garlic powder
+ketchup
+balsamic vinegar
+parmesan cheese
+grape tomatoes
+green herb blend
+mozzarella cheese
+mayonnaise
+italian seasoning
+ground beef
+brioche buns
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1117, 'Lobster Ravioli and Shrimp in a Lemon Cream Sauce', 'Move over, turf. We’re all about surf ‘n’ surf at the moment. Lobster ravioli is paired with succulent seared shrimp for a shellfish soirée. It’s laced with tender ribbons of zucchini and cloaked in a creamy lemon sauce, which ties everything together and adds a mellow tang. This luxurious dish is bursting with flavors and textures that’ll hit you with waves of deliciousness.', '2021-05-03 16:43:44.311285', '2021-05-03 16:43:44.311285', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w5-r16f-5f23c9cb.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w5-r16f-5c115cffc445fa0682146d12', 'HelloFresh.com', 'scallions
+lemon
+zucchini
+shrimp
+cream cheese
+sour cream
+lobster ravioli
+parmesan cheese
+chili flakes
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1118, 'Chicken Gone Nuts', 'We love a good piece of chicken with a crackly coating, but we especially love it when it really goes CRUNCH. Which is exactly what you get out of the oven-baked walnut and panko crust that tops these chicken breasts. The roasted broccoli on the side keeps the crispy theme going, while sugar-glazed carrots bring a touch of veggie sweetness.', '2021-05-03 16:43:44.380933', '2021-05-03 16:43:44.380933', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w14-r1-9a8b64d1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w14-r1-58a62d422310a830725d6fc3', 'HelloFresh.com', 'chicken breasts
+dijon mustard
+walnuts
+panko breadcrumbs
+carrot
+broccoli florets
+italian seasoning
+lemon
+olive oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1119, 'Quick Beef Ragù Spaghetti', 'Spaghetti with tomato sauce is always a recipe for success. Is there anyone who’d turn down a plate of noodles piled high and dusted with cheese? Surely not, although adding some extra meat and veg certainly makes it all the more crave-able. Which is exactly what we’re doing: taking a tried-and-true Italian American classic and adding hearty ground beef and bites of tender zucchini.', '2021-05-03 16:43:44.447635', '2021-05-03 16:43:44.447635', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5bcf57c1ae08b52a6f4070b2-fcb551c9.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/quick-beef-ragu-spaghetti-5bcf57c1ae08b52a6f4070b2', 'HelloFresh.com', 'zucchini
+yellow onion
+garlic
+thyme
+ground beef
+italian seasoning
+soy sauce
+spaghetti
+crushed tomatoes
+parmesan cheese
+chili flakes
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1120, 'One-Pan Pesto Tortelloni Bake', 'This skillet pasta bake truly is one-pan cooking at its finest—even the sauce thickens in the pan while the tortelloni cook. Although it’s got plenty of creamy, comforting elements, this dish also has tons of green to keep things fresh. Asparagus spears are folded in to make it snappy, while basil pesto adds an herby touch throughout.', '2021-05-03 16:43:44.525811', '2021-05-03 16:43:44.525811', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spring-tortellini-gratin-52816e28.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/spring-tortellini-gratin-58f1105d043c3c511265cd43', 'HelloFresh.com', 'milk
+parmesan cheese
+pesto
+asparagus
+garlic
+panko breadcrumbs
+veggie stock concentrate
+cheese tortelloni
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1121, 'Maple Magic Pork Chops', 'It’s hard to resist the sweet, sweet magic of maple syrup. But is there anywhere that it works besides pancakes and waffles? The answer to that question is yes—this recipe proves that it’s just as amazing with pork and a couple of complementary sides. Here, pan-seared chops are drizzled with a maple pan sauce, making for one truly delicious sweet and savory combination that only gets better with the addition of mashed potatoes, broccoli, and a pecan garnish.', '2021-05-03 16:43:44.593264', '2021-05-03 16:43:44.593264', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/maple-magic-pork-chops-0ac78ddb.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/maple-magic-pork-chops-5a4e7650c2880043e06f0a72', 'HelloFresh.com', 'yukon gold potatoes
+sweet potato
+broccoli florets
+pecans
+thyme
+sour cream
+pork chops
+fall spice blend
+chicken demi-glace
+maple syrup
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1122, 'Grilled Sirloin Steak', 'Oil your grates and break out your grill gear: it’s the Fourth of July, and we’re headed outdoors. This whole dish was designed to be cooked over the flames, and we mean the whole thing. First the potatoes are roasted in a foil packet, then on go the scallions and corn, which get a nice char. Toward the end, the steak is added and allowed to get those coveted grill marks. P.S.: No need to fret if you can’t fire up a grill—this recipe also can be made indoors.', '2021-05-03 16:43:44.682046', '2021-05-03 16:43:44.682046', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/grilled-sirloin-steak-1db1cc8c.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/grilled-sirloin-steak-5afb453630006c5329564432', 'HelloFresh.com', 'yukon gold potatoes
+bbq seasoning
+scallions
+corn on the cob
+sirloin steak
+roma tomato
+butter
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1123, 'One-Pot Ravioli Bake', 'Just when we thought pasta night couldn’t get any better, our chefs doubled down on the spinach. This nutritious green can be found in the ravioli AND fresh in the gratin. But we have a feeling your kids will be too busy devouring the panko breadcrumbs and creamy Parmesan to notice.', '2021-05-03 16:43:44.754711', '2021-05-03 16:43:44.754711', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mushroom-ravioli-gratin-w48-fab778b2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/mushroom-ravioli-gratin-w48-581222a8c7262876ca1aab02', 'HelloFresh.com', 'spinach ricotta ravioli
+spinach
+sour cream
+veggie stock concentrate
+parmesan cheese
+panko breadcrumbs
+yellow onion
+thyme
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1124, 'Sliced Steak Tagliata', 'Tagliata comes from the Italian word for “to cut,” referring to the fact that this steak is always served sliced. In fact, legend has it the dish originated with a particularly persnickety noblewoman who demanded that her servants do the carving for her. We’re honoring her request by carving up sirloin before serving and drizzling it with a balsamic sauce, which dribbles onto the sweet potato wedges, soaking them in tangy juices.', '2021-05-03 16:43:44.830203', '2021-05-03 16:43:44.830203', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w12-r2-71417c8c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w12-r2-5a296a0cc9fd08438c4591e2', 'HelloFresh.com', 'balsamic vinegar
+sirloin steak
+arugula
+garlic
+grape tomatoes
+sweet potato
+rosemary
+dried oregano
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1125, 'One-Pot Tortelloni', 'Pasta + pesto + Parmesan cheese: it’s an equation that never fails. Add in a crispy panko breadcrumb topping and now things are really starting to add up. But to really make this dish worth more than the sum of its parts, you gotta add in a powerhouse veggie like kale. It takes this tortelloni bake from creamy and crusty to hale and hearty and incredibly satisfying.', '2021-05-03 16:43:44.898106', '2021-05-03 16:43:44.898106', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tortellini-gratin-with-kale-w04-fd0b5dc8.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/tortellini-gratin-with-kale-w04-5845c96d6121bb490c103642', 'HelloFresh.com', 'cheese tortelloni
+milk
+pesto
+kale
+panko breadcrumbs
+parmesan cheese
+garlic
+veggie stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1126, 'Creamy Parmesan Chicken Spaghetti', 'Our chefs just took pasta night to the next level: Thanks to spaghetti, tomatoes, and chicken with Tuscan herbs, this recipe has all the Italian flair you could want and then some. The dish is accompanied by a sauce that has all the creamy goodness you want—it’s got cream cheese, Parmesan, and butter for a trifecta of dairy deliciousness. So get ready—these tasty noodles are waiting to get twirled ‘round your fork.
+Put the world on your plate with this curated collection of internationally-inspired meals to satisfy your wanderlust.', '2021-05-03 16:43:44.989413', '2021-05-03 16:43:44.989413', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/creamy-parmesan-chicken-spaghetti-af2e6090.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamy-parmesan-chicken-spaghetti-5f57b1d706702e2e7838871c', 'HelloFresh.com', 'lemon
+tomato
+tuscan heat spice
+spaghetti
+chicken breast strips
+cream cheese
+garlic
+parmesan cheese
+basil
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1127, 'Orange and Cashew Chicken Stir-Fry', 'If orange chicken is your go-to whenever you grab takeout, we think you’ll be pleasantly delighted by our take. We’ll be sending you an actual orange, so you can juice it and get that freshly squeezed taste—it’s leagues more vibrant and fresh than that mystery sauce you probably know. To keep things interesting, we’re also adding bell pepper slivers and a glazed-cashew garnish. The only struggle will be to not eat this dish up before you even get it on the plate.', '2021-05-03 16:43:45.068727', '2021-05-03 16:43:45.068727', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/orange-and-cashew-chicken-stir-fry-fcc117e7.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/orange-and-cashew-chicken-stir-fry-5a296ba851d3f15fe04e9e02', 'HelloFresh.com', 'jasmine rice
+chicken cutlets
+cornstarch
+ginger
+bell pepper
+scallions
+orange
+cashews
+korean chili flakes
+soy sauce
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1128, 'Strip Steak Over Truffled Mashed Potatoes', 'When you want to treat yourself to something luxuriantly tasty, nothing offers instant gratification better than a good steak. And we’ve got a great one with our New York strip, which is prized for its marbling and flavor. All it needs to be perfectly sublime is a simple pan sauce and some equally decadent sides, like almond green beans and truffled mashed potatoes.', '2021-05-03 16:43:45.152673', '2021-05-03 16:43:45.152673', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a149f007901f9316a4a4892-363fbcef.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/strip-steak-over-truffled-mashed-potatoes-5a149f007901f9316a4a4892', 'HelloFresh.com', 'yukon gold potatoes
+tricolored peppercorns
+parsley
+shallot
+green beans
+new york strip steak
+beef demi-glace
+sour cream
+truffle oil
+almonds
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1129, 'Rockin’ Guac’in Pork Burgers', 'When it comes to dinner, there’s a magical ingredient that never fails to make things, conservatively, 50x more delicious: GUAC. And when it tops a burger (!), you can bet you’re in for a treat. Here, Southwest-spiced pork patties are cooked to perfection, topped with chunky guacamole and juicy tomato slices, and piled into buttery buns. On the side, there’s crispy potato wedges...because how could we not?', '2021-05-03 16:43:45.2367', '2021-05-03 16:43:45.2367', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/rockin-guac-in-pork-burgers-657fce16.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/rockin-guac-in-pork-burgers-5d60458c73cd47000b2f57a4', 'HelloFresh.com', 'potato buns
+yukon gold potatoes
+shallot
+roma tomato
+lime
+southwest spice blend
+guacamole
+ground pork
+cumin
+hot sauce
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1130, 'One-Pot Beef Orzotto', 'Everything is better topped with crispy, cheesy breadcrumbs. If we’re being honest, this magical mixture could be sprinkled on just about anything and we’d happily dig in, no questions asked. What makes this dish so special is that it’s already incredible on its own, so the crunchy crust is really just the cherry on top (literally!) In it, you’ll find toasted orzo pasta, Italian-seasoned beef, and tender bites of zucchini, all enrobed in a silky tomato sauce. The fact that it all comes together in one pot is even more reason to love it.', '2021-05-03 16:43:45.321353', '2021-05-03 16:43:45.321353', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w8-r15-one-pot-beef-orzotto-6effd789.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w8-r15-one-pot-beef-orzotto-5c3cae1ae3f33964857c3202', 'HelloFresh.com', 'zucchini
+scallions
+ground beef
+italian seasoning
+orzo pasta
+chicken stock concentrate
+tomato paste
+panko breadcrumbs
+monterey jack cheese
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1131, 'Sweet Apple Pork Tenderloin', 'Pork has a way of embracing fruity flavors like no other protein. In this recipe, we’re smothering it in chunks of tender, saucy apple, which adds a welcome touch of sweetness. On the side, we’ve got sugar snap peas and a potato cauliflower mash. It’s so good, no one will notice that you snuck in some extra veggies!', '2021-05-03 16:43:45.415952', '2021-05-03 16:43:45.415952', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-apple-pork-tenderloin-6b28c207.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sweet-apple-pork-tenderloin-598cc731ad1d6c70dc4bd282', 'HelloFresh.com', 'yukon gold potatoes
+cauliflower florets
+pork tenderloin
+dried thyme
+sugar snap peas
+apple
+chicken stock concentrate
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1132, 'Lemon Peppercorn Chicken', 'Classic flavors like rosemary, garlic and lemon combine to make a hearty, comforting dish. Roasting the potatoes and green beans transforms ordinary vegetables to caramelized and deeply satisfying. A peppercorn pan sauce wakes the whole dish up with the flavors of lemon, pepper and rich butter. This creamy sauce spooned over the juicy chicken and roasted vegetables is a winter dream.', '2021-05-03 16:43:45.494237', '2021-05-03 16:43:45.494237', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemon-peppercorn-chicken-7dae73fe.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/lemon-peppercorn-chicken-5c0184acc445fa1e7c2d1c82', 'HelloFresh.com', 'yukon gold potatoes
+rosemary
+garlic
+lemon
+chicken breasts
+black peppercorns
+green beans
+chicken stock concentrate
+sour cream
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1133, 'Chicken Teriyaki Bowls', 'Forget takeout: the path to sweet-and-savory dinner bliss is as simple as breaking out a fry pan. In this recipe, chicken, pepper, and onion are coated in tantalizing teriyaki and peanuts are transformed into the perfect crunchy topping. Everything comes together over a bed of steamy white rice mixed with warm, sizzly ginger. The results? A symphony of flavors and textures that are so delicious, you might just lick the plate.', '2021-05-03 16:43:45.580974', '2021-05-03 16:43:45.580974', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d6041b97aa3c200155d10c6-3211c2da.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/chicken-teriyaki-stir-fry-5d6041b97aa3c200155d10c6', 'HelloFresh.com', 'ginger
+yellow onion
+bell pepper
+scallions
+chicken breast strips
+jasmine rice
+peanuts
+teriyaki sauce
+sriracha
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1134, 'Easy As (Shepherd''s) Pie', 'Although shepherd’s pie was originally created as a “clean out the refrigerator” dish to use up leftovers, it has morphed into a warm and comforting classic to enjoy any night of the week. After all, what’s not to love about the combination of hearty ground beef, caramelized onions, and a crunchy potato crust?', '2021-05-03 16:43:45.678341', '2021-05-03 16:43:45.678341', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/caramelized-onion-shepherd-s-pie-a3c34747.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/caramelized-onion-shepherd-s-pie-581c9949cc7bd028121e14e3', 'HelloFresh.com', 'ground beef
+yukon gold potatoes
+parmesan cheese
+yellow onion
+garlic
+flour
+chicken stock concentrate
+baby carrots
+peas
+thyme
+milk
+salt
+pepper
+butter
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1135, 'Crab Cakes with Tarragon Aioli', 'Creamy risotto swirled with garlic and herbs is pretty tough to top. Not according to our chefs, though! They found a way to make it even more delicious by adding a true game changer: panko-crusted crab cakes. These prepared patties add crunch and sumptuous seafood flavor to an already luxurious dish. A tangle of lemon-marinated zucchini ribbons perfectly offsets the dish’s richness, and a drizzle of tarragon aioli ties it all together. This dish is easy enough for a busy weeknight, but decadent enough to wow anyone invited to your dinner table.', '2021-05-03 16:43:45.799553', '2021-05-03 16:43:45.799553', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c48c612c445fa667c0c07d2-fa995940.jpg', 55, NULL, 'https://www.hellofresh.com/recipes/2019-w8-r11-crab-cakes-with-tarragon-aioli-5c48c612c445fa667c0c07d2', 'HelloFresh.com', 'veggie stock concentrate
+yellow onion
+garlic
+lemon
+zucchini
+italian seasoning
+arborio rice
+tarragon
+mayonnaise
+panko breadcrumbs
+crab cakes
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1136, 'Southwestern Stuffed Sweet Potatoes', 'If you feel like you’ve tried every taco that exists, we’ve got a new way for you to get your Tex-Mex fix. This twist on loaded potatoes gives you all the Southwestern flavors you love in an unexpected but totally delicious package. Ground pork and poblano pepper are simmered in a sauce with warm spices and chipotle chili, then spooned over sweet potato halves. Speaking of the spuds, the best part of prep might be that you can microwave them until tender, so forget long and slow oven-roasting—these puppies can be on the table in under half an hour.', '2021-05-03 16:43:45.880088', '2021-05-03 16:43:45.880088', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w50-r15c-southwestern-stuffed-sweet-potatoes-47290d5a.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/2018w50-r15c-southwestern-stuffed-sweet-potatoes-5bcf5986ae08b52c2c1af982', 'HelloFresh.com', 'garlic
+poblano pepper
+scallions
+lime
+sweet potato
+sour cream
+ground pork
+southwest spice blend
+chipotle powder
+chicken stock concentrate
+cheddar cheese
+hot sauce
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1137, 'Balsamic Fig Chicken', 'We’re big fans of pan sauces because they’re a simple way to add extra flavor to dishes. Here, fig jam, balsamic vinegar, and fresh rosemary mingle with the fond—the crispy bits and drippings left by the chicken. The result is a condiment that you’ll want to drizzle all over your meat and potatoes before swiping up every bit of sweet and savory perfection.', '2021-05-03 16:43:45.974004', '2021-05-03 16:43:45.974004', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5dfd01b4635fd2176b271e9f-122ac42b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/balsamic-fig-chicken-5dfd01b4635fd2176b271e9f', 'HelloFresh.com', 'yukon gold potatoes
+shallot
+rosemary
+lemon
+chicken breasts
+balsamic vinegar
+fig jam
+chicken stock concentrate
+mixed greens
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1138, 'Cherry Balsamic Pork Chops', 'Part sweet, part tangy, and all-around delicious—that’s the thick and super flavorful glaze you have in store for you tonight drizzled over these pork chops. The cherry and balsamic flavors balance each other out like yin and yang. So we’ve kept the sides simple with roasted broccoli and potatoes to allow the meat and sauce to shine. And boy, do they steal the show.', '2021-05-03 16:43:46.05594', '2021-05-03 16:43:46.05594', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d3b35cce203d2000828c3e1-c3f56b01.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/cherry-balsamic-pork-chops-5d3b35cce203d2000828c3e1', 'HelloFresh.com', 'shallot
+broccoli florets
+garlic herb butter
+chicken stock concentrate
+couscous
+pork chops
+balsamic vinegar
+cherry jam
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1139, 'Chicken Caesar Salad', 'Warm, crunchy, Italian-seasoned croutons. Juicy chicken. Cheesy Parmesan wafers. Crisp lettuce. Creamy, savory dressing... Oh—didn’t see you there! We were just daydreaming about the perfect Caesar salad. For the diehard Caesar fans out there (we see you!), you probably don’t need much convincing. This version is a classic, but a few flavorful twists from the minds of our chefs take it above and beyond (see daydream above).', '2021-05-03 16:43:46.136409', '2021-05-03 16:43:46.136409', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w24-r4-chicken-caesar-salad-915d0730.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/2019-w24-r4-chicken-caesar-salad-5ccb36206b574a001453bf5a', 'HelloFresh.com', 'parmesan cheese
+demi baguette
+italian "so delizioso" seasoning
+chicken breasts
+romaine lettuce
+roma tomato
+caesar dressing
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1140, 'Swedish Meatloaves', 'When you think about it, a meatloaf is just an oversized meatball. So in this recipe, where we’re taking Swedish meatballs and giving them the loaf treatment, things are only gonna be bigger and better than before. These warmly spiced beef meatloaves are smothered in a rich gravy and served with mashed potatoes, roasted carrots, and currant jam to the side—in other words, enough deliciousness to fill out a smorgasbord.', '2021-05-03 16:43:46.221091', '2021-05-03 16:43:46.221091', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c670407c445fa5591505a02-2c7ad0c5.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/swedish-meatloaves-5c670407c445fa5591505a02', 'HelloFresh.com', 'carrots
+yukon gold potatoes
+yellow onion
+parsley
+white bread
+milk
+ground beef
+nutmeg
+meatloaf spice blend
+flour
+beef stock concentrate
+currant jam
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1141, 'The Icon Burger', 'The burger you’ve all been waiting for is finally here! It’s stacked high with a rich short-rib blend, mild cheddar cheese, crunchy pickles, and red onion—not to mention a thick potato bun slathered with mustard and ketchup. Our chefs opted for crispy baked zucchini fries to give this iconic dish a healthy twist. One bite is all it takes to put the burger competition to shame.', '2021-05-03 16:43:46.346537', '2021-05-03 16:43:46.346537', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/icon-burger-86677d1d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/icon-burger-57b4cbb8544b18b5098b4568', 'HelloFresh.com', 'short rib burger blend
+cheddar cheese
+dill pickle
+green leaf lettuce
+potato bun
+yellow mustard
+ketchup
+mayonnaise
+zucchini
+panko breadcrumbs
+red onion
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1142, 'Creamy Lemon Butter Chicken', 'Lemon is our go-to ingredient for brightening up any meal, and this dish is positively bursting with citrusy goodness! Seared chicken is drizzled with a creamy, lemon-spiked pan sauce that’d taste good on pretty much anything. On the side, there’s tender roasted zucchini and scallion-studded couscous tossed with both lemon juice and zest. When life gives you lemons, you know what to do.', '2021-05-03 16:43:46.464685', '2021-05-03 16:43:46.464685', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e7a45486336ee1f19459513-37e902ea.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/creamy-lemon-butter-chicken-5e7a45486336ee1f19459513', 'HelloFresh.com', 'scallions
+lemon
+zucchini
+tuscan heat spice
+chicken cutlets
+israeli couscous
+panko breadcrumbs
+mozzarella cheese
+chicken stock concentrate
+sour cream
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1143, 'Chicken Carnitas Tacos', 'Chicken carnitas > all other kinds of chicken. Yep, we’re talking seared pieces of white meat simmered in a Fajita-spiced tomato sauce with a tangle of charred onion and poblano. Everything is then piled into steamy flour tortillas along with pickled onion, tomato scallion salsa, and chipotle lime crema. One bite and your taste buds will be immediately transported south of the border. Taco’bout a weeknight win!', '2021-05-03 16:43:46.580366', '2021-05-03 16:43:46.580366', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-carnitas-tacos-7270faf1.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/chicken-carnitas-tacos-5d35c9489007de000b15494f', 'HelloFresh.com', 'red onion
+poblano pepper
+roma tomato
+scallions
+lime
+white wine vinegar
+chicken breast strips
+fajita spice blend
+tomato paste
+chicken stock concentrate
+sour cream
+chipotle powder
+flour tortillas
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1144, 'Sweet ''N'' Smoky Chicken Cutlets', 'Barbecue chicken just got even better thanks to a few secret ingredients from our chefs. These thinly-sliced chicken cutlets are coated in a sauce that combines barbecue spices with cherry jam, pineapple juice, and ancho chili powder. The result is something as succulently sweet as it is smoky. Plus, it pairs brilliantly with buttered green beans and the pineapple rice that continues the fruit theme.', '2021-05-03 16:43:46.653869', '2021-05-03 16:43:46.653869', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cdad6569d40d20009797e82-fca90ca6.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sweet-n-smoky-chicken-cutlets-5cdad6569d40d20009797e82', 'HelloFresh.com', 'chicken cutlets
+chili powder
+scallions
+pineapple
+basmati rice
+sweet and smoky bbq seasoning
+white wine vinegar
+cherry jam
+green beans
+chicken stock concentrate
+butter
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1145, 'Cheesy Mexican Beef and Rice Skillet', 'Wanted: A fresh, hearty one-pan meal with enough flavor to stand up to the coldest of winter days. Found: A skillet full of aromatic rice, zesty seasoned beef, and sautéed pepper and onion, topped with gooey melted cheese and hot sauce crema. Reward: bite after bite of deliciousness.', '2021-05-03 16:43:46.746923', '2021-05-03 16:43:46.746923', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019w2r15c-cheesy-southwest-beef-and-rice-skillet-b84557c3.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019w2r15c-cheesy-southwest-beef-and-rice-skillet-5bf301d030006c2de3024e92', 'HelloFresh.com', 'long green pepper
+yellow onion
+sour cream
+hot sauce
+ground beef
+southwest spice blend
+tomato paste
+beef stock concentrate
+jasmine rice
+mexican cheese blend
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1146, 'Italian Sausage and Mushrooms', 'If you’re a fan of Israeli couscous, then you’ll love this dish. This pearled pasta is tossed with mushrooms, topped with spinach, and held together with creamy Parmesan cheese. Needless to say, this dish has comfort food written all over it.', '2021-05-03 16:43:46.835544', '2021-05-03 16:43:46.835544', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-italian-sausages-with-freg-2ecf4339.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sweet-italian-sausages-with-freg-57d8586277d68dde468b4568', 'HelloFresh.com', 'italian pork sausage
+israeli couscous
+yellow onion
+garlic
+button mushrooms
+spinach
+dried oregano
+parmesan cheese
+chicken stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1147, 'Herbs de Provence Chicken', 'Between France’s bistro fare and Italy’s trattoria eats, it’s hard to say which country has the supreme cuisine. In fact, we love both so much that we’re tempted to make a hybrid out of the two and call it Fritalian. So say hello to our border-hopping recipe, which features both chicken seasoned with herbs de Provence (southern France’s trademark seasoning) and a farro caprese that is loaded with classic Italian ingredients, like tomatoes, mozzarella, and balsamic vinegar.', '2021-05-03 16:43:46.919415', '2021-05-03 16:43:46.919415', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/herbs-de-provence-chicken-44402698.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/herbs-de-provence-chicken-5939ac5e3bddb57bbc486d92', 'HelloFresh.com', 'shallot
+farro
+grape tomatoes
+fresh mozzarella
+chicken breasts
+herbes de provence
+balsamic vinegar
+honey
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1148, 'Herbed Sirloin Steak', 'Caprese salad—that’s mozzarella, tomato, and balsamic—is addictive as an appetizer. But in this recipe, we’re turning it into a main event. Seared sirloin steak adds some meaty heft to the meal, while orzo pasta fills it out and soaks up all the flavorful juices. Throw in some garlic and a drizzle of olive oil for flavor and you’ll realize at first bite, that’s amore.', '2021-05-03 16:43:47.004275', '2021-05-03 16:43:47.004275', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/herbed-sirloin-steak-dbd9fb0f.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/herbed-sirloin-steak-594a7f5b4f78db042847ada2', 'HelloFresh.com', 'grape tomatoes
+garlic
+parsley
+fresh mozzarella
+orzo pasta
+sirloin steak
+herbes de provence
+balsamic vinegar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1149, 'Lemony Shrimp Risotto', 'This meal is simple enough for a weeknight but also elegant enough for a special occasion. Shrimp, lemon zest, and Parmesan are folded into a creamy risotto for a medley of sophisticated flavors. Scattered on top is tender green zucchini, which is roasted in the oven to bring out its juiciness and make it delectably crisp at the edges.', '2021-05-03 16:43:47.097746', '2021-05-03 16:43:47.097746', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemony-shrimp-risotto-f48a9ec6.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/lemony-shrimp-risotto-594145bec6243b501d1a5152', 'HelloFresh.com', 'shrimp
+arborio rice
+parmesan cheese
+chicken stock concentrate
+yellow onion
+garlic
+zucchini
+thyme
+lemon
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1150, 'Steak and Brussels Sprout Stir-Fry', 'Brussels sprouts and stir-fry may sound like an unlikely pair, but trust us, it works. The addition of this cruciferous veggie adds a seasonal flair to the dish—not to mention a hefty dose of iron and Vitamins A and C. Feel free to add as much or as little jalapeño as you like. After all, you’re the chef!', '2021-05-03 16:43:47.192925', '2021-05-03 16:43:47.192925', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/steak-and-brussel-sprout-stir-fr-4205398a.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/steak-and-brussel-sprout-stir-fr-57f66700c726287789402ef2', 'HelloFresh.com', 'beef sirloin tips
+jasmine rice
+brussels sprouts
+carrots
+ginger
+jalapeño
+scallions
+soy sauce
+lemon
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1151, 'Pasta Swirls and Sauce', 'Gremolata may sound like a creature you’d find under your bed, but it’s actually a condiment with chopped herbs and nuts—think of it as pesto’s more rustic cousin. And like pesto, it’s a perfect match for gemelli pasta and other Italian-style ingredients, such as sausage and baby broccoli. We also promise it won’t growl and grumble into the night but rather send you into the evening content and happy.', '2021-05-03 16:43:47.282669', '2021-05-03 16:43:47.282669', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pasta-swirls-and-sauce-0f52faaa.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/pasta-swirls-and-sauce-59c4289e450cfa090b05e792', 'HelloFresh.com', 'baby broccoli
+garlic
+oregano
+lemon
+sweet italian pork sausage
+gemelli pasta
+almonds
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1152, 'Speedy Chili Shrimp Stir-Fry', 'The world of spicy Southeast Asian condiments extends well beyond sriracha. In fact, sweet Thai chili sauce might just outshine its more popular cousin in terms of all around likeability. It’s got that feisty heat, of course, but also a sticky sweetness that adds a glossy, glaze-like sheen to anything you put it on. For the shrimp and bok choy in this quick stir-fry, that means an instant layer of vibrant, lick-your-lips good flavor.', '2021-05-03 16:43:47.365995', '2021-05-03 16:43:47.365995', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/speedy-chili-shrimp-stir-fry-1bb90e25.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/speedy-chili-shrimp-stir-fry-59c427aba5ed19736a226712', 'HelloFresh.com', 'jasmine rice
+baby bok choy
+chili pepper
+lime
+scallions
+shrimp
+cornstarch
+sweet thai chili sauce
+peanuts
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1153, 'Tuscan Chicken Spaghetti', 'Our chefs just took pasta night to the next level: thanks to linguine, tomatoes, and chicken with Tuscan herbs, this recipe has all the Italian flair you could want and then some. The dish is accompanied by a sauce that has all the creamy goodness you want—it has cream cheese, Parmesan, and garlic herb butter for a trifecta of dairy deliciousness. So get ready: these tasty noodles are waiting to get twirled ‘round your fork.', '2021-05-03 16:43:47.457241', '2021-05-03 16:43:47.457241', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tuscan-chicken-linguine-705ed0d7.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/tuscan-chicken-linguine-5c3ca8bdc445fa1b9b7c4f92', 'HelloFresh.com', 'lemon
+roma tomato
+tuscan heat spice
+spaghetti
+chicken breast strips
+cream cheese
+garlic herb butter
+parmesan cheese
+basil
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1154, 'Buffalo-Spiced Crispy Chicken Cutlets', 'Are you the type of person who only goes to events because of the fact that buffalo wings may be present? We’re with you, and that’s why our chefs took the beloved dish from messy app to epic weeknight dinner. First, chicken is coated in a cheesy, Frank’s Red Hot spiced panko mixture. It’s roasted to juicy, crunchy perfection, then drizzled with creamy buffalo-style sauce. Oh, and did we mention there’s buttery roasted broccoli and sour cream and scallion mashed potatoes on the side?! Yeah, it’s safe to say this dish is a slam dunk/home run/total dinner goals.', '2021-05-03 16:43:47.538213', '2021-05-03 16:43:47.538213', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/buffalo-spiced-crispy-chicken-cutlets-b2d4e0a0.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/buffalo-spiced-crispy-chicken-cutlets-5e9dd11eddff362522313034', 'HelloFresh.com', 'broccoli florets
+sour cream
+panko breadcrumbs
+chicken cutlets
+honey
+scallions
+frank''s redhot® original seasoning blend
+monterey jack cheese
+yukon gold potatoes
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1155, 'Pancetta White Pizzas', 'White pizzas don’t get the credit they deserve. Just because they’re not coated in a heavy layer of tomatoes doesn’t mean that they’re lacking in flavor. In fact, in our version, going sauceless means that all of the attention is brought to the toppings. Here, that’s snappy baby broccoli, salty bursts of pancetta, and a garlic and herb-accented spread of ricotta cheese. We’re not going to argue with that.', '2021-05-03 16:43:47.611168', '2021-05-03 16:43:47.611168', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/white-pancetta-pizzas-5e508841.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/white-pancetta-pizzas-5abd49ae30006c47143cb6b2', 'HelloFresh.com', 'baby broccoli
+pancetta
+ricotta cheese
+garlic powder
+herbes de provence
+flatbreads
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1156, 'Cheesy Prosciutto Chicken', 'This, folks, is not your average chicken dinner. Our chefs added tons of restaurant-level flair (with almost no effort!) by wrapping chicken breasts in salty, savory slices of prosciutto. Once seared, it crisps to perfection. The wrapped chicken is then sprinkled with mozzarella and broiled to get nice and melty. Finally, it’s served over twirly spaghetti that’s been cloaked in a Tuscan-spiced marinara. The best part? Everything comes together in under 40 minutes! Talk about a weeknight win.', '2021-05-03 16:43:47.666223', '2021-05-03 16:43:47.666223', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e67dbe55e8ddc49f13c9c0c-97fe494c.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/cheesy-prosciutto-chicken-5e67dbe55e8ddc49f13c9c0c', 'HelloFresh.com', 'basil
+chicken breasts
+prosciutto
+mozzarella cheese
+spaghetti
+tuscan heat spice
+marinara sauce
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1157, 'Chipotle Chicken and Rice Bowl', 'Bowls have gone beyond “having a moment” and officially become a dinnertime staple. And why not? They’re hearty, comforting, and so versatile. This version is packed with delicious (nutritious!) fixings like spiced chicken and toasty, roasted sweet potatoes. They’re served over a bed of scallion-flecked lime rice and topped with fresh salsa and smoky-hot chipotle crema. Yep, this bodacious bowl is sure to satisfy.', '2021-05-03 16:43:47.731649', '2021-05-03 16:43:47.731649', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w20-r15-chipotle-chicken-and-rice-bowl-d516c0bb.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w20-r15-chipotle-chicken-and-rice-bowl-5ca4fc42e3f3397bda2a7682', 'HelloFresh.com', 'sweet potato
+red onion
+scallions
+roma tomato
+lime
+southwest spice blend
+jasmine rice
+sour cream
+chipotle powder
+chicken cutlets
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1158, 'One-Pan Tropical Chicken Tacos', 'It’s not always easy to eat enough fruit. Luckily, these tacos feature plenty of it—plus some bonus veggies, too—thanks to a pineapple and lime salsa (with a bit of onion and cilantro tossed in) that’s probably the easiest way to get picky eaters to eat their produce. The salsa joins warmly spiced chicken and a hot-sauce crema inside warm tortillas. Oh, and bonus alert: it can all be made with just one pan, so cleanup will be a breeze.', '2021-05-03 16:43:47.811539', '2021-05-03 16:43:47.811539', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c9bbcb9c445fa20d45fa9e2-8c0f1f60.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/one-pan-tropical-chicken-tacos-5c9bbcb9c445fa20d45fa9e2', 'HelloFresh.com', 'shallot
+bell pepper
+cilantro
+lime
+pineapple
+chicken breast strips
+blackening spice
+southwest spice blend
+sour cream
+hot sauce
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1159, 'Crispy Lemon Basil Chicken', 'Mix panko breadcrumbs, chopped fresh basil, garlic, lemon zest, and olive oil; pat the mixture onto chicken breasts; bake; and voila! Golden chicken deliciousness with major crunch cred. As for the spuds, we supply all the Jack cheese and smoky bacon you’ll need for an addictive mash.', '2021-05-03 16:43:47.893037', '2021-05-03 16:43:47.893037', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w51r16f-crispy-lemon-basil-chicken-52c27b1a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2018w51r16f-crispy-lemon-basil-chicken-5bdc5ef130006c5d4d5abee2', 'HelloFresh.com', 'yukon gold potatoes
+lemon
+garlic
+basil
+panko breadcrumbs
+chicken breasts
+tuscan heat spice
+sour cream
+broccoli florets
+bacon
+monterey jack cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1160, 'Crispy-Top Parmesan Chicken', 'Your grandma might’ve made a vinegar-based potato salad that was more sour than is humanly possible to enjoy. But ours features balsamic, which transforms those spuds into something deep, soulful, and delightfully tangy. In fact, we can practically hear them singing “O Sole Mio” to the Parmesan-crusted chicken and roasted tomatoes beside them on the plate.', '2021-05-03 16:43:47.986365', '2021-05-03 16:43:47.986365', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-top-parmesan-chicken-3cd60dfb.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-top-parmesan-chicken-5942a19699052d579a5269e2', 'HelloFresh.com', 'yukon gold potatoes
+panko breadcrumbs
+parmesan cheese
+chicken breasts
+dijon mustard
+grape tomatoes
+scallions
+garlic
+balsamic vinegar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1161, 'Sesame Lime Chicken', 'Chicken breasts don’t have to be boring or plain: in this recipe, we’ve given them a vibrant sauce that leaps out with the Asian-inspired flavors of soy, lime, and sesame. We’ve also given the sides the flavor forward treatment—the rice also gets a burst of citrus while the green beans have a feisty dressing of peanuts, garlic, and sriracha. Altogether, this recipe adds up into something that’ll bring excitement to the table on any night.', '2021-05-03 16:43:48.075539', '2021-05-03 16:43:48.075539', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w44-r14-b9fec797.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/w44-r14-5b9be243ae08b532052e1422', 'HelloFresh.com', 'lime
+garlic
+green beans
+peanuts
+jasmine rice
+soy sauce
+cornstarch
+sesame oil
+chicken breasts
+sriracha
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1162, 'Melty Burrito Bake', 'Oozy sauce. Melty cheese. A beefy filling. You’ll be on a roll with this Southwestern-style casserole. To make it, you line up burritos in a row, spread over some tomatoes and cheese, and bake in the oven until seductively steamy and bubbly. The chopped salad on the side is there to help cool down this red-hot dish.', '2021-05-03 16:43:48.197996', '2021-05-03 16:43:48.197996', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-quickfire-beef-enchiladas-w06-07337183.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/uk-quickfire-beef-enchiladas-w06-585806ac6121bb750b3db422', 'HelloFresh.com', 'ground beef
+yellow onion
+southwest spice blend
+kidney beans
+crushed tomatoes
+baby gem lettuce
+whole wheat tortillas
+cheddar cheese
+lime
+sour cream
+roma tomato
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1163, 'Warmly Spiced Chicken Thighs', 'We’re taking a cue from the Mediterranean in this chicken recipe, incorporating the mild, warm aromas of cumin and paprika as well as a spike of lemon into the marinade. They dribble off into the rice, lighting up each grain with citrusy juices. And with gently browned, tender snap peas on the side—which bring both a natural sweetness and crunch befitting of their name—you’ve got a meal that feels warm and sunny.', '2021-05-03 16:43:48.280831', '2021-05-03 16:43:48.280831', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/warmly-spiced-chicken-thighs-ec7db6f3.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/warmly-spiced-chicken-thighs-597129aa0534680f57746a23', 'HelloFresh.com', 'sugar snap peas
+garlic
+lemon
+cumin
+paprika
+chicken thighs
+basmati rice
+chicken stock concentrate
+honey
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1164, 'Balsamic Rosemary Strip Steak', 'Balsamic vinegar does multiple magical things in this recipe. First, it’s stirred into the sauce to give it an acidity that cuts through and livens up the robust flavor of strip steak. Then, it’s tossed into an arugula salad and topped with wedges of pear, providing a rounded contrast to the sweetness of the fruit. Some of it will inevitably drip into a deep, dark pool on your plate, but luckily the baguette toasts on the side, brushed in a garlic herb butter, do a swell job of sopping it up.', '2021-05-03 16:43:48.357592', '2021-05-03 16:43:48.357592', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b8031b9ae08b552330da732-e5447196.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/balsamic-rosemary-skirt-steak-5b8031b9ae08b552330da732', 'HelloFresh.com', 'bartlett pear
+demi baguette
+shallot
+rosemary
+garlic herb butter
+new york strip steak
+balsamic vinegar
+chicken demi-glace
+arugula
+ricotta salata
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1165, 'Veggie Chorizo Tacos', 'It’s time to get your taco on: veggie crumbles with chorizo spices are the centerpiece of these tortillas, giving you smokiness, savoriness, and a slightly spicy kick, too. There’s also a kiwi and tomato salsa to keep things bright, tangy, and a sassy. Just drizzle a bit of zesty lime crema over it all, and you’ve got a devilishly good combo of textures and flavors.', '2021-05-03 16:43:48.443294', '2021-05-03 16:43:48.443294', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a99c9c330006c755507dc12-121e25cf.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/seitan-tacos-el-diablo-5a99c9c330006c755507dc12', 'HelloFresh.com', 'red onion
+poblano pepper
+roma tomato
+kiwi
+cilantro
+lime
+veggie chorizo crumbles
+sour cream
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1166, 'Lean Mean Chicken and Greens', 'Don’t let the name intimidate you: gremolata is a gussied-up name for an easy-to-make herb condiment that tastes fresh like a spring day. It breathes new life into this simple meal of chicken and potatoes. On the side, you’ve also got a cheerful salad of arugula, cranberries, and walnuts in a lemony dressing—just the thing to put a happy, hearty smile on your face!', '2021-05-03 16:43:48.519574', '2021-05-03 16:43:48.519574', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-paillard-w07-863dcd3d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-paillard-w07-586bd7d89f236a28d23b2b72', 'HelloFresh.com', 'chicken breasts
+yukon gold potatoes
+rosemary
+arugula
+parsley
+garlic
+lemon
+shallot
+walnuts
+dried cranberries
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1167, 'One-Pot Tortilla Soup', 'Tortilla soup is one of the classics of traditional Mexican cuisine for good reason—it’s just as soul-warming and cozy as your typical tomato and veggie soup, but with the crunch of crispy tortillas and an added whisper of chili heat. Our version also introduces black beans and corn to make it extra hearty, plus avocado and cheddar cheese for a creamy finish.', '2021-05-03 16:43:48.603913', '2021-05-03 16:43:48.603913', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/one-pot-tortilla-soup-aa3a06d7.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/one-pot-tortilla-soup-5a2b083e30a03b062167bdc3', 'HelloFresh.com', 'yellow onion
+green bell pepper
+garlic
+jalapeño
+black beans
+corn
+tortilla chips
+mexican spice blend
+crushed tomatoes
+veggie stock concentrate
+avocado
+cheddar cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1168, 'Seared Sirloin Steak', 'Hankering for a plate of good ol’ steak and potatoes? We’ve got your back. This recipe takes the classics above and beyond with a few flavorful twists. There’s seared steak, creamy chive-flecked mashed potatoes, and honey-roasted carrots. And then there’s the pan sauce. Here, demi-glace and garlic herb butter mingle with the fond--the crispy bits and drippings left by the steak--to create a rich elixir you’ll want to drizzle over everything. And now you can!', '2021-05-03 16:43:48.705767', '2021-05-03 16:43:48.705767', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w14-r16f-seared-sirloin-steak-c582c60f.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w14-r16f-seared-sirloin-steak-5c6705d2c445fa567208af32', 'HelloFresh.com', 'yukon gold potatoes
+carrots
+chives
+honey
+sirloin steak
+beef demi-glace
+garlic herb butter
+sour cream
+chili flakes
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1169, 'Rosemary Mustard Sirloin Steaks', 'Demi-glaze is an intensely rich, glossy sauce reduction. A master sauce of French cuisine, traditional demi-glace requires simmering beef stock for hours. But don’t panic---we’ve made it for you! When our own rich, glossy demi is used in the pan sauce for this luxurious dish, it creates a savory depth of flavor that’ll make anyone you feed believe you slaved at the stove for hours. Don’t worry, though--we’ll never tell.', '2021-05-03 16:43:48.796389', '2021-05-03 16:43:48.796389', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/rosemary-mustard-sirloin-steaks-330a78a9.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/rosemary-mustard-sirloin-steaks-5bef0e3930006c3a160c5522', 'HelloFresh.com', 'brussels sprouts
+yukon gold potatoes
+garlic
+lemon
+sour cream
+sirloin steak
+rosemary
+beef demi-glace
+dijon mustard
+chili flakes
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1170, 'Apricot Ponzu Chicken', 'Chicken is always a dinner winner. It’s satisfying, speedy, and so versatile, which is why our chefs are always brainstorming new ways to take it to the next level. This week, they went all out by drizzling chicken cutlets with a swoon-worthy pan sauce of apricot jam, citrusy ponzu, garlic, ginger, and butter. On the side, there’s aromatic jasmine rice and tender roasted green beans. (Pssst—those sides would be equally delicious with the pan sauce.) You’d be chicken not to try it!', '2021-05-03 16:43:48.927019', '2021-05-03 16:43:48.927019', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/apricot-ponzu-chicken-d0ec3961.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/apricot-ponzu-chicken-605a45f16cebf813c16a1e8a', 'HelloFresh.com', 'ginger
+garlic
+green beans
+jasmine rice
+chicken cutlets
+apricot jam
+ponzu sauce
+salt
+pepper
+vegetable oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1171, 'Herby Pan-Seared Chicken', 'What do you get when you combine herbes de Provence with mozzarella and tomato? A French and Italian fusion… Fritalian! In all seriousness, we were shocked by how much we loved this flavor combination and have a feeling you will, too.', '2021-05-03 16:43:48.989715', '2021-05-03 16:43:48.989715', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/hdp-chicken-with-farro-1ea88bf7.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/hdp-chicken-with-farro-57c9a80af31cf1b4518b456a', 'HelloFresh.com', 'chicken breasts
+farro
+roma tomato
+herbes de provence
+balsamic vinegar
+honey
+shallot
+fresh mozzarella
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1172, 'Easy Bein’ Cheesy Chicken Quesadillas', 'This quesadilla is big on flavor AND ready in just 15 minutes with the help of a few kitchen tricks. We start with already-cooked chicken breasts, which are sliced and sautéed with scallions and Southwest spices to make the zesty filling. It’s layered onto tortillas with pepper jack and Monterey Jack cheese, then pan-toasted to achieve perfectly golden, gooey results. Each quesadilla is finished with a drizzle of hot sauce and paired with smoky red pepper crema for dipping. A good thing just got a whole lot better.', '2021-05-03 16:43:49.050823', '2021-05-03 16:43:49.050823', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/606473afb30cbd7eb243e1b8-9e37d0a0.jpg', 15, NULL, 'https://www.hellofresh.com/recipes/easy-bein-cheesy-chicken-quesadillas-606473afb30cbd7eb243e1b8', 'HelloFresh.com', 'scallions
+fully cooked chicken breasts
+southwest spice blend
+flour tortillas
+pepper jack cheese
+monterey jack cheese
+hot sauce
+smoky red pepper crema
+salt
+pepper
+olive oil
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1173, 'Pulled Pork Mac ''N'' Cheese', 'Our chefs just took mac ’n’ cheese to the next level of pasta nirvana by adding pulled pork into the mix. That’s right: with every bite of curly cavatappi noodles, you also get chunks of melt-in-your-mouth-tender precooked meat. And because they won’t settle or anything less than blowing your mind, our chefs added smoky barbecue spices, too. So grab a fork and get ready to dig in to this ultimate take on some of your favorite comfort foods.', '2021-05-03 16:43:49.11826', '2021-05-03 16:43:49.11826', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pulled-pork-mac-n-cheese-bcc7e8ab.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/pulled-pork-mac-n-cheese-5b0334d330006c15c4372b62', 'HelloFresh.com', 'scallions
+cavatappi pasta
+pulled pork
+flour
+milk
+sweet and smoky bbq seasoning
+cream cheese
+mexican cheese blend
+hot sauce
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1174, 'Japanese Panko Chicken', 'Japan may not seem like a source for a fried chicken recipe, but it is, and that chicken is delicious. These thin cutlets are coated in panko breadcrumbs and sizzled in the pan ’til they’re gorgeously golden and crisp. Then, tonkatsu sauce is drizzled on top—you can think of it as a soy-based answer to barbecue sauce. And if that’s not enough, the fluffy ginger rice and sesame-sprinkled green beans on the side will convince you to make this Japanese comfort food one of your own.', '2021-05-03 16:43:49.187725', '2021-05-03 16:43:49.187725', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/japanese-panko-chicken-d3561c2e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/japanese-panko-chicken-59ce4c71043c3c0ec96bb312', 'HelloFresh.com', 'ginger
+scallions
+jasmine rice
+green beans
+sesame oil
+sesame seeds
+chicken cutlets
+sour cream
+panko breadcrumbs
+dijon mustard
+ketchup
+soy sauce
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1175, 'Caramelized Onion Burgers', 'These burgers are topped with balsamic-caramelized onions and garlic aioli for a huge hit of flavor. Instead of fries, we’re tossing cauliflower in panko for a deliciously crispy alternative.', '2021-05-03 16:43:49.278134', '2021-05-03 16:43:49.278134', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/56958b86f8b25e05188b4567.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/burgers-with-garlic-mayo-56958b86f8b25e05188b4567', 'HelloFresh.com', 'ground beef
+cauliflower
+red onion
+garlic
+dried oregano
+panko breadcrumbs
+mayonnaise
+balsamic vinegar
+brioche buns
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1176, 'Za’atar-Crusted Grilling Cheese', 'Did you ever think that you could grill cheese? We’re not talking about sandwiches, but about throwing a big hunk of cheese directly onto the heat so the outsides get beautifully charred while the insides get warm and melty. It took us by surprise, but by golly, it’s tasty. To make it, you’ll dredge the cheese in za’atar, a Middle Eastern herb and spice blend, then serve it on top of bubbly couscous and tender zucchini and onion dusted in tangy sumac. Being cheesy never tasted so good.', '2021-05-03 16:43:49.350692', '2021-05-03 16:43:49.350692', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/606cb42edd87867e3b30b174-fdd885c9.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/zaatar-crusted-grilling-cheese-606cb42edd87867e3b30b174', 'HelloFresh.com', 'zucchini
+red onion
+lemon
+grape tomatoes
+cilantro
+israeli couscous
+veggie stock concentrate
+sumac
+grilling cheese
+za''atar spice
+cooking oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1177, 'Walnut-Crusted Salmon with Crispy Broccoli and Pilaf-Style Couscous', 'We’re topping buttery salmon with a dijon glaze before crusting the fillets with a crunchy mixture of walnuts and panko. Pilaf-style couscous and crispy roasted broccoli make this dish both well-rounded and delicious.', '2021-05-03 16:43:49.435165', '2021-05-03 16:43:49.435165', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/563a4ebf79a23c8b688b4568.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/walnut-crusted-salmon-with-crispy-broccoli-and-pilaf-style-couscous-563a4ebf79a23c8b688b4568', 'HelloFresh.com', 'skin-on salmon
+broccoli florets
+shallot
+panko breadcrumbs
+veggie stock concentrate
+dijon mustard
+couscous
+olive oil
+butter
+walnuts');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1178, 'Honey Lime Shrimp Tacos', 'Lime, avocado, and cilantro are familiar ingredients in a taco, bringing tartness, creaminess, and herby overtones, respectively. You don’t expect sweetness inside a tortilla, however, which we snuck in with these honey-coated shrimp. But what a pleasant surprise the sticky stuff is: it leaves the filling dripping with succulent juices that are boosted by citrus and a smidge of optional chili heat.', '2021-05-03 16:43:49.498429', '2021-05-03 16:43:49.498429', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w18-r7-7406ebcc.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w18-r7-58cc2ce731310063d6551162', 'HelloFresh.com', 'shrimp stirfry
+flour tortilla
+shredded red cabbage
+lime
+sour cream
+cilantro
+honey
+chili flakes
+red onion
+avocado
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1179, 'Sliced Steak Tagliata', 'Tagliata comes from the Italian word for “to cut,” referring to the fact that this steak is always served sliced. Legend even has it the dish originated with a particularly persnickety noblewoman who demanded that her servants do the carving for her. We’re honoring her request by slicing up sirloin before serving and drizzling it with a balsamic sauce, which dribbles onto the sweet potato wedges, soaking them in succulent juices.', '2021-05-03 16:43:49.584594', '2021-05-03 16:43:49.584594', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sliced-steak-tagliata-cbc9ad8c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sliced-steak-tagliata-5a4e5c3c2c3e08552f387b12', 'HelloFresh.com', 'sweet potato
+rosemary
+garlic
+grape tomatoes
+ranch steak
+green beans
+balsamic vinegar
+beef stock concentrate
+olive oil
+butter
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1180, 'Creamy Lobster Ravioli Gratin', 'Lobster is the king of all seafood—few people would deny that—so this dish must be fit for royalty. Ravioli pasta shells stuffed with the crustacean’s sweet, tender meat are baked lasagna-style in a cheesy sauce, which turns lusciously creamy after a few minutes in the oven. With tender asparagus and juicy heirloom tomatoes as the veg, you’ll definitely feel like you’re in for a treat.', '2021-05-03 16:43:49.681803', '2021-05-03 16:43:49.681803', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lobster-ravioli-lasagna-gratin-63fb8fcb.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/lobster-ravioli-lasagna-gratin-5b917a0630006c63ea10fa92', 'HelloFresh.com', 'asparagus
+heirloom grape tomatoes
+gouda cheese
+chives
+lemon
+lobster ravioli
+tuscan heat spice
+flour
+milk
+veggie stock concentrate
+italian cheese blend
+panko breadcrumbs
+parmesan cheese
+garlic herb butter
+chili flakes
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1181, 'Saucy Steak Burrito Bowls', 'Bowls are way past “having a moment.” They’ve become a pillar of our lunches and dinners. Why? It’s simple: everything’s better in a bowl! (Nice knowing you, plates.) But seriously, the customizable combo of carbs, protein, veggies, and a drizzle of delicious sauce cannot be denied. True to form, this Tex-Mex rendition is fully loaded. Steamy cilantro-lime rice is topped with saucy spiced steak, charred poblano and onion, salsa fresca, and smoky red pepper crema. Who needs the tortilla when you’ve got all that?', '2021-05-03 16:43:49.780264', '2021-05-03 16:43:49.780264', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/saucy-steak-burrito-bowls-f4f8be3f.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/saucy-steak-burrito-bowls-5ef10e0a6baa8451ec5ec604', 'HelloFresh.com', 'jasmine rice
+red onion
+poblano pepper
+diced steak
+tex-mex paste
+roma tomato
+lime
+cilantro
+smoky red pepper crema
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1182, 'Steelhead Trout over Basil Parm Risotto', 'Creamy risotto swirled with Parmesan, lemon juice, and fresh basil sounds pretty tough to top, but our chefs love a challenge. They found a way to make it even more delicious: by topping it (literally) with crispy steelhead trout. This orange-fleshed fish tastes similar to salmon, but (in our humble opinion) is even more sophisticated and delicious. The trout is then spooned with a rich, garlicky, burst tomato sauce. This dish is easy enough for a busy weeknight, but decadent enough to wow anyone invited to your dinner table.', '2021-05-03 16:43:49.85498', '2021-05-03 16:43:49.85498', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5dc045acc442274ded34eec7-2e3f35ad.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/steelhead-trout-over-basil-parm-risotto-5dc045acc442274ded34eec7', 'HelloFresh.com', 'veggie stock concentrate
+grape tomatoes
+lemon
+basil
+garlic
+arborio rice
+steelhead trout
+parmesan cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1183, 'Brown Butter Gemelli', 'The week just isn’t complete without a pasta night. If you agree (and how could you not?), you’re in luck! Our chefs put together a dish that’s sure to curb the most ferocious of carb cravings. Twisty gemelli is studded with tender asparagus and cloaked in lemony, garlicky brown butter sauce. The dish is finished with dollops of creamy ricotta and a sprinkle of Parmesan and toasted walnuts. It doesn’t get much better than this, folks.', '2021-05-03 16:43:49.93202', '2021-05-03 16:43:49.93202', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/brown-butter-asparagus-gemelli-baa4c81a.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/brown-butter-asparagus-gemelli-5d485f2c9697b100155ba6e6', 'HelloFresh.com', 'asparagus
+lemon
+garlic
+scallions
+gemelli pasta
+ricotta cheese
+chili flakes
+parmesan cheese
+walnuts
+veggie stock concentrate
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1184, 'BBQ Ranch Chicken Flatbreads', 'In our humble opinion, flatbreads > pizza, any day! We know that may sound blasphemous, but stick with us. First of all, the golden, crispy crust is a veritable blank canvas. It’s not beholden to simply marinara and mozz! In fact, ours got a little wacky (in the best way possible): topped with tangy-sweet BBQ chicken, mozzarella, white cheddar, and a drizzle of ranch dressing. Basically, everything you want to eat. Can your ’za do that?! Yeah, we didn’t think so.', '2021-05-03 16:43:50.023397', '2021-05-03 16:43:50.023397', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/bbq-ranch-chicken-flatbreads-75bb7930.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/bbq-ranch-chicken-flatbreads-5e430932f3eb0311303fb674', 'HelloFresh.com', 'long green pepper
+flatbreads
+chicken breast strips
+bbq sauce
+mozzarella cheese
+vegetable oil
+olive oil
+salt
+pepper
+ranch dressing
+cheddar cheese
+white cheddar cheese');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1185, 'Lemon Garlic Salmon Fillets', 'We all know that salmon is more than just good—it’s good for you, too, thanks to an abundance of healthful omega-3s. But our chefs found a way to make the fish truly incredible with the help of garlic, lemon zest, and butter. A mix of the three ingredients is dolloped onto the fillets, coating them in rich sheen of dairy decadence. And when you consider the sides, there’s no doubt that this meal is anything less than great: linguine pasta coated in a creamy sauce with Tuscan herbs and flavorful roasted baby broccoli with crisp edges.', '2021-05-03 16:43:50.107525', '2021-05-03 16:43:50.107525', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemon-garlic-salmon-fillets-3d40bfb4.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/lemon-garlic-salmon-fillets-5bb4dc1f30006c64737f7172', 'HelloFresh.com', 'baby broccoli
+lemon
+garlic
+skin-on salmon
+linguine
+tuscan heat spice
+cream cheese
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1186, 'Protein-Packed Rice Bowl', 'Hearty brown rice, nuts, seeds, and veggies join forces for an energizing dinner of champions. Thanks to the addition of aromatics like soy sauce, ginger, and garlic, you’ll get a pop of umami flavor in every bite.', '2021-05-03 16:43:50.190229', '2021-05-03 16:43:50.190229', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/toasted-brown-rice-bowl-w49-0f0cb074.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/toasted-brown-rice-bowl-w49-581c9d63c726284d2c2f7ff2', 'HelloFresh.com', 'brown rice
+carrots
+corn
+scallions
+ginger
+garlic
+green beans
+cashew pieces
+sesame seeds
+soy sauce
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1187, 'Sirloin with Chive Butter Sauce', 'Sometimes, all you really want is steak and potatoes. They’re a tried and true combo, impossible to deny. If that’s what you’re craving, this recipe sure fits the bill. This classic dinner got a tasty upgrade, however, thanks to a few delicious twists that make it extra special. Seared sirloin is adorned with an herby, garlicky butter sauce that transforms everything it touches. Crispy Parmesan-roasted potatoes are the perfect partner for swiping up any runoff sauce. On the side, you’ll find a bright and refreshing green salad studded with juicy, sunset-hued blood oranges. Basically, this meal’s got everything you want and more.', '2021-05-03 16:43:50.29433', '2021-05-03 16:43:50.29433', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w8-r16-sirloin-with-chive-butter-sauce-131b09f0.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w8-r16-sirloin-with-chive-butter-sauce-5c3caec7c445fa2072716602', 'HelloFresh.com', 'yukon gold potatoes
+garlic
+blood orange
+sirloin steak
+chives
+parmesan cheese
+mixed greens
+vegetable oil
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1188, 'Pork Carnitas Tacos', 'At our local taqueria, a carnitas taco (or 5) is one of our go-to orders. After all, who can resist the rich flavor and tender texture of slow-roasted pork? Tonight, we’re creating a quick version with ground pork that uses carnitas-style seasonings: chili powder, garlic, and cumin, plus tomato paste for umami-packed richness and poblano pepper for smoky notes. It’s all stuffed into steamy tortillas with Monterey Jack cheese, pickled onion, tomato, and chipotle crema—basically, everything we crave on taco night and then some.', '2021-05-03 16:43:50.391005', '2021-05-03 16:43:50.391005', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-carnitas-tacos-08447156.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pork-carnitas-tacos-605a44bc425f260d2d63df72', 'HelloFresh.com', 'yellow onion
+poblano pepper
+cilantro
+roma tomato
+white wine vinegar
+ground pork
+southwest spice blend
+chicken stock concentrate
+tomato paste
+sour cream
+chipotle powder
+flour tortillas
+monterey jack cheese
+sugar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1189, 'Smoky Beef and Poblano Chili', 'Take a quick trip to New Mexico by simmering smoky poblanos with ground beef, tomatoes, kidney beans, chili powder, and cumin. With a dollop of sour cream and a sprinkle of cheddar cheese to cool things of, this dish is as creamy as it is hearty.', '2021-05-03 16:43:50.520513', '2021-05-03 16:43:50.520513', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spicy-poblano-chili-42c321fb.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/spicy-poblano-chili-57e2bb24d36aaa1ad82a98b2', 'HelloFresh.com', 'ground beef
+poblano pepper
+garlic
+chili powder
+cumin
+beef stock concentrate
+crushed tomatoes
+kidney beans
+cheddar cheese
+sour cream
+scallions
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1190, 'Lemongrass Pork Burgers', 'We love how Thai cuisine embraces some seriously fun and funky flavors, like fragrant fresh herbs, citrusy lemongrass, and fiery chiles. So when we were looking to create a burger that goes beyond the ordinary, those unique ingredients proved to be just the inspiration we needed. They’re woven throughout the pork patties, giving them an intensely aromatic profile that pairs well with the sweet and tender carrot fries on the side.', '2021-05-03 16:43:50.603015', '2021-05-03 16:43:50.603015', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w13-r4-4b4c75d1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w13-r4-589cae242310a828344a8733', 'HelloFresh.com', 'ground pork
+lemongrass
+mint
+thai seasoning blend
+sriracha
+soy sauce
+mayonnaise
+carrots
+shallot
+brioche buns
+lime
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1191, 'Cherry Balsamic Pork Chops', 'Part sweet, part tangy, and all-around delicious—that’s the thick and super flavorful glaze you have in store for you tonight drizzled over these pork chops. The cherry and balsamic flavors balance each other out like yin and yang. So we’ve kept the sides simple with roasted broccoli and potatoes to allow the meat and sauce to shine. And boy, do they steal the show.', '2021-05-03 16:43:50.688819', '2021-05-03 16:43:50.688819', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cherry-balsamic-pork-chops-37d993fe.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cherry-balsamic-pork-chops-5c3e51fec445fa02067aa8b2', 'HelloFresh.com', 'fingerling potatoes
+shallot
+dried thyme
+pork chops
+broccoli florets
+balsamic vinegar
+cherry jam
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1192, 'Double Decker Cheddar Burgers', 'This is a burger that stacks up against the best, literally: each bun holds two beef patties with a melty slice of cheddar in the middle, plus some tomato, onion, and pickle to make it stand tall. But just in case that doesn’t make it a front-runner for first place, let’s introduce the secret weapon: a special spicy mayo with sriracha that you can add to taste. If you aren’t blown away yet, you will be when you’re holding this bad boy in your hands.', '2021-05-03 16:43:50.770147', '2021-05-03 16:43:50.770147', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/double-decker-cheddar-burgers-e3bcf5e2.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/double-decker-cheddar-burgers-5af457a630006c44bc019402', 'HelloFresh.com', 'dill pickle
+garlic
+red onion
+tomato
+sweet potato
+fry seasoning
+lime
+mayonnaise
+sour cream
+sriracha
+ground beef
+cheddar cheese
+brioche buns
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1193, 'Ultra-Creamy Risotto', 'You could think of risotto as a blank canvas that can be embellished with whatever ingredients you please. Here, we’re dressing it up with tender roasted artichoke hearts, earthy mushrooms, and some pine nuts for crunch. Altogether, it makes for a masterful composition that’s a delight to take in.', '2021-05-03 16:43:50.882593', '2021-05-03 16:43:50.882593', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spinach-and-artichoke-risotto-a3b16366.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/spinach-and-artichoke-risotto-582c3051bfba3d7f9b1cf862', 'HelloFresh.com', 'arborio rice
+yellow onion
+artichokes
+button mushrooms
+garlic
+parsley
+parmesan cheese
+veggie stock concentrate
+pine nuts
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1194, 'Crispy Pan-Fried Chicken', 'Schnitzel—the Austrian dish of crispy breadcrumb-coated meat—always takes center stage when it’s on a plate. So prepare for oohs and ahs from your family as you serve them this version with chicken. Thin-pounded breasts are pan-fried to perfection and served next to roasted potato wedges and a salad with creamy dressing. It’s so scrumptious and satisfying, you might even get a round of applause after everyone’s finished with their plate.', '2021-05-03 16:43:50.972993', '2021-05-03 16:43:50.972993', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-pan-fried-chicken-bcc9dba6.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/crispy-pan-fried-chicken-599f181a51d3f1280e6eaf82', 'HelloFresh.com', 'yukon gold potatoes
+roma tomato
+lemon
+panko breadcrumbs
+garlic powder
+sour cream
+chicken breasts
+mixed greens
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1195, 'Buon Appetito Bacon Chicken', 'Add bacon to just about anything, and we go weak in the knees. Sprinkle crumbles of bacon over crispy, Parmesan-crusted chicken and creamy pasta? That’s love at first sight. Oh, and wait until you hear the secret ingredient for said pasta sauce: We use bacon fat (aka culinary liquid gold) to sauté sun-dried tomatoes and garlic for deeply savory notes, then swirl in cream cheese and butter. It’s all tossed with al dente spaghetti for a dreamy, silky base for the meat, then sprinkled with Parmesan and fresh herbs. This is basically a love note in dinner form, and we’re smitten.', '2021-05-03 16:43:51.060719', '2021-05-03 16:43:51.060719', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/buon-appetito-bacon-chicken-9159715e.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/buon-appetito-bacon-chicken-5fa575dc5227db09c15e3b40', 'HelloFresh.com', 'sun-dried tomatoes
+garlic
+grape tomatoes
+green herb blend
+panko breadcrumbs
+parmesan cheese
+tuscan heat spice
+bacon
+chicken cutlets
+sour cream
+spaghetti
+cream cheese
+salt
+olive oil
+butter
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1196, 'Sweet ''N'' Savory Chicken Fried Rice', 'If you’re looking for a recipe that packs in a basket-load of wholesome produce and proteins without tasting or feeling too much like health food, fried rice has got you covered. Our fully loaded version has peas, pineapple, carrots, onion, cashews, eggs, and chicken—all tucked into a nice helping of Uncle Ben''s® Ready Rice® Jasmine. Thankfully, all that goodness can be prepared in a single pan and is ready in thirty minutes flat.', '2021-05-03 16:43:51.189774', '2021-05-03 16:43:51.189774', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-n-savory-chicken-fried-rice-14d7eb00.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sweet-n-savory-chicken-fried-rice-598cc78c51d3f1555d3cb762', 'HelloFresh.com', 'pineapple
+lime
+red onion
+chicken breasts
+hoisin sauce
+shredded carrots
+uncle ben''s® ready rice® jasmine
+peas
+eggs
+soy sauce
+sesame oil
+cilantro
+cashews
+sriracha
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1197, 'Chicken Luau Bowls', 'Our chefs can’t get enough of pairing chicken with pineapple. One’s savory and one’s sweet, meaning that the duo has some sophisticated contrasts to please the adults while also being plenty fun and familiar for the kids. In these rice bowls, they’re joined by other ingredients that give the whole dish a tropical feel, like ginger, honey butter carrots, and a soy-sauce-based glaze.', '2021-05-03 16:43:51.339674', '2021-05-03 16:43:51.339674', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-luau-bowls-cd0d66ff.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-luau-bowls-5b637a25ae08b55693245fa2', 'HelloFresh.com', 'honey
+carrots
+ginger
+scallions
+lemon
+jasmine rice
+pineapple
+chicken breasts
+moo shu spice blend
+soy sauce
+chicken stock concentrate
+chili flakes
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1198, 'Sweet ''N'' Spicy Apricot Chicken', 'We love making sauces from preserves because they offer all the succulent flavor of fruit, but with no chopping, slicing, or dicing required. They’re also easy to jazz up, which is what we’re doing here by adding in a dash of chili heat (to taste, of course). Here, jammy, spiced-up apricot gets drizzled over roasted chicken and lemon-spiked couscous, coming together in a medley of sweet, savory, and tart.', '2021-05-03 16:43:51.438056', '2021-05-03 16:43:51.438056', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w12-r1-36174b21.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w12-r1-589a0a7b14d0f132dd7358a3', 'HelloFresh.com', 'chicken breasts
+apricot jam
+green beans
+walnuts
+couscous
+meyer lemon
+chicken stock concentrate
+parsley
+chili pepper
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1199, 'Italian Herbed Steak', 'How do you make a steak so good it’ll have your family exclaiming “Delizioso?” You season it with Italian herbs. Our blend of oregano, basil, and parsley is dusted onto sirloin before the steak goes in the pan, creating a layer of irresistible flavors and aromas. To support all that amazingness, we’re also adding in creamy mashed sweet potatoes, roasted green beans, and a deeply savory pan sauce.', '2021-05-03 16:43:51.511523', '2021-05-03 16:43:51.511523', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/italian-herbed-steak-83a3423f.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/italian-herbed-steak-59a83d4b51d3f1296d673a53', 'HelloFresh.com', 'sweet potato
+scallions
+milk
+sirloin steak
+italian seasoning
+green beans
+flour
+beef demi-glace
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1200, 'Peppercorn-Crusted Sirloin with Shallot Pan Sauce', 'Nothing says “date night” like a juicy steak. Here, pan-seared steaks are drizzled with a savory, shallot-flecked pan sauce (cue the swoons). But they’re not just any steaks: tender cuts of sirloin are first pressed into freshly cracked black peppercorns which provide a spicy, crunchy coating that’s totally irresistible. On the side, there’s crisp-tender roasted asparagus and creamy mashed sweet potatoes. No matter who you cook this for, we have a good feeling they’ll be quite smitten.', '2021-05-03 16:43:51.583911', '2021-05-03 16:43:51.583911', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w20-r16-peppercorn-crusted-sirloin-with-shallot-pan-sauce-d1ba6cc8.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w20-r16-peppercorn-crusted-sirloin-with-shallot-pan-sauce-5ca4fd13c445fa4e096545a2', 'HelloFresh.com', 'shallot
+asparagus
+sweet potato
+black peppercorns
+sirloin steak
+sour cream
+beef stock concentrate
+sugar
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1201, 'Presto Pesto Panko Chicken', 'Pesto: you’ve had it on pasta or maybe as a dip. Let us introduce you to yet another way to use this Italian favorite. Here, we’re spreading it onto chicken breasts, using it as a glue to hold down a layer of panko breadcrumbs before they’re roasted in the oven. That way, you get herby aromatics, meaty juices, and crispy golden goodness in every bite.', '2021-05-03 16:43:51.667882', '2021-05-03 16:43:51.667882', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/presto-pesto-panko-chicken-2bd40c25.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/presto-pesto-panko-chicken-5cf804df4e84a700166021d8', 'HelloFresh.com', 'yukon gold potatoes
+panko breadcrumbs
+mozzarella cheese
+chicken breasts
+pesto
+lemon
+green beans
+almonds
+olive oil
+salt
+pepper
+vegetable oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1202, 'Crusted Dijon Cod', 'Cod is one of our favorite fish to cook with because it’s incredibly versatile and embraces flavors both adventurous and plain—in this case, a supremely crispy coating of panko breadcrumbs, Dijon mustard, and parsley. The fish is perfectly content next to crispy roasted broccoli and dill-flecked potatoes here too, making for an easy-to-make, easy-to-love recipe.', '2021-05-03 16:43:51.756455', '2021-05-03 16:43:51.756455', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mustard-crusted-cod-1fe98887.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/mustard-crusted-cod-58b995b9d56afa1e03290343', 'HelloFresh.com', 'cod fillets
+fingerling potatoes
+dill
+garlic
+broccoli florets
+lemon
+dijon mustard
+parsley
+panko breadcrumbs
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1203, 'Pasta Parmesan', 'Pasta in tomato sauce can be a fantastic feast—it just needs a few accents to take it beyond basic. Luckily, we’ve got some good ones. This penne in marinara comes with bell pepper, Tuscan herbs and spices, a cheesy breadcrumb crust, and a drizzle of basil oil. Once you’ve tossed everything together and popped it in the oven, you’re just minutes away from cheesy, herbaceous, saucy, and just ever so slightly spicy bliss.', '2021-05-03 16:43:51.847371', '2021-05-03 16:43:51.847371', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pasta-parmesan-1e85f2c5.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pasta-parmesan-5df00ee653520b7ca92f2a99', 'HelloFresh.com', 'bell pepper
+yellow onion
+garlic
+fresh mozzarella
+penne pasta
+tuscan heat spice
+marinara sauce
+parmesan cheese
+panko breadcrumbs
+basil oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1204, 'Rapid Maple Balsamic Chicken', 'Roasting whole sweet potatoes can mean a lot of waiting and staring at the oven door, which is why we’re using a speedy hack and microwaving them instead. They get fluffy and tender in a hot potato minute—just in time to soak up the sweet and tangy sauce that glazes the chicken.', '2021-05-03 16:43:51.946663', '2021-05-03 16:43:51.946663', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/rapid-maple-balsamic-chicken-5f199275.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/rapid-maple-balsamic-chicken-5841a2ed6121bb76856576b2', 'HelloFresh.com', 'broccoli florets
+sweet and smoky spice blend
+sweet potato
+chicken breasts
+balsamic vinegar
+maple syrup
+salt
+pepper
+butter
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1205, 'Cheesy Pork Sausage Flatbreads', 'Are you the type of person who only goes to baseball games for that huge Italian hoagie stuffed with sausage, peppers, and cheese? We’re with you! This week, our chefs took the beloved dish from stadium fare to stellar weeknight dinner with a few delicious twists. First, they dropped the hoagie and replaced it with golden, crispy flatbread. They then spread with a rich tomato sauce and topped with sweet roasted pepper slices and savory sausage. Finally, they topped it with 2 different kinds of cheese. Yep, it’s safe to say this dish is a home run.', '2021-05-03 16:43:52.025821', '2021-05-03 16:43:52.025821', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w30-r15-f68931a7.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w30-r15-5cf80b721673620013382c95', 'HelloFresh.com', 'red onion
+long green pepper
+italian pork sausage
+tomato paste
+flatbreads
+mozzarella cheese
+monterey jack cheese
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1206, 'Chicken and Guac Burrito Bowls', 'Bowls are way past “having a moment.” They’ve become a pillar of our lunches and dinners. Why? It’s simple: everything’s better in a bowl! (Nice knowing you, plates.) But seriously, the customizable combo of carbs, protein, veggies, and a drizzle of delicious sauce cannot be denied. True to form, this Mexican-inspired rendition is fully loaded. Steamy lime rice is topped with spiced chicken, fresh salsa, a tangle of veggies, hot sauce-spiked crema, and of course, a big dollop of guacamole. In our bowl, though, guac is never extra.', '2021-05-03 16:43:52.134376', '2021-05-03 16:43:52.134376', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w22-r17-chicken-and-guac-burrito-bowls-770ec5ed.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w22-r17-chicken-and-guac-burrito-bowls-5cb78fd3e3f33904e953a9e2', 'HelloFresh.com', 'long green pepper
+shallot
+jasmine rice
+roma tomato
+lime
+sour cream
+hot sauce
+southwest spice blend
+chicken cutlets
+guacamole
+monterey jack cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1207, 'Chicken Mummy Roast', 'The ancient Egyptians believed that mummification was essential to a good afterlife. Well, we’ve got a recipe that will ensure you’re living your best life, right here right now. Here, you’ll be roasting a sumptuous half chicken until it’s as golden and glistening as a pharoah’s treasures. And like the perfectly preserved bodies of kingdoms long past, this one comes with stuffing (although ours has apples, cranberries, and pieces of baguette).', '2021-05-03 16:43:52.215873', '2021-05-03 16:43:52.215873', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-mummy-roast-ff94518e.jpg', 55, NULL, 'https://www.hellofresh.com/recipes/chicken-mummy-roast-59baf031a2882a7c06091672', 'HelloFresh.com', 'half chicken
+fall spice blend
+demi baguette
+yellow onion
+celery
+sage
+ocean spray® craisins® dried cranberries
+chicken stock concentrate
+green beans
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1208, 'Southwestern Pork Burrito Bowls', 'You could say that this is a deconstructed version of a burrito. But that big word is just a code name for delicious. When Tex-Mex ingredients like spiced ground pork, rice, beans, Mexican cheese, and tomato salsa are piled high in a bowl, there’s nothing to stop you from digging straight in to all your favorite flavors. Well, nothing except a bit of easy prep to make this dish your own.', '2021-05-03 16:43:52.296513', '2021-05-03 16:43:52.296513', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwestern-pork-burrito-bowls-a8a99dcb.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/southwestern-pork-burrito-bowls-5ade6154ae08b52f8d5b6f76', 'HelloFresh.com', 'scallions
+black beans
+jasmine rice
+southwest spice blend
+grape tomatoes
+lime
+ground pork
+sour cream
+mexican cheese blend
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1209, 'Holy Moly Spinach Artichoke Ravioli', 'This recipe deserves all of the superlatives it can get simply for the fact that it features the flavors of everyone’s favorite party dip stuffed into a pasta shell. Spinach and artichoke really make their presence known here, delivering all the creaminess you’d expect. The kicker, though, is that there’s also an abundance of fresh veggies, with baby spinach leaves and heirloom tomatoes tucked in throughout and coated in a creamy pesto sauce that makes them absolutely irresistible.', '2021-05-03 16:43:52.372817', '2021-05-03 16:43:52.372817', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w14-r6-0f5888df.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/w14-r6-58a63572d56afa01f658ac75', 'HelloFresh.com', 'heirloom grape tomatoes
+fresh mozzarella
+panko breadcrumbs
+spinach
+spinach and artichoke ravioli
+pesto
+sour cream
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1210, 'Pistachio-Crusted Chicken', 'Have you had enough of quinoa yet? Good, neither have we. This time, we’ve topped the wholesome grain with pistachio-crusted chicken, a refreshing cucumber and tomato salad, and a bit of jalapeño for good measure. Because if there’s one thing that never gets old, it’s a bright and cheery dish that’s both good and good for you.', '2021-05-03 16:43:52.434089', '2021-05-03 16:43:52.434089', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pistachio-crusted-chicken-w49-9d8962cc.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/pistachio-crusted-chicken-w49-58e4076199052d7ff855c8e2', 'HelloFresh.com', 'chicken breasts
+persian cucumber
+jalapeño
+quinoa
+sherry vinegar
+mint
+grape tomatoes
+dijon mustard
+pistachios
+lime
+shallot
+veggie stock concentrate
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1211, 'Wonder-ful Pasta in Tomato Cream Sauce', 'Sharing a delicious, home-cooked meal with loved ones is one of our favorite ways to show kindness. So to help spread the message, we''re joining forces with the movie Wonder to inspire you and your family to choose kind both in and out of the kitchen. First up? This Wonder-ful one-pan pasta bake with pancetta, spinach, and a tomato cream sauce that coats each curl of cavatappi generously.', '2021-05-03 16:43:52.524617', '2021-05-03 16:43:52.524617', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/wonder-ful-pasta-in-tomato-cream-sauce-6219cd38.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/wonder-ful-pasta-in-tomato-cream-sauce-59c4284f0534685cdc4bb282', 'HelloFresh.com', 'garlic
+parsley
+cavatappi pasta
+panko breadcrumbs
+pancetta
+flour
+milk
+parmesan cheese
+crushed tomatoes
+spinach
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1212, 'Spring Greens Pesto Pizzas', 'Here’s a loaded flatbread that will take care of all of your pizza cravings without you ever having to reach for the phone. The flatbread crust is slathered with loads of herbaceous pesto as a base, then topped with crispy pancetta, asparagus, and mozzarella. There’s even a lemony side salad for good measure. (Pro tip: put some of the lettuce on your pizza for an amazing mash up of hot with cool ’n’ fresh.)', '2021-05-03 16:43:52.614614', '2021-05-03 16:43:52.614614', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spring-greens-pesto-pizzas-06a09839.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/spring-greens-pesto-pizzas-5a7a3399ae08b5317b0c02a2', 'HelloFresh.com', 'asparagus
+lemon
+flatbreads
+pancetta
+pesto
+mozzarella cheese
+mixed greens
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1213, 'French Dip Beef Sandwiches', 'The French Dip is built around three things: good, crusty bread; a meaty filling; and a side of gravy for dunking the whole thing into—in other words, it’s the epitome of comfort food. And if you like your food moist and dripping with juices, it’s a dream come true. After you’ve caramelized some onion, sizzled the beef, and simmered the gravy ’til it’s thick and saucy, we think you’ll agree that it’s 100 percent amazingness in sandwich form.', '2021-05-03 16:43:52.681582', '2021-05-03 16:43:52.681582', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/french-dip-beef-sandwiches-c5e99b94.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/french-dip-beef-sandwiches-5a0dd97b7901f92d80720b72', 'HelloFresh.com', 'yellow onion
+bold & savory steak spice
+beef stir-fry
+beef stock concentrate
+demi baguette
+italian cheese blend
+lemon
+mixed greens
+vegetable oil
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1214, 'Chicken Caprese Pasta Salad', 'While we’ll take the classic combo of mozzarella, tomato, and basil in pretty much any form, when our chefs let us know they transformed caprese into a hearty pasta dinner, we could barely contain ourselves. Here, orecchiette (that’s Italian for “little ears!”) is tossed with Italian-spiced chicken, juicy tomatoes, and creamy mozzarella in a lemony basil vinaigrette. Need we say more?', '2021-05-03 16:43:52.769856', '2021-05-03 16:43:52.769856', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w34-r4-summer-chicken-caprese-pasta-salad-113782e1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/summer-chicken-caprese-pasta-salad-5d1bb3b1cd4a34000a4b25e1', 'HelloFresh.com', 'basil
+lemon
+orecchiette pasta
+chicken breast strips
+italian seasoning
+garlic herb butter
+chili flakes
+roma tomato
+fresh mozzarella
+salt
+pepper
+olive oil
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1215, 'Za’atar Chicken and Couscous', 'We’re big fans of the ubiquitous “power bowl,” but we have to admit: this one’s extra special. It’s a one-bowl Middle-Eastern feast that’s positively bursting with flavor. To start, Israeli couscous is toasted in butter, simmered to chewy perfection, then swirled with baby spinach. On top, there’s za’atar-spiced chicken and a dollop of lemony crema. Not familiar with za’atar? Consider this your official welcome to the fan club. The popular spice blend combines herby thyme, nutty sesame seeds, and tangy sumac.', '2021-05-03 16:43:52.850794', '2021-05-03 16:43:52.850794', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w11-r5f-681624fa.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/2019-w11-r5f-5c4795f7e3f33954b1718b61', 'HelloFresh.com', 'israeli couscous
+chicken stock concentrate
+lemon
+chicken breast strips
+za''atar spice
+spinach
+sour cream
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1216, 'One-Pan Tortelloni Pesto Gratin', 'This skillet pasta bake truly is one-pan cooking at its finest— even the sauce thickens in the pan while the tortelloni cook. Although it’s got plenty of creamy, comforting elements, there’s also tons of green in this dish to keep things fresh: asparagus spears are folded in to keep things snappy, while the basil pesto adds an herby touch throughout.', '2021-05-03 16:43:52.927839', '2021-05-03 16:43:52.927839', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w08-r06-b45e157d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w08-r06-5873c3577d69bf53231cfcb2', 'HelloFresh.com', 'milk
+parmesan cheese
+pesto
+asparagus
+garlic
+panko breadcrumbs
+veggie stock concentrate
+cheese tortelloni
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1217, 'Hoisin Beef Stir-Fry', 'You may have heard of hoisin sauce, but did you know that the Chinese ingredient, like miso, is made with soybeans? It’s deeply savory, but with a sticky sweetness to it that makes it lick-your-fork delicious. In this stir-fry, that translates to an easy-to-love sauce that coats every inch of the beef and veggies. There’s also a touch of honey, which amps up those flavors even more.', '2021-05-03 16:43:52.984744', '2021-05-03 16:43:52.984744', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/hoisin-beef-stir-fry-853f3e3b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/hoisin-beef-stir-fry-59960181043c3c3eb93238d2', 'HelloFresh.com', 'baby bok choy
+scallions
+ginger
+garlic
+jasmine rice
+soy sauce
+hoisin sauce
+honey
+beef stir-fry
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1218, 'Oven-Roasted Cauliflower', 'We love cauliflower because it’s not just good, but good for you, too. The brassica is not only packed with tons of calcium, magnesium, and vitamin C, its mild flavor and hardy crunch also make it a blank canvas that can handle a wide array of flavors. Here, we’re paring with a rice that’s studded with earthy cumin seeds, while a zesty Tunisan-spiced yogurt sauce adds a dollop of saucy creaminess.', '2021-05-03 16:43:53.054003', '2021-05-03 16:43:53.054003', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/coasted-cauliflower-with-cumin-r-940d7597.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/coasted-cauliflower-with-cumin-r-5841c3be9df18138f709a5e2', 'HelloFresh.com', 'cauliflower florets
+basmati rice
+yellow onion
+cumin seeds
+cilantro
+yogurt
+garlic
+lemon
+golden raisins
+cashew pieces
+tunisian spice blend
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1219, 'Lasagna-Baked Fusilli', 'Oozy, bubbly baked lasagna is everyone''s favorite, but all that layering and time in the oven can make it a drag to put together. For a quicker, easier variation, we''ve swapped the lasagna noodles for fusilli. The short and springy pasta gets tossed with usual suspects like ground beef, mozzarella, and tomatoes, as well as kale, which is a welcome, healthful addition. Baked until golden and crisp, it''s got all the personality of the classic, but with no assembly required.', '2021-05-03 16:43:53.131138', '2021-05-03 16:43:53.131138', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lasagna-baked-fusilli-ea70e138.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lasagna-baked-fusilli-5829bb804cdfb566da187592', 'HelloFresh.com', 'ground beef
+fusilli pasta
+yellow onion
+garlic
+kale
+dried oregano
+panko breadcrumbs
+fresh mozzarella
+chili flakes
+crushed tomatoes
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1220, 'One-Pan Chicken Sausage Orzo', 'Put away your colander, your jumbo-sized pot, and all of those kitchen knicknacks: everything in this recipe is prepared in one pan--no draining or straining required! This hearty orzo dish has bites of crispy chicken sausage, an ultra-creamy tomato sauce, and a tangle of lemony squash ribbons for brightness and crunch. Plus, fewer pots and pans means quicker cleanup and more time enjoying your delicious creation (and your night)! That’s a one-pan win.', '2021-05-03 16:43:53.204637', '2021-05-03 16:43:53.204637', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w14-r14-one-pan-chicken-sausage-orzo-475ebd8c.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w14-r14-one-pan-chicken-sausage-orzo-5c670341c445fa54f6615252', 'HelloFresh.com', 'yellow onion
+lemon
+scallions
+yellow squash
+italian chicken sausage mix
+italian seasoning
+orzo pasta
+tomato paste
+cream cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1221, 'Ginger Soy Chicken and Bell Pepper', 'We’re always brainstorming new ways to take chicken dinner to the next level. Our favorite way to take things up a notch? A delicious, lick-your-plate pan sauce. This week, pan-seared chicken breasts are drizzled with an addicting glaze. It’s sweet, savory, and aromatic thanks to fresh garlic and ginger. And because we’re all about infusing flavor into every element on the plate, bell peppers are finished in said sauce. All served over a bed of buttery rice studded with scallions, you’d be chicken not to try it.', '2021-05-03 16:43:53.283946', '2021-05-03 16:43:53.283946', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cf144d003169c001a78381d-301aff62.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/ginger-soy-chicken-and-bell-pepper-5cf144d003169c001a78381d', 'HelloFresh.com', 'bell pepper
+scallions
+garlic
+ginger
+chili pepper
+soy sauce
+white wine vinegar
+chicken breasts
+jasmine rice
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1222, 'So Delizioso Chicken Cutlets', 'These chicken cutlets are coated in our So Delizioso Italian seasoning, which has a mix of flavorful herbs like oregano, basil, and parsley. So that must translate to so delicious, right? Bingo! Although the meat definitely isn’t the only delicious part of this dish—the cheesy mashed potatoes and sautéed zucchini and tomatoes are molto bene, too.', '2021-05-03 16:43:53.367719', '2021-05-03 16:43:53.367719', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c47801ac445fa5edd3985c2-8de60d10.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/so-delizioso-chicken-cutlets-5c47801ac445fa5edd3985c2', 'HelloFresh.com', 'lemon
+chicken cutlets
+italian seasoning
+yukon gold potatoes
+scallions
+italian cheese blend
+grape tomatoes
+shallot
+zucchini
+chicken stock concentrate
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1223, 'Loaded Potato Chowder', 'Is there anyone who won’t fall head over heels for a baked potato? Bacon bits, scallions, cheddar cheese, and sour cream inside a creamy tater—what’s not to love? Well, brace yourselves, because we just took that fully loaded perfection to the next level by turning it into a fully loaded soup. That way, you can literally inhale, drink up, and guzzle down all that goodness. And if you’re craving some greens, too, fret not: there’s a crisp apple salad on the side.', '2021-05-03 16:43:53.456791', '2021-05-03 16:43:53.456791', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b47bf96ae08b542583bcba2-8dda8864.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/loaded-potato-chowder-5b47bf96ae08b542583bcba2', 'HelloFresh.com', 'yukon gold potatoes
+yellow onion
+scallions
+garlic
+flour
+milk
+chicken stock concentrate
+pancetta
+apple
+lemon
+dijon mustard
+sour cream
+cheddar cheese
+mixed greens
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1224, 'Salmon En Papillote', 'It doesn’t matter if you can pronounce en papillote; the appeal of this classic French technique is easy to understand. When you wrap salmon fillets in foil, then cook them in the oven (or on the grill), they basically roast in their own juices, locking in flavor and moisture throughout. In this recipe, they’re finished with a drizzle of herb sauce and served next to asparagus and couscous. Basically, it’s an equation for timeless, classic deliciousness.', '2021-05-03 16:43:53.598721', '2021-05-03 16:43:53.598721', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/salmon-en-papillote-353dd4db.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/salmon-en-papillote-591e127b2310a87a76080c92', 'HelloFresh.com', 'yellow onion
+lemon
+asparagus
+chives
+tarragon
+couscous
+skin-on salmon
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1225, 'Chicken Cheddar Fajitas', 'Fajitas are like a good friend—the one who never seems to change or age. Their combination of seared strips of meat, lightly charred veggies, and Tex-Mex-style toppings inside a soft tortilla is as reliable as can be; they’ll always be there for you when you don’t know what to do (about dinner, that is). Our chicken version is just as familiar and comforting as you expect, although we couldn’t help throwing in some pickled jalapeños to keep things interesting.', '2021-05-03 16:43:53.650962', '2021-05-03 16:43:53.650962', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-cheddar-fajitas-dc1b1b2c.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/chicken-cheddar-fajitas-5964eb582c9e8642ab4ac4d3', 'HelloFresh.com', 'red bell pepper
+red onion
+jalapeño
+lime
+southwest spice blend
+sour cream
+chicken breasts
+flour tortillas
+cheddar cheese
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1226, 'Cheese Tortelloni', 'Umami is defined as that hard-to-describe flavor that makes it impossible to put down your fork. Not sure if you’ve ever experienced the ‘fifth taste?’ After one bite of this dish, you’ll totally understand the obsession. Tender cheese-stuffed tortelloni is tossed in a creamy sauce that’s dotted with bites of earthy mushrooms. The finishing touch is a scattering of crunchy scallion greens, plus chili flakes for a kick. Talk about savory bliss. Plus, it cooks up in no time. What are you waiting for?!', '2021-05-03 16:43:53.712527', '2021-05-03 16:43:53.712527', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d893112c6d5102c1923bdc5-e4c936e9.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cheese-tortelloni-in-a-mushroom-sauce-5d893112c6d5102c1923bdc5', 'HelloFresh.com', 'scallions
+button mushrooms
+garlic
+cheese tortelloni
+italian seasoning
+cream cheese
+sour cream
+parmesan cheese
+chili flakes
+olive oil
+butter
+salt
+pepper
+mushroom stock concentrate');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1227, 'Macaroni in a Creamy Tomato Sauce', 'Everyone knows that in order to make great pasta, you’ve got to make a great sauce, too. But while the pasta part is a cinch for anyone who can boil water, the sauce part requires a bit more strategy. Luckily, we’re here to lead the way: we’re making a tomato cream sauce that’s as timeless as can be, thickening it with a roux (that’s a fancy term for a flour and butter base). It clings to macaroni''s curves, giving you tangy, dairy-rich goodness with each bite.', '2021-05-03 16:43:53.792973', '2021-05-03 16:43:53.792973', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/macaroni-in-a-creamy-tomato-sauce-37455597.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/macaroni-in-a-creamy-tomato-sauce-5a1458297cc0c120da654d72', 'HelloFresh.com', 'garlic
+parsley
+macaroni pasta
+panko breadcrumbs
+pancetta
+flour
+milk
+parmesan cheese
+crushed tomatoes
+spinach
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1228, 'Seared Sirloin Steak and Shallot Demi-Glace', 'You probably haven’t tasted steak like this before: this sirloin is spooned with a rich, luscious pan sauce to bring its meatiness to the maximum. On the side, caramelized onion and shallot mashed potatoes--along with a bright cranberry and spring mix salad--so good, you may not want to share.', '2021-05-03 16:43:53.878636', '2021-05-03 16:43:53.878636', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019w2r16c-pan-seared-sirloin-and-shallot-demi-glace-a996dd17.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/2019w2r16c-pan-seared-sirloin-and-shallot-demi-glace-5bf30285ae08b54dc1391c92', 'HelloFresh.com', 'yellow onion
+shallot
+yukon gold potatoes
+lemon
+dried cranberries
+sour cream
+sirloin steak
+beef demi-glace
+mixed greens
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1229, 'Rapid Crispy Shrimp Tacos', 'We all love things that are crispy and crunchy, but don’t always want (or have the tools) to in indulge in deep-fried foods. Here’s a workaround that’ll keep everyone satisfied on both ends: we’re dredging shrimp in cornstarch before giving them a light sizzle in the pan. Served with a snappy red cabbage slaw inside warm tortillas, these tacos pack plenty of crunch as you munch, plus lots of tangy favor, too!', '2021-05-03 16:43:53.968944', '2021-05-03 16:43:53.968944', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/rapid-shrimp-tacos-22d5dd1e.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/rapid-shrimp-tacos-5835af6d9df181790731abd2', 'HelloFresh.com', 'cilantro
+lime
+mayonnaise
+white wine vinegar
+blackening spice
+shrimp
+cornstarch
+flour tortilla
+sour cream
+shredded red cabbage
+shredded carrot
+salt
+pepper
+vegetable oil
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1230, 'Cumin Chimichurri Skirt Steak', 'Chimichurri is Argentina’s version of pesto. It’s herby, garlicky, and a delight to drizzle over just about anything—especially a nice piece of beef. And speaking of beef, you’ll be searing up a skirt steak, which is prized for its robust, deep flavor. With a jumble of roasted sweet potatoes, corn, avocado, and tomatoes on the side, it’s got the perfect balance of colorful veggie wholesomeness and luxuriant, meaty decadence.', '2021-05-03 16:43:54.07096', '2021-05-03 16:43:54.07096', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cumin-chimichurri-skirt-steak-09b6d127.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/cumin-chimichurri-skirt-steak-59669c27c9fd0806f55fa912', 'HelloFresh.com', 'sweet potato
+corn on the cob
+red onion
+garlic
+chili pepper
+cilantro
+lemon
+lime
+heirloom grape tomatoes
+cumin
+skirt steak
+avocado
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1231, 'Velvety Mushroom Prosciutto Chicken', 'This, folks, is not your average chicken dinner. Our chefs added tons of restaurant-level flair by wrapping chicken in salty, savory slices of prosciutto. Once seared, the prosciutto crisps to perfection while keeping the chicken nice and moist. For maximum dinnertime deliciousness, this edible present is draped in a velvety mushroom sauce. The best part? Everything—mashed potatoes and roasted broccoli included—comes together in under an hour! Now that’s a weeknight win.', '2021-05-03 16:43:54.188246', '2021-05-03 16:43:54.188246', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ef10dc8e35a170ff645b9fc-ded4aceb.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/velvety-mushroom-prosciutto-chicken-5ef10dc8e35a170ff645b9fc', 'HelloFresh.com', 'button mushrooms
+scallions
+broccoli florets
+yukon gold potatoes
+chicken cutlets
+prosciutto
+mushroom stock concentrate
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1232, 'Crispy Sole', 'You''ve got sole, baby. Really, we mean that quite literally. The delicate fish is best when dressed simply so that its buttery flavor can shine. Here, we’re adding a simple sauce of capers, lemon, and sour cream, then putting it next to some oven-roasted potatoes and green beasn. It’s soulful (and sole-ful) without being too over the top.', '2021-05-03 16:43:54.281937', '2021-05-03 16:43:54.281937', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-sole-with-caper-sauce-aecacb37.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-sole-with-caper-sauce-58330b38803b50736630f563', 'HelloFresh.com', 'sole
+green beans
+capers
+garlic
+parsley
+sour cream
+lemon
+yukon gold potatoes
+flour
+salt
+pepper
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1233, 'Tex-Mex Cheese-Stuffed Burgers', 'Make it cowboy style: these burgers go beyond the ordinary with Tex-Mex flavors that bring an extra kick. The beef patties are seasoned with warm Southwestern spices and stuffed with a handful of Monterey Jack cheese that oozes when you take a bite. For toppings, you’ve got a tomato salsa and spicy crema that add plenty of swagger. With some toasty roasted potato wedges on the side for good measure, this is guaranteed to be a grand ol’ time at the burger rodeo.', '2021-05-03 16:43:54.415182', '2021-05-03 16:43:54.415182', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tex-mex-cheese-stuffed-burgers-a3083788.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/tex-mex-cheese-stuffed-burgers-5d51744a162d6f000c22a8b2', 'HelloFresh.com', 'yukon gold potatoes
+roma tomato
+cilantro
+southwest spice blend
+sour cream
+hot sauce
+ground beef
+monterey jack cheese
+potato buns
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1234, 'Turkish-Spiced Salmon', 'Blood orange season comes late in winter and provides good reason to celebrate: the citrus fruit’s cheery, raspberry-like flavor is a bright spot after months of hibernation fare. The oranges are best worked into a salad, where their raw acidity can really shine. Here, we’re complementing them with salmon, couscous, and Turkish spices, which add an earthy, floral note.', '2021-05-03 16:43:54.494104', '2021-05-03 16:43:54.494104', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/salmon-with-blood-oranges-98716dee.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/salmon-with-blood-oranges-586bd9499f236a3acc65f352', 'HelloFresh.com', 'skin-on salmon
+turkish spice blend
+couscous
+arugula
+blood orange
+shallot
+lemon
+honey
+almonds
+persian cucumber
+veggie stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1235, 'Italian Meatloaf', 'Spiked with aromatic basil, these mini meatloaves are what happens when an American classic spends a semester abroad in Rome. Their piccolo size doesn’t just make them adorable; it allows them to cook quickly, too. Even the mashed potatoes on the side, fragrant with garlic, sneak in a little European flair.', '2021-05-03 16:43:54.580865', '2021-05-03 16:43:54.580865', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/italian-meatloaf-4cf6f7a8.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/italian-meatloaf-5c797bece3f33914df099c22', 'HelloFresh.com', 'shallot
+garlic
+basil
+white bread
+chicken stock concentrate
+milk
+ground beef
+yukon gold potatoes
+green beans
+sour cream
+olive oil
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1236, 'Moroccan Chicken Sausage Tagine', 'Discover a world of flavor from the comfort of your kitchen: for this meal, we’re headed to Morocco with a sweet and savory sausage tagine over couscous. This stew-like dish is the definition of hearty and features ingredients like carrots, chickpeas, and apricots. After everything gets a quick sauté in the pan, warm spices and chicken broth are added to make things as cozy and filling as can be.', '2021-05-03 16:43:54.673026', '2021-05-03 16:43:54.673026', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/moroccan-chicken-sausage-tagine-914026af.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/moroccan-chicken-sausage-tagine-5bcf5749ae08b52a0b6556f2', 'HelloFresh.com', 'shallot
+garlic
+carrots
+roma tomato
+dried apricots
+cilantro
+chickpeas
+chicken stock concentrate
+couscous
+italian chicken sausage mix
+turkish spice blend
+sour cream
+hot sauce
+vegetable oil
+salt
+pepper
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1237, 'Philly Cheesesteak Sandwiches', 'If you’re like us, you’d be jazzed to see the Liberty Bell and Rocky steps on your next trip to Philly. But really, you’d be making a beeline for a cheesesteak. Our version is an homage to the sandwich that is best eaten curbside with juices dripping onto your fingers (although we won’t judge if you and your family eat it at the dinner table like, uh, civilized folk). Oh, and to that end, we’ve domesticated it slightly by stuffing it with bell pepper slices and adding green beans to the side for some veggie attitude.', '2021-05-03 16:43:54.783118', '2021-05-03 16:43:54.783118', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/philly-cheesesteak-sandwiches-757f40d6.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/philly-cheesesteak-sandwiches-5a0dda36c94eac397056f2b2', 'HelloFresh.com', 'bell pepper
+yellow onion
+green beans
+beef stir-fry
+italian seasoning
+demi baguette
+flour
+milk
+cheddar cheese
+hot sauce
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1238, 'Pan-Seared Chicken', 'We’ve cracked the code to creating crowd-pleasing dinners: sauce! Everyone loves a creamy sauce draped over juicy chicken. This sauce is spiked with a touch of Dijon mustard and fresh dill for brightness.', '2021-05-03 16:43:54.868585', '2021-05-03 16:43:54.868585', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-pan-fried-chicken-f-1eaaef61.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/uk-pan-fried-chicken-f-5755850dfd2cb9623a8b4567', 'HelloFresh.com', 'yukon gold potatoes
+green beans
+dill
+olive oil
+salt
+pepper
+chicken breasts
+sour cream
+chicken stock concentrate
+dijon mustard');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1239, 'Fun-Day Fajita Bar', 'Wanna know one of our secrets for speeding up dinner prep? It’s enlisting your family to do the work. Well, technically, you’ll still be making sure that the veggies and pork are nicely spiced and the tortillas are warm and toasty for these fajitas. But when you set everything out buffet-style and let everyone assemble their own (just the way they like), you save yourself a big step.', '2021-05-03 16:43:54.936012', '2021-05-03 16:43:54.936012', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b16f9e8ae08b55c925ab9f2-ef93887c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/fun-day-fajita-bar-5b16f9e8ae08b55c925ab9f2', 'HelloFresh.com', 'red onion
+heirloom grape tomatoes
+lime
+bell pepper
+cilantro
+pork chops
+southwest spice blend
+flour tortillas
+sour cream
+cheddar cheese
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1240, 'Crispy Cheddar Chicken', 'Crispy chicken is always a recipe for success. Add melty cheddar and bold spices to the mix, and you’ve got a winning dinner. Once baked, the crust turns golden brown while the meat stays juicy and tender. But wait...there’s more! The crunchy cutlets are served alongside tender roasted asparagus and cheesy, bacon-and-chive-studded mashed potatoes. Together, it’s a meal as elegant as it is satisfying and delicious.', '2021-05-03 16:43:55.025346', '2021-05-03 16:43:55.025346', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/60510f56c7d67651fa451c77-eac2e91a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/crispy-cheddar-chicken-60510f56c7d67651fa451c77', 'HelloFresh.com', 'yukon gold potatoes
+asparagus
+chives
+panko breadcrumbs
+fry seasoning
+cheddar cheese
+chicken cutlets
+mayonnaise
+bacon
+sour cream
+olive oil
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1241, 'Crispy Pork Milanese', 'Schnitzel, katsu, or Milanese—whichever way you spin it, pork cutlets in a crispy breadcrumb coating are always a dinnertime win. We’ve given these an Italian accent by serving them with cheesy mozzarella mashed potatoes, soft blistered tomatoes, and a sprinkle of herbaceous basil. But no matter what sorts of flavors and seasonings you add, it’s pretty clear that the appeal of this dish is universal.', '2021-05-03 16:43:55.132465', '2021-05-03 16:43:55.132465', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-pork-milanese-7318567b.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/crispy-pork-milanese-5c0ad9e6e3f33958f164c572', 'HelloFresh.com', 'yukon gold potatoes
+garlic
+grape tomatoes
+parsley
+panko breadcrumbs
+tuscan heat spice
+pork cutlets
+sour cream
+mozzarella cheese
+parmesan cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1242, 'Crantastic Turkey Burgers', 'Is anyone else as crazy about Thanksgiving as we are? We’re happy to indulge in November’s favorite foods all year long. You will be, too, after trying this customer favorite from the HelloFresh Hall of Fame. Featuring turkey burgers slathered in cranberry mayo, with a cranberry-studded salad on the side, it’ll make you thankful that tasty flavor combos are always in season.', '2021-05-03 16:43:55.245556', '2021-05-03 16:43:55.245556', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crantastic-turkey-burgers-c322d2b1.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/crantastic-turkey-burgers-59669b10043c3c7d9e0e9da2', 'HelloFresh.com', 'sage
+shallot
+ground turkey
+dried thyme
+panko breadcrumbs
+mayonnaise
+cranberry jam
+potato buns
+mixed greens
+dried cranberries
+pecans
+balsamic vinegar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1243, 'Korean Beef Bibimbap', 'This dish takes its name from the Korean word for mixing rice. Which is exactly what you’re meant to do after serving it: put your rice in a bowl, add the toppings, and mix it all together so that those flavors and textures combine in a glorious mishmash. There are plenty of flavors and textures going on here, too, like sweet carrot, juicy zucchini, and beef tossed with garlic, ginger, and soy.', '2021-05-03 16:43:55.331468', '2021-05-03 16:43:55.331468', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e46e35e619df137e917971b-8950518b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/korean-beef-bibimbap-5e46e35e619df137e917971b', 'HelloFresh.com', 'zucchini
+button mushrooms
+scallions
+carrots
+ginger
+garlic
+jasmine rice
+white wine vinegar
+sesame oil
+soy sauce
+sriracha
+ground beef
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1244, 'Crispy Hot Honey Chicken', 'Turn up your chicken by a notch—or a few—by coating it in a panko breadcrumbs and giving it a drizzle of sweet ‘n’ spicy hot honey. This preparation is like the happy middle ground between plain white meat and deep-fried indulgence—it’s still got all the crispy texture you love, but without loads of oil. The sides also hit that in-the-middle spot between simplicity and deliciousness: easy roasted carrots and silky smooth mashed potatoes with chives.', '2021-05-03 16:43:55.428448', '2021-05-03 16:43:55.428448', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-hot-honey-chicken-b03e5f41.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/crispy-hot-honey-chicken-5d14d3127ae20d000b5e7f39', 'HelloFresh.com', 'carrots
+yukon gold potatoes
+chives
+fry seasoning
+panko breadcrumbs
+chicken cutlets
+sour cream
+hot honey
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1245, 'Teriyaki Chicken Stir-Fry', 'Simple and speedy is the name of the game here with our ready-to-go teriyaki sauce, precut chicken strips, and microwavable rice. After only a few minutes of tossing the meat and snow peas in a pan, simply pour in the sauce and you’re good to go. Just don’t forget the sesame garnish, which opens the door to sensational and savory stir-fry magic.', '2021-05-03 16:43:55.510634', '2021-05-03 16:43:55.510634', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/teriyaki-chicken-stir-fry-4502f6ac.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/teriyaki-chicken-stir-fry-5ac788dfae08b57c03654242', 'HelloFresh.com', 'yellow onion
+chicken breast strips
+sesame seeds
+snow peas
+teriyaki sauce
+microwaveable jasmine rice
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1246, 'Creamy Chicken Pasta', 'If there were ever a recipe to prove that you don’t need a lot of fancy equipment to make a stellar meal, this is it. All you need to bring it to life it is a single pot, my friends. A single pot! Packed with al dente tendrils of gemelli pasta, peas and broccoli bursting with green, and gently browned pieces of chicken, the only thing as fast as this recipe’s cleanup is how quickly every last bit of sauce will vanish from everyone’s plates.', '2021-05-03 16:43:55.587875', '2021-05-03 16:43:55.587875', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w21-r5-96a7efe8.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w21-r5-58e6602d3bddb565fb174642', 'HelloFresh.com', 'chicken breasts
+broccoli florets
+peas
+cream cheese
+lemon
+gemelli pasta
+basil
+parmesan cheese
+chicken stock concentrate
+garlic
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1247, 'Parmesan Chicken Dippers', 'A balanced meal that’s adult and kid approved? Yes, please! Our chefs opted to toast the panko to ensure it’s as crunchy as possible before combining it with Parmesan and using it to bread chicken-breast strips. After the dippers are baked to deep golden perfection in the oven alongside green beans and potato wedges, there’s nothing stopping everyone in your gang from gobbling it all right up.', '2021-05-03 16:43:55.68181', '2021-05-03 16:43:55.68181', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b6377a1ae08b554c6240c82-9a021645.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/parmesan-chicken-strips-5b6377a1ae08b554c6240c82', 'HelloFresh.com', 'yukon gold potatoes
+panko breadcrumbs
+parmesan cheese
+dried rosemary
+chicken breasts
+eggs
+green beans
+honey
+dijon mustard
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1248, 'Heirloom Tomato Flatbreads', 'We can’t think of a better way to showcase the glory of perfectly juicy heirloom grape tomatoes than on a flatbread, where they shine like gems amidst a landscape of mozzarella, pesto, and greens. After a bake in the oven, they come out soft, wilted, and bursting with juices—the sort that dribble down your chin in the most delightfully messy way.', '2021-05-03 16:43:55.766391', '2021-05-03 16:43:55.766391', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d76b7670dcef1001723e9ea-f2e18316.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/heirloom-tomato-flatbreads-5d76b7670dcef1001723e9ea', 'HelloFresh.com', 'heirloom grape tomatoes
+fresh mozzarella
+walnuts
+flatbreads
+pesto
+balsamic vinegar
+arugula
+basil oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1249, 'Pork Luau Burgers', 'Pork-and-pineapple is one of those combos that will make your taste buds do the hula, glow with sunshine, and ride the wave to Flavor Beach. Naturally, we had to find a way to turn that into a burger. Ground pork’s savoriness is amped up further by garlic and soy, and then with a touch of honey that complements the sweetness of the warm pineapple relish spiked with slivers of onion.', '2021-05-03 16:43:55.846924', '2021-05-03 16:43:55.846924', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-luau-burgers-2f0edc72.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pork-luau-burgers-5a7c7edbae08b57e3b4036f2', 'HelloFresh.com', 'garlic
+cilantro
+red onion
+pineapple
+ground pork
+soy sauce
+honey
+persian cucumber
+brioche buns
+mixed greens
+white wine vinegar
+mayonnaise
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1250, 'Slurp''s Up! Sesame Chicken Noodles', 'Looking to ride a wave of sesame? Then this recipe is sure to float your boat. These fun and far out noodles are coated in a sauce that has an unexpected (but delicious) combo of spicy and sweet. Also along for the ride are wisps of crunchy cabbage, a spike of fiery chili oil, and chicken pieces that will have you shredding it, literally.', '2021-05-03 16:43:55.964539', '2021-05-03 16:43:55.964539', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sesame-chicken-w05-2c8921e9.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sesame-chicken-w05-5850369bb32fbe6a684e0d42', 'HelloFresh.com', 'chicken breasts
+scallions
+linguine
+peanut butter
+red wine vinegar
+sesame oil
+soy sauce
+pepperolio
+honey
+shredded red cabbage
+garlic
+salt
+pepper
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1251, 'Honey Sesame Chicken', 'Honey sesame chicken gets an upgrade when you add ginger and garlic to the sauce—the aromatics bring freshness and flavor to this beloved takeout staple. Our version also has ingredients like white-meat chicken and crisp roasted broccoli that you can feel good about. Look no further for proof that you can create a meal that beats the restaurant version while staying simple and easy.', '2021-05-03 16:43:56.097167', '2021-05-03 16:43:56.097167', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d485d19e5e5410017599e62-ae9c3dc0.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/honey-sesame-chicken-5d485d19e5e5410017599e62', 'HelloFresh.com', 'garlic
+ginger
+scallions
+jasmine rice
+broccoli florets
+chicken breasts
+cornstarch
+honey
+soy sauce
+white wine vinegar
+sesame oil
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1252, 'Beef Taco Pizzas', 'Struggling to fit both taco night and pizza night into your weekly dinnertime rotation? We’ve got a solution: put some tasty taco toppings on flatbread crusts and watch worlds collide. Peppers, beef, and tomato bring those Tex-Mex flavors, along with two kinds of cheeses and some sour cream for fun. But when everything’s popped in the oven and allowed to get crisp, melty, and hot, there’s no denying that this really is a masterpiece of pizza.', '2021-05-03 16:43:56.195837', '2021-05-03 16:43:56.195837', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b7da64dae08b561e505da32-e4831efb.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/beef-taco-pizzas-5b7da64dae08b561e505da32', 'HelloFresh.com', 'roma tomato
+cilantro
+jalapeño
+poblano pepper
+ground beef
+southwest spice blend
+flatbreads
+mexican cheese blend
+monterey jack cheese
+sour cream
+hot sauce
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1253, 'Cheesy Chicken Sausage Burgers', 'Not to get cheesy, but we’re head over heels for these bodacious burgers. And we’re not talking about any old beef burgers, either. Juicy, Italian-spiced chicken sausage patties are topped with melty mozz and a tangy-sweet, balsamic-spiked onion and tomato jam. Everything is tucked into toasty buns and served with a heap of crispy, herby potato wedges. The best part? The dish comes together in just 40 minutes! You’d be chicken not to try it.', '2021-05-03 16:43:56.291558', '2021-05-03 16:43:56.291558', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cheesy-chicken-sausage-burgers-73bf409d.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/cheesy-chicken-sausage-burgers-5d2cb0585839a1000d702ec7', 'HelloFresh.com', 'yukon gold potatoes
+yellow onion
+roma tomato
+potato buns
+italian seasoning
+italian chicken sausage mix
+mozzarella cheese
+balsamic vinegar
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1254, 'Teriyaki Beef & Broccoli', 'Love beef and broccoli? Then you’ll adore our tasty twist on the tried-and-true takeout classic. Seared, diced steak is simmered in teriyaki sauce that’s spiked with fresh ginger and lime juice, then tossed with lightly charred broccoli and onion. On the side, there’s a heap of steamy rice (aka the perfect vessel for catching any delicious runoff sauce). Skip the takeout joint and find out how easy and tasty it is to whip up this dish in your very own kitchen...in 30 minutes, no less!', '2021-05-03 16:43:56.377809', '2021-05-03 16:43:56.377809', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/teriyaki-beef-broccoli-ee729a07.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/teriyaki-beef-broccoli-5e0a5aa10ec97901b850a258', 'HelloFresh.com', 'broccoli florets
+ginger
+lime
+chili pepper
+jasmine rice
+diced steak
+teriyaki sauce
+vegetable oil
+salt
+pepper
+butter
+red onion');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1255, 'Parmesan-Crusted Chicken', 'Make your nonna proud tonight: this recipe features everything you need to have an Italian-style feast. The centerpiece is the Parmesan-crusted chicken, which is baked in the oven to make the cheese nice and melty. But the linguine pasta on the side is practically a complete dish in its own right, featuring roasted tomatoes with a creamy lemon sauce. Get your knives ready for slicing in and set your forks to twirl, because you’ll wanna eat up every last bite.', '2021-05-03 16:43:56.458997', '2021-05-03 16:43:56.458997', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/parmesan-crusted-chicken-36ac169e.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/parmesan-crusted-chicken-5eb9ae9de88fa8571c5fbc7c', 'HelloFresh.com', 'lemon
+panko breadcrumbs
+fry seasoning
+parmesan cheese
+chicken breasts
+dijon mustard
+sour cream
+spaghetti
+roma tomato
+garlic
+cream cheese
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1256, 'Garlicky Shrimp Scampi', 'Once upon a time, way before seafood buffets existed, there was an Italian predecessor of this dish that featured scampi, lobster-like creatures that we know as langoustines. It was only after immigrants brought it over to America that shrimp were swapped in and tacked on to the name. We’re shaking things up once again, adding in red bell peppers. They not only provide a veggie boost, but also a natural sweetness that cuts through the buttery richness and garlicky funk.', '2021-05-03 16:43:56.567704', '2021-05-03 16:43:56.567704', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemony-shrimp-linguine-w52-famil-d413c0bf.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lemony-shrimp-linguine-w52-famil-582c2ea7cc7bd01e585f6003', 'HelloFresh.com', 'shrimp
+linguine
+garlic
+lemon
+parsley
+red bell pepper
+shallot
+chili flakes
+salt
+pepper
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1257, 'Creamy Lemon Salmon', 'Looking for a meal that’s light and bright but still satisfying? You’ve come to the right place because this salmon dish is all that and more. Beautiful fillets are pan-seared and placed atop a bed of couscous studded with tomato and scallion. They’re then drizzled with a lemon crema, which has a hint of zest for extra flavor. You’ll wanna keep this recipe in your back pocket because it’s simple, versatile, and easy to enjoy during all seasons.', '2021-05-03 16:43:56.656329', '2021-05-03 16:43:56.656329', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/creamy-lemon-salmon-7cbb571e.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/creamy-lemon-salmon-5a53ad51c28800028e5f9262', 'HelloFresh.com', 'roma tomato
+lemon
+scallions
+garlic
+sour cream
+israeli couscous
+skin-on salmon fillets
+fry seasoning
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1258, 'Sirloin Carne Asada Tacos', 'There are few things more satisfying than steak for dinner. Until now! These carne-loaded tacos are hearty, filling, and most of all--delicious. Tender bites of seared steak are piled into warm tortillas along with a tangle of veggies, Southwest-spiced crema, and zingy pickled shallot—all topped off with a sprinkle of fresh cilantro. Taco’bout a weeknight win.', '2021-05-03 16:43:56.756694', '2021-05-03 16:43:56.756694', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d8a1ed92cb12059e9659f5c-a35ebd38.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/sirloin-carne-asada-tacos-5d8a1ed92cb12059e9659f5c', 'HelloFresh.com', 'poblano pepper
+roma tomato
+cilantro
+shallot
+white wine vinegar
+sour cream
+southwest spice blend
+diced steak
+flour tortillas
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1259, 'Seared Steak with Demi Reduction', 'Hankering for a plate of good ol’ steak and potatoes? We’ve got what you need and then some. As the title would suggest, this protein is paired with “the works” — basically, everything you could ever hope for in a steak dinner. There’s creamy garlic mashed potatoes, roasted carrots tossed with honey, and perfectly seared steak (of course). And on top? Beef demi-glace, scallions, and sour cream mingle to create a rich elixir you’ll want to drizzle over everything. And now you can!', '2021-05-03 16:43:56.860086', '2021-05-03 16:43:56.860086', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/seared-steak-with-the-works-690a18e2.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/seared-steak-with-demi-reduction-5e39bf75fbb9b2344c5745cf', 'HelloFresh.com', 'ranch steak
+yukon gold potatoes
+sour cream
+carrots
+garlic
+beef demi-glace
+scallions
+honey
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1260, 'BBQ-Rubbed Chicken', 'Our philosophy? BBQ chicken is a summer staple that shouldn’t be limited to those who have a grill or know how to grill. That’s exactly why our chefs brought this backyard staple inside, so you can make it no matter the season. All you need is a good sear and a quick trip in the oven to achieve perfectly juicy, smoky-sweet results! This recipe is so simple and delicious, especially when mashed sweet potatoes and lemony roasted veggies are involved. Goodbye, grill!', '2021-05-03 16:43:56.960131', '2021-05-03 16:43:56.960131', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/bbq-rubbed-chicken-f3a497a6.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/bbq-rubbed-chicken-5d76b60d20b681000b3d771f', 'HelloFresh.com', 'sweet potato
+carrot
+lemon
+sour cream
+chicken breasts
+sweet and smoky bbq seasoning
+green beans
+chicken stock concentrate
+honey
+chili flakes
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1261, 'Prosciutto-Wrapped Chicken', 'We love a good, simple chicken breast. But to really elevate it, you’ve got to be creative with how you prepare it. In this recipe, our chefs took up that challenge, drawing inspiration from Italian saltimbocca. The meat is wrapped in slices of prosciutto, seared until it’s delightfully crisp, and placed atop mushroom risotto with a drizzle of umami-rich truffle oil.', '2021-05-03 16:43:57.045829', '2021-05-03 16:43:57.045829', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ecd5234178b1524fe37d421-fcb13400.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/prosciutto-wrapped-chicken-5ecd5234178b1524fe37d421', 'HelloFresh.com', 'chicken stock concentrate
+scallions
+button mushrooms
+arborio rice
+chicken breasts
+prosciutto
+lemon
+garlic herb butter
+parmesan cheese
+truffle oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1262, 'Chicken Shawarma Bowls', 'Buckle up, because the power bowl just got a whole lot more powerful. Yep, this Mediterranean-style dish is a veritable one-bowl feast that’s positively bursting with flavor. Fluffy turmeric-spiced couscous is topped with yogurt-marinated chicken strips, lemony roasted zucchini and tomato, creamy hummus, garlicky white sauce, and a drizzle of hot sauce. Yep, it doesn’t get much better than digging into all that!', '2021-05-03 16:43:57.135015', '2021-05-03 16:43:57.135015', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-shawarma-bowls-9f7a4282.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/chicken-shawarma-bowls-5df00c74548621701c09295a', 'HelloFresh.com', 'garlic
+yogurt
+chicken cutlets
+zucchini
+roma tomato
+scallions
+lemon
+sour cream
+chicken stock concentrate
+turmeric
+couscous
+hummus
+hot sauce
+shawarma spice blend
+salt
+pepper
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1263, 'Zesty Breaded Chicken Breasts', 'It’s time to graduate from the chicken Caesar and introduce yourself to a new chicken and creamy salad combo that is—dare we say it—elevated. Here, panko-breaded breasts are given a pinch of lemon zest for a fragrant effect. Then, a spring mix and tomato salad with a rich, dairy-licious sour cream dressing is added to the side. Throw in some roasted potatoes and boom: welcome to the next level of dinnertime sophistication.', '2021-05-03 16:43:57.258748', '2021-05-03 16:43:57.258748', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/zesty-breaded-chicken-breasts-17b65783.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/zesty-breaded-chicken-breasts-59d68bd7ae702a798069ffd2', 'HelloFresh.com', 'yukon gold potatoes
+lemon
+grape tomatoes
+panko breadcrumbs
+garlic powder
+sour cream
+chicken breasts
+mixed greens
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1264, 'Tropical Fish Tacos', 'There’s an unexpected but quite delightful surprise hidden in these tacos: slivers of golden, nectar-sweet mango. The fruit is tucked into a crisp and tangy red cabbage slaw, providing a dazzling contrast to the spice-rubbed warmth of the tilapia and chipotle smoke in the sour cream drizzle. And even better, all that goodness comes together in a flash: you can have these tacos on the table in just 20 minutes.', '2021-05-03 16:43:57.33753', '2021-05-03 16:43:57.33753', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a32a65b30a03b52c12b9d82-11cf6f19.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/tropical-fish-tacos-5a32a65b30a03b52c12b9d82', 'HelloFresh.com', 'mango
+lime
+shredded red cabbage
+southwest spice blend
+tilapia
+sour cream
+chipotle powder
+flour tortillas
+cilantro
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1265, 'Creamy Lemon Lobster Ravioli and Shrimp', 'Move over, turf. We’re all about surf ‘n’ surf at the moment. Lobster ravioli is paired with succulent seared shrimp for a shellfish soirée. It’s laced with tender ribbons of zucchini and cloaked in a creamy lemon sauce, which ties everything together and adds a mellow tang. This luxurious dish is bursting with flavors and textures that’ll hit you with waves of deliciousness.', '2021-05-03 16:43:57.428709', '2021-05-03 16:43:57.428709', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cf80ba78b02f000174b6186-7b236691.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w5-r16-lobster-ravioli-and-shrimp-in-a-lemon-cream-sauce-5cf80ba78b02f000174b6186', 'HelloFresh.com', 'scallions
+lemon
+zucchini
+shrimp
+cream cheese
+sour cream
+lobster ravioli
+parmesan cheese
+chili flakes
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1266, 'Roasted Half-Chicken Dinner', 'All cooks should have a roast chicken recipe under their belt. Ours, if we may say so, is one of the simplest, most fundamental that you’ll find. It involves little more than arranging your chicken on a baking sheet with some veggies and letting it cook in the oven until it’s gloriously golden and crisp. If you were intimidated by the thought of making a roasted bird before, our method will show you just how easy it can be.', '2021-05-03 16:43:57.532729', '2021-05-03 16:43:57.532729', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w11-r4-267ac9f1.jpg', 60, NULL, 'https://www.hellofresh.com/recipes/w11-r4-589204b19f236a1dd17e0c62', 'HelloFresh.com', 'half chicken
+yukon gold potatoes
+pearl onions
+carrot
+lemon
+thyme
+rosemary
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1267, 'Lemony Pan-Seared Chicken', 'This recipe features a side dish built around the four Ps: pesto, peas, potatoes, and pine nuts (and a bonus fifth if you count seasoning with pepper). Pesto brings those big herby flavors, while peas add a pop of spring green. Potatoes are the good ol’ comforting standby, and pine nuts have that satisfying crunch. Top with a lemon-drizzled chicken breast and call it perfection on a plate.', '2021-05-03 16:43:57.618863', '2021-05-03 16:43:57.618863', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w17-r1-classic-b2ca6971.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w17-r1-classic-58c2d7be3131001607563123', 'HelloFresh.com', 'chicken breasts
+pesto
+pine nuts
+yukon gold potatoes
+lemon
+peas
+scallions
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1268, 'Shrimp Pad See Ew', 'In its native Thailand, pad see ew is always made to order and always in small quantities—never more than a few servings at a time. That’s not only so that it comes out sizzling and hot, but also so that all the ingredients have ample space to sear in the pan. Which is why this recipe is perfect for a quick dinner: as you’re tossing the rice noodles, sauce, shrimp, and aromatics, you can pretend you’re a Bangkok street-food hawker deftly whipping up a batch for a favorite customer.', '2021-05-03 16:43:57.707161', '2021-05-03 16:43:57.707161', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w17-r4-classic-08bdc725.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/w17-r4-classic-58c2d8074f78db79e7218432', 'HelloFresh.com', 'shrimp
+chili pepper
+wide rice noodles
+broccoli florets
+button mushrooms
+peanuts
+shallot
+garlic
+soy sauce
+ginger
+basil
+sesame oil
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1269, 'Kickin'' Crispy Honey Chicken', 'Coat chicken in breadcrumbs and immediately become a mealtime MVP. Crispy chicken is pretty much perfect in any form, but this isn’t your run-of-the-mill schnitzel. This version amps up the flavor, with blackening spices added to both the chicken itself and the panko breadcrumbs. After crisping up in the pan, the cutlets receive a drizzle of honey and a sprinkle of chili for a sweet-and-spicy-sensation. We’re serving these alongside a heap of creamy mashed sweet potatoes and simply roasted Brussels sprouts, because you deserve maximum deliciousness.', '2021-05-03 16:43:57.839531', '2021-05-03 16:43:57.839531', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w8-r14-crispy-honey-chicken-cutlets-fe494de0.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w8-r14-crispy-honey-chicken-cutlets-5c3cad8cc445fa1f8055a332', 'HelloFresh.com', 'brussels sprouts
+sweet potato
+chili pepper
+sour cream
+panko breadcrumbs
+blackening spice
+chicken cutlets
+honey
+olive oil
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1270, 'Monterey Jack Chicken Sandwich', 'Somewhere along the line, sandwiches were deemed “lunch food only,” and we’re here to call that bad marketing. Sandwiches could not be more dinner-worthy, people! Our chefs have officially reclaimed the handheld meal and now present it to you in its most hearty, delicious, and satisfying form. Pan-seared chicken breast is served under a blanket of gooey Monterey Jack, tangy balsamic caramelized onions, and a creamy sauce. There’s even a side of roasted potatoes for good measure. Step aside, lunch police!', '2021-05-03 16:43:57.917873', '2021-05-03 16:43:57.917873', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/monterey-jack-chicken-sandwich-bffa0b0a.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/monterey-jack-chicken-sandwich-5c6193a4c445fa413a199472', 'HelloFresh.com', 'brioche buns
+red onion
+yukon gold potatoes
+fry seasoning
+balsamic vinegar
+chicken cutlets
+monterey jack cheese
+sour cream
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1271, 'Chicken Pineapple Quesadillas', 'If you think sweet-and-savory combos are amazing, prepare to be blown away by this chicken, cheese, and pineapple creation. White meat and shredded mozzarella bring the classic comforts you crave, while our Southwest spice blend adds some smoky warmth. But any notions you might have about quesadillas go out the window when the golden tropical fruit comes to shake things up in the most delicious way.', '2021-05-03 16:43:58.004948', '2021-05-03 16:43:58.004948', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5bdc6e4a30006c6af8070cb2-26e9db88.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-pineapple-quesadillas-5bdc6e4a30006c6af8070cb2', 'HelloFresh.com', 'red onion
+green bell pepper
+pineapple
+chicken breasts
+roma tomato
+cilantro
+lime
+southwest spice blend
+flour tortillas
+mozzarella cheese
+sour cream
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1272, 'Lobster Ravioli and Shrimp', 'As far as we’re concerned, lobster anything is cause for celebration. So break out your best plates and light some candles, because these ravioli are filled with it. Continuing the crustacean theme, we’re also folding in succulent shrimp. And because every pasta deserves a good sauce, we’re coating the whole dish in an herby cream sauce studded with bites of juicy heirloom tomatoes.', '2021-05-03 16:43:58.104977', '2021-05-03 16:43:58.104977', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w19-premium-49b41f82.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w19-premium-58d3c770c6243b04d40cd5b2', 'HelloFresh.com', 'lobster ravioli
+heirloom grape tomatoes
+shrimp
+sour cream
+tarragon
+garlic
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1273, 'Beef Tenderloin and Balsamic Steak Sauce', 'If nothing says “date night” like a juicy steak, then this dish is the equivalent of getting down on one knee. Here, melt-in-your-mouth beef tenderloin is seared and then drizzled with a rich balsamic pan sauce (cue the swoons). On the side, there’s crisp roasted broccoli and creamy chive-flecked mashed potatoes. No matter who you cook this for, we have a good feeling they’ll be quite smitten.', '2021-05-03 16:43:58.175306', '2021-05-03 16:43:58.175306', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w31-r11-beef-tenderloin-and-balsamic-steak-sauce-d635cd6b.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w31-r11-beef-tenderloin-and-balsamic-steak-sauce-5d07c9911bb27a001154dff2', 'HelloFresh.com', 'yukon gold potatoes
+broccoli florets
+chives
+sour cream
+beef tenderloin
+beef demi-glace
+balsamic vinegar
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1274, 'Venetian Scallop Spaghetti', 'Talk about a powerhouse: Every element of this recipe goes above and beyond in fitting in as much lush, decadent flavor as can be contained on a plate. It starts with scallops, pan-seared in garlic herb butter until they’re gloriously golden and tender. They’re stirred into spaghetti, which is tossed in a sauce of Parmesan, crème fraîche, garlic, lemon zest, and meltingly tender grape tomatoes. A sprinkle of fresh herbs ties everything together in aromatic splendor—one bite, and you’ll be captivated.', '2021-05-03 16:43:58.272447', '2021-05-03 16:43:58.272447', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/venetian-scallop-spaghetti-beb4e72a.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/venetian-scallop-spaghetti-5f8df2ff50ab3e61b04d148f', 'HelloFresh.com', 'lemon
+garlic
+green herb blend
+grape tomatoes
+spaghetti
+garlic herb butter
+crème fraîche
+parmesan cheese
+chili pepper
+olive oil
+salt
+pepper
+scallops');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1275, 'Crispy Chicken Milanese', 'The secret to flawless chicken Milanese is butterflying—that means splitting the breasts into cutlets so that you not only have more surface area for the crispy breadcrumbs to adhere to, but also a thinner piece of meat that cooks quickly in the pan. All that deliciousness is best with an easy breezy side—in this case, a lemony arugula salad with slices of succulent yellow squash.', '2021-05-03 16:43:58.378449', '2021-05-03 16:43:58.378449', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-chicken-milanese-61679103.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-chicken-milanese-590c7c96313100208b065992', 'HelloFresh.com', 'heirloom grape tomatoes
+shallot
+lemon
+yellow squash
+panko breadcrumbs
+chicken breasts
+italian seasoning
+sour cream
+arugula
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1276, 'Honey Mustard Chicken', 'In this recipe, we’re DIY-ing our way to a honey mustard sauce that''s leagues better than the bottled stuff—add in a pinch of garlic and a splash of white wine vinegar and boom! You''ve got it made. Here, we’re using it to coat chicken breasts, then reducing it to a satisfyingly sticky glaze. Filled out with roasted zucchini, sweet potatoes, and red onions, the whole dish comes together in a symphony of sweet and savory.', '2021-05-03 16:43:58.47581', '2021-05-03 16:43:58.47581', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/au-honey-mustard-chicken-b086044d.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/au-honey-mustard-chicken-582c2691383a7f44a522dbd2', 'HelloFresh.com', 'chicken breasts
+red onion
+zucchini
+sweet potato
+honey
+whole grain mustard
+garlic
+white wine vinegar
+parsley
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1277, 'Crab Cakes Piccata', 'This recipe takes pasta night to the next level, elevating noodles into something that’s unlike anything anyone has seen before. Fresh tagliatelle is coated in a savory sauce, then nestled on the plate next to crab cakes seared to golden brown perfection. Some capers are folded in too, earning this dish the name piccata. It’s all finished with a sprinkle of tomato and breadcrumbs to give it the right amount of crispy texture and oomph.', '2021-05-03 16:43:58.576417', '2021-05-03 16:43:58.576417', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b64b9ca30006c28e14d0372-93f95390.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/crab-cakes-piccata-5b64b9ca30006c28e14d0372', 'HelloFresh.com', 'lemon
+shallot
+garlic
+parsley
+roma tomato
+panko breadcrumbs
+crab cakes
+tagliatelle
+flour
+chicken stock concentrate
+capers
+chili flakes
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1278, 'Sesame Teriyaki Beef', 'You’ve likely heard of hoisin sauce, but not everyone knows what it is, precisely. The Chinese ingredient, like miso, is made primarily with soybeans, which through the magic of fermentation gain an incredible complexity. But it’s also got a sweetness to it, which makes it incredibly easy to love. In this stir-fry, that translates to a delectable sauce that coats every inch of the beef and veggies. There’s also a touch of honey, which amps up those flavors even more.', '2021-05-03 16:43:58.707775', '2021-05-03 16:43:58.707775', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sesame-teriyaki-beef-3ebc935a.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sesame-teriyaki-beef-58b9968a3bddb573b6423b73', 'HelloFresh.com', 'jasmine rice
+garlic
+ginger
+scallions
+hoisin sauce jar
+soy sauce
+honey
+sesame seeds
+sirloin tips
+baby bok choy
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1279, 'Sirloin & Sherry Shallot Sauce', 'A totally real, verified fact that we just made up: People who cook fancier weeknight dinners are more likely to receive a compliment from a stranger, meet their celebrity crush, and/or win the lottery. They’re also guaranteed to be rewarded with a delicious, steakhouse-quality meal without leaving the comforts of their own kitchen. Case in point: these seared sirloin steaks drizzled in a deluxe, sherry vinegar-spiked pan sauce with crispy, cheesy potato rounds, and a tangy mixed greens salad.', '2021-05-03 16:43:58.790869', '2021-05-03 16:43:58.790869', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5f8dfce97aacaa50f037d57c-f275fbfb.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/sirloin-sherry-shallot-sauce-5f8dfce97aacaa50f037d57c', 'HelloFresh.com', 'shallot
+yukon gold potatoes
+mixed greens
+garlic powder
+parmesan cheese
+sirloin steak
+sherry vinegar
+beef stock concentrate
+sour cream
+vegetable oil
+olive oil
+butter
+salt
+pepper
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1280, 'One-Pan Hearty Pork Chili', 'It doesn’t matter whether the weather’s hot or cold where you are—it’s chili season! In this version, we’re keeping things simmering with ground pork, kidney beans, poblano pepper, and our Mexican spice blend, which has just the right amount of smoky heat. It’s mild enough for anyone to gobble up, but with plenty of flavor. Just break out the hot sauce if you like it scorching!', '2021-05-03 16:43:58.888648', '2021-05-03 16:43:58.888648', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/59f0d07c7cc0c16bb13586f2-07ed6f36.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/one-pan-hearty-pork-chili-59f0d07c7cc0c16bb13586f2', 'HelloFresh.com', 'scallions
+garlic
+kidney beans
+poblano pepper
+ground pork
+mexican spice blend
+chicken stock concentrate
+crushed tomatoes
+cheddar cheese
+sour cream
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1281, 'Sausage and Pea Risotto', 'Spring has officially sprung! And with it, we find ourselves coming out of casserole-and-stew-laden hibernation and craving food that’s simple, bright, and—of course—delicious. This dish fits the bill perfectly. Creamy and luxurious, risotto is our favorite way to highlight springy flavors. This version has pops of green peas, bites of crispy pork sausage, and is finished with a squeeze of lemon juice. It’s as balanced as it is satisfying, making it pretty much impossible to put down your fork.', '2021-05-03 16:43:58.972213', '2021-05-03 16:43:58.972213', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d3eef14c09a9b00194aa01e-d84f8007.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/sausage-and-spring-pea-risotto-5d3eef14c09a9b00194aa01e', 'HelloFresh.com', 'italian pork sausage
+shallot
+lemon
+arborio rice
+chicken stock concentrate
+peas
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1282, 'Veggie Baked Penne', 'No matter the weather, it’s pretty much impossible not to daydream about cheesy baked carbs. Luckily, this dish is guaranteed to make those dreams come true. In it, you’ll find penne and zucchini layered with herby, creamy ricotta and a rich marinara sauce. To top things off, there’s a melty blanket of mozzarella. Serve it right from the dish for maximum cheese pull potential and wait for the oohs and aahs from your lucky fellow diners.', '2021-05-03 16:43:59.047404', '2021-05-03 16:43:59.047404', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/veggie-baked-penne-d3100562.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/veggie-baked-penne-5e26044cb9721f76446c7589', 'HelloFresh.com', 'zucchini
+yellow onion
+roma tomato
+penne pasta
+marinara sauce
+italian seasoning
+ricotta cheese
+mozzarella cheese
+chili flakes
+olive oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1283, 'Steak and Potatoes with Sass', 'Steak, cabbage, and potatoes may seem like a plain Jane sort of combo. Our version, however, is anything but. We’ve given new life to it by introducing a sauce built around balsamic vinegar and soy, which brings savory and tangy intensity—think of it as an intercontinental mashup between Italian and Asian-inspired flavors. And with a sprinkle of fresh rosemary on the potatoes, you also get incredible aromas that leap out from the plate before you’ve even dug in.', '2021-05-03 16:43:59.139154', '2021-05-03 16:43:59.139154', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/steak-and-potatoes-with-sass-35be6a9c.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/steak-and-potatoes-with-sass-5a217418ae702a163648d572', 'HelloFresh.com', 'yellow onion
+rosemary
+yukon gold potatoes
+shredded red cabbage
+mustard seeds
+white wine vinegar
+sirloin steak
+balsamic vinegar
+soy sauce
+cranberry jam
+olive oil
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1284, 'Speedy Steak Fajitas', 'These steak fajitas will put some pep in your step—and not just because they’re loaded with bell pep-pers. They’re also super-fast and simple to make, helping you hustle and bustle toward dinnertime. Warm flour tortillas are stuffed full and topped with spicy sour cream and a sprinkle of cheddar cheese. And while the prep may be fast, we’re pretty sure you’ll want to stop to appreciate the fiesta of flavors that each fajita holds.', '2021-05-03 16:43:59.245023', '2021-05-03 16:43:59.245023', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/speedy-steak-fajitas-c3cf0bc5.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/speedy-steak-fajitas-5a9588fbae08b52f0b59e8b2', 'HelloFresh.com', 'yellow onion
+bell pepper
+lime
+minute steak
+southwest spice blend
+sour cream
+hot sauce
+flour tortillas
+cheddar cheese
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1285, 'Smoky Romesco New York Strip Steak', 'Romesco sauce is one of Spain’s many great culinary gifts to the world. It features two distinctly Spanish flavors—sherry vinegar and smoked paprika—yet it’s versatile and pairs well with most meats and veggies. Here, its bright acidity is used to cut the richness of New York strip steak. On the side, charred asparagus and herbed couscous complete the breezy Mediterranean theme.', '2021-05-03 16:43:59.338143', '2021-05-03 16:43:59.338143', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/15-11-c051ae11.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/15-11-58af248ec9fd081c6d640113', 'HelloFresh.com', 'new york strip steak
+israeli couscous
+garlic
+almonds
+red wine vinegar
+smoked paprika
+parsley
+asparagus
+grape tomatoes
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1286, 'Sassy Soy Chicken', 'Chicken and broccoli is a takeout favorite that can be made lighter, brighter, and fresher when you do it at home. In this recipe, you’ll be making a soy sauce marinade for the chicken that tastes way better than anything you could order over the phone. And instead of the usual steaming or stir-frying, the broccoli is roasted in the oven, bringing out its natural crunch. To top it all off, there’s a savory peanut sauce on the side, for dipping and dunking to your heart’s content.', '2021-05-03 16:43:59.465358', '2021-05-03 16:43:59.465358', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w09-r05-6924db93.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w09-r05-58821ef8b32fbe37ae078502', 'HelloFresh.com', 'chicken thighs
+peanut butter
+garlic
+scallions
+soy sauce
+jasmine rice
+broccoli florets
+lime
+sugar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1287, 'Smothered Pepper Jack Burgers', 'This burger that stacks up against the best, literally: each bun holds a beef patty that’s been smothered in melted pepper jack cheese AND sautéed peppers and onions. Just in case that doesn’t make this burger a front-runner for first-place, let’s introduce the secret weapon: a special spicy ketchup with hot sauce that you can add to taste. If you aren’t blown away yet, you will be when you’re holding this bad boy in your hands.', '2021-05-03 16:43:59.534853', '2021-05-03 16:43:59.534853', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/smothered-pepper-jack-burgers-0d5bc757.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/smothered-pepper-jack-burgers-5d69749b764e8b000d14c912', 'HelloFresh.com', 'sweet potato
+yellow onion
+long green pepper
+ketchup
+hot sauce
+sweet and smoky bbq seasoning
+ground beef
+pepper jack cheese
+potato buns
+salt
+pepper
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1288, 'Butter-Basted Rib-Eye Steak', 'Here, we’re using a simple trick to elevate potatoes: by infusing milk with sprigs of herby thyme, you get an instant flavor upgrade (and plenty of creaminess) when it comes time to mash the spuds. And then when you take things further with butter-basted rib-eye steak—known for its tenderness and rich flavor—you’ve got a true triumph on your hands.', '2021-05-03 16:43:59.602533', '2021-05-03 16:43:59.602533', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/butter-basted-rib-eye-steak-142d69b6.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/butter-basted-rib-eye-steak-5996004fc9fd0852ab4978b3', 'HelloFresh.com', 'yukon gold potatoes
+asparagus
+thyme
+chives
+lemon
+ribeye
+milk
+garlic herb butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1289, 'Chicken Under a Zucchini Blanket', 'Shhh, be very quiet. Your chicken is sleeping! The layer of zucchini that tops these chicken breasts is like a blanket that keeps the meat warm and cozy while it gets its beauty rest. It not only brings some bonus greens to this recipe but also helps the chicken stay moist and tender. Feel free to treat the mashed potatoes on the side like a fluffy pillow to dream sweet, buttery mashed potato dreams on.', '2021-05-03 16:43:59.664986', '2021-05-03 16:43:59.664986', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a2171a9c9fd087e035212d2-a89e2792.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-under-a-zucchini-blanket-5a2171a9c9fd087e035212d2', 'HelloFresh.com', 'yukon gold potatoes
+zucchini
+parmesan cheese
+chicken breasts
+green beans
+milk
+lemon
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1290, 'Figgy Balsamic Chicken Legs', 'Fig jam is something you’d usually find on the side of a cheese plate, but with this recipe our chefs discovered a way to make it the center of attention. The sweet stuff, along with tangy balsamic vinegar and savory chicken stock, is used to make a pan sauce that is so good, you might just find yourself swiping every last drop off your plate. The mixture is drizzled over oven-roasted chicken legs and their crispy, crackly skin. On the side, the sweet theme continues with a cranberry, pecan, and broccoli slaw.', '2021-05-03 16:43:59.730419', '2021-05-03 16:43:59.730419', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w36-r14-3bf1d38a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/figgy-balsamic-chicken-legs-5b4f7caeae08b52e43531c92', 'HelloFresh.com', 'chicken legs
+yukon gold potatoes
+shallot
+honey sesame pecans
+broccoli slaw
+dried cranberries
+mayonnaise
+sour cream
+lemon juice
+fig jam
+balsamic vinegar
+chicken stock concentrate
+milk
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1291, 'Arroz Con Pollo', 'Arroz con pollo simply means “chicken and rice” in Spanish, which doesn’t begin to describe all of the other delicious things going on in this recipe. Everything gets amped up with a sprinkling of our smoky Mexican seasoning, which adds warm, sultry flavors throughout. Then the toppings—creamy slices of avocado, tangy bursts of tomato, and a zesty lime crema—bring contrast and excitement.', '2021-05-03 16:43:59.840084', '2021-05-03 16:43:59.840084', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w17-r6-family-97189f48.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w17-r6-family-58c2d89a4f78db060c44d7a3', 'HelloFresh.com', 'chicken tenders
+yellow onion
+basmati rice
+gluten free chicken demi glace
+heirloom grape tomatoes
+avocado
+cilantro
+lime
+garlic
+sour cream
+vegetable oil
+salt
+pepper
+smoky mexican seasoning');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1292, 'Cranberry-Drizzled Duck Breasts', 'Cranberry sauce is for more than just turkey. Here, we’re using it to make crispy, pan-seared duck breasts truly dazzle. The rich poultry is enlivened by its tart fruitiness, resulting in a wave of bold flavors that travel over the tongue and linger. Add some buttery mashed potatoes and a peppery watercress salad to the side, and you’ve got a meal that is sure to be a favorite in your kitchen through fall and beyond.', '2021-05-03 16:43:59.934762', '2021-05-03 16:43:59.934762', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cranberry-drizzled-duck-breasts-f7ce5d1e.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/cranberry-drizzled-duck-breasts-59a83ce5043c3c74260709c3', 'HelloFresh.com', 'yukon gold potatoes
+garlic
+duck breasts
+thyme
+heirloom grape tomatoes
+lemon
+shallot
+milk
+chicken demi-glace
+cranberry jam
+watercress
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1293, 'Pineapple Pork Chops', 'Pineapple proved that it could conquer pizza. Now we’re helping it take it’s sweet–savory domination to the next level. Pineapple salsa smothers these pork chops, with the fruit’s tangy juices mingling with those of the pork. You’ll wanna scoot the jasmine rice and snap peas over on your plate so that they can soak up some of that bright yellow sunshine, too.', '2021-05-03 16:44:00.029319', '2021-05-03 16:44:00.029319', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w19-r3-61a087f1.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w19-r3-58d3c6c83bddb5181238afd3', 'HelloFresh.com', 'pineapple
+boneless pork chops
+sugar snap peas
+shallot
+jasmine rice
+lime
+cilantro
+honey
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1294, 'Lemon Dill Crab Cakes', 'If you’ve never eaten crab cakes before, you’re in for a treat. Ours have got a golden, crunchy exterior (thanks to a coating of panko breadcrumbs and a quick sear in butter) and a creamy, sweet, briny-tasting interior. If you still need more convincing, this batch is drizzled with a lemony dill sauce and served alongside roasted carrots and crispy Parmesan potatoes.', '2021-05-03 16:44:00.10479', '2021-05-03 16:44:00.10479', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lemon-dill-crab-cakes-078555e1.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/lemon-dill-crab-cakes-5d6e755c764e8b0017767c07', 'HelloFresh.com', 'yukon gold potatoes
+garlic powder
+baby carrots
+lemon
+dill
+mayonnaise
+sour cream
+parmesan cheese
+crab cakes
+chili flakes
+panko breadcrumbs
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1295, 'Emeril Lagasse''s Herbed Dijon Chicken Breasts', 'You’re a key ingredient in the fight against AIDS. But don’t take it from us—take it from chef Emeril Lagasse, whose timeless mustard chicken recipe was specially crafted for EAT (RED) SAVE LIVES. The star of his dish is a plump and juicy chicken breast that’s drizzled with a creamy Dijon sauce, but the pan-crisped zucchini and red potatoes to the side are two supporting players that nearly steal the spotlight. It’s a meal that both tastes good and does good.', '2021-05-03 16:44:00.236885', '2021-05-03 16:44:00.236885', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/emeril-lagasses-herby-dijon-chicken-breasts-80971319.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/emeril-lagasses-herby-dijon-chicken-breasts-59033173c6243b0fc51da942', 'HelloFresh.com', 'chicken breasts
+shallot
+chicken stock concentrate
+lemon
+dijon mustard
+tarragon
+parsley
+sour cream
+zucchini
+garlic
+baby red potatoes
+white pepper
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1296, 'Prosciutto-Topped Chicken', 'The chicken in this recipe is far from plain; in fact, we’ve dressed it up in its Sunday best. Each piece is topped with a slice of mozzarella and prosciutto ham, so every bite comes with melty cheese and a hint of salty, porky flavor. Things only get better when you consider the sides: roasted broccoli and fusilli in a creamy tomato sauce. It all adds up into something tasty, balanced, and sophisticated—and that sounds like the start of something special to us.', '2021-05-03 16:44:00.312736', '2021-05-03 16:44:00.312736', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/with-broccoli-and-fusilli-pasta-8148c1b7.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/with-broccoli-and-fusilli-pasta-5b7dad8dae08b567c25c40d2', 'HelloFresh.com', 'rosemary
+parsley
+garlic
+fresh mozzarella
+chicken breasts
+broccoli florets
+prosciutto
+fusilli pasta
+marinara sauce
+cream cheese
+parmesan cheese
+chili flakes
+chicken stock concentrate
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1297, 'Mega Turkey Meatballs', 'Forget the itty, the bitty, and the miniature: there are some bigger, better, and bolder bad boys in town. These jumbo-sized turkey meatballs are guaranteed to shake things up at pasta night. Your family will ooh and ahh over their colossal size as well as the ooey-gooey cheese that drips from their tops—and equally astonished by how you managed to put together a tomato-y pasta and bites of broccoli at the same time (it’s easy when you cook both in the same pot).', '2021-05-03 16:44:00.402383', '2021-05-03 16:44:00.402383', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mega-turkey-meatballs-7628d19c.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/mega-turkey-meatballs-5a14a16bae702a7883611652', 'HelloFresh.com', 'yellow onion
+garlic
+parsley
+panko breadcrumbs
+milk
+ground turkey
+parmesan cheese
+tuscan heat spice
+crushed tomatoes
+penne pasta
+broccoli florets
+mozzarella cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1298, 'Shrimp and Cheddar Grits', 'Shrimp and grits originated as a breakfast dish, believe it or not, enjoyed mostly in the coastal regions of Georgia and South Carolina. But as it has grown in popularity beyond its home turf, it’s morphed into something worth savoring at any time of day. In our version, we’re introducing collard greens and tomatoes to push it further towards dinnertime territory. The veggie duo also provides a hearty, wholesome contrast to the buttery grits.', '2021-05-03 16:44:00.485152', '2021-05-03 16:44:00.485152', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-r03-c1efcbca.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w10-r03-588babbf7d69bf60b637d582', 'HelloFresh.com', 'shrimp
+collard greens
+grape tomatoes
+chili flakes
+garlic
+grits
+milk
+cheddar cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1299, 'NY Strip Steak with Balsamic Reduction', 'Polenta and steak may not be a pairing you see every day, but when you taste it, you’ll start to wonder where it’s been all your life. The cornmeal porridge soaks up the drippings from the beef, becoming a swirl of intensely rich and meaty flavors. To balance out all that decadence, we’re introducing green beans and tomatoes, cooked until they burst with tangy juices, plus a balsamic reduction that provides a jolt of fruit-forward acidity.', '2021-05-03 16:44:00.548588', '2021-05-03 16:44:00.548588', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/premium-w10-f9543489.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/premium-w10-588badab9f236a17b044eb42', 'HelloFresh.com', 'new york strip steak
+grape tomatoes
+parmesan cheese
+balsamic glaze
+chives
+shallot
+green beans
+polenta
+beef stock concentrate
+vegetable oil
+butter
+salt
+pepper
+baci chocolates');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1300, 'Sesame Honey Beef Stir-Fry', 'If you’ve ever struggled with getting your kids to eat their carrots, we think we’ve discovered a pretty nifty trick. Here, the vitamin A-rich veg is shaved into ribbons that are fun to twirl around a fork. And because they’re paper-thin, there are no big chunks or hunks for picky eaters to object to. It helps that they’re tossed with ground beef and coated in a sesame, honey, and soy–based sauce that adds easy-to-love sweet and savory flavors.', '2021-05-03 16:44:00.628583', '2021-05-03 16:44:00.628583', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b4f7ff3ae08b530fb74aa32-1adcd961.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sesame-honey-beef-stir-fry-5b4f7ff3ae08b530fb74aa32', 'HelloFresh.com', 'carrots
+scallions
+garlic
+lime
+jasmine rice
+sesame oil
+soy sauce
+honey
+sriracha
+ground beef
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1301, 'Tomatoey Tortelloni Soup', 'Give the dishwasher a break tonight: all you need to put this recipe together is a pot and a couple of utensils for stirring and chopping. But just because it involves minimal effort doesn’t mean that it has minimal flavor. Loaded with cheesy tortelloni, slices of sweet sausage, tender spinach leaves, and a tomatoey broth, the soup brims and bubbles with plenty of filling, Italian-inspired flavors.', '2021-05-03 16:44:00.703682', '2021-05-03 16:44:00.703682', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b4f7843ae08b52a94445ad2-1758e0fd.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/tomato-y-tortelloni-soup-5b4f7843ae08b52a94445ad2', 'HelloFresh.com', 'yellow onion
+parsley
+sweet italian pork sausage
+garlic powder
+dried oregano
+crushed tomatoes
+chicken stock concentrate
+cheese tortelloni
+spinach
+parmesan cheese
+chili flakes
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1302, 'Pancetta Penne in a Witch''s Cauldron', '“Double, double toil and trouble; Fire burn and cauldron of pasta bubble.” Chant this over and over while you cook, and you might just end up with a meal that’s bewitchingly tasty. As you stir your steaming vessel of penne, the pasta will start to turn perfectly al dente—like magic! And the creamy sauce and toasted pine nuts (which kind of look like fangs, we think) are so enchanting, you might just consider them your secret flavor potion.', '2021-05-03 16:44:00.785714', '2021-05-03 16:44:00.785714', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pancetta-penne-in-a-witchs-cauldron-48b1319f.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/pancetta-penne-in-a-witchs-cauldron-59baee93a2882a5314756bd1', 'HelloFresh.com', 'garlic
+mint
+pine nuts
+penne pasta
+pancetta
+peas
+sour cream
+parmesan cheese
+veggie stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1303, 'Tropical Pineapple Chicken', 'Let’s get tropical! This recipe has warm and sunny flavors that will brighten up dinnertime. White meat chicken gets stir-fried with pineapple, bell pepper, garlic, and spices until it turns into a jubilant mix of savory and sweet. Even the rice is festive, with some ginger and scallions added in for a little extra somethin’ somethin’. And just to make sure that there’s no shortage of fun, we’re even throwing in some coconut-coated cashews and a zesty sour cream for garnish.', '2021-05-03 16:44:00.856763', '2021-05-03 16:44:00.856763', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w50-r14-tropical-pineapple-chicken-5dda3005.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2018w50-r14-tropical-pineapple-chicken-5bcf592e30006c0ea324cd14', 'HelloFresh.com', 'garlic
+ginger
+bell pepper
+red onion
+scallions
+cilantro
+chicken cutlets
+jasmine rice
+white pepper
+ground coriander
+pineapple
+lime
+sour cream
+coconut crunch cashews
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1304, 'Beef Sizzle Stir-Fry', 'Stir-fries are a handy dish for weeknights because you can get them on the table quickly with minimal fuss. Just prep your protein and veg, whip together a simple sauce, and let those ingredients sizzle in the pan. For this version, we’re tossing beef strips, bell pepper, and bok choy in a marinade of ginger, garlic, and soy sauce. It’s simple yet tremendously satisfying.', '2021-05-03 16:44:00.966237', '2021-05-03 16:44:00.966237', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/beef-sizzle-stir-fry-1ea7ae54.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/beef-sizzle-stir-fry-59669b2c99052d36750982c2', 'HelloFresh.com', 'red onion
+red bell pepper
+baby bok choy
+garlic
+ginger
+jasmine rice
+soy sauce
+beef stir-fry
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1305, 'Strip Steak Florentine', 'Rosemary oil is something of a secret ingredient in this recipe, and it’s deceptively simple to make: simply fry sprigs of the herb until the oil is full of its heady flavor. When drizzled on food, its effect is pure magic. Here, it adds a touch of woodsiness to the cauliflower potato mash, a fragrant hint in the garlic-sautéed spinach, and extra oomph to the meatiness of the New York strip steak.
+Please note that this recipe may be packaged with samples that contain wheat, soy, and milk', '2021-05-03 16:44:01.025809', '2021-05-03 16:44:01.025809', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/florentine-bistec-8b934cbf.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/florentine-bistec-58b997d22310a80578660df3', 'HelloFresh.com', 'new york strip steak
+rosemary
+lemon
+cauliflower florets
+spinach
+garlic
+yukon gold potatoes
+beef demi-glace
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1306, 'Chicken Fusilli Italiano', 'Pasta night is always an occasion worth celebrating, and this recipe has plenty to cheer about. First there are the fusilli pasta spirals, which bring the fun with their bouncy shape. Then there are the pieces of tender chicken and bites of zucchini, which make things wholesome and hearty. But just in case that wasn’t enough, everything gets tossed in a creamy tomato sauce with Parmesan that coats it all in deliciousness.', '2021-05-03 16:44:01.086259', '2021-05-03 16:44:01.086259', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w49-r14-c3f7d0f9.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2018w49-r14-5bc9f17330006c69bd1c4822', 'HelloFresh.com', 'zucchini
+yellow onion
+roma tomato
+garlic
+tuscan heat spice
+fusilli pasta
+chicken breast strips
+tomato paste
+cream cheese
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1307, 'Stovetop Barbecue Chicken', 'You don’t have to wait until summer to get your barbecue fix: this recipe brings together all those sweet and smoky flavors in a dish that you can make right now. Featuring juicy, pan-seared chicken breasts smothered in our special sauce, it’s proof that you don’t need a grill (or patio weather). And in case you’re really missing that backyard blowout fare, we’ve also added on a creamy mac ‘n’ cheese and an easy-breezy salad.', '2021-05-03 16:44:01.161582', '2021-05-03 16:44:01.161582', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/stovetop-barbecue-chicken-b3221ad2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/stovetop-barbecue-chicken-5a2174477901f9455b5d9ee2', 'HelloFresh.com', 'scallions
+cucumber
+lemon
+gemelli pasta
+chicken breasts
+cheddar cheese
+cream cheese
+bbq sauce
+mixed greens
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1308, 'Pineapple Pork Chops', 'Pineapple proved that it could conquer pizza. Now we’re taking the fruit’s sweet–savory domination to the next level. Pineapple salsa smothers these pork chops, bringing tangy juices that bathe the pork in sunshine. You’ll wanna scoot the jasmine rice and sugar snap peas over on your plate so that they can soak up some of that goodness too.', '2021-05-03 16:44:01.232712', '2021-05-03 16:44:01.232712', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pineapple-pork-chops-ba96c0e0.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pineapple-pork-chops-5a4e5bcb2c3e085528574052', 'HelloFresh.com', 'sugar snap peas
+shallot
+lime
+cilantro
+pineapple
+jasmine rice
+pork chops
+honey
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1309, 'Sweet Apple Pork Chops', 'Pork has a way of embracing fruity flavors like no other protein. In this recipe, we’re smothering it in chunks of tender, saucy apple, which adds a welcome touch of sweetness. On the side, we’ve got carrots and a potato cauliflower mash. It’s so good, no one will notice that you snuck in some extra veggies!', '2021-05-03 16:44:01.293582', '2021-05-03 16:44:01.293582', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-apple-pork-chops-31c990ed.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/sweet-apple-pork-chops-59d68dbfae702a630a581fd2', 'HelloFresh.com', 'yukon gold potatoes
+cauliflower florets
+carrots
+pork chops
+dried thyme
+apple
+chicken stock concentrate
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1310, 'Pork and Noodle Soup Bowls', 'This is not your ordinary noodle soup: thanks to ground pork, bites of kale, and bouncy yakisoba noodles, it’s as hale, hearty, and satisfying as can be. And with the addition of garlic, ginger, and our flavorful broth, you’ve got tons of aromatics and deep savory notes, too. We recommend hovering over the bowl, inhaling all that amazingness, and then slurping up those noodles like no one’s watching.', '2021-05-03 16:44:01.359814', '2021-05-03 16:44:01.359814', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-and-noodle-soup-bowls-051cc0ad.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/pork-and-noodle-soup-bowls-5a296b59ad1d6c2b2f2bbd62', 'HelloFresh.com', 'garlic
+ginger
+kale
+red onion
+chili pepper
+ground pork
+yakisoba noodles
+pho concentrate
+soy sauce
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1311, 'Crispy Baked Cod', 'You don’t get much more easy and breezy than corn on the cob, a jumble of potatoes and green beans, and a crunchy fish fillet. In fact, we’d like to declare this the unofficial weeknight meal of summer. Whether you’re enjoying it by the seashore or on your backyard patio, it’s a dish that’s simple and carefree, the way our mood in the warmer months should be.', '2021-05-03 16:44:01.432207', '2021-05-03 16:44:01.432207', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/crispy-baked-cod-5a04e708.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/crispy-baked-cod-5942a224171c5811387be2c3', 'HelloFresh.com', 'yukon gold potatoes
+green beans
+scallions
+lemon
+fry seasoning
+panko breadcrumbs
+cod fillets
+corn on the cob
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1312, 'Pork Meatball Melt Sandwiches', 'Raise your hand if sandwiches take you to your happy place… we thought so. If you want a one-way ticket to handheld bliss, look no further than these piping-hot melts on ciabatta. They’re filled with pork meatballs, a hearty tomato sauce, and a good handful mozzarella—in other words, everything you need to rival the best sub shops. And just in case you’re still craving more, there’s sautéed zucchini for the veg.', '2021-05-03 16:44:01.512197', '2021-05-03 16:44:01.512197', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-meatball-melt-sandwiches-cd606091.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pork-meatball-melt-sandwiches-5ad7c10fae08b520d9194952', 'HelloFresh.com', 'yellow onion
+garlic
+ground pork
+panko breadcrumbs
+tuscan heat spice
+crushed tomatoes
+lemon
+zucchini
+ciabatta bread
+mozzarella cheese
+olive oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1313, 'Herbed Sirloin Steak', 'Caprese salad—that’s mozzarella, tomato, basil, and balsamic—is addictive as an appetizer. But in this recipe, we’re turning it into a main event. Seared sirloin steak adds some meaty heft to the meal, while orzo pasta fills it out and soaks up all the flavorful juices. Throw in some garlic and a drizzle of olive oil for flavor and you’ll realize at first bite, that’s amore.', '2021-05-03 16:44:01.62643', '2021-05-03 16:44:01.62643', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/herbed-sirloin-steak-ef4792ef.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/herbed-sirloin-steak-592dd08ad56afa4e14407ff2', 'HelloFresh.com', 'sirloin steak
+orzo pasta
+heirloom grape tomatoes
+garlic
+fresh mozzarella
+balsamic vinegar
+parsley
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1314, 'Crispy Parmesan Chicken', 'Consider plain chicken breasts a thing of the past: in this recipe, the white meat gets gussied up in a gorgeous golden breadcrumb topping with paprika and Parmesan cheese. You’ll roast it and the lemony carrots on the same sheet—once they’re in the oven, the only thing left to do is boil the couscous and toss in the garlic herb butter. Simple, satisfying, and supercharged with flavor—what more could you ask for?', '2021-05-03 16:44:01.684313', '2021-05-03 16:44:01.684313', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ecd4d891e4833321621f901-a6c6190c.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/crispy-parmesan-chicken-5ecd4d891e4833321621f901', 'HelloFresh.com', 'carrots
+scallions
+lemon
+panko breadcrumbs
+parmesan cheese
+hot smoked paprika
+chicken cutlets
+sour cream
+israeli couscous
+garlic herb butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1315, 'Balsamic Fig Sirloin', 'Gettin’ figgy with it! Fig jam, that is. Here, the sweet stuff is paired with balsamic vinegar to create a rich and tangy pan sauce for drizzling over juicy sirloin steaks. Rosemary-roasted potatoes are the perfect accompaniment for swiping up any runaway sauce (and trust us, you won’t want to waste a drop.) There’s also a side of crisp-tender green beans for extra oomph. This dish is bursting with flavors and textures that’ll make your mouth dance.', '2021-05-03 16:44:01.756237', '2021-05-03 16:44:01.756237', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/balsamic-fig-sirloin-6a4e1f84.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/balsamic-fig-sirloin-5d8a1e1b896cd855e64c206d', 'HelloFresh.com', 'fingerling potatoes
+rosemary
+shallot
+garlic
+green beans
+sirloin steak
+balsamic vinegar
+beef stock concentrate
+fig jam
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1316, 'Honey Sriracha Chicken Legs', 'Do you like a little spicy with your sweet? Then you’re gonna love the sticky sauce that’s on this chicken. Honey and sriracha are a power duo, combining the hot sauce’s kick with finger-licking-good, glaze-like deliciousness. Because those flavors are the main attraction, we’re keeping the green beans and rice on the simple side (although we think they’re jealous of the action going on elsewhere on the plate).', '2021-05-03 16:44:01.833411', '2021-05-03 16:44:01.833411', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/honey-sriracha-chicken-legs-da1df331.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/honey-sriracha-chicken-legs-5d5706120b44ec00090aaa87', 'HelloFresh.com', 'scallions
+chicken legs
+basmati rice
+soy sauce
+honey
+sriracha
+sesame oil
+green beans
+vegetable oil
+salt
+pepper
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1317, 'Pork Risotto Casserole', 'Risotto usually involves a lot of time carefully watching and stirring a pan full of simmering rice, but our chefs found a casserole workaround that makes it a cinch. After giving the meat, rice, and veggies a quick toss in a large pan, the whole thing is sprinkled with cheese and transferred to the oven, where it bakes its way to creamy, al dente perfection.', '2021-05-03 16:44:01.905451', '2021-05-03 16:44:01.905451', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-risotto-casserole-8bc11def.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/pork-risotto-casserole-5abd4a2e30006c47433f6512', 'HelloFresh.com', 'yellow onion
+tomato
+garlic
+kale
+ground pork
+tuscan heat spice
+tomato paste
+arborio rice
+chicken stock concentrate
+parmesan cheese
+italian cheese blend
+scallions
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1318, 'Oven Roasted Chicken', 'Winter gets a bad rap as an off season for fresh veggies. But it doesn’t have to be that way. This recipe features three gems that are at their best right now: sweet carrots, tender parsnips, and crunchy Brussels sprouts. Served next to a simple roasted chicken breast and lemony pan sauce, it''ll persuade you that there''s never a bad time to get your five a day.', '2021-05-03 16:44:02.014497', '2021-05-03 16:44:02.014497', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/herb-roasted-chicken-and-vegetab-86dfa152.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/herb-roasted-chicken-and-vegetab-5835adfa7d69bf47fe389312', 'HelloFresh.com', 'chicken breasts
+brussels sprouts
+carrots
+parsnip
+thyme
+lemon
+gluten free chicken demi glace
+basmati rice
+salt
+pepper
+olive oil
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1319, 'Balsamic Chicken Rustico', 'We love a good glaze on our meat. In fact, we love it so much that sometimes we find ourselves slathering that glaze all over our veggies, too. Which is why we came up with this recipe. The chicken breasts aren’t the only things getting coated in a sticky and sweet balsamic sauce. The onions and tomatoes also go for a roast in it, soaking in all that vinegar-kissed flavor as they cook in the oven.', '2021-05-03 16:44:02.101938', '2021-05-03 16:44:02.101938', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w08-r01-f1735a9f.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w08-r01-5873b89cb32fbe419972ec22', 'HelloFresh.com', 'chicken breasts
+grape tomatoes
+yellow onion
+garlic
+baby carrots
+yukon gold potatoes
+balsamic vinegar
+herbes de provence
+honey
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1320, 'Sizzling Balsamic Steak', 'Here’s a meal that’s got approachable and easy-to-like flavors for the kids, but is also sophisticated enough to win over even the most highfalutin’ adults. Featuring seared sirloin steak, roasted sweet potato wedges, and green salad, it balances sweet and savory in a classic, crowd-pleasing way. But with a balsamic and caramelized onion sauce on top (which can be added to taste), it introduces a whole new level of complexity that’s anything but fuddy-duddy.', '2021-05-03 16:44:02.198455', '2021-05-03 16:44:02.198455', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sizzling-balsamic-steak-04907d3a.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/sizzling-balsamic-steak-59f25351043c3c6e303c6992', 'HelloFresh.com', 'sweet potato
+fry seasoning
+red onion
+sirloin steak
+beef stock concentrate
+balsamic glaze
+mixed greens
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1321, 'Sweet Italian Sausage', 'Italian sausage has an established place on pastas and pizza pies, which is why we’re trying something different and adding it to bouncy couscous. The adventuresome combo, which is rounded out by supple mushrooms and tender spinach, is a textural treat and packs plenty of garlicky flavor, too.', '2021-05-03 16:44:02.28565', '2021-05-03 16:44:02.28565', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sweet-italian-sausages-with-freg-4b71ee76.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sweet-italian-sausages-with-freg-5845ba2cd4d92c768e3d5bd2', 'HelloFresh.com', 'sweet italian pork sausage
+israeli couscous
+yellow onion
+garlic
+button mushrooms
+spinach
+oregano
+parmesan cheese
+chicken stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1322, 'Hearty Pork Chili', 'It doesn’t matter if the weather’s hot or cool where you are—it’s chili season! In this version, we’re keeping things simmering with ground pork, kidney beans, poblano peppers, and our special Mexican spice blend, which has just the tiniest bit of heat. It’s mild enough for your kids to gobble up but has plenty of flavor to satisfy the adults. Break out the hot sauce if you like it scorching.', '2021-05-03 16:44:02.387656', '2021-05-03 16:44:02.387656', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a9589aeae08b52fac24c282-96387303.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/hearty-pork-chili-5a9589aeae08b52fac24c282', 'HelloFresh.com', 'scallions
+garlic
+kidney beans
+poblano pepper
+ground pork
+mexican spice blend
+chicken stock concentrate
+crushed tomatoes
+cheddar cheese
+sour cream
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1323, 'Cajun Blackened Chicken and Rice Bowls', 'Cue the brass band, because your taste buds are about to take a trip to the Big Easy! We’re talking blackened chicken and savory veggies piled atop scallion-flecked rice, all finished with a drizzle of spicy crema (and extra hot sauce, if you’re really looking to have a wild night). Now if we could only perfect our Hurricane cocktail...', '2021-05-03 16:44:02.460695', '2021-05-03 16:44:02.460695', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w23-r4-blackened-chicken-and-cajun-rice-bowls-ad35dae8.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w23-r4-blackened-chicken-and-cajun-rice-bowls-5cc1feb48aa67400103d8d20', 'HelloFresh.com', 'scallions
+jasmine rice
+chicken stock concentrate
+chicken breasts
+blackening spice
+long green pepper
+celery
+carrots
+roma tomato
+sour cream
+hot sauce
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1324, 'Shrimp Linguine With a Kick', 'These are some fightin’ shrimp: in this dish, the shellfish are given a feisty kick by slices of Thai chili. That’s sure to please heat-lovers, but you can always make adjustments if you prefer to walk on the mild side. Toss in zucchini, garlic herb butter, Parmesan, and al dente pasta, and everything comes together in a savory, spicy, and piping-hot pile of perfection on your plate.', '2021-05-03 16:44:02.547038', '2021-05-03 16:44:02.547038', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/shrimp-pasta-with-a-kick-369c9223.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/shrimp-pasta-with-a-kick-5b7db1c1ae08b56b9d6149f2', 'HelloFresh.com', 'linguine
+zucchini
+chili pepper
+shrimp
+garlic herb butter
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1325, 'Provençal Herbed Chicken', 'Here’s a meal that packs plenty of sophistication for the adults while also keeping things kid-friendly. It features chicken breasts seasoned with herbs de Provence and a Parmesan pesto orzo—in other words, tender white meat with a side of cheesy pasta. For the veg, there’s grape tomatoes simmered in a sauce that makes them extra flavorful, juicy, and guaranteed to please.', '2021-05-03 16:44:02.604836', '2021-05-03 16:44:02.604836', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/provencal-herbed-chicken-4ad07dc7.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/provencal-herbed-chicken-5ca4f6b9c445fa4969630c52', 'HelloFresh.com', 'chicken breasts
+herbes de provence
+shallot
+garlic
+grape tomatoes
+parsley
+orzo pasta
+red wine vinegar
+chicken demi-glace
+pesto
+parmesan cheese
+olive oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1326, 'Pork Bolognese Pasta Casserole', 'Cheesy, baked pasta is pretty much great all year round. No matter the weather, this killer casserole is guaranteed to satisfy your carby cravings. In it, you’ll find Italian-spiced ground pork, spinach, and tender bites of al dente penne, all enrobed in a rich tomato sauce. To top things off, there’s a crispy lid of toasty panko and melty mozzarella. The fact that it all comes together in one dish is even more reason to love it.', '2021-05-03 16:44:02.701633', '2021-05-03 16:44:02.701633', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-bolognese-pasta-casserole-03d0ff37.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/pork-bolognese-pasta-casserole-5d56f16d3ebaf5000b28e8c9', 'HelloFresh.com', 'penne pasta
+ground pork
+tuscan heat spice
+marinara sauce
+milk
+chili flakes
+spinach
+mozzarella cheese
+panko breadcrumbs
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1327, 'Hunan Cumin Beef Stir-Fry', 'Cumin isn’t typically found in Chinese cuisine. But in Hunan province, which is known for its spice-forward foods, the earthy-tasting seed adds its flavor to this popular beef dish, mingling with more traditional ingredients like soy sauce and garlic. Together, it all adds up to something complex and satisfying—with waves of chili heat, fragrant aromatics, and a deeply savory backbone.', '2021-05-03 16:44:02.785138', '2021-05-03 16:44:02.785138', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cumin-beef-stir-fry-99288ee9.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cumin-beef-stir-fry-58b994e32310a8136a4b4823', 'HelloFresh.com', 'ground beef
+ginger
+garlic
+soy sauce
+sesame oil
+cumin seeds
+chili flakes
+cilantro
+yellow onion
+shredded red cabbage
+sesame seeds
+jasmine rice
+lime
+sugar
+salt
+pepper
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1328, 'Garlic Herb Buttered Sirloin Steak', 'Carve into something special tonight: these sirloin steaks get a wallop of a dollop in garlic herb butter, which brings all the dairy richness you could want. Although there’s even more to be discovered when you consider the sides: baby red potatoes with a crispy Parmesan topping and garlicky sautéed baby broccoli. This is the sort of dinner that feels like a bona fide treat.', '2021-05-03 16:44:02.8911', '2021-05-03 16:44:02.8911', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/garlic-herb-buttered-sirloin-steak-bbc114c4.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/garlic-herb-buttered-sirloin-steak-5bad43bbae08b53e432e7bd2', 'HelloFresh.com', 'baby broccoli
+baby red potatoes
+parmesan cheese
+garlic
+sirloin steak
+garlic herb butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1329, 'Smoked Gouda Pork Burgers', 'These bodacious burgers are positively layered with flavor. First, pork patties are infused with an aromatic mix of garlic, onion, and paprika. Then, the cooked burgers are topped with nutty, melty gouda and a tangle of feisty caramelized onions spiked with sriracha and lime. Everything gets tucked into toasty buns spread with creamy garlic-lime sauce and served with a heap of crispy oven fries. Prepare for total taste bud takeover.', '2021-05-03 16:44:02.955653', '2021-05-03 16:44:02.955653', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/gouda-pork-burgers-1af42fdf.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/gouda-pork-burgers-5c1aa2eae3f339319f0b94c2', 'HelloFresh.com', 'yellow onion
+lime
+garlic
+potato buns
+yukon gold potatoes
+smoked paprika
+sriracha
+ground pork
+gouda cheese
+mayonnaise
+sour cream
+olive oil
+butter
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1330, 'Slow-Cooker Chipotle Pork Sloppy Joes', 'Don’t you wish you could just press play on a recipe and let dinner assemble itself? Guess what: it’s possible with a slow cooker. Break out the machine for these family-friendly sloppy joes, which feature a chipotle pork filling on a brioche bun and are accompanied by a crisp carrot raisin slaw. They’re so simple, all you have to do is put your ingredients inside the cooker base and let the magic happen. Just make sure to plan ahead—the cooking takes 6-8 hours depending on the heat setting.', '2021-05-03 16:44:03.085349', '2021-05-03 16:44:03.085349', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/slow-cooker-chipotle-pork-sloppy-joes-8a73ecc7.jpg', 480, NULL, 'https://www.hellofresh.com/recipes/slow-cooker-chipotle-pork-sloppy-joes-5a53ade02c3e081a7e34a322', 'HelloFresh.com', 'scallions
+ketchup
+adobo sauce
+white wine vinegar
+crushed tomatoes
+dijon mustard
+garlic powder
+chipotle powder
+ground pork
+shredded carrots
+golden raisins
+brioche buns
+dill pickle
+monterey jack cheese
+sugar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1331, 'Skillet Turkey Enchiladas', 'For many cooks, ground turkey is something to make burgers with and not much else. So we’re hoping to expand everyone’s ground turkey repertoire with these enchiladas. The meat gets tossed with poblano pepper slices and wrapped in a tortilla shell before being smothered by a spiced tomato sauce and covered in cheese. We think it’s so good, you’ll be persuaded to make ground turkey a more regular part of your dinner rotation.', '2021-05-03 16:44:03.177729', '2021-05-03 16:44:03.177729', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/turkey-enchiladas-6b4aa2dc.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/turkey-enchiladas-58b99602c6243b7a1d7ae363', 'HelloFresh.com', 'yellow onion
+poblano pepper
+cilantro
+garlic
+ground turkey
+chipotle powder
+cream cheese
+flour tortilla
+mexican spice blend
+crushed tomatoes
+mozzarella cheese
+mixed greens
+radishes
+lime
+olive oil
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1332, 'Cherry-and-Balsamic-Glazed Pork Chops', 'Part sweet, part tangy, and all-around delicious. That is what’s in store for you tonight with this thick and uber flavorful glaze. We keep the sides simple with roasted broccoli and potatoes to allow the pork to shine. And boy, does it steal the show.', '2021-05-03 16:44:03.276822', '2021-05-03 16:44:03.276822', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cherry-balsamic-glazed-pork-0a469d42.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cherry-balsamic-glazed-pork-58012af5c7262823672dafc2', 'HelloFresh.com', 'boneless pork chops
+balsamic vinegar
+cherry jam
+shallot
+dried thyme
+yukon gold potatoes
+broccoli florets
+butter
+sugar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1333, 'Game-Day Beef Chili', 'Chili is a game-day-grub staple for good reason: it scores a touchdown with pretty much every person’s palate, no matter which team they’re rooting for. In this version, we’re heating things up with poblano pepper, cannellini beans, ground beef, and the dynamic spice duo of chili powder and oregano, then cooling it down just a tad with a dollop of sour cream.', '2021-05-03 16:44:03.349639', '2021-05-03 16:44:03.349639', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/classic-beef-chili-e8652d67.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/classic-beef-chili-5a32a349c94eac72407d7d73', 'HelloFresh.com', 'scallions
+garlic
+poblano pepper
+cannellini beans
+ground beef
+mexican spice blend
+veggie stock concentrate
+crushed tomatoes
+cheddar cheese
+sour cream
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1334, 'Greek Salad Flatbreads', 'Ah, the Greek salad. It’s one of those things that we don’t hesitate to order whenever we see it on a diner menu. The combo of lettuce, olives, feta, and veggies is a classic that can’t go wrong. With this recipe, though, we wanted to take the salad from reliable to radical, tossing its core ingredients on a flatbread and baking in the oven until warm, toasty, and bubbling with melted cheese.', '2021-05-03 16:44:03.428793', '2021-05-03 16:44:03.428793', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w17-r9-veggie-464caf3a.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/w17-r9-veggie-58c2d8f2c6243b3874507bd3', 'HelloFresh.com', 'red onion
+flatbreads
+grape tomatoes
+green olives
+artichokes
+garlic
+feta cheese
+arugula
+fresh mozzarella
+balsamic vinegar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1335, 'Beef Bulgogi Bowls', 'If you can’t get enough of Asian-inspired flavors, bulgogi is sure to leave you satisfied. This Korean dish centers around beef in a sesame and soy sauce marinade with a little bit of sweetness. But the meat is just one out of many highlights: there’s also crisp quick-pickled cucumbers, tender carrots, and a spicy sour cream, all over fluffy white rice—clearly, it’s jam-packed and has a little bit of something for everyone.', '2021-05-03 16:44:03.510859', '2021-05-03 16:44:03.510859', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e712973780e4962821c5a94-0c87e3ff.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/ground-beef-bulgogi-bowls-5e712973780e4962821c5a94', 'HelloFresh.com', 'jasmine rice
+scallions
+white wine vinegar
+cucumber
+shredded carrots
+ground beef
+sesame seeds
+bulgogi sauce
+sour cream
+sriracha
+sugar
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1336, 'Lean Green Steak Machine', 'Steak and veggies is one of those perfect meals for warmer months: you’ve got all the decadent, mouthwatering juiciness of a nice piece of beef, but with seasonal veggies to balance it out and an herb pesto to keep things breezy—just the thing to eat on the patio. In fact, if you have a grill, you can absolutely fire it up and give this recipe the al fresco treatment.', '2021-05-03 16:44:03.608131', '2021-05-03 16:44:03.608131', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lean-green-steak-machine-2e228e67.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lean-green-steak-machine-58d3c6a5043c3c5d66133ac2', 'HelloFresh.com', 'sirloin steak
+zucchini
+red onion
+asparagus
+peas
+mint
+chives
+lemon
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1337, 'Spicy Pork and Kale Soup', 'The combination of thick udon noodles, dark green kale, and spicy pork is great, but the addition of Vietnamese Pho stock is what takes this dish over the top. It has a distinct character that’ll have you slurping down every last drop. Thai chili peppers pack some serious heat, so add with caution!', '2021-05-03 16:44:03.684763', '2021-05-03 16:44:03.684763', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spicy-pork-and-kale-soup-w45-b75ec8b2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/spicy-pork-and-kale-soup-w45-57f66c2dcc7bd02959541ad2', 'HelloFresh.com', 'ground pork
+garlic
+ginger
+chili pepper
+red onion
+pho concentrate
+kale
+soy sauce
+udon noodles
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1338, 'Southwest Tilapia', 'Flaky tilapia takes a trip to the Southwest, thanks to a coating of warm spices like cumin, chili powder, and garlic. After crisping up in the pan, it’s served alongside buttery lime rice and a charred corn salad that’s chock full of fresh veggies and cilantro. For a finishing touch, everything is drizzled with cooling lime crema. This dish is our favorite way to feel summer vibes year round.', '2021-05-03 16:44:03.767874', '2021-05-03 16:44:03.767874', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w31-r13-southwest-tilapia-6acf9437.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w31-r13-southwest-tilapia-5d07cf27cb6dea00126134fe', 'HelloFresh.com', 'corn on the cob
+cucumber
+roma tomato
+lime
+cilantro
+jasmine rice
+tilapia
+southwest spice blend
+sour cream
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1339, 'Teriyaki Salmon', 'It seems that teriyaki tastes good on just about any protein—that’s certainly the case with salmon, at least. The meaty, flavorful fish is a natural fit for the slightly sweet and deeply savory notes of the soy-based sauce. And it’s a fit, too, with the bed of jasmine rice and tender green beans that accompany this dish.', '2021-05-03 16:44:03.863774', '2021-05-03 16:44:03.863774', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/teriyaki-salmon-6e0d7bee.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/teriyaki-salmon-59b1b6457cc0c107763f35d3', 'HelloFresh.com', 'ginger
+scallions
+lime
+green beans
+jasmine rice
+skin-on salmon
+teriyaki sauce
+sesame seeds
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1340, 'Grilled Parmesan Burgers', 'Summertime cooking is all about embracing the thrill of the grill. Which means that this recipe is a thriller, all right, since it features beef patties, onion, and tomato all cooked over the flames and tucked into a brioche bun. Even the corn on the cob on the side is left to get a little charred on the grates, so every single bite has smoky flavor. P.S.: If your grill is still on winter break, no worries—these burgers can also be made in a pan.', '2021-05-03 16:44:03.917356', '2021-05-03 16:44:03.917356', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/grilled-parmesan-burgers-69e57caa.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/grilled-parmesan-burgers-5b0338dcae08b51b070f8b02', 'HelloFresh.com', 'lemon
+rosemary
+garlic
+mayonnaise
+tomato
+red onion
+corn on the cob
+ground beef
+parmesan cheese
+brioche buns
+butter
+sugar
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1341, 'Peppercorn Gravy Steak', 'The essential elements of this recipe are simple: pan-seared steak, broccoli, and toasts with butter and garlic. And simple is just the thing to support a show-stealing sauce. The gravy uses freshly-crushed peppercorns—when you put a little effort into grinding them yourself, you’ll be rewarded with more vivid and vibrant flavors. That’s because the crushing releases essential oils, bringing a whole ’nother dimension to this dish.', '2021-05-03 16:44:03.99086', '2021-05-03 16:44:03.99086', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w31-r4-f1cd8c7c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w31-r4-5b16f8edae08b55bbb5e5232', 'HelloFresh.com', 'garlic
+scallions
+ciabatta bread
+black peppercorns
+broccoli florets
+ranch steak
+beef stock concentrate
+dijon mustard
+sour cream
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1342, 'Beef Taco Flatbreads', 'Beefy, cheesy, spicy, and creamy all add up to big-time taco flavor...but what if you’re craving something a bit more on the wild side? Taco flatbread mashup, anyone?? Swap typical tortillas for our extra-crispy flatbreads, pile on the beef, poblano, tomato, and double cheese, bake until crispy/melty/oozy, and enjoy the fruits of fusion.', '2021-05-03 16:44:04.061775', '2021-05-03 16:44:04.061775', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ceeb1f518a73a0008697a4a-0363dc0b.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/beef-taco-pizzas-5ceeb1f518a73a0008697a4a', 'HelloFresh.com', 'roma tomato
+poblano pepper
+cilantro
+jalapeño
+ground beef
+southwest spice blend
+flatbreads
+mexican cheese blend
+monterey jack cheese
+sour cream
+hot sauce
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1343, 'Bruschetta Chicken', 'Bruschetta, or to some, “broo-sketta,” is one of those foods that’s just as fun to say as it is to eat. The delicious mixture of chopped juicy tomatoes, lemon juice, and strands of fresh basil—usually piled on top of bread—is pretty tough to beat. So our chefs decided to give it a delicious upgrade. This recipe swaps bread (which, let’s be honest, usually gets a bit soggy!) for golden, panko-and-mozzarella-coated chicken breasts. On the side, there’s creamy mashed potatoes studded with bits of crispy bacon and roasted asparagus tossed with bright lemon zest. One bite will transport you to the Italian countryside.', '2021-05-03 16:44:04.150993', '2021-05-03 16:44:04.150993', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d3ef342d6292e001314bfc4-41ca6542.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/bruschetta-chicken-5d3ef342d6292e001314bfc4', 'HelloFresh.com', 'yukon gold potatoes
+asparagus
+panko breadcrumbs
+mozzarella cheese
+italian seasoning
+chicken breasts
+bacon
+lemon
+roma tomato
+basil
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1344, 'Cowboy-Style Chicken Pizzas', 'We’re strapping on our boots and heading to the rodeo to lasso the tastiest toppings in town. These pizzas have as much spiced-up, souped-up swagger as a dancing cowboy. That’s because of feisty ingredients like jalapeño, ancho chili, and barbecue spices, which add extra “yeehaw!” to a base of chicken, cheese, and tomato. So mosey on over to this Southwestern spin on pizza night and grab it by the slice.', '2021-05-03 16:44:04.242973', '2021-05-03 16:44:04.242973', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwestern-chicken-pizzas-76828f0d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/southwestern-chicken-pizzas-5b16fe0d30006c49356a2942', 'HelloFresh.com', 'chicken cutlets
+sweet and smoky bbq seasoning
+chili powder
+jalapeño
+shallot
+roma tomato
+flatbreads
+monterey jack cheese
+sour cream
+butter
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1345, 'Salsa Verde Chicken Enchiladas', 'When it comes to Mexican food, burritos typically get all the glory. In our humble opinion, enchiladas are an unsung dinner hero. They’re technically just easier-to-assemble burritos smothered in a delicious sauce, but they’re really so much more than that! Ours start with spiced chicken and charred poblano all rolled up in warm tortillas. This winning combo gets topped with tangy salsa verde and cheese, then baked until bubbly and melty. Hear that? That’s the sound of the dinner bell!', '2021-05-03 16:44:04.328976', '2021-05-03 16:44:04.328976', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5dfd0bae39b70a23332c4678-f7ebbc67.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/salsa-verde-chicken-enchiladas-5dfd0bae39b70a23332c4678', 'HelloFresh.com', 'poblano pepper
+scallions
+hot sauce
+sour cream
+chicken breast strips
+southwest spice blend
+green salsa
+mexican cheese blend
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1346, 'Truffled New York Strip Steak', 'Steak, potatoes, and veg is a simple equation for a solidly good meal. So how do you take it from good to great, grand, or even glorious? Add a dash of truffle, the king of all fungi. Truffle zest is mixed with butter in this recipe, resulting in a rich condiment that’s perfect for dolloping on strip steak. Carving into this one feels like being transported to the steakhouse of your dreams.', '2021-05-03 16:44:04.413363', '2021-05-03 16:44:04.413363', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ba9285530006c2b6322fca2-f7884c02.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/truffled-new-york-strip-steak-5ba9285530006c2b6322fca2', 'HelloFresh.com', 'yukon gold potatoes
+dried rosemary
+asparagus
+shallot
+scallions
+truffle zest
+new york strip steak
+beef stock concentrate
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1347, 'Sesame Beef Tacos', 'Instead of going the traditional route with these tacos, we decided to mix things up with a Korean-style sesame beef filling. The filling gets a kick from gochugaru—chili flakes traditionally used in dishes like kimchi and bulgogi. It’s an unconventional choice, perhaps, but one that lives up to the maxim that everything tastes better in a tortilla.', '2021-05-03 16:44:04.527245', '2021-05-03 16:44:04.527245', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d9dec4d4ba8497a8c3620d7-a69b0374.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/sesame-beef-tacos-5d9dec4d4ba8497a8c3620d7', 'HelloFresh.com', 'radishes
+persian cucumber
+scallions
+cilantro
+white wine vinegar
+sour cream
+korean chili flakes
+shredded red cabbage
+ground beef
+garlic powder
+sesame oil
+sriracha
+soy sauce
+flour tortillas
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1348, 'Sausage and Spring Pea Risotto', 'Spring has officially sprung! And with it, we find ourselves coming out of casserole-and-stew-laden hibernation and craving food that’s simple, bright, and—of course—delicious. This dish fits the bill perfectly. Creamy and luxurious, risotto is our favorite way to highlight springy flavors. This version has pops of green peas, bites of crispy pork sausage, and is finished with a squeeze of lemon juice. It’s as balanced as it is satisfying, making it pretty much impossible to put down your fork.', '2021-05-03 16:44:04.618088', '2021-05-03 16:44:04.618088', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w22-r5-sausage-and-spring-pea-risotto-36699460.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/2019-w22-r5-sausage-and-spring-pea-risotto-5cb76f2dc445fa41b121e6b2', 'HelloFresh.com', 'italian pork sausage
+shallot
+lemon
+arborio rice
+chicken stock concentrate
+peas
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1349, 'Soy-Marinated Steak', 'Beef and broccoli over rice is a tried-and-true Asian-inspired favorite. But to get it just right, you’ve got to hone in on more than just the beef or the broccoli—really, it’s all about the sauce, which can make or break the dish. Luckily, we’ve got a good one: we’re blending creamy peanut butter with garlic and soy, then drizzling it all over to create waves of savory flavor throughout.', '2021-05-03 16:44:04.677449', '2021-05-03 16:44:04.677449', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5a4e5d0a05346803da500ee2-c8c35e19.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/soy-marinated-steak-5a4e5d0a05346803da500ee2', 'HelloFresh.com', 'garlic
+lime
+scallions
+broccoli florets
+jasmine rice
+beef stir-fry
+soy sauce
+peanut butter
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1350, 'Classic Roasted Salmon', 'When we want a meal that’s satisfying but still full of wholesome ingredients that we can feel good about, we turn to salmon. The fish is not only nice, firm, and meaty, it’s packed with heart-healthy omega-3s. Add some thoughtfully chosen veggies to the side (we’ve opted for green beans and tomatoes this time), along with a smattering of fresh herbs for pizazz, and you’ve got the perfect equation for keeping it hale and hearty during the weeknight hustle and bustle.', '2021-05-03 16:44:04.745078', '2021-05-03 16:44:04.745078', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/classic-roasted-salmon-3e52c492.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/classic-roasted-salmon-59ce4c827901f9567d137723', 'HelloFresh.com', 'heirloom grape tomatoes
+garlic
+dill
+yukon gold potatoes
+green beans
+skin-on salmon fillets
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1351, 'Apricot Pork Cutlets', 'Our favorite way to take dinner to the next level? A delicious, lick-your-plate-clean pan sauce. Here, apricot jam, tangy dijon mustard, and fresh thyme mingle with the fond—the crispy bits and drippings left by the pork—to create a condiment that you’ll want to drizzle over everything. Speaking of, we’re serving up sides of roasted zucchini and thyme-flecked potatoes for maximum dinnertime deliciousness. Jam out!', '2021-05-03 16:44:04.807143', '2021-05-03 16:44:04.807143', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cc217e1427b1c000a6a0409-efc927b6.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w23-r5-apricot-pork-cutlets-5cc217e1427b1c000a6a0409', 'HelloFresh.com', 'zucchini
+yukon gold potatoes
+thyme
+pork cutlets
+apricot jam
+dijon mustard
+chicken stock concentrate
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1352, 'Hoisin Pork Burgers', 'Burgers, meet banh mi. Banh mi, meet burgers. Yeah, we think this is going to be the start of a beautiful friendship. This week, our chefs introduced our two favorite (aforementioned) foods, creating a mash-up for the ages. To do it, they swapped traditional beef for pork, glazed the patties with umami-packed hoisin, and topped them with a tangy cucumber-carrot slaw and sriracha mayo. Everything is sandwiched between squishy potato buns for a burger so delicious, you may find yourself with a new BFF (best food friend, that is).', '2021-05-03 16:44:04.87675', '2021-05-03 16:44:04.87675', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/hoisin-pork-burgers-c8b816cf.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/hoisin-pork-burgers-5d920ed4eae98854a63213d2', 'HelloFresh.com', 'yukon gold potatoes
+carrot
+persian cucumber
+lime
+sesame oil
+mayonnaise
+sriracha
+ground pork
+hoisin sauce
+potato buns
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1353, 'Pan-Seared Chicken with Herbs De Provence', 'Between France’s bistro fare and Italy’s trattoria eats, it’s hard to say which country has the supreme cuisine. In fact, we love both so much that we’re tempted to make a hybrid out of the two and call it Fritalian. So say hello to our border-hopping recipe, which features both chicken seasoned with herbs de Provence (southern France’s trademark seasoning) and a farro caprese that is loaded with classic Italian ingredients, like tomatoes, mozzarella, and balsamic vinegar.', '2021-05-03 16:44:04.959207', '2021-05-03 16:44:04.959207', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w13-r1-a322796a.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w13-r1-589ca9cb51d3f15df4662ce3', 'HelloFresh.com', 'chicken breasts
+farro
+grape tomatoes
+herbes de provence
+balsamic vinegar
+honey
+shallot
+fresh mozzarella
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1354, 'Rachael Ray''s Grilled Buffalo Chicken', 'You’re a key ingredient in the fight against AIDS. Just ask Rachael Ray, whose grilled buffalo chicken recipe was specially crafted for EAT (RED) SAVE LIVES. Featuring a crisp carrot celery slaw, creamy mashed potatoes, and chicken breasts coated in a sauce that’s positively (RED) hot, it’s got all the elements of a dinner classic done right.', '2021-05-03 16:44:05.039586', '2021-05-03 16:44:05.039586', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/rachael-rays-grilled-buffalo-chicken-2e08f497.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/rachael-rays-grilled-buffalo-chicken-590c7e50d56afa54087cb232', 'HelloFresh.com', 'russet potatoes
+scallions
+celery
+carrots
+white wine vinegar
+chicken breasts
+frank''s redhot
+sour cream
+celery salt
+olive oil
+butter
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1355, 'Prosciutto-Wrapped Chicken', 'This, folks, is not your average chicken dinner. Our chefs added tons of restaurant-level flair (with almost no effort!) by wrapping chicken breasts in salty, savory prosciutto. Once seared, it crisps to perfection. For a finishing touch, it’s drizzled with a lemony pan sauce. The sides aren’t too shabby, either. Creamy mashed potatoes are swirled with minced chives and sumptuous truffle zest, and roasted green beans are tossed with lemon zest and a sprinkle of chili flakes for a kick.', '2021-05-03 16:44:05.14431', '2021-05-03 16:44:05.14431', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w28-r16-prosciutto-wrapped-chicken-33758ea2.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2019-w28-r16-prosciutto-wrapped-chicken-5ceed8d1ffeeeb0009630fe7', 'HelloFresh.com', 'yukon gold potatoes
+lemon
+chicken breast
+prosciutto
+green beans
+chili flakes
+chives
+sour cream
+truffle zest
+chicken stock concentrate
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1356, 'Sizzlin'' Saigon Steak Bowls', 'There are few things more satisfying than steak for dinner. Until now! These beefy bowls are hearty, filling, and most of all—absolutely delicious. There’s tender steak simmered with garlic and soy sauce piled atop fluffy white rice along with a pickley cucumber salad and lime-spiked sriracha mayo. For a finishing touch, everything is sprinkled with chopped peanuts. One bite will have you totally bowled over.', '2021-05-03 16:44:05.271903', '2021-05-03 16:44:05.271903', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sizzlin-saigon-steak-bowls-55aa81ad.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sizzlin-saigon-steak-bowls-5dc0485c96a80f298862f05f', 'HelloFresh.com', 'garlic
+jasmine rice
+persian cucumber
+cilantro
+lime
+chili pepper
+shredded carrots
+mayonnaise
+sriracha
+diced steak
+soy sauce
+peanuts
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1357, 'Italian Ciabatta Cheeseburgers', 'Burgers are about as all-American as you can get (bonus points for making them at your all-American cookout). But that doesn’t mean they don’t have dreams of voyaging to faraway places. These mozzarella-topped patties with balsamic greens on ciabatta are what happens when cheeseburgers take a trip to Italy. In fact, their dolce vita attitude made them a hit with our happy cooks last time, which is why we’re adding this recipe to the HelloFresh Hall of Fame.', '2021-05-03 16:44:05.366668', '2021-05-03 16:44:05.366668', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/italian-ciabatta-cheeseburgers-fb9efe2a.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/italian-ciabatta-cheeseburgers-5964eb93043c3c2fff30da32', 'HelloFresh.com', 'red onion
+garlic
+tomato paste
+balsamic vinegar
+ground beef
+mozzarella cheese
+ciabatta bread
+heirloom grape tomatoes
+mixed greens
+dried cranberries
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1358, 'Maple And Mustard Glazed Pork Chops', 'Dinnertime usually means savory, but there are some amazing ways to make it sweet. Like by creating a glaze out of maple syrup, as we’ve done here on these pork chops. It gives you a little bit of breakfast-y comfort while staying perfectly hearty. Pop some cinnamon sweet potatoes and buttery green beans on the side, and you’ve got the best of all worlds.', '2021-05-03 16:44:05.446257', '2021-05-03 16:44:05.446257', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/maple-glazed-pork-chops-3f43e7a4.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/maple-glazed-pork-chops-5c50a895e3f33904ba4ca372', 'HelloFresh.com', 'yukon gold potatoes
+thyme
+lemon
+maple syrup
+dijon mustard
+chicken stock concentrate
+pork chops
+fall harvest spice blend
+mixed greens
+dried cranberries
+sunflower seeds
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1359, 'One-Pot Cheese Tortelloni', 'To paraphrase a certain pop legend, “If you like it then you should put a ring on it.” Well, we’ve put rings all over our true love, kale. They may be tortelloni rings, but hey, it’s OK because when it comes to deliciousness, they’re about as precious as can be. We’ve also invited all of our favorite pals to be in the wedding party, like heirloom grape tomatoes, zesty lemon, and Parmesan cheese.', '2021-05-03 16:44:05.540771', '2021-05-03 16:44:05.540771', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w31-r8-383b7f31.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/w31-r8-5b16fa99ae08b55d5e3718c2', 'HelloFresh.com', 'kale
+heirloom grape tomatoes
+garlic
+lemon
+cheese tortelloni
+chili flakes
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1360, 'Speedy Spinach Ricotta Ravioli', 'Mamma mia! Here’s some perfect pasta prepared at pronto speed. It starts with a few chopped veggies and chicken sausage crumbles that cook up quickly in the pan. Once you’ve got your water boiling, in go the ravioli, which become perfectly al dente in a flash since they’re fresh. After that, all you gotta do is stir in the creamy sauce and put it on a plate. Then you mangiare! Mangiare! Just like mamma would’ve said.', '2021-05-03 16:44:05.61875', '2021-05-03 16:44:05.61875', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spinach-ricotta-ravioli-4a5f4db5.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/spinach-ricotta-ravioli-5a2b0736a5ed1923cf7d8932', 'HelloFresh.com', 'italian chicken sausage mix
+scallions
+roma tomato
+lemon
+italian seasoning
+spinach ricotta ravioli
+chicken stock concentrate
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1361, 'Honey-and-Ginger-Glazed Chicken', 'Vinegar, soy sauce, ginger, and honey combine for a ridiculously easy and incredibly flavorful sweet-and-sour glaze. It’s meant to coat the chicken, but we have a feeling you’ll be sneaking some on the rice and crispy snap peas as well.', '2021-05-03 16:44:05.70164', '2021-05-03 16:44:05.70164', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/honey-ginger-glazed-chicken-0e0da532.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/honey-ginger-glazed-chicken-57b4c27f544b18c07c8b4568', 'HelloFresh.com', 'chicken breasts
+ginger
+garlic
+soy sauce
+chicken stock concentrate
+honey
+white wine vinegar
+sugar snap peas
+lime
+jasmine rice
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1362, 'Wild (Apri)Caught Salmon', 'Wild sockeye salmon is delicious and luxurious on its own, but our chefs found a way to make it truly incredible thanks to a fruity pan sauce. Rich stock, apricot jam, dried apricots, lemon juice, and chili powder mingle to create an elixir you’ll want to drizzle over everything. (And now you can!) As if that weren’t enough, there’s also sides of roasted carrots tossed with lemon zest and buttery pistachio-studded rice. Here’s to living your best life.', '2021-05-03 16:44:05.786661', '2021-05-03 16:44:05.786661', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/wild-apri-caught-salmon-23e92f68.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/wild-apri-caught-salmon-5e430bb4fa03b737b7369174', 'HelloFresh.com', 'carrots
+scallions
+lemon
+jasmine rice
+wild sockeye salmon
+seafood stock concentrate
+apricot jam
+dried apricots
+ancho chili powder
+pistachios
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1363, 'Steelhead Trout in Cranberry Dijon Sauce', 'Fishing for a delicious dinner? We’ve got just the thing. Here, we season steelhead trout fillets with zesty spices, then pan-sear until the skin is crisp and the fish is flaky. Because we can’t get enough of sweet-and-savory combos, we spoon over a sauce of tart cranberry jam, fresh thyme, tangy Dijon, lemon juice, and butter. Our crème fraîche chive mashed potatoes make a decadently creamy side, which we pair with pecan-studded green beans and carrots for satisfying crunch. Prepare to knock the socks off your lucky dining companions (that is, if you feel like sharing…).', '2021-05-03 16:44:05.885448', '2021-05-03 16:44:05.885448', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/steelhead-trout-in-cranberry-dijon-sauce-8fc27b70.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/steelhead-trout-in-cranberry-dijon-sauce-5f28590175d00c594f0ec577', 'HelloFresh.com', 'yukon gold potatoes
+chives
+carrots
+thyme
+lemon
+crème fraîche
+green beans
+fry seasoning
+steelhead trout
+cranberry jam
+dijon mustard
+pecans
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1364, 'Vietnamese Chicken Bowls', 'We love Vietnamese cuisine because it embraces flavors that are big, bright, and dazzling without feeling heavy. This recipe is a great example because it combines chicken, rice, and crisp veggies in a way that is incredibly well-balanced. The meat is drizzled in a savory-spicy sauce with soy, lime, and sriracha. Next to it, there’s fluffy jasmine rice and a zesty carrot and cucumber salad with cilantro. When piled together in a bowl, it’s simple, satisfying dinner perfection.', '2021-05-03 16:44:06.000167', '2021-05-03 16:44:06.000167', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d2ca6625839a1000a511a3b-50192539.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/vietnamese-chicken-bowls-5d2ca6625839a1000a511a3b', 'HelloFresh.com', 'garlic
+persian cucumber
+cilantro
+lime
+chili pepper
+shredded carrots
+jasmine rice
+chicken cutlets
+soy sauce
+sriracha
+mayonnaise
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1365, 'Pan-Seared Sirloin and Savory Demi-Glace Sauce', 'The best part about eating at a steakhouse? The side dishes! Well, that and having someone to clear your plates and do the dishes for you. It’s true, the steak is of utmost importance (it’s why you came!), but the hearty, flavorful sides are anything but supporting characters. Lucky for you, this dish is combines the best of both worlds. Juicy sirloin is seared to perfection and topped with a savory pan sauce, then paired with a heap of creamy mashed sweet potatoes and crispy, caramelized Brussels sprouts tossed with toasted almonds and lemon zest. Check, please!', '2021-05-03 16:44:06.11753', '2021-05-03 16:44:06.11753', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w10-r16-c734393b.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/2019-w10-r16-5c47886fc445fa66c31b7ac2', 'HelloFresh.com', 'sweet potato
+lemon
+chives
+brussels sprouts
+sour cream
+almonds
+sirloin steak
+beef demi-glace
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1366, 'One-Pot Tortilla Soup', 'Tortilla soup is one of the classics of traditional Mexican cuisine for good reason—it’s just as soul-warming and cozy as your typical tomato and veggie soup, but with the crunch of crispy tortillas and an added whisper of chile heat. Our version also introduces black beans and corn to make it extra hearty, plus avocado and cheddar cheese for a creamy finish.', '2021-05-03 16:44:06.189289', '2021-05-03 16:44:06.189289', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w10-r09-f44bc311.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w10-r09-588bad834348d257a87c61c2', 'HelloFresh.com', 'green bell pepper
+yellow onion
+garlic
+mexican spice blend
+black beans
+crushed tomatoes
+jalapeño
+veggie stock concentrate
+corn
+avocado
+cheddar cheese
+tortilla chips
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1367, 'Crispy Parmesan Chicken', 'Consider plain chicken breasts a thing of the past: in this recipe, the white meat gets gussied up in a gorgeous golden breadcrumb topping with paprika and Parmesan cheese. You’ll roast it and the lemony green beans on the same sheet—once they’re in the oven, the only thing left to do is boil the couscous and toss in the garlic herb butter. Simple, satisfying, and supercharged with flavor—what more could you ask for?', '2021-05-03 16:44:06.271878', '2021-05-03 16:44:06.271878', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5deac7c58f5e5029d02151b0-a6d38e25.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/crispy-parmesan-chicken-5deac7c58f5e5029d02151b0', 'HelloFresh.com', 'scallions
+lemon
+panko breadcrumbs
+parmesan cheese
+hot smoked paprika
+chicken breasts
+sour cream
+green beans
+israeli couscous
+garlic herb butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1368, 'Kickin'' Chicken Stir-Fry', 'We like to call this one Kickin’ Chicken because it knocks things out of the park in several ways. First, there’s the fact that it’s super quick and easy and can be on the table in as little as 25 minutes. But you’ve also got a flavor kick from the honey sriracha glaze that coats everything in a sweet and savory sheen with just the right amount of heat. Although really it all comes down to how the chicken strips, bell pepper, and rice come together to make this one balanced and satisfying feast.', '2021-05-03 16:44:06.346177', '2021-05-03 16:44:06.346177', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/kickin-chicken-stir-fry-d31258f2.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/kickin-chicken-stir-fry-5b5b4a7b30006c3e245cd832', 'HelloFresh.com', 'scallions
+jasmine rice
+bell pepper
+lime
+garlic
+soy sauce
+honey
+sriracha
+chicken breast strips
+sesame oil
+sesame seeds
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1369, 'Korean Beef Bibimbap', 'This dish takes its name from the Korean word for mixing rice. Which is exactly what you’re meant to do after serving it: you put your rice in a bowl, add the toppings, and mix it all together so that those flavors and textures combine in a glorious mishmash. There are plenty of flavors and textures going on here, too, like sweet carrot, juicy zucchini, and beef tossed with garlic, ginger, and soy.', '2021-05-03 16:44:06.432046', '2021-05-03 16:44:06.432046', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ab3b883ae08b53bb4024952-cd6ea4a4.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/korean-beef-bibimbap-5ab3b883ae08b53bb4024952', 'HelloFresh.com', 'zucchini
+button mushrooms
+scallions
+carrots
+ginger
+garlic
+jasmine rice
+white wine vinegar
+sesame oil
+sriracha
+soy sauce
+ground beef
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1370, 'Bruschetta Chicken', 'Bruschetta, or to some, “broo-sketta,” is one of those foods that’s just as fun to say as it is to eat. The delicious mixture of chopped juicy tomatoes, lemon juice, and fresh herbs—usually piled on top of bread—is pretty tough to beat. So our chefs decided to give it a delicious upgrade. This recipe swaps bread (which, let’s be honest, usually gets a bit soggy!) for golden, panko-and-mozzarella-coated chicken cutlets. On the side, there’s creamy mashed potatoes studded with bits of crispy bacon and roasted broccoli tossed with bright lemon zest. One bite will transport you to the Italian countryside.', '2021-05-03 16:44:06.529541', '2021-05-03 16:44:06.529541', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/bruschetta-chicken-2feee748.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/bruschetta-chicken-5fa07b9a09eb0b4ae3165ac6', 'HelloFresh.com', 'yukon gold potatoes
+broccoli florets
+panko breadcrumbs
+mozzarella cheese
+italian seasoning
+chicken cutlets
+bacon
+lemon
+roma tomato
+green herb blend
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1371, 'Pulled Chicken Rice Bowls', 'We’re helping you get one big step closer to slow-cooked perfection with our ready-to-heat pulled chicken. We’ve already taken care of making the meat pull-apart tender; you’ve just got to warm it up with some spices for extra flavor. You’ll be serving it on top of fluffy jasmine rice with some fresh tomato salsa and sour cream to keep things cool.', '2021-05-03 16:44:06.62294', '2021-05-03 16:44:06.62294', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pulled-chicken-rice-bowls-c50dc146.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/pulled-chicken-rice-bowls-5d5174f9162d6f000e724dc6', 'HelloFresh.com', 'jasmine rice
+red onion
+green bell pepper
+roma tomato
+cilantro
+lime
+pulled chicken
+fajita spice blend
+chicken stock concentrate
+monterey jack cheese
+sour cream
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1372, 'Crab Cakes over Risotto Fra Diavolo', 'Feeling devilish? Then you’ll love our take on the classic spicy tomato and shellfish dish, fra diavolo. This Italian-American staple got a tasty upgrade with a few twists that make it totally sinful. First, our chefs swapped pasta for a rich and creamy risotto. And while the “brother devil” sauce is usually paired with shrimp or lobster, ours is topped with next-level-luxurious crab cakes. They’re crispy and sweet on their own, but to-die-for once dolloped with a lemon and chili compound butter. On the side, there’s a fresh green salad--we had to be a little virtuous, right?', '2021-05-03 16:44:06.730705', '2021-05-03 16:44:06.730705', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5c50b651c445fa198f1986a2-698bc5f3.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/2019-w12-r11-5c50b651c445fa198f1986a2', 'HelloFresh.com', 'veggie stock concentrate
+garlic
+shallot
+whole peeled tomatoes
+lemon
+arborio rice
+dried oregano
+chili flakes
+crab cakes
+mixed greens
+parmesan cheese
+olive oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1373, 'Pork Medallions with Tarragon Cream Sauce, Crispy Brussels Sprouts, and New Potatoes', 'This elegant dish is simple enough for any weeknight meal. Slicing pork tenderloin into medallions allows for maximum surface caramelization. Served with shredded Brussels sprouts, creamy new potatoes, and a rich tarragon cream sauce, this six-ingredient dinner is worthy of any dinner party.', '2021-05-03 16:44:06.842017', '2021-05-03 16:44:06.842017', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/56269915fd2cb972218b4567.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/pork-medallions-with-tarragon-cream-sauce-crispy-brussels-sprouts-and-new-potatoes-56269915fd2cb972218b4567', 'HelloFresh.com', 'pork tenderloin
+brussels sprouts
+sour cream
+yukon gold potatoes
+chicken stock concentrate
+tarragon
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1374, 'Honey-Glazed Pork Tenderloin', 'The sweet and savory combination of honey, thyme, and chicken stock makes for a delectable glaze over juicy pork tenderloin. Roasted sweet potatoes and crispy roasted green beans complete this seasonal plate.', '2021-05-03 16:44:06.885252', '2021-05-03 16:44:06.885252', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/56a6ae9ef8b25efa558b4568.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/glazed-pork-tenderloin-56a6ae9ef8b25efa558b4568', 'HelloFresh.com', 'thyme
+chicken stock concentrate
+sweet potato
+green beans
+honey
+garlic
+pork tenderloin
+olive oil
+salt
+pepper
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1375, 'One-Pan Orzotto Italiano', 'Pasta night just got so easy, it’s ridiculous. Everything in this recipe (and we really mean everything) comes together in a single pan. And since the orzo is cooked risotto-style, with the minimal amount of water it needs to get al dente, you don’t even have to drain it. The only thing that’s not minimal is the flavor: with chicken sausage, warmed tomatoes, and Parmesan and mozzarella cheeses, taste-wise, it’s about as big and bold as you can get.', '2021-05-03 16:44:06.978226', '2021-05-03 16:44:06.978226', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5cf03aa8b9565e000d58444d-af5ba970.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/one-pan-orzo-italiano-5cf03aa8b9565e000d58444d', 'HelloFresh.com', 'garlic
+spinach
+lemon
+grape tomatoes
+parsley
+italian chicken sausage mix
+orzo pasta
+italian seasoning
+chicken stock concentrate
+mozzarella cheese
+panko breadcrumbs
+parmesan cheese
+olive oil
+salt
+black pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1376, 'Breakfast Grilled Cheese Tacos', 'If you’re anything like us, the words “grilled cheese tacos” should be enough to make your mouth water and drive you into an obsessive frenzy. Now what if we told you that you could have ’em for breakfast? Yes, dreams do come true. These grilling cheese-stuffed tortillas also feature a medley of brightly colored veggies, meaning that you can satisfy any dairy cravings and start your day off with a handheld pocket of nutritious deliciousness.', '2021-05-03 16:44:07.044712', '2021-05-03 16:44:07.044712', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/15-12-307959bd.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/15-12-58af249d043c3c4ccf75c533', 'HelloFresh.com', 'flour tortilla
+avocado
+cilantro
+roma tomato
+shallot
+lime
+sweet potato
+grilling cheese
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1377, 'Chicken Cheddar Fajitas', 'Fajitas are like a good friend—the one who never seems to change or age. Their combination of seared strips of meat, lightly charred veggies, and Tex-Mex-style toppings inside a soft tortilla is as reliable as can be. And they’ll always be there when you don’t know what to do (about dinner, that is). Our chicken version is just as familiar and comforting as you’d expect, although we couldn’t help throwing in some fiery pickled jalapeño to keep things interesting.', '2021-05-03 16:44:07.104344', '2021-05-03 16:44:07.104344', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-cheddar-fajitas-a26803c3.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/chicken-cheddar-fajitas-5de6cecef4d7307d823bb545', 'HelloFresh.com', 'red onion
+bell pepper
+jalapeño
+lime
+southwest spice blend
+sour cream
+chicken breasts
+flour tortillas
+cheddar cheese
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1378, 'Bulgogi Chicken Thigh Tacos', 'Korean and Mexican flavors may seem like they’re at opposite ends of the culinary spectrum. But when they meet in the middle, the results are absolutely delicious. These mashup tacos feature chicken in bulgogi sauce—a Korean-style marinade of soy sauce and sesame with a little bit of sweetness. When you tuck that into tortillas with cabbage, pickled cucumber, and a spicy crema, it feels like a border-hopping celebration in your mouth.', '2021-05-03 16:44:07.179569', '2021-05-03 16:44:07.179569', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/bulgogi-chicken-thigh-tacos-6b326c3a.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/bulgogi-chicken-thigh-tacos-5a6f4648ae08b57dba1da302', 'HelloFresh.com', 'scallions
+persian cucumber
+white wine vinegar
+chicken thighs
+shredded red cabbage
+bulgogi sauce
+sour cream
+sriracha
+flour tortillas
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1379, 'Sausage and Roasted Bell Pepper Pasta', 'Are you the type of person who only goes to baseball games for that huge Italian hoagie stuffed with sausage and peppers? We’re with you. This week, our chefs took the beloved dish from stadium fare to elegant weeknight dinner with a few delicious twists. First, they dropped the hoagie and replaced it with twisty cavatappi pasta. Its nooks are perfect for clinging to silky roasted garlic tomato sauce studded with crispy bits of sausage. Bell pepper is roasted to bring out depth and sweetness, then thinly sliced and swirled in. Plus, there’s cheese both in the sauce and sprinkled on top. It’s safe to say this dish knocks it out of the park.', '2021-05-03 16:44:07.264987', '2021-05-03 16:44:07.264987', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sausage-and-roasted-red-pepper-gemelli-66f84a41.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sausage-and-roasted-red-pepper-gemelli-5d893ee3e1869b54b130ca48', 'HelloFresh.com', 'bell pepper
+chili pepper
+three little pigs pork sausage
+garlic
+cavatappi pasta
+tomato paste
+sour cream
+parmesan cheese
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1380, 'Chili Lime Steak', 'Kid-friendly and adult-approved: it’s not an easy feat, but this recipe nails it. There’s plenty of variety and flavor for more sophisticated palates, like in the cumin-spiced rice, corn tomato salad, and robust steak topped with chili lime butter. But it’s still well-balanced and stays away from extremes, playing it just safe enough, even for picky eaters.', '2021-05-03 16:44:07.359194', '2021-05-03 16:44:07.359194', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chili-lime-steak-49813d40.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chili-lime-steak-5b106e6cae08b53a37610bb2', 'HelloFresh.com', 'corn
+scallions
+garlic
+roma tomato
+lime
+cumin
+basmati rice
+ranch steak
+chili lime butter
+olive oil
+sugar
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1381, 'Creamy Corn and Pancetta Chowder', 'We couldn’t be prouda of this chowda! Our chefs have found the perfect spot between rich flavor and light, summery vibes in this soup recipe. The trick to striking that balance is gently mashing the potatoes into the milk-based broth, which creates a creamy, velvety consistency without feeling heavy. To keep things easy-breezy, there’s also a spinach, pecan, and cranberry salad on the side, plus toasty naan flatbreads.', '2021-05-03 16:44:07.471846', '2021-05-03 16:44:07.471846', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w32-r14-991f413b.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/w32-r14-5b1ff23930006c6100595fc2', 'HelloFresh.com', 'yukon gold potatoes
+yellow onion
+scallions
+lime
+flour
+milk
+chicken stock concentrate
+pancetta
+corn
+naan bread
+sour cream
+spinach
+dried cranberries
+honey sesame pecans
+cheddar cheese
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1382, 'Tater-Topped Pot Pie', 'Chicken pot pie is an oldie and a goodie. Who can resist a filling of meat and veg in gravy under a golden crust? But making it with the traditional pie dough can be time-consuming, which is why we’re introducing a quick fix that makes it do-able any night of the week. By using sliced Yukon potatoes, you can simply lay the spuds on top, pop the pie in the oven, then broil ’til it’s browned and gorgeous.', '2021-05-03 16:44:07.604608', '2021-05-03 16:44:07.604608', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w09-r01-f58c6b24.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/w09-r01-58821e8a4348d25681058572', 'HelloFresh.com', 'yukon gold potatoes
+yellow onion
+button mushrooms
+chicken breasts
+chicken stock concentrate
+sour cream
+cheddar cheese
+panko breadcrumbs
+peas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1383, 'Melty Monterey Jack Burgers', 'There are a lot of burger recipes out there, we know. But we like to think that this is the burger that tops all burgers, thanks to oozy, melty Monterey Jack cheese and jammy balsamic onions. Oh, and we should mention that this patty comes with breaded zucchini on the side, so you can get your fix of crispy, crunchy finger foods and a dose of veg all in one.', '2021-05-03 16:44:07.672382', '2021-05-03 16:44:07.672382', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/melty-monterey-jack-burgers-91629a9b.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/melty-monterey-jack-burgers-5e8ce4b40f542370e771a9d7', 'HelloFresh.com', 'garlic
+yellow onion
+zucchini
+mayonnaise
+balsamic vinegar
+panko breadcrumbs
+dried oregano
+ground beef
+monterey jack cheese
+potato buns
+ketchup
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1384, 'Maple and Mustard-Glazed Pork Chops', 'Maple syrup and mustard are a perfect example of what happens when opposites attract. Maple is friendly and fun, with a sweetness that even the pickiest young eaters will love. Mustard, on the other hand, is feisty, bringing a little somethin’ somethin’ for the adults. Mix the two together and put them on pork, and you’ve got a meal the whole family will rave about.', '2021-05-03 16:44:07.756865', '2021-05-03 16:44:07.756865', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5aaac5b730006c57cb431272-a70d0837.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/maple-and-mustard-glazed-pork-chops-5aaac5b730006c57cb431272', 'HelloFresh.com', 'fingerling potatoes
+thyme
+lemon
+maple syrup
+dijon mustard
+chicken stock concentrate
+pork chops
+fall spice blend
+mixed greens
+dried cranberries
+pine nuts
+olive oil
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1385, 'Pineapple Poblano Beef Tacos', 'What’s sweet and nice with a little bit of spice? These tacos! Filled with beef tossed in our blend of warm, earthy spices and topped with a fruity pineapple salsa, they’ve got a perfectly pleasant personality with just a little bit of a wild streak. And just in case you’re not convinced that they’re as congenial as can be, let it be known that they can be prepared in a jiff and are super-duper easy.', '2021-05-03 16:44:07.848565', '2021-05-03 16:44:07.848565', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d60394f053f38001054c40a-59c2872a.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/pineapple-poblano-beef-tacos-5d60394f053f38001054c40a', 'HelloFresh.com', 'red onion
+poblano pepper
+roma tomato
+cilantro
+lime
+pineapple
+sour cream
+southwest spice blend
+ground beef
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1386, 'Grilled Cheese Tacos', 'If you’re anything like us, the words “grilled cheese tacos” should be enough to make your mouth water and drive you into an obsessive frenzy. Now what if we told you that you and your family could have ’em for dinner? Yes, dreams do come true. These grilling cheese–stuffed tortillas hold a medley of brightly colored veggies as well, meaning that you’ll also have pockets of nutritious deliciousness in your hands.', '2021-05-03 16:44:07.931033', '2021-05-03 16:44:07.931033', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/grilled-cheese-tacos-c45d0080.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/grilled-cheese-tacos-59ce4cac7901f95b727bbef3', 'HelloFresh.com', 'sweet potato
+roma tomato
+cilantro
+radishes
+shallot
+grilling cheese
+avocado
+lime
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1387, 'Sriracha Cha-Cha Chicken', 'Chicken breasts with sweet potatoes and broccoli may not be anything new, but the way in which our chefs have dressed them up certainly is. In this twist on your classic protein, starch, and veg, a hoisin glaze is used to add a layer of sweet, Asian-style flavor to the meat. Then, the broccoli on the side is tossed with ginger to give it extra zing. The sweet potatoes, however, are already a powerhouse and are simply roasted to let them shine.', '2021-05-03 16:44:08.011008', '2021-05-03 16:44:08.011008', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sriracha-cha-cha-chicken-9edb78a3.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sriracha-cha-cha-chicken-5c0ad60dc445fa4fe1221017', 'HelloFresh.com', 'ginger
+scallions
+sweet potato
+broccoli florets
+chicken breasts
+hoisin sauce
+sriracha
+honey
+sesame seeds
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1388, 'El Paso Pork Burgers', 'Ketchup-slathered burgers are due to be broken out of their comfort zone, and luckily, our chefs know allll the tricks. This recipe takes the classic dinner for a trip out West. Monterey Jack-stuffed, Southwest-spiced pork patties are piled between toasty buns with garlic mayo and roasted poblano and onion wedges. On the side, there’s a heap of garlicky oven fries (because how could we not)?', '2021-05-03 16:44:08.096573', '2021-05-03 16:44:08.096573', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/el-paso-pork-burgers-aff46e9e.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/el-paso-pork-burgers-5e5eab64ce72995cc061a4d0', 'HelloFresh.com', 'yukon gold potatoes
+southwest spice blend
+garlic powder
+poblano pepper
+red onion
+ground pork
+monterey jack cheese
+mayonnaise
+potato buns
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1389, 'Chicken Sausage Gemelli Bolognese', 'A bowl of pasta never fails to satisfy--it’s quick, carby, comforting, and our total winter weather go-to. When you add sweet Italian chicken sausage, tender bites of zucchini, and Parmesan to the equation, you’ve reached another level of deliciousness entirely. Ready to enjoy bite after bite of twisty gemelli pasta cloaked in this creamy, flavor-boosted bolognese? We thought so.', '2021-05-03 16:44:08.184481', '2021-05-03 16:44:08.184481', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sausage-gemelli-bolognese-f24ef853.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/sausage-gemelli-bolognese-5d8148e9075dc40549712657', 'HelloFresh.com', 'yellow onion
+zucchini
+tuscan heat spice
+gemelli pasta
+italian chicken sausage mix
+tomato paste
+chicken stock concentrate
+sour cream
+parmesan cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1390, 'Lemon Butter Trout', 'Looking for a meal that’s light, bright, and super satisfying? You’ve come to the right place! This dish is all that and then some. Trout fillets are pan-seared and served alongside horseradish and chive-flecked mashed potatoes and asparagus amandine (that’s French for “tossed with some toasted almonds”). For a dynamic finish, the trout is drizzled with a buttery, lemony pan sauce. You’ll definitely want to keep this delicious recipe in your back pocket for the next time you’re craving some Parisian fare.', '2021-05-03 16:44:08.304666', '2021-05-03 16:44:08.304666', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ea82d9ab0890671e00b243f-7395b8eb.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lemon-butter-trout-5ea82d9ab0890671e00b243f', 'HelloFresh.com', 'yukon gold potatoes
+asparagus
+chives
+lemon
+steelhead trout
+fry seasoning
+horseradish powder
+milk
+veggie stock concentrate
+olive oil
+butter
+salt
+pepper
+almonds
+vegetable oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1391, 'Garlic Herb Butter Steak & Lobster Tail', 'No need to make a reservation at a fancy French bistro—bring the white tablecloth vibes to your dinner table with this surf ‘n’ turf dish. Lobster tails are basted with a rich, aromatic garlic herb butter, which is also used to top perfectly seared steaks. The duo’s paired with lemony roasted broccoli, plus an epic twist on your traditional mashed potatoes. Our secret? We blend in butter, chives, and a generous dollop of crème fraîche for ultimate silky goodness. Bon appétit!', '2021-05-03 16:44:08.396391', '2021-05-03 16:44:08.396391', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/605a5b8f07d58a44b76a6d03-2afe52bb.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/garlic-herb-butter-steak-lobster-tail-605a5b8f07d58a44b76a6d03', 'HelloFresh.com', 'chives
+lobster tails
+crème fraîche
+bold & savory steak spice
+lemon
+yukon gold potatoes
+broccoli florets
+ranch steak
+vegetable oil
+butter
+salt
+pepper
+olive oil
+garlic herb butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1392, 'Pesto Tortelloni Bake', 'This skillet pasta bake truly is one-pan cooking at its finest—even the sauce thickens in the pan while the tortelloni cook. Although it’s got plenty of creamy, comforting elements, this dish also has tons of green to keep things fresh. Asparagus spears are folded in to keep things snappy, while basil pesto adds an herby touch throughout.', '2021-05-03 16:44:08.485257', '2021-05-03 16:44:08.485257', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/spring-tortellini-gratin-061fcd1f.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/spring-tortellini-gratin-58b99790d56afa18711667a3', 'HelloFresh.com', 'milk
+parmesan cheese
+pesto
+asparagus
+garlic
+panko breadcrumbs
+veggie stock concentrate
+cheese tortelloni
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1393, 'No-Fuss Pesto Chicken', 'Pesto: you’ve had it on pasta or maybe as a dip. Let us introduce you to yet another way to use this Italian favorite. Here, we’re spreading it onto oven-roasted chicken breasts, using it as a glue to hold down a layer of panko breadcrumbs. That way, you get herby aromatics, meaty juices, and crispy golden goodness in every bite. Sounds like a crowd-pleaser to us.', '2021-05-03 16:44:08.553728', '2021-05-03 16:44:08.553728', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ad7ba0e30006c1bc70b13e2-2a334012.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/no-fuss-pesto-chicken-5ad7ba0e30006c1bc70b13e2', 'HelloFresh.com', 'yukon gold potatoes
+panko breadcrumbs
+mozzarella cheese
+chicken breasts
+pesto
+lemon
+mixed greens
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1394, 'Pork and Poblano Tacos', 'Shake up taco night with an unexpected topping: kiwi salsa! The fruit is a surprisingly good fit next to south-of-the-border flavors, bringing sweetness and tanginess that matches the ground pork seasoned with our Mexican spice blend. It’s balanced out by a cool lime crema and tender pieces of poblano pepper, coming together in a taste adventure unlike anything else you’ve ever experienced in a tortilla.', '2021-05-03 16:44:08.624268', '2021-05-03 16:44:08.624268', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pork-and-poblano-tacos-1a336ec5.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/pork-and-poblano-tacos-5d35c6b276961900177709c0', 'HelloFresh.com', 'red onion
+poblano pepper
+roma tomato
+kiwi
+cilantro
+lime
+sour cream
+mexican spice blend
+ground pork
+chicken stock concentrate
+tomato paste
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1395, 'Creamy Dreamy Linguine', 'Mushrooms in a creamy sauce never fails to hit the spot when you’re looking for pure comfort food. In this recipe, we’re incorporating those classic flavors into a tangle of al dente linguine pasta. Garlic, lemon, and anise-scented tarragon add uplifting accents and give the dish a deeply savory dimension.', '2021-05-03 16:44:08.729028', '2021-05-03 16:44:08.729028', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/creamy-fettucine-with-mushrooms-f68c873c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamy-fettucine-with-mushrooms-586bddd16121bb4e6e543312', 'HelloFresh.com', 'linguine
+button mushrooms
+lemon
+garlic
+red onion
+tarragon
+sour cream
+parmesan cheese
+veggie stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1396, 'Melty Monterey Jack Burgers', 'There are a lot of burger recipes out there, we know. But we like to think that this is the burger that tops all burgers, thanks to oozy, melty Monterey Jack cheese and jammy balsamic onions. Oh, and we should mention that this patty comes with breaded zucchini on the side, so you can get your fix of crispy, crunchy finger foods and a dose of veg all in one.', '2021-05-03 16:44:08.815536', '2021-05-03 16:44:08.815536', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/melty-monterey-jack-burgers-9af15055.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/melty-monterey-jack-burgers-5a7a2dd930006c43d7099ef2', 'HelloFresh.com', 'garlic
+red onion
+zucchini
+mayonnaise
+balsamic vinegar
+panko breadcrumbs
+dried oregano
+ground beef
+monterey jack cheese
+potato buns
+ketchup
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1397, 'Cranberry Apple Pork Chops', 'Apples, cranberries, asparagus, potatoes, onion, and parsley: that’s not a shopping list for your next trip to the produce market. It’s all the fruit and veg bounty that’s in this recipe. So you can rest assured that your family will get their fill of their five-a-day with this dinner, plus a hearty serving of protein from the succulent, sauce-drizzled pork chops.', '2021-05-03 16:44:08.919997', '2021-05-03 16:44:08.919997', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cranberry-apple-pork-chops-8b3af460.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/cranberry-apple-pork-chops-5ca4fad8e3f3397ae970bf32', 'HelloFresh.com', 'yukon gold potatoes
+asparagus
+fall harvest spice blend
+pork chops
+apple
+yellow onion
+parsley
+dried cranberries
+chicken stock concentrate
+cinnamon
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1398, 'Smothered Chicken Enchiladas', 'In case you’d like a refresher on what enchiladas are, they’re stuffed and rolled tortillas baked casserole style with a generous amount of sauce. You could think of them as sauce-drenched burritos that you eat with a knife and fork. In other words, pure awesomeness, right? Of course, although it only gets better when you factor in the chicken strips, Southwest spices, shredded cheese, and sour cream that comes with this version.', '2021-05-03 16:44:09.016704', '2021-05-03 16:44:09.016704', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/smothered-chicken-enchiladas-272525dc.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/smothered-chicken-enchiladas-5b5b448cae08b55676708712', 'HelloFresh.com', 'yellow onion
+scallions
+poblano pepper
+chicken breast strips
+southwest spice blend
+enchilada spice blend
+tomato paste
+flour tortillas
+mexican cheese blend
+sour cream
+vegetable oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1399, 'Apricot Balsamic Glazed Pork Tenderloin', 'If you’re craving something savory and a little sweet, look no further. Pork tenderloin is rubbed with garlic powder, onion powder, and smoked paprika to bring exciting flavors to the mild meat. It’s pan-seared until crusty and blackened on the outside and then bathed in an apricot balsamic glaze that lends a touch of sweetness. The sweet-savory pork combo is served over a bed of ginger rice and green beans that pack a one-two punch.', '2021-05-03 16:44:09.131375', '2021-05-03 16:44:09.131375', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d14d4ab7ae20d00092cd50b-4c697f22.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/apricot-balsamic-glazed-pork-tenderloin-5d14d4ab7ae20d00092cd50b', 'HelloFresh.com', 'ginger
+garlic
+scallions
+shallot
+chicken stock concentrate
+jasmine rice
+pork tenderloin
+fry seasoning
+apricot jam
+balsamic vinegar
+brown sugar
+green beans
+sesame oil
+soy sauce
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1400, 'Pineapple Pork Rice Bowls', 'Get into a tropical groove with this recipe that’s a little sweet, a little savory, and all-around lick-your-lips good. It centers around pork chops cooked with cubes of sweet, golden pineapple. But the adventure doesn’t stop there—it continues into the snow peas and carrots tossed with gingery moo shu spice. It’s all served next to Thai basil rice, which completes this dish’s palette of fantastically fun flavors.', '2021-05-03 16:44:09.236695', '2021-05-03 16:44:09.236695', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/pineapple-pork-rice-bowls-fe69949a.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/pineapple-pork-rice-bowls-5ab3b6ea30006c3aec4a4622', 'HelloFresh.com', 'scallions
+garlic
+snow peas
+pineapple
+jasmine rice
+sesame seeds
+moo shu spice blend
+pork chops
+shredded carrots
+soy sauce
+sesame oil
+honey
+thai basil
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1401, 'Lone Star Poblano Mac & Cheese', 'Mac and cheese just got a flavorful makeover that’s got heads turning. This Tex-Mex twist on a classic is all about Southwestern flair: lightly charred poblano, roasted garlic, diced tomato, and 4 kinds of cheese (you read that right!) add serious oomph to the creamy sauce. This super savory melange coats corkscrew cavatappi for an extra-hearty experience. For a finishing touch, everything is sprinkled with a layer of crispy panko. It’s almost too beautiful to eat. Almost.', '2021-05-03 16:44:09.335425', '2021-05-03 16:44:09.335425', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lone-star-poblano-mac-cheese-e619241b.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lone-star-poblano-mac-cheese-5dc0553482939e10532e25a5', 'HelloFresh.com', 'poblano pepper
+roma tomato
+garlic
+cavatappi pasta
+panko breadcrumbs
+southwest spice blend
+cream sauce base
+cream cheese
+pepper jack cheese
+monterey jack cheese
+mexican cheese blend
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1402, 'Creamy Mushroom Cavatappi', 'If you’re mad for mushrooms, a fan of fungi, or crazy for creminis, this pasta will treat you right: it’s loaded with ’shroom slices. They’re the flavor backbone of this recipe, bringing all those deep, earthy flavors that you know and love. We’ve added springy cavatappi spirals, a creamy garlic herb sauce, and a sprinkling of Parmesan cheese (mushrooms, pasta, and dairy are pretty much best friends, after all). Get ready for this umami bomb to make waves at your dinner table.', '2021-05-03 16:44:09.421276', '2021-05-03 16:44:09.421276', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5e877f5413114d7b1f44174e-f97c652c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamy-mushroom-cavatappi-5e877f5413114d7b1f44174e', 'HelloFresh.com', 'scallions
+cremini mushrooms
+cavatappi pasta
+flour
+milk
+cream cheese
+garlic herb butter
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1403, 'Scallops over Creamy Chorizo Spaghetti', 'This week, our chefs have turned surf and turf on its head—in the most delicious way possible. Tender seared scallops and crispy chorizo join forces in an ultra-sophisticated and comforting pasta dish. They’re tossed with al dente spaghetti, roasted bell pepper, and a creamy, garlicky tomato sauce. One bite will have your taste buds hanging ten. See ya later, steak and shrimp!', '2021-05-03 16:44:09.49783', '2021-05-03 16:44:09.49783', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/scallops-over-creamy-chorizo-spaghetti-dfcea0cb.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/scallops-over-creamy-chorizo-spaghetti-5dadce92ce1b39295c5a6a54', 'HelloFresh.com', 'bell pepper
+scallions
+chili pepper
+lemon
+scallops
+smoked paprika
+garlic
+spaghetti
+dried chorizo
+colavita crushed tomatoes
+seafood stock concentrate
+cream cheese
+parmesan cheese
+sugar
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1404, 'Chipotle-Spiced Steak', 'Ground chipotle chili is a wonder ingredient: just a dash is enough to bring a smoky and slightly spicy Mexican-style accent to anything it touches. That includes this steak, which deserves a chipot-yay for how it unleashes a wave of flavor via its chipotle lime marinade. The bell pepper and potato hash beneath is no slouch either, supporting with crisp textures and juicy flavors.', '2021-05-03 16:44:09.609412', '2021-05-03 16:44:09.609412', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chipotle-spiced-steak-f04eef81.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/chipotle-spiced-steak-5ac7881bae08b57ba547d892', 'HelloFresh.com', 'yukon gold potatoes
+lime
+ranch steak
+chipotle powder
+red onion
+bell pepper
+orange grape tomatoes
+scallions
+southwest spice blend
+sour cream
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1405, 'Hearty Steak and Potatoes', 'Cabbage, potatoes, and cranberries may conjure images of New England and boiled dinners, but this recipe brings in some more worldly flair. The sauce that adorns the steak has splashes of balsamic vinegar and soy sauce for a mash up of Italian and Asian-inspired flavors. Plus, the potatoes are roasted with rosemary until fragrant and the cabbage is given a boost from tangy white wine vinegar.', '2021-05-03 16:44:09.695399', '2021-05-03 16:44:09.695399', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-balsamic-streak-with-red-cabb-af469cec.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/uk-balsamic-streak-with-red-cabb-5841a8ad9df18165854cdd72', 'HelloFresh.com', 'sirloin steak
+balsamic vinegar
+soy sauce
+yukon gold potatoes
+rosemary
+yellow onion
+shredded red cabbage
+mustard seeds
+white wine vinegar
+cranberry jam
+salt
+pepper
+olive oil
+vegetable oil
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1406, 'Spanish-Style Spaghetti', 'Shrimp with pasta? Sure. But shrimp AND chorizo with pasta? Now that’s a whole new ball game. This Spanish-style dried sausage imparts a deep and smoky flavor to the dish. Although we recommend adding chili flakes for a bit of heat, feel free to hold off if you’re not a fan.', '2021-05-03 16:44:09.803907', '2021-05-03 16:44:09.803907', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/uk-shrimp-and-chorizo-pasta-be354a91.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/uk-shrimp-and-chorizo-pasta-581213efa7c72a6c4c5e4322', 'HelloFresh.com', 'garlic
+parsley
+shrimp
+grape tomatoes
+spaghetti
+chili flakes
+dried chorizo
+diced tomatoes
+salt
+pepper
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1407, 'Steak Fajitas on the Grill', 'Ready, set, grill! We couldn’t think of a better way to kick off a Fourth of July cookout than with some juicy steaks sizzled on the grates. Although the meat isn’t the only thing in these fajitas that’s got a nice char: the tortillas, bell pepper, and onion are grilled too. And while that smoky flavor from the flames may be the epitome of summertime eating, no need to fret if you can’t fire up a grill—this dish also can be made indoors.', '2021-05-03 16:44:09.857226', '2021-05-03 16:44:09.857226', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/steak-fajitas-on-the-grill-99ee078c.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/steak-fajitas-on-the-grill-5afb3b47ae08b54bd46d69f2', 'HelloFresh.com', 'lime
+sirloin steak
+southwest spice blend
+green bell pepper
+red onion
+jalapeño
+sour cream
+flour tortillas
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1408, 'Cajun-Spiced Pulled Pork', 'Pulled pork isn’t just for low-and-slow-cooking barbecues. Our recipe is one you can make any night of the week. Really: this dish can be ready in just 20 minutes. Ready-to-heat chunks of meat are quickly tossed in the pan with Cajun spices, honey, and diced tomato. It’s all spooned over pre-steamed basmati rice studded with poblano pepper pieces, giving you a delectable combination of hot, savory, and sweet.', '2021-05-03 16:44:09.913469', '2021-05-03 16:44:09.913469', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cajun-spiced-pulled-pork-a3db4cbe.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/cajun-spiced-pulled-pork-5a8f0d08ae08b52c697526c2', 'HelloFresh.com', 'green bell pepper
+scallions
+tomato
+honey
+hot sauce
+pulled pork
+cajun spice blend
+chicken stock concentrate
+microwaveable jasmine rice
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1409, 'Scallops over Truffled Mushroom Risotto', 'Talk about a powerhouse: Every element of this recipe goes above and beyond in fitting in as much lush, decadent flavor as can be contained on a plate. It starts with scallops, pan-seared until they’re gloriously golden and tender. They’re perched on top of a mushroom risotto, which has some seriously luxurious overtones thanks to the addition of truffle oil. A drizzle of brown butter sauce ties everything together in nutty, rich splendor—one bite, and you’ll be captivated.', '2021-05-03 16:44:09.982563', '2021-05-03 16:44:09.982563', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5fb7f285e78a9619350dd4ff-ab145130.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/scallops-over-truffled-mushroom-risotto-5fb7f285e78a9619350dd4ff', 'HelloFresh.com', 'chicken stock concentrate
+garlic
+shallot
+arborio rice
+button mushrooms
+lemon
+parsley
+scallops
+parmesan cheese
+truffle oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1410, 'Crispy Cheddar Chicken', 'Crispy chicken is always a recipe for success. Add melty cheddar and bold spices to the mix, and you’ve got a winning dinner. Once baked, the crust turns golden brown while the meat stays juicy and tender. But wait...there’s more! The crunchy cutlets are served alongside tender roasted broccoli and cheesy, bacon-and-chive-studded mashed potatoes. Together, it’s a meal as elegant as it is satisfying and delicious.', '2021-05-03 16:44:10.063294', '2021-05-03 16:44:10.063294', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/60196fc7ff92ca0fa6010c3c-7da1d170.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/crispy-cheddar-chicken-60196fc7ff92ca0fa6010c3c', 'HelloFresh.com', 'yukon gold potatoes
+broccoli florets
+chives
+panko breadcrumbs
+fry seasoning
+cheddar cheese
+chicken cutlets
+mayonnaise
+bacon
+sour cream
+olive oil
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1411, 'Parmesan and Rosemary Crusted-Pork Chops', 'If you think pork chops are plain, we’ve got a recipe that will totally flip the script. Here, the typically mild-mannered meat is given a layer of herb-infused, cheesy crunchiness by coating it in chopped rosemary, Parmesan, and breadcrumbs. The sides don’t skimp on flavor, either: you’ve got a lemon almond couscous as well as carrots that are roasted to bring out their sweetness.', '2021-05-03 16:44:10.149632', '2021-05-03 16:44:10.149632', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/parmesan-and-rosemary-crusted-pork-chops-bd3c75a4.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/parmesan-and-rosemary-crusted-pork-chops-5a217490a1e1ea55177e5332', 'HelloFresh.com', 'carrots
+lemon
+parsley
+rosemary
+sour cream
+panko breadcrumbs
+parmesan cheese
+pork chops
+chicken stock concentrate
+couscous
+almonds
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1412, 'Chorizo, Egg, and Avocado Breakfast Sandwich', 'Wakey, wakey, it’s eggs and… chorizo? Yep, we’re spicing up breakfast time with Spain’s most famous sausage. The paprika-laced links add their savory flavor to this eggy sandwich on a brioche bun, as well as to the crispy, skillet-fried potato hash that’s on the side. A few slices of avocado on top are the finishing touch that makes this a perfect meal for powering through your day.', '2021-05-03 16:44:10.239103', '2021-05-03 16:44:10.239103', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w12-breakfast-ffaf57d4.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w12-breakfast-58a7133e171c58315939aac3', 'HelloFresh.com', 'eggs
+brioche buns
+avocado
+dried chorizo
+cheddar cheese
+yukon gold potatoes
+red onion
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1413, 'Sirloin in a Mushroom Sauce', 'Our New York strip steak has such a deep, rich, and gloriously meaty flavor that it could be a stand-alone dish with little more than salt and pepper for seasoning. But we’re still adding some top-notch sides and a full-bodied sauce to this recipe so that it soars above and beyond. Ultra-creamy mashed potatoes and tender roasted carrots make it filling and hearty, while the mushroom pan sauce that’s spooned on top has savory complexity.', '2021-05-03 16:44:10.304378', '2021-05-03 16:44:10.304378', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d48662dc2206e00106578f2-0192d226.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/new-york-strip-steak-in-a-mushroom-sauce-5d48662dc2206e00106578f2', 'HelloFresh.com', 'yellow onion
+garlic
+carrots
+button mushrooms
+yukon gold potatoes
+sour cream
+sirloin steak
+beef demi-glace
+dijon mustard
+vegetable oil
+butter
+salt
+pepper
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1414, 'Garlic Herb Butter Steak', 'Ever wanted to make a steakhouse-quality meal in your own kitchen but weren’t sure where to start? We’ve got the ingredients and recipe for you; all you have to do is bring it to life. Start by roasting sweet and Yukon gold potato wedges in the oven. While those spuds get toasty and crisp, you can easily sizzle the sirloin steak and mini bell pepper jumble in a pan. The beef is then finished with a flavorful garlic herb butter that’ll knock everyone’s socks off. Yes, my friend, that dinner was all you.', '2021-05-03 16:44:10.390887', '2021-05-03 16:44:10.390887', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/garlic-butter-herb-steak-d63f90eb.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/garlic-butter-herb-steak-5bc0c46930006c65ae46a282', 'HelloFresh.com', 'yukon gold potatoes
+sweet potato
+shallot
+parsley
+heirloom grape tomatoes
+mini bell peppers
+sirloin steak
+beef demi-glace
+garlic herb butter
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1415, 'Southwestern Beef Tacos', 'What do we want from a taco? We want meat seasoned in warm and smoky spices. We want it to rain cheese, sour cream, jalapeño, and lime. We want the tortilla to exhale steam as we’re reaching in for a big bite. Luckily, these beef and bell pepper bad boys are giving us all of that, making this a bona fide taco-night triumph.', '2021-05-03 16:44:10.482832', '2021-05-03 16:44:10.482832', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/southwestern-beef-tacos-e63d936e.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/southwestern-beef-tacos-5c7978b1c445fa2dfd25d7a2', 'HelloFresh.com', 'bell pepper
+yellow onion
+lime
+jalapeño
+sour cream
+southwest spice blend
+ground beef
+flour tortillas
+pepper jack cheese
+cilantro
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1416, 'Truffled Chicken Over Tagliatelle Alfredo', 'Now this is what we call a family feast! Not only does this meal have a hearty combination of pasta, meat, and veggies, it does them to the max. The tagliatelle noodles are coated in a creamy, cheesy alfredo-style sauce with peas, then topped with a truffle-butter-dolloped chicken breast, which leaps at you with its unique, rich flavor. Even the roasted carrots get a little fancy with the help of buttery hazelnuts. All you need to make things complete is you plus three of your favorite people.', '2021-05-03 16:44:10.548495', '2021-05-03 16:44:10.548495', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/truffled-chicken-over-tagliatelle-alfredo-56f5ae7b.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/truffled-chicken-over-tagliatelle-alfredo-5b47a765ae08b52f274fc5aa', 'HelloFresh.com', 'hazelnuts
+lemon
+shallot
+garlic
+chives
+honey
+carrot
+chicken breasts
+milk
+italian cheese blend
+cream cheese
+parmesan cheese
+tagliatelle
+peas
+truffle oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1417, 'Sausage and Roasted Red Pepper Pasta', 'Are you the type of person who only goes to baseball games for that huge Italian hoagie stuffed with sausage and peppers? We’re with you. This week, our chefs took the beloved dish from stadium fare to elegant weeknight dinner with a few delicious twists. First, they dropped the hoagie and replaced it with twisty gemelli pasta. Its nooks are perfect for clinging to silky roasted garlic tomato sauce studded with crispy bits of sausage. Peppers are roasted to bring out depth and sweetness, then thinly sliced and swirled in. Plus, there’s cheese both in the sauce and sprinkled on top. It’s safe to say this dish knocks it out of the park.', '2021-05-03 16:44:10.63937', '2021-05-03 16:44:10.63937', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/sausage-and-roasted-red-pepper-gemelli-ce1a22c6.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/sausage-and-roasted-red-pepper-gemelli-5c3e5124c445fa01422a36f1', 'HelloFresh.com', 'bell pepper
+chili pepper
+italian pork sausage
+garlic
+gemelli pasta
+tomato paste
+sour cream
+parmesan cheese
+vegetable oil
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1418, 'Blazin’ Baja Shrimp Tacos', 'Ready to take your tastebuds on a trip south of the border? Well buckle up for bold, blazin’ flavors! Leave your passport and carry-on sized liquids behind, because you’ll be whipping up these hearty, Baja-style shellfish-loaded tacos from the comfort of your very own kitchen! There’s crispy bites of tempura-fried shrimp, pickled jalapeño, and creamy cabbage slaw all piled into steamy tortillas. Taco’bout a delicious dish.', '2021-05-03 16:44:10.708548', '2021-05-03 16:44:10.708548', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/blazin-baja-shrimp-tacos-6dd00302.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/blazin-baja-shrimp-tacos-5e1e425b86088a24446cbf52', 'HelloFresh.com', 'jalapeño
+lime
+coleslaw mix
+cilantro
+scallions
+sour cream
+southwest spice blend
+tempura mix
+shrimp
+flour tortillas
+salt
+pepper
+vegetable oil
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1419, 'Scallops Over Butternut Squash Risotto', 'What a powerhouse: every element of this recipe goes above and beyond in fitting in as much lush, decadent flavor as can be contained on a plate. It starts with scallops, pan-seared until they’re gloriously golden and tender. They’re perched on top of a butternut squash risotto, which has some seriously luxuriant overtones. A drizzle of sage brown butter sauce ties everything together in nutty, rich splendor—one bite, and you’ll be hooked.', '2021-05-03 16:44:10.787127', '2021-05-03 16:44:10.787127', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/scallops-over-truffled-mushroom-risotto-6da94cef.jpg', 50, NULL, 'https://www.hellofresh.com/recipes/scallops-over-truffled-mushroom-risotto-5e1e3cdcc5674d5c5065b3fa', 'HelloFresh.com', 'mushroom stock concentrate
+garlic
+shallot
+arborio rice
+sage
+butternut squash
+lemon
+scallops
+parmesan cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1420, 'Tuscan Sausage and Pepper Spaghetti', 'Does your love for pasta know no bounds? Well, here’s a recipe that’s sure to please anyone who is a nut for noodles. Slivers of bell pepper, crumbled pork sausage, and a flavorful tomato sauce are tossed with spaghetti, coming together in a combination that’s hearty, satisfying, and classically comforting. Just add a sprinkle of Parmesan over the top to take things toward Italian-style bliss.', '2021-05-03 16:44:10.860854', '2021-05-03 16:44:10.860854', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tuscan-sausage-and-pepper-spaghetti-98442b94.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/tuscan-sausage-and-pepper-spaghetti-59fb7cbbc94eac30fd1aa672', 'HelloFresh.com', 'yellow onion
+red bell pepper
+parsley
+whole peeled tomatoes
+tuscan heat spice
+sweet italian pork sausage
+whole wheat spaghetti
+chicken stock concentrate
+parmesan cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1421, 'Bone-In Pork Loin Chops', 'The bone in bone-in pork chops is good for more than using as a handle so you can eat the meat with your hands like you would at a medieval feast. It also helps prevent moisture from escaping as the pork cooks, resulting in meat that’s incredibly juicy. Such impeccable chops deserve equally impeccable sides. In this recipe, we’re serving them with buttery, braised cabbage and apples, roasted baby potatoes, and a flavorful peppercorn cream sauce.', '2021-05-03 16:44:10.953394', '2021-05-03 16:44:10.953394', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/premium-bone-in-pork-chops-ec2ab448.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/premium-bone-in-pork-chops-587e36112e69d73aa844c2a2', 'HelloFresh.com', 'shallot
+garlic
+fuji apple
+baby potatoes
+black peppercorns
+shredded red cabbage
+gluten free chicken demi glace
+bone-in pork chops
+tomato paste
+sour cream
+vegetable oil
+butter
+salt
+pepper
+colavita extra virgin olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1422, 'Cumin-Spiced Steak', 'Cumin is one of our favorite spices to cook with because it has tons of deep, earthy flavor without any heat. Its effect is subtle yet unmistakable, elevating steak to new heights in this recipe. It also loves a good contrast: here, it embraces a pucker-y scallion dressing with lemon and the veggie flavors of spinach and red pepper tossed with couscous.', '2021-05-03 16:44:11.054813', '2021-05-03 16:44:11.054813', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w17-r2-classic-fbd9efe2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w17-r2-classic-58c2d7cfc6243b3bae1fd4a3', 'HelloFresh.com', 'sirloin steak
+israeli couscous
+lemon
+garlic
+scallions
+red bell pepper
+spinach
+cumin
+veggie stock concentrate
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1423, 'Cashew Chicken Stir-Fry', 'Forget takeout: the path to a savory, Asian-inspired dinner is as simple as breaking out a pan and stir-frying up a storm. This recipe starts with chopping up some bok choy, carrots, and fragrant aromatics. Then, you’ll shift gears for a bit to focus on steaming the rice and toasting the nutty cashews. Afterwards, it all comes back to tossing around those veggies in a pan, followed by pieces of chicken and a savory sweet sauce. The results? A symphony of flavors.', '2021-05-03 16:44:11.156269', '2021-05-03 16:44:11.156269', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cashew-chicken-stir-fry-c83dc07e.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/cashew-chicken-stir-fry-5b9bd8deae08b529e730be22', 'HelloFresh.com', 'ginger
+baby bok choy
+carrots
+chicken breast strips
+cornstarch
+jasmine rice
+cashews
+sesame seeds
+soy sauce
+honey
+chicken stock concentrate
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1424, 'Truffled Lobster Ravioli', 'If you like to live large (or even just pretend that you’re a millionaire), we’ve got a dish for you that packs the bling bling. These ravioli are stuffed with lobster, the undisputed king of all seafood. The pasta shells are tossed with heirloom grape tomatoes and asparagus, so you have a nice selection of veggies to keep it classy. But what really makes this meal special is the truffle zest; this garnish packs an umami flavor that says, “Look at me, I’m a big shot!”', '2021-05-03 16:44:11.243962', '2021-05-03 16:44:11.243962', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5b8970c4ae08b51f0e6d5f92-2133a234.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/truffled-lobster-ravioli-5b8970c4ae08b51f0e6d5f92', 'HelloFresh.com', 'heirloom grape tomatoes
+lemon
+asparagus
+garlic
+chives
+lobster ravioli
+truffle zest
+parmesan cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1425, 'Rapid Butternut Squash Agnolotti', 'Agnolotti (AH-nyo-LOAT-tee) are little pasta dumplings from northern Italy. You can think of them as ravioli’s daintier cousin. Even if they are small in size, they are no less impressive in flavor—ours are filled with sweet butternut squash. Here, we’re preparing them the traditional way in a sauce made from herby sage and toasty brown butter.', '2021-05-03 16:44:11.318484', '2021-05-03 16:44:11.318484', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/rapid-butternut-squash-agnolotti-532104df.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/rapid-butternut-squash-agnolotti-5850441414d0f16a117659f2', 'HelloFresh.com', 'butternut squash agnolotti
+kale
+sage
+shallot
+garlic
+parmesan cheese
+salt
+pepper
+olive oil
+butter
+pine nuts');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1426, 'Herbed Chicken Over Zucchini Risotto', 'Maybe you’ve heard of zucchini noodles or tried zucchini pizza crust. But in this recipe, we’re trying a veggie-based spin on a carb-y dish that doesn’t feel like a replacement for something else. The green veg is shredded, sautéed, and mixed with cheese and herbs in a way that mimics risotto but is so creamy and savory that it transcends into something even better. With an herby chicken breast and juicy warm tomatoes on top, it’s a groundbreaking achievement.', '2021-05-03 16:44:11.391212', '2021-05-03 16:44:11.391212', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/herbed-chicken-over-zucchini-risotto-ac3875a0.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/herbed-chicken-over-zucchini-risotto-59669c45a5ed1941e1136cb2', 'HelloFresh.com', 'shallot
+dill
+zucchini
+grape tomatoes
+chicken breasts
+herbes de provence
+italian cheese blend
+sour cream
+whole wheat pitas
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1427, 'One-Pan Pork Carnitas Tacos', 'Think of this as a quicker, weeknight-friendly version of carnitas, one that doesn’t involve hours of slow-cooking like the dish typically would. To create that deep, warm profile in minimal time, you’ll add a spice blend and a bit of stock to ground pork, which makes it nice, rich, and saucy. It’s the centerpiece of these tacos, which come with lots of tasty toppings that everyone can add as they please.', '2021-05-03 16:44:11.475124', '2021-05-03 16:44:11.475124', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/one-pan-pork-carnita-tacos-337e7f15.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/one-pan-pork-carnita-tacos-5a2b08b9a2882a5fa04ae892', 'HelloFresh.com', 'red onion
+poblano pepper
+cilantro
+roma tomato
+lime
+white wine vinegar
+ground pork
+fajita spice blend
+tomato paste
+chicken stock concentrate
+sour cream
+flour tortillas
+monterey jack cheese
+olive oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1428, 'Creamy Parmesan Chicken Spaghetti', 'Our chefs just took pasta night to the next level: thanks to linguine, tomatoes, and chicken with Tuscan herbs, this recipe has all the Italian flair you could want and then some. The dish is accompanied by a sauce that has all the creamy goodness you want—it has cream cheese, Parmesan, and garlic herb butter for a trifecta of dairy deliciousness. So get ready: these tasty noodles are waiting to get twirled ‘round your fork.', '2021-05-03 16:44:11.5841', '2021-05-03 16:44:11.5841', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tuscan-chicken-linguine-cfea3d5f.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/tuscan-chicken-linguine-5d35c63d76961900091d2f49', 'HelloFresh.com', 'lemon
+roma tomato
+tuscan heat spice
+spaghetti
+chicken breast strips
+cream cheese
+garlic herb butter
+parmesan cheese
+basil
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1429, 'Baked Chicken Parmesan', 'What’s not to love about chicken parm? Crispy, cheesy, and comforting—it’s a classic for a reason. Luckily, ours is as easy to make as it is to gobble up—that’s right, no frying required! Chicken is coated in a Tuscan-spiced panko crust, baked to golden perfection, then sprinkled with mozzarella and popped back into the oven to get all melty. While that comes together, you’ll whip up a homemade marinara sauce with flecks of fresh basil to toss with twirly spaghetti. If you can believe it, all of this awesomeness is ready in less than 45 minutes. Make your (real or imaginary!) nonna proud with this Italian-inspired feast.', '2021-05-03 16:44:11.682263', '2021-05-03 16:44:11.682263', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/baked-chicken-parmesan-e93d34ec.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/baked-chicken-parmesan-5d35c786a641a5000b222ee8', 'HelloFresh.com', 'yellow onion
+basil
+panko breadcrumbs
+tuscan heat spice
+chicken breasts
+sour cream
+spaghetti
+crushed tomatoes
+mozzarella cheese
+olive oil
+sugar
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1430, 'Honey Mustard Chicken', 'In this recipe, we’re DIY-ing our way to a honey mustard sauce that''s leagues better than the bottled stuff—add in a pinch of garlic and a splash of white wine vinegar and boom! You''ve got it made. Here, we’re reducing it into a satisfying sticky glaze for chicken breasts. With roasted zucchini, sweet potatoes, and red onion to fill it out, it’s a symphony of sweet and savory.', '2021-05-03 16:44:11.778693', '2021-05-03 16:44:11.778693', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/honey-mustard-chicken-0bf709a5.jpg', 40, NULL, 'https://www.hellofresh.com/recipes/honey-mustard-chicken-5956525ac9fd0852f60e1342', 'HelloFresh.com', 'red onion
+zucchini
+sweet potato
+garlic
+honey
+whole grain mustard
+white wine vinegar
+chicken breasts
+parsley
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1431, 'Turkish-Spiced Salmon', 'Whoever thought of adding citrus to salad was a downright genius. The way the fruits bring tang to peppery lettuce and crunchy veggies is downright invigorating. In this recipe, they’re also used to inject flair into the couscous, infusing each grain with tartness and zest. Add a beautiful spiced salmon fillet to top it all off and you’ve got a meal that’s as delightful as it is satisfying.', '2021-05-03 16:44:11.883655', '2021-05-03 16:44:11.883655', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/salmon-with-blood-oranges-2122de59.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/salmon-with-blood-oranges-58f0efb5d0d6bd133e3ac712', 'HelloFresh.com', 'skin-on salmon
+turkish spice blend
+couscous
+arugula
+blood orange
+shallot
+lemon
+honey
+almonds
+persian cucumber
+veggie stock concentrate
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1432, 'Chicken and Pesto Pasta Dinner', 'Cook it once, eat it twice: this is a crave-worthy dinner with extras that quickly transform into tomorrow’s lunch. That’s thanks to special added ingredients that can easily be heated up, even at the office (your coworkers will be amazed, trust us). For the first meal, you’ve got a pesto-y pasta with chicken thighs and a dash of Parmesan. The next day, it becomes a pesto chicken sandwich on baguette, with slices of fresh tomato to keep things lively. *The nutrition facts panel represents the nutrient values for the Chicken and Pesto Pasta Dinner. The Chicken Salad Lunch information is as follows: Calories: 440, Fat: 17 g, Saturated Fat: 3.5 g, Carbohydrate: 50 g, Sugar: 6 g, Fiber: 4 g, Protein: 25 g, Cholesterol: 80 mg, Sodium: 620 mg.', '2021-05-03 16:44:11.954466', '2021-05-03 16:44:11.954466', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-and-pesto-pasta-dinner-bfeb537b.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/chicken-and-pesto-pasta-dinner-59fb51fcc94eac0671772563', 'HelloFresh.com', 'roma tomato
+lemon
+chicken thighs
+tuscan heat spice
+cavatappi pasta
+pesto
+parmesan cheese
+arugula
+sour cream
+demi baguette
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1433, 'Cheesy Baked Gnocchi', 'Raise your hand if you’re obsessed with anything involving gnocchi. (We all have our hands raised over here.) If you’re new to gnocchi, it’s a pasta/dumpling hybrid that’s partially-made with potatoes, resulting in an extra-tender, extra-carby bite. Here, it’s paired with tender zucchini and tossed in marinara sauce. To top things off—in this case literally—there’s a blanket of melty mozz. Once the mixture emerges from the oven, it’s dolloped with herby ricotta. There’s also a side of garlic bread...because, well, we just love you!', '2021-05-03 16:44:12.029568', '2021-05-03 16:44:12.029568', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cheesy-baked-gnocchi-c92059e0.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/cheesy-baked-gnocchi-5e0a5b8f6df33c1e1752f6fc', 'HelloFresh.com', 'green herb blend
+garlic
+zucchini
+demi baguette
+ricotta cheese
+gnocchi
+marinara sauce
+mozzarella cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1434, 'Mario Batali''s Spaghetti', 'Even the best recipes get even better when you''re cooking for a good goal. Mario Batali''s vibrant spaghetti dish was specially crafted for EAT (RED) SAVE LIVES. Featuring juicy, warm heirloom tomatoes, browned and crisped chorizo, and pasta cooked to a perfect al dente, it’s hearty, satisfying, and can be adjusted to match your ideal level of heat. As Mario says, Ain’t it delicious when good food does great things?', '2021-05-03 16:44:12.094808', '2021-05-03 16:44:12.094808', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/mario-batalis-spaghetti-3285755e.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/mario-batalis-spaghetti-58f935ebc9fd08410c7aa652', 'HelloFresh.com', 'garlic
+basil
+jalapeño
+heirloom grape tomatoes
+spaghetti
+fresh pork chorizo
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1435, 'Smoky Black Bean and Corn Tostadas', 'When it comes to Mexican food, tacos typically get all the glory. In our opinion, tostadas are an unspoken dinner hero. They’re technically crispy, open-faced tacos--but they’re so much more than that. Seriously, what could be better than warm, crunchy tortillas piled with all kinds of delicious toppings? Ours are spread with spicy mashed black beans and scattered with toasty charred corn, fresh salsa, and tangy, lime-spiked sour cream.', '2021-05-03 16:44:12.153863', '2021-05-03 16:44:12.153863', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019-w20-r8-smoky-black-bean-and-corn-tostadas-ba8d4016.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2019-w20-r8-smoky-black-bean-and-corn-tostadas-5ca4f84ee3f33978da109902', 'HelloFresh.com', 'roma tomato
+cilantro
+jalapeño
+lime
+yellow onion
+black beans
+sour cream
+ancho chili powder
+corn
+southwest spice blend
+flour tortillas
+mexican cheese blend
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1436, 'Pad See Ew', 'In its native Thailand, pad see ew is always made to order and always in small quantities—never more than a few servings at a time. That’s not only so that it comes out sizzling and hot, but also so that all the ingredients have ample space to sear in the pan. Which is why this recipe is perfect for a quick dinner: as you’re tossing the rice noodles, soy sauce, veggies, and aromatics, you can pretend like you’re a Bangkok street-food hawker who’s whipping up a batch for a favorite customer.', '2021-05-03 16:44:12.243206', '2021-05-03 16:44:12.243206', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w14-r10-e8e24f16.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w14-r10-58a6394e51d3f174873f9da4', 'HelloFresh.com', 'peanuts
+ginger
+chili pepper
+garlic
+soy sauce
+shallot
+wide rice noodles
+broccoli florets
+mushrooms
+vegetable oil
+sugar
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1437, '"Little Ears" Pasta', 'The backbone of this dish is orecchiette—a round-shaped pasta named for the “little ears” they resemble. It’s traditionally associated with Apulia, the southern Italian region from which we drew our inspiration for this recipe. The pasta is tossed with bites of broccoli and sweet sausage, then given a nice coating of basil-packing pesto and Parmesan cheese.', '2021-05-03 16:44:12.32393', '2021-05-03 16:44:12.32393', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w17-r5-classic-052f9b6c.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/w17-r5-classic-58c2d81b99052d31ae6f8442', 'HelloFresh.com', 'broccoli florets
+sweet italian pork sausage
+orecchiette pasta
+chili flakes
+pesto
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1438, 'Grilled Sriracha-Glazed Salmon', 'For this recipe, our chefs came up with a method for grilling salmon that has a few tricks built in to help make sure that these fillets are perfectly seared. They’ve used aluminum foil to prevent the skin from sticking to the grates (it also keeps the delectable hoisin sriracha glaze from dribbling away). And if you do prefer to cook your fish in a pan, you can still do it that way, along with the tender bok choy and stovetop rice.', '2021-05-03 16:44:12.383051', '2021-05-03 16:44:12.383051', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/grilled-sriracha-glazed-salmon-7369543c.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/grilled-sriracha-glazed-salmon-5b16cd1d30006c1dc103e682', 'HelloFresh.com', 'scallions
+lime
+baby bok choy
+hoisin sauce
+sriracha
+jasmine rice
+skin-on salmon
+butter
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1439, 'Mozzarella-Crusted Chicken', 'Think of this recipe as a new take on chicken Parmesan. Herbs, breadcrumbs, and mozzarella are heaped onto chicken to create glorious crown of a crust. In place of marinara, roasted tomatoes add a sweet and tangy punch. On the side, you’ve also got some crispy potatoes because, hey, why not?', '2021-05-03 16:44:12.452134', '2021-05-03 16:44:12.452134', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/de-mozzarella-crusted-chicken-w0-4336bddd.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/de-mozzarella-crusted-chicken-w0-5845b27b2e69d7646110f1c2', 'HelloFresh.com', 'chicken breasts
+mozzarella cheese
+roma tomato
+panko breadcrumbs
+paprika
+yukon gold potatoes
+dried oregano
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1440, 'Figgy Balsamic Pork', 'You’ve likely come across figs baked into desserts, dried and nestled onto cheese platters, or preserved and slathered on toast for breakfast. But today, we’re mixing things up by pairing fig jam with tangy balsamic vinegar. The result? A sweet and savory sauce that’ll transform the tender pork tenderloin it’s drizzled on top of.', '2021-05-03 16:44:12.518188', '2021-05-03 16:44:12.518188', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/figgy-balsamic-pork-119dd0ae.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/figgy-balsamic-pork-5dadc3c84b6e41139b1c3f16', 'HelloFresh.com', 'shallot
+rosemary
+yukon gold potatoes
+pork tenderloin
+mixed greens
+lemon
+chicken stock concentrate
+balsamic vinegar
+fig jam
+olive oil
+salt
+pepper
+butter');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1441, 'Lemon Dill Lobster Ravioli and Shrimp', 'This is not your typical ravioli. To take the tender pasta pillows to the next level, we filled them with succulent lobster meat, paired them with sweet sautéed shrimp, and tossed them in a lemony dill cream sauce. For an elevated finish (and delicious crunch), we tangled marinated zucchini ribbons on top.', '2021-05-03 16:44:12.609731', '2021-05-03 16:44:12.609731', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d92144a151e710e3f45c7eb-b0689856.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/lobster-ravioli-and-shrimp-with-lemon-dill-sauce-5d92144a151e710e3f45c7eb', 'HelloFresh.com', 'lemon
+dill
+shrimp
+zucchini
+lobster ravioli
+veggie stock concentrate
+sour cream
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1442, 'Panko-Crusted Cod', 'Because cod is a fairly mild-flavored fish, pungent wasabi is the perfect accompaniment. Also known as Japanese horseradish, this ingredient is combined with mayonnaise, lime zest, and lime juice for a fiery aioli to spice up this light and colorful dinner.', '2021-05-03 16:44:12.671216', '2021-05-03 16:44:12.671216', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/panko-crusted-cod-2845f84f.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/panko-crusted-cod-5807aec4c72628764a362182', 'HelloFresh.com', 'cod fillets
+mayonnaise
+green beans
+grape tomatoes
+shallot
+wasabi paste
+panko breadcrumbs
+lime
+quinoa
+butter
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1443, 'Sriracha Lime Cheeseburgers', 'Where other burgers zig, these burgers zag: we’re pretty sure you’ve never had a patty quite like this. These beefed-up creations have some unexpected flair thanks to a mix of warm spices added to the meat. And it only gets more exciting when you pile on toppings like quick-pickled onion, lime crema, and juicy tomato slices. Finish with some roasted potato wedges to the side, and all that’s left to do is dive headfirst into this burger adventure.', '2021-05-03 16:44:12.744807', '2021-05-03 16:44:12.744807', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2018w49-r15f-fc4da719.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2018w49-r15f-5bc9f5d3ae08b50a191e7171', 'HelloFresh.com', 'yukon gold potatoes
+red onion
+lime
+roma tomato
+fry seasoning
+sour cream
+sriracha
+ground beef
+cheddar cheese
+potato buns
+olive oil
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1444, 'Baked Fusilli Pasta', 'We’ve taken our favorite lasagna recipe and deconstructed it for a simple dinner that’s just as comforting as the classic. Although our chefs used penne in the past, we made a last-minute upgrade to fusilli. The mozzarella, ground beef, kale, and panko fit snugly inside the pasta’s tight spirals for a burst of flavor in every creamy bite.', '2021-05-03 16:44:12.831399', '2021-05-03 16:44:12.831399', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/lasagna-baked-penne-with-kale-85133c8d.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/lasagna-baked-penne-with-kale-57d8544077d68df33f8b4568', 'HelloFresh.com', 'ground beef
+fusilli pasta
+yellow onion
+garlic
+kale
+dried oregano
+basil
+panko breadcrumbs
+fresh mozzarella
+chili flakes
+crushed tomatoes
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1445, 'Creamy Lemon Tagliatelle', 'Mushrooms in a creamy sauce never fail to hit the spot when you’re looking for pure comfort food. In this recipe, we’re incorporating those classic flavors into a tangle of al dente tagliatelle noodles. Garlic, lemon, and herby tarragon add lively accents, giving you a dish that’s both a little bit cozy and a little bit fun—it’s the sort of thing you’d be just as happy to serve at a dinner party as you would be to tuck into any night of the week.', '2021-05-03 16:44:12.917413', '2021-05-03 16:44:12.917413', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/creamy-lemon-tagliatelle-bfce1f23.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/creamy-lemon-tagliatelle-5a149db751d3f1409a5907c2', 'HelloFresh.com', 'red onion
+garlic
+tarragon
+lemon
+button mushrooms
+tagliatelle
+veggie stock concentrate
+sour cream
+parmesan cheese
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1446, 'Chicken Pineapple Quesadillas', 'If you think sweet-and-savory combos are amazing, prepare to be blown away by this Tex-Mex creation. Chicken and shredded mozzarella bring the classic comforts you crave, while our Southwest spice blend adds some smoky warmth. But any notions you might have about quesadillas go out the window when the pineapple comes to shake things up in the most delicious way.', '2021-05-03 16:44:12.991025', '2021-05-03 16:44:12.991025', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/chicken-pineapple-quesadillas-8b9f1f15.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-pineapple-quesadillas-5e5026694cd03e416b3ebf93', 'HelloFresh.com', 'yellow onion
+pineapple
+roma tomato
+cilantro
+lime
+chicken breast strips
+southwest spice blend
+flour tortillas
+mozzarella cheese
+sour cream
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1447, 'Cheesy Stuffed BBQ Pork Burgers', 'We love burgers for many a reason. Here are our top three: 1) satisfaction factor; 2) ooze effect; 3) major customization capabilities. We’re upping the burger ante here by stuffing pork patties (satisfying) with Monterey Jack (perfectly melty) and topping them with charred pineapple and quick-pickled jalapeño (DIY away!). Sweet potato fries and barbecue sauce join the party to make this dish number one.', '2021-05-03 16:44:13.079298', '2021-05-03 16:44:13.079298', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ceeb8613a938c000e5d7e22-799e74d2.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/2018w51r4-cheesy-stuffed-bbq-pork-burgers-5ceeb8613a938c000e5d7e22', 'HelloFresh.com', 'sweet potato
+pineapple
+jalapeño
+ground pork
+monterey jack cheese
+potato buns
+bbq sauce
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1448, 'Silky Sicilian Mushroom Penne', 'If you’re mad for mushrooms, a fan of fungi, or crazy for creminis, this pasta will treat you right: it’s loaded with ’shroom slices! They’re the flavor backbone of this recipe along with rich mushroom stock, bringing all those deep, earthy flavors that you know and love. We’ve added al dente penne, a lemony, chive-flecked crème fraîche sauce, zucchini and tomatoes, and a sprinkling of Parmesan cheese. Get ready for this umami bomb to hit your dinner table.', '2021-05-03 16:44:13.150633', '2021-05-03 16:44:13.150633', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/silky-sicilian-mushroom-penne-5ba98675.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/silky-sicilian-mushroom-penne-5e39c13ff1e8243dda35c94f', 'HelloFresh.com', 'zucchini
+cremini mushrooms
+grape tomatoes
+chives
+lemon
+penne pasta
+italian seasoning
+mushroom stock concentrate
+crème fraîche
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1449, 'Cheesy Prosciutto-Wrapped Chicken', 'This, folks, is not your average chicken dinner. Our chefs added tons of restaurant-level flair (with almost no effort!) by wrapping chicken breasts in salty, savory slices of prosciutto. Once seared, it crisps to perfection. The wrapped chicken is then sprinkled with mozzarella and roasted to get nice and melty. Finally, it’s served over twirly spaghetti that’s been cloaked in a Tuscan-spiced marinara. The best part? Everything comes together in just 35 minutes! Talk about a weeknight win.', '2021-05-03 16:44:13.249948', '2021-05-03 16:44:13.249948', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/6036615cf4408349f54ef047-5d69d012.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/cheesy-prosciutto-wrapped-chicken-6036615cf4408349f54ef047', 'HelloFresh.com', 'green herb blend
+chicken breasts
+prosciutto
+mozzarella cheese
+spaghetti
+tuscan heat spice
+marinara sauce
+parmesan cheese
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1450, 'Tuscan Sausage and Pepper Spaghetti', 'Does your love for pasta know no bounds? Well, here’s a recipe that’s sure to please anyone who is a nut for noodles. Slivers of bell pepper, crumbled pork sausage, and a flavorful tomato sauce are tossed with spaghetti, coming together in a combination that’s hearty, satisfying, and classically comforting. Just add a sprinkle of Parmesan over the top to take things toward Italian-style bliss.', '2021-05-03 16:44:13.341731', '2021-05-03 16:44:13.341731', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/tuscan-sausage-and-pepper-spaghetti-af5b317c.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/tuscan-sausage-and-pepper-spaghetti-5d485bd59697b1000b191602', 'HelloFresh.com', 'yellow onion
+bell pepper
+parsley
+diced tomatoes
+tuscan heat spice
+italian pork sausage
+spaghetti
+chicken stock concentrate
+parmesan cheese
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1451, 'Herbed Chicken Cutlets', 'Take your chicken game to the next level with these cutlets. They get coated in our Italian seasoning, which coasts the meat in a layer of herby aromatics that smell as good as they taste. The sides are pretty special too, with tender roasted zucchini and mashed potatoes made rich by adding cream cheese and sour cream. There’s also a pan gravy for saucing it all and ensuring that no bite is lacking in flavor.', '2021-05-03 16:44:13.412417', '2021-05-03 16:44:13.412417', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/herbed-chicken-cutlets-c55f7cc5.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/herbed-chicken-cutlets-5be4511fae08b56b634bbce2', 'HelloFresh.com', 'zucchini
+yukon gold potatoes
+shallot
+scallions
+cream cheese
+sour cream
+chicken cutlets
+italian seasoning
+chicken stock concentrate
+lemon
+olive oil
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1452, 'Chicken Parm Salad', 'The words “chicken parm” usually have us reaching for our stretchy pants, but this version has all of the cheesy, breaded goodness you know and love in a less over-the-top package. The chicken breasts are baked, not fried, while the heavy sauce is swapped out for a spinach salad with a fresh-squeezed creamy lemon dressing.', '2021-05-03 16:44:13.494712', '2021-05-03 16:44:13.494712', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/59b9a8caad1d6c5aea5502d2-99d97ac1.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/chicken-parm-salad-42-59b9a8caad1d6c5aea5502d2', 'HelloFresh.com', 'yukon gold potatoes
+panko breadcrumbs
+parmesan cheese
+garlic powder
+chicken breasts
+sour cream
+lemon
+spinach
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1453, 'Cheesy Bacon & Asparagus Strata', 'We can’t think of a better way to honor the best mom in your life than this delicious Mother’s Day brunch. That’s why this year, we’re sending everything you need to make a restaurant-worthy meal at home—so you can focus on the great food and company, and forget about making reservations. You’ll start with an oh-so melty, cheesy bacon and asparagus strata. Crispy breakfast-style potatoes served up on the side make this a one-of-a-kind, mom-umental meal.', '2021-05-03 16:44:13.559053', '2021-05-03 16:44:13.559053', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cheesy-bacon-asparagus-strata-bd7a8a64.jpg', 80, NULL, 'https://www.hellofresh.com/recipes/cheesy-bacon-asparagus-strata-605b733afb7c2a29c7329d54', 'HelloFresh.com', 'ciabatta bread
+shallot
+asparagus
+yukon gold potatoes
+bacon
+eggs
+milk
+tuscan heat spice
+italian cheese blend
+grape tomatoes
+arugula
+mayonnaise
+pesto
+balsamic glaze
+salt
+pepper
+olive oil
+butter
+cooking spray');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1454, 'Steak Au Poivre with Cheesy Hesselbeck Potatoes, Creamed Kale, and Shallot-Peppercorn Sauce', 'Steak Au Poivre is a classic French bistro dish known for its rich, peppercorn-spiked sauce. Hesselbeck potatoes—the Swedish version of baked potatoes—are thinly sliced vertically for maximum crispiness. Delicious no matter how you slice it, it’s bound to impress.', '2021-05-03 16:44:13.676154', '2021-05-03 16:44:13.676154', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/565dc3b279a23c09668b4567.jpg', 45, NULL, 'https://www.hellofresh.com/recipes/steak-au-poivre-with-cheesy-hesselbeck-potatoes-creamed-kale-and-shallot-peppercorn-sauce-565dc3b279a23c09668b4567', 'HelloFresh.com', 'sirloin steak
+yukon gold potatoes
+kale
+sour cream
+parmesan cheese
+beef stock concentrate
+shallot
+black peppercorns
+garlic
+butter
+olive oil');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1455, 'Blackened Fish Tacos', 'Think you know pineapple? Think again. You haven’t truly experienced it until it’s been warmed through and caramelized to bring out all of its juicy sweetness. And when you toss it into a taco with some gently spiced pieces of catfish and a crispy slaw, everything you think is true about the fruit is suddenly flipped on its head as you venture into savory dinnertime territory.', '2021-05-03 16:44:13.746212', '2021-05-03 16:44:13.746212', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/blackened-fish-tacos-f8fdce33.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/blackened-fish-tacos-59565476c6243b5b400e2002', 'HelloFresh.com', 'pineapple
+lime
+catfish
+cajun spice blend
+carrots
+shredded red cabbage
+mayonnaise
+flour tortilla
+sour cream
+cilantro
+sugar
+vegetable oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1456, 'Chicken Cutlets with Scallion Sriracha Pesto', 'Because we’re constantly looking for new ways to ‘chicken for dinner,’ we developed an Asian-style pesto, swapping scallions for typical basil, then adding sesame oil, lime juice, fresh ginger, and sriracha. With ginger carrots and fluffy rice on the side, this condiment is our favorite new way to top our friend Chicken Cutlet.', '2021-05-03 16:44:13.838025', '2021-05-03 16:44:13.838025', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/2019w2r4-seared-chicken-cutlets-over-cilantro-rice-3ebedb30.jpg', 20, NULL, 'https://www.hellofresh.com/recipes/2019w2r4-seared-chicken-cutlets-over-cilantro-rice-5bf2f9d9ae08b544830eba12', 'HelloFresh.com', 'scallions
+ginger
+cilantro
+lime
+carrots
+jasmine rice
+chicken cutlets
+sesame oil
+sriracha
+soy sauce
+sugar
+olive oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1457, 'Carbonara-Style Penne', 'You may know that carbonara sauce is great at bringing creamy, rich, and smooth personality to pasta. But did you know that making it is dead simple too? In our version, we take pancetta (that’s Italian bacon) and give it a quick crisping in the pan before folding it into al dente penne, tender peas, and a Parmesan egg sauce. Peak porky pasta goodness has been reached.', '2021-05-03 16:44:13.943911', '2021-05-03 16:44:13.943911', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/carbonara-style-penne-bbe37697.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/carbonara-style-penne-5a7a328f30006c485d1757d2', 'HelloFresh.com', 'scallions
+lemon
+eggs
+pancetta
+penne pasta
+peas
+sour cream
+parmesan cheese
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1458, 'Zucchini and Tomato Flatbreads', 'If this recipe could talk, it would say “I’m so fancy!” Seriously: you’ve got lemony ricotta cheese that’s smooth like a cloud, plus bites of tomato and zucchini bursting with juices, which are all piled onto two warm and toasty flatbreads. Oh, and we have to talk about the bling on top: a basil leaf, chili flake, and honey garnish that makes each bite light up with aromatic, spicy, and sweet contrasts. You’ve just hit dinnertime gold.', '2021-05-03 16:44:14.036384', '2021-05-03 16:44:14.036384', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d920fcac6d5102c1923be43-6b982b29.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/zucchini-and-tomato-flatbreads-5d920fcac6d5102c1923be43', 'HelloFresh.com', 'zucchini
+grape tomatoes
+garlic
+lemon
+ricotta cheese
+flatbreads
+basil
+chili flakes
+honey
+vegetable oil
+olive oil
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1459, 'Cheesy Onion Crunch Chicken', 'Crispy chicken + honey mustard is a match made in mealtime heaven. And because we’re all about making sure your mealtimes are heavenly, we took that classic combo and chef’d it up a bit (still making sure it’s on your table in 30). To start, chicken breasts are brushed with honey mustard dressing, then coated with a mixture of Monterey Jack and crushed fried onions. The chicken’s roasted to juicy perfection and served with creamy mashed sweet potatoes and roasted green beans. There’s more honey mustard on the side for dunking and drizzling—because we <3 you.', '2021-05-03 16:44:14.107947', '2021-05-03 16:44:14.107947', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/cheesy-onion-crunch-chicken-25804c52.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/cheesy-onion-crunch-chicken-5e5ea9d33e58345f562526c5', 'HelloFresh.com', 'sweet potato
+monterey jack cheese
+sour cream
+crispy fried onions
+chicken cutlets
+green beans
+olive oil
+butter
+salt
+pepper
+honey mustard dressing');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1460, 'Sweet ’N’ Smoky Pork Chops', 'We’re not afraid to rub it in: these pork chops are better than the rest. That’s because they literally are rubbed with a sweet and smoky blend of sugar and spices, which adds a caramelized crust and plenty of big flavors to the meat. The sides also give anyone with a sweet tooth reason to rejoice: tender, roasted sweet potatoes and an apple cranberry Brussels sprout hash complete this trifecta of candy-like flavors.', '2021-05-03 16:44:14.182462', '2021-05-03 16:44:14.182462', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w09-r03-5511142e.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/w09-r03-58821ed5803b50640f66c835', 'HelloFresh.com', 'boneless pork chops
+sweet potato
+dried cranberries
+granny smith apple
+blackening spice
+lemon
+brussels sprouts
+salt
+pepper
+olive oil
+sugar');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1461, 'Sesame Shrimp', 'If you’re like us, you’ve seen a lot of stir-fries in your day. But thanks to our sweet hoisin marinade, aromatic rice, and sprinkle of nutty sesame seeds, this one is bound to top them all. Even the pickiest of eaters will love it. Sounds like a win-win to us.', '2021-05-03 16:44:14.249393', '2021-05-03 16:44:14.249393', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/w22-r3-b18719a4.jpg', 30, NULL, 'https://www.hellofresh.com/recipes/w22-r3-58f0ce074f78db72a62d2122', 'HelloFresh.com', 'shrimp
+scallions
+garlic
+ginger
+jasmine rice
+hoisin sauce
+lime
+sesame seeds
+vegetable oil
+salt
+pepper
+green beans');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1462, 'Apricot Ginger Chicken', 'This chicken is our jam! No, seriously. Pan-seared chicken in a fresh ginger and apricot jam sauce is here to cure all your weeknight dinner woes. It’s sweet, savory, aromatic, and all-around delicious. Plus, the excitement only continues with the sides. Chicken pairs perfectly with crisp roasted green beans and fluffy, buttery rice. Jam out.', '2021-05-03 16:44:14.322301', '2021-05-03 16:44:14.322301', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5d386ffaa641a5000e4b9687-ec91cbce.jpg', 25, NULL, 'https://www.hellofresh.com/recipes/apricot-ginger-chicken-5d386ffaa641a5000e4b9687', 'HelloFresh.com', 'ginger
+jasmine rice
+green beans
+chicken cutlets
+apricot jam
+chicken stock concentrate
+vegetable oil
+butter
+salt
+pepper');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (1463, 'Crab Cakes and Chesapeake-Style Mayo', 'If you’ve never cooked crab cakes at home before, you’re in for a treat. (And ours couldn’t be simpler to whip up.) All the prepared patties need is a coating of panko breadcrumbs and a quick sear in butter to bring out their brilliant flavor. They’re golden and crispy on the outside with a creamy, sweet, briny-tasting interior. If you still need more convincing, these crab cakes are drizzled with a lemony, paprika-and-garlic-spiked sauce and served alongside a charred corn salad and garlic bread. Sea you at dinner!', '2021-05-03 16:44:14.384914', '2021-05-03 16:44:14.384914', 'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_900/hellofresh_s3/image/5ce2d37bc5965b00162f3012-6c43ab53.jpg', 35, NULL, 'https://www.hellofresh.com/recipes/2019-w27-r11-pan-seared-crab-cakes-5ce2d37bc5965b00162f3012', 'HelloFresh.com', 'corn on the cob
+roma tomato
+ciabatta bread
+lemon
+hot smoked paprika
+garlic powder
+celery salt
+panko breadcrumbs
+sour cream
+mayonnaise
+crab cakes
+mixed greens
+vegetable oil
+olive oil
+butter
+salt
+pepper');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (673, 'Chocolate Wafers', NULL, '2021-04-27 14:55:55.523414', '2021-04-27 14:55:55.523414', 'https://spoonacular.com/recipeImages/639234-556x370.jpg', 45, '<ol><li>Combine the flour, cocoa, baking soda, and salt in a small bowl and mix together thoroughly with a whisk or fork. Set aside.</li><li>Beat the butter and margarine with an electric mixer for a few seconds just until blended.</li><li>Add the granulated sugar, brown sugar, and vanilla and beat at high speed for about 1 minute.</li><li>Beat in the egg white.</li><li>Add the flour mixture and mix on low speed, just until incorporated.</li><li>Gather the dough together with your hands and form it into a 9- to 10-inch log.</li><li>Wrap the log in wax paper or foil. Fold or twist the ends of the paper without pinching or flattening the log</li><li>Refrigerate for at least 45 minutes, or until needed.</li><li>Preheat the oven to 350F. Position racks in the upper and lower thirds of the oven.</li><li>Use a sharp knife to cut the dough log into slices a scant 1/4" thick.</li><li>Place 1 inch apart on cookie sheets and bake for 12 - 14 minutes, or until the cookies puff and crackle on top, then begin to settle down slightly.</li><li>Rotate baking sheets from top to bottom and front to back about halfway through the baking time to ensure even baking.</li><li>Slide the parchment or foil onto cooling racks and cool the cookies completely before storing or stacking.</li></ol>', 'http://www.foodista.com/recipe/PFD62V3L/chocolate-wafers', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'AP flour
 baking soda
 brown sugar
@@ -9119,492 +19018,6 @@ salt
 unsalted butter
 unsweetened cocoa powder
 vanilla extract
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (674, 'Chicken Porridge', NULL, '2021-04-27 14:55:55.807534', '2021-04-27 14:55:55.807534', 'https://spoonacular.com/recipeImages/638257-556x370.jpg', 45, '<ol><li>Deep fry shallot till golden brown, drain oil and set aside.  Retain the oil for later use.</li><li>Wash rice and add oil. Mix rice and oil well.  Add chicken stock, chicken breast and carrots and bring to boil.  Turn heat to low and simmer for about 1 hour.  Stir now and then.  When porridge is thicken, turn of heat and dish out the chicken breast and shred it.  Put the shredded chicken meat back into the porridge.  Warm it before serving and garnish with spring onion, parsley, ginger and fried shallots and a few drops of shallot''s oil.</li></ol>', 'http://www.foodista.com/recipe/S6FN8VYN/chicken-porridge', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'carrot
-chicken breast
-chicken stock
-ginger
-ground pepper
-parsley
-rice
-salt
-shallots
-spring onion
-vegetable oil
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (675, 'Spicy Indian-Style Hummus', NULL, '2021-04-27 14:56:13.872671', '2021-04-27 14:56:13.872671', 'https://spoonacular.com/recipeImages/716195-556x370.jpg', 45, '<p>Rinse the chickpeas and soak for 8 hours or overnight covered in several inches of water with a little yogurt whey or lemon juice added.  Drain and rinse, then transfer to a large saucepan.  Cover with several inches of fresh water, bring to a boil, reduce the heat to medium-low and cover.  Simmer for 1 to 1 1/2 hours or until the beans are buttery soft. Drain.In a food processor, combine all of the ingredients and process until you have a thick, smooth paste. You may need to add extra olive oil or a bit of water if you want a thinner paste. Makes 3 cups, nutrition information is based on 1/4 cup serving.</p>', 'http://foodandspice.blogspot.com/2012/07/spicy-hummus-indian-style.html', 'Lisa''s Vegetarian Kitchen', 'asafetida
-cayenne
-dried chickpeas
-fresh chives
-fresh ginger
-fresh parsley
-garlic
-ground coriander
-ground cumin
-ground pepper
-juice of lemon
-olive oil
-red chilies
-sea salt
-tahini
-turmeric
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (676, 'Flawless Chocolate Fudge', NULL, '2021-04-27 14:56:13.890101', '2021-04-27 14:56:13.890101', 'https://spoonacular.com/recipeImages/643129-556x370.jpg', 60, '<ol><li>Combine first five ingredients, stirring over low heat until blended.</li><li>Bring to a boil over moderate heat being careful not to mistake air bubbles for boiling. (VERY IMPORTANT)</li><li>Boil slowly, stirring constantly for a full 5 minutes. (Also very important!).</li><li>Remove from heat and stir in vanilla and chocolate until chocolate is melted. Stir in nuts if needed.</li><li>Turn into a 9 x 9 inch pan that has been sprayed with butter flavored cooking spray and cool completely.</li></ol>', 'http://www.foodista.com/recipe/38ND6CKS/flawless-chocolate-fudge', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'butter
-evaporated milk
-kosher salt
-marshmallow fluff
-semisweet chocolate chips
-sugar
-vanilla extract
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (677, 'Crockpot Chicken and Dumplings', NULL, '2021-04-27 14:56:13.900641', '2021-04-27 14:56:13.900641', 'https://spoonacular.com/recipeImages/640886-556x370.jpg', 45, 'Place chicken in the crock pot. Add butter, cream of chicken soup, chicken broth, diced onion, and parsley.
-Cook on high for 4-6 hours or low for 8-10.
-30 minutes before chicken is finished cooking, cut biscuits into 9 pieces and add to crock pot. Gently stir to coat biscuits. Continue to cook for 30 minutes, then serve!', 'https://www.foodista.com/recipe/DJ5GP3VY/crock-pot-chicken-and-dumplings-recipe', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'skinless boneless chicken breasts
-butter
-cream of chicken soup
-chicken broth
-onion
-dried parsley
-biscuits
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (678, 'Thai Savory Brown Fried Rice', NULL, '2021-04-27 14:56:13.996677', '2021-04-27 14:56:13.996677', 'https://spoonacular.com/recipeImages/663150-556x370.jpg', 45, 'Make my Perfect Brown Rice recipe below.  While brown
-rice is cooking prepare rest of meal.
-
-PERFECT BROWN RICE
-1 cup uncooked brown rice
-1 tsp. olive oil
-2 cups filtered water
-2 basil leaves (optional)
-
-
-Fix brown rice by cooking in 1 tsp. olive oil until lightly browned. Place 2 basil leaves on top of rice and add 2 cups water all at once. Quickly put on lid and bring to boil. Turn down heat to simmer until all water has evaporated (around 40 minutes).
-Heat oil in a wok or large frying pan.  Add the garlic and cook on medium until lightly golden.  Watch carefully so you do not burn garlic.
-Add the red chili peppers, cashew nuts and toasted coconut.  Mix together stevia, Nama Shoyu and apple cider vinegar together.  Cook over medium heat for 1 minutes.
-Push stir-fry to one side of pan and add flax on opposite end.  Cook and stir the flax egg for about a minute and then incorporate into stir-fry mixture.
-Add the green beans, bok choy and brown rice to stir-fry.  Cook and stir on medium for another minute.  Bok Choy will be wilted, but green beans will still be a bit crunchy.
-Spoon into serving dish and add lime wedge on side for squeezing over rice.', 'https://www.foodista.com/recipe/7C3JZV44/thai-savory-brown-fried-rice', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'extra virgin olive oil
-garlic cloves
-chili peppers
-cashew nuts
-coconut
-stevia
-bragg''s liquid aminos
-apple cider vinegar
-flax egg
-fresh green beans
-bok choy
-brown rice
-lime wedges
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (679, 'Deviled Eggs With Crab', NULL, '2021-04-27 14:56:14.034379', '2021-04-27 14:56:14.034379', 'https://spoonacular.com/recipeImages/641461-556x370.jpg', 45, '<ol><li>In a medium-sized mixing bowl combine the crabmeat, celery, sour cream, mayonnaise, Dijon mustard, lemon juice, and chives. Stir until well combined.</li><li>Season, to taste, with salt and pepper.</li><li>Spoon the crab mixture into the egg halves.</li><li>Serve immediately or chilled until ready.</li></ol>', 'http://www.foodista.com/recipe/SG5QX2ZK/deviled-eggs-with-crab', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'celery
-dijon mustard
-eggs
-fresh chives
-lemon juice
-lump crabmeat
-mayonnaise
-salt and pepper
-sour cream
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (680, 'Spicy Salad with Kidney Beans, Cheddar, and Nuts', NULL, '2021-04-27 14:56:14.048554', '2021-04-27 14:56:14.048554', 'https://spoonacular.com/recipeImages/157344-556x370.jpg', 10, '<p>     1. Rinse and drain the kidney beans, cut the sundried tomatoes, and tear the slice of cheese into small pieces.</p><p>     2. Put the mixed greens in a bowl and top with kidney beans, sundried tomatoes, cheddar cheese, and nuts.</p><p>     3. Mix together the olive oil, balsamic vinegar, and hot sauce in a small bowl. Pour the dressing over the salad.</p><p>     Fast, easy, and healthy-- one of my favorite lunches!</p>', 'http://spoonacular.com/-1384191937003', 'coffeebean', 'almonds
-avocado
-balsamic vinegar
-cheddar cheese
-kidney beans
-mixed greens
-olive oil
-salted roasted cashews
-sundried tomatoes
-tabasco
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (694, 'Cranberry and Orange Juice Spareribs', NULL, '2021-04-27 14:56:14.371229', '2021-04-27 14:56:14.371229', 'https://spoonacular.com/recipeImages/640349-556x370.jpg', 210, '<ol><li>Combine all of the ingredients for the marinade in a bowl and stir.</li><li>Place ribs in the marinade and refrigerate for at least one hour or more or up to overnight.</li><li>Preheat oven to 325 degrees F.</li><li>Place the ribs in a roasting pan with the marinade.</li><li>Bake uncovered for 2 – 2 ½ hours or until the ribs are fall off the bone tender. Allow the marinade to evaporate in the cooking process.</li><li>Let the ribs cool slightly; then separate the ribs with a cooking scissor and plate.</li></ol>', 'http://www.foodista.com/recipe/KND4S2Q4/cranberry-and-orange-juice-spareribs', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'black pepper
-cranberry juice
-curry powder
-garlic powder
-ground cumin
-ketchup
-orange juice
-salt
-soy sauce
-spare ribs
-vinegar
-water
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (681, 'Guinness Braised Corned Beef and Cabbage', NULL, '2021-04-27 14:56:14.062912', '2021-04-27 14:56:14.062912', 'https://spoonacular.com/recipeImages/646034-556x370.jpg', 45, 'Season both sides of the corned beef liberally with pepper. The corning of the beef makes the beef salty enough, so no need to add more.
-Heat 1 TBSP oil in a large, shallow oven-safe pot over medium-high heat. Add beef and sear each side for about 3 minutes, just to develop a nice brown crust. This will seal in the beef''s juices.
-Remove beef to a plate. Pour guinness into the pot to deglaze. Scrape up any browned bits. Add beef broth, pickling spice, brown sugar, bay leaf, and minced garlic. Bring mixture up to a simmer.
-Return the beef to the pot with any additional juices that have accumulated on the plate.
-Cover the pot and place on the bottom rack in your oven. Bake for 2 1/2 - 3 hours, or until a fork can easily be inserted into the meat.
-Baste the meat with the surrounding juices every 30 minutes or so.
-After 2 hours, add carrots, parsnips, and potatoes to the pot. They will only take about 25-30 minutes of simmering to cook.
-Remove pot from the oven. Place beef on a cutting board and let it rest for 15 minutes before carving into thin slices (cut against the grain of the meat). Remove vegetables and arrange them on a serving platter. Cover with foil. Place the pot on the burner and bring sauce to a boil. Add cabbage and cook for about 7 minutes, until it has softened. Place the cabbage on the serving platter with the other vegetables.
-Strain the sauce in the pot and stir in 2 or 3 TBSP of spicy honey mustard until dissolved. Place in a small dish or gravy boat with a ladle and serve alongside the beef.
-After slicing the beef and arranging it on the serving platter, ladle the guinness mustard sauce over the top to rehydrate and glaze the beef and vegetables.', 'https://www.foodista.com/recipe/5NNYR6RD/guinness-braised-corned-beef-and-cabbage', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'corned beef brisket
-carrots
-parsnips
-potatoes
-garlic
-guinness
-beef broth
-Spice Rub
-brown sugar
-bay leaf
-honey mustard
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (682, 'Slow Cooker Red Beans and Rice', NULL, '2021-04-27 14:56:14.100086', '2021-04-27 14:56:14.100086', 'https://spoonacular.com/recipeImages/715493-556x370.jpg', 45, 'Place all of your ingredients into the slow cooker and stir to mix everything well. Allow to cook all day on low for 6 hours (if with rice), or longer if needed without rice. Serve with cornbread and enjoy! (I like to take a whole piece and mix it up really well, YUM!)', 'http://www.pinkwhen.com/slow-cooker-red-beans-and-rice-recipe/', 'Jen West', 'ancho chili powder
-bay leaves
-butter
-canned red beans
-canned tomatoes
-cayenne pepper
-red onion
-rice
-sausage
-water
-white pepper
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (683, 'Vegan Peanut Butter Chocolate Fudge', NULL, '2021-04-27 14:56:14.110925', '2021-04-27 14:56:14.110925', 'https://spoonacular.com/recipeImages/664473-556x370.jpg', 45, 'Combine all ingredients in a food processor until smooth.
-Fold mixture into a flat, sealable container and freeze for 1 hour or refrigerate overnight.
-To make your own coconut butter, pulse shredded coconut in a food processor until smooth; about 8-12 minutes.', 'https://www.foodista.com/recipe/QJR5QH5F/vegan-peanut-butter-chocolate-fudge', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'coconut butter
-peanut butter
-bananas
-cocoa powder
-agave nectar
-vanilla extract
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (684, 'Sugared Pecans Gift Idea & Silhouette America Promotion', NULL, '2021-04-27 14:56:14.122794', '2021-04-27 14:56:14.122794', 'https://spoonacular.com/recipeImages/715491-556x370.jpg', 65, 'Heat your oven up to 250 degrees.In a small bowl add the egg white and water and whisk until frothy.Pour in pecans and stir to coat them all evenly.In a separate bowl add sugar, cinnamon, and salt. Mix well.Pour sugar mixture into pecan mixture and mix well until pecans are coated.Place on a non stick sheet or prepare a cookie sheet and then spread out the pecans evenly.Place in the oven for 1 hour, turning the pecans every 15 minutes.', 'http://www.pinkwhen.com/sugared-pecans-silhouette-america/', 'Jen West', 'egg white
-ground cinnamon
-pecan
-salt
-water
-white sugar
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (685, 'Loaded Veggie Omelet', NULL, '2021-04-27 14:56:14.138586', '2021-04-27 14:56:14.138586', 'https://spoonacular.com/recipeImages/650239-556x370.jpg', 45, 'Preheat the oven to warm or 170 degrees. Bring a small saute pan or small omelet pan to a warm.
-Saute the veggies using the olive oil starting with the shallot and garlic, adding the mushrooms until they are tender. Toss in the tomatoes and spinach and remove the pan from the heat.
-Pour a layer of the egg into a small omelet pan or small saute pan. As the egg starts to cook run a spatula around the edge to loosen the egg. Once the egg is almost cooked (slightly runny on the top) sprinkle half the basil, cheese, and sauteed veggies on to one side of the egg. Gently fold the egg over the filling.
-Slide the omelet onto a small oven safe plate and put it in the oven.
-Repeat for the second omelet!', 'https://www.foodista.com/recipe/MTFXZNRX/loaded-veggie-omelet', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'shallot
-garlic
-mushrooms
-cherry tomatoes
-fresh basil
-spinach
-eggs
-cheese
-olive oil
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (686, 'Dessert That''s No Problem: Baked Pears with Oatmeal Crumble', NULL, '2021-04-27 14:56:14.171524', '2021-04-27 14:56:14.171524', 'https://spoonacular.com/recipeImages/641445-556x370.jpg', 45, 'Preheat your oven to 400 degrees F.
-In a small bowl, mix together the oatmeal, brown sugar, flour and cinnamon.
-Place the halved pears in a baking dish.
-Spoon the oatmeal mixture onto the top of each pear half and pat down to make a small mound.
-Dot each of the pear halves with the pieces of butter.
-Bake, uncovered, for about 15 minutes. Turn the oven to broil to allow the topping to brown, just for about 30 seconds. Watch the pears carefully at this point so they dont burn.
-Serve with vanilla ice cream, caramel sauce or plain.', 'https://www.foodista.com/recipe/YBL337T4/dessert-that-s-no-problem-baked-pears-with-oatmeal-crumble', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'pears
-oatmeal
-brown sugar
-flour
-cinnamon
-butter
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (687, 'Cheesy Ham and Shrimp Macaroni Au Gratin', NULL, '2021-04-27 14:56:14.189298', '2021-04-27 14:56:14.189298', 'https://spoonacular.com/recipeImages/637658-556x370.jpg', 45, '<ol><li>Cut off base of broccoli stem. Cut broccoli into florets. Remove skin from stem using a peeler and dice it. Wash broccoli thoroughly.</li><li>Blanch broccoli and butter them.</li><li>Rinse and dice mushrooms and ham. Add into sauce and mix well.</li><li>Remove shells from shrimps and devein. Dice and set aside.</li><li>Preheat oven at 250C. Cook pasta accordingly to instructions. Drain.</li><li>Grease tin foils. Put pastas into foils and distribute sauce mixture evenly. Stir well.</li><li>From Step 1 until the above, you can actually prepare ahead of time and refrigerate them with covers if youve guests coming over. Then follow by the rest of the steps below.</li><li>Mix shrimps and broccoli stems evenly. Place broccoli florets, and top with cheese.</li><li>Bake the gratin at 250C till golden brown. My oven took about 7 mins to brown. Look at how cheesy it turned out! Crispy on the outside and creamy inside. Enjoy your Cheesy Ham and Shrimp Macaroni Au Gratin!</li></ol>', 'http://www.foodista.com/recipe/4F3FG5W5/cheesy-ham-and-shrimp-macaroni-au-gratin', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'broccoli
-chocolate ice cream sauce
-elbow pasta
-ham
-mushrooms
-olive oil
-parmesan cheese
-shrimps
-water
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (695, 'Lime S’more Tartlets', NULL, '2021-04-27 14:56:14.378491', '2021-04-27 14:56:14.378491', 'https://spoonacular.com/recipeImages/650092-556x370.jpg', 45, '<ol><li>Prepare the graham crust: Preheat the oven to 350.</li><li>Put the graham crackers into a food processor and pulse until the crackers break down to the consistency of sand. Transfer to a large bowl. Stir in the salt and melted butter and mix until the butter has thoroughly incorporated; it should be the consistency of wet sand.</li><li>Press and pack the wet graham mixture into six buttered 4 -inch tart pans, making sure it goes up all the way on the sides and that the crust is thick and sturdy.</li><li>Arrange the tarts on 1 or 2 cookie sheets and bake for 12 minutes, or until the crusts are golden, but not browned. Remove the tart shells from the oven and set aside to cool.</li><li>If you are not using spring form pans, carefully remove the crusts from the pans at this stage and follow the recipe as follows.</li><li>The tart crusts can be stored in airtight plastic containers, in a single layer, for up to 24 hours.</li><li>Prepare the lime curd: Put the lime juice, sugar, eggs, and yolks in a stainless steel bowl and whisk well.</li><li>Fill a saucepan halfway with water, and bring the water to a boil over high heat, then lower the heat so the water is simmering. Set the bowl over the pot and whisk the lime mixture occasionally until it thickens, approximately 10 minutes. Then whisk in the butter, 1 piece at a time. When all of the butter is melted and incorporated, stir in the lime zest and remove the saucepan from the heat.</li><li>Remove the bowl from the saucepan and let it cool for 5 minutes.</li><li>Transfer the mixture to a blender or food processor, and blend until very smooth. You can also use an immersion/hand blender instead, if you have one.</li><li>The mixture can be made, cooled, covered, and refrigerated for up to 1 week.</li><li>Divide the mixture among the tart shells, leaving about half of space on the top for the chocolate ganache layer. Chill in the refrigerator while making the chocolate ganache, or until set.</li><li>Prepare the chocolate ganache: Over a double boiler (simmer water over low heat in a saucepan and put a heat-resistant bowl on top), melt the chocolate together with the sugar and butter. Stir constantly until the sugar is well incorporated and the mixture is smooth and shiny.</li><li>Remove the melted chocolate from the heat and let it cool for 5 minutes.</li><li>Carefully, pour the liquid chocolate ganache over each tartlet, making sure that the chocolate does not over-flow the graham crust sides. Return the tarts to the refrigerator and chill for 1 to 2 hours, or until the ganache has set. (The ganache on top should take on a smooth matte finish.)</li><li>Prepare the meringue and finish the tarts: In the bowl of a standing mixer fitted with a whip attachment, whip the reserved egg whites until frothy. Slowly add the sugar, then the cream of tartar, continuing to whip until well incorporated. Increase the stand mixer to medium speed and whip until the whites are shiny and form a stiff peak. Do not over-whip or they will become grainy.</li><li>Transfer the meringue into a pastry bag fitted with a star tip, and pipe it around the edge of each tart. Or, transfer it into a large freezer bag, seal tightly, and snip off one corner. Pipe the meringue on as desired.</li><li>Using a brulee torch, quickly brown the meringue, being careful not to melt the chocolate ganache on top. (Due to the chocolate ganache layer, the meringues should not be browned under a broiler.)</li></ol>', 'http://www.foodista.com/recipe/ZPKPSYSG/lime-smore-tartlets', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'bittersweet chocolate
-butter
-cream of tartar
-egg whites
-eggs yolks
-graham crackers
-granulated sugar
-lime juice
-lime zest
-salt
-spring mix
-whole eggs
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (688, 'Avocado Chocolate Bits Frozen Yogurt', NULL, '2021-04-27 14:56:14.208331', '2021-04-27 14:56:14.208331', 'https://spoonacular.com/recipeImages/633139-556x370.jpg', 45, 'Heat milk and sugar over medium heat in a medium saucepan until just comes to a boil, stirring occasionally.  Stir in the vanilla.
-Have ready a large bowl filled with ice and set a small metal bowl over the ice with a strainer set over it.
-Place egg yolks in a medium bowl, lightly beaten.  Ladle some of the milk into the egg yolk, whisk it to prevent curdling.  Pour this mixture back into the rest of the milk in the saucepan.  Cook over low-medium heat until mixture is thick and can cover the back of a wooden spoon, about 4 to 8 minutes.
-Pour the mixture over the strainer into the small bowl; stir in the yogurt.  Whisk the mixture over the ice bath until it cools completely.
-Scoop the avocado meat and puree in a blender or food processor along with the lemon juice and some of the cooled custard.  Pour this mixture back to the rest of the custard, blend them together until it is thick and creamy.
-Freeze the custard in an ice cream maker according to the manufacturers instructions.  Halfway through the freezing process, fold in the chopped bittersweet chocolate.  Transfer the frozen yogurt into a freezer-safe container and freeze until solid, at least 4 hours.', 'https://www.foodista.com/recipe/4RLKWMW5/avocado-chocolate-bits-frozen-yogurt', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'whole milk
-sugar
-vanilla extract
-egg yolks
-skim milk yogurt
-avocados
-lemon juice
-bittersweet chocolate
-sweetened condensed milk
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (689, 'Old Fashioned Vanilla Buttercream Frosting', NULL, '2021-04-27 14:56:14.23371', '2021-04-27 14:56:14.23371', 'https://spoonacular.com/recipeImages/715550-556x370.jpg', 5, 'Instructions
-
-Buttercream Icing Recipe
-
-In a large mixing bowl cream butter and shortening with electric mixer. Add vanilla.
-
-Gradually add in sifted confectioners sugar, one cup at a time beating on medium speed.
-
-Scrape sides and bottom of bowl often. When all of the sugar has been mixed in, icing will appear dry. Add milk and beat at medium speed for 3 minutes.
-
-Keep icing covered with a damp cloth until ready to decorate. For best results, keep icing bowl in refrigerator when not using.
-
-Icing can be stored in an air tight container for up to a week. Just re-whip it in your mixer before using. Makes 3 1/2 cups.', 'https://www.pinkwhen.com/old-fashioned-vanilla-buttercream-frosting/', 'Jen West', 'solid vegetable shortening
-butter
-vanilla
-confectioners sugar
-milk
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (690, 'Turkey and Rice Stuffed Acorn Squash', NULL, '2021-04-27 14:56:14.301315', '2021-04-27 14:56:14.301315', 'https://spoonacular.com/recipeImages/663985-556x370.jpg', 45, 'Prepare rice according to package instructions. (I either cook the rice in chicken stock, or this time I used water and added 1 tablespoon vegeta seasoning to the water to add flavor to the rice as it cooks.)
-Meanwhile preheat oven to 375 degrees. Cut squash in half and drizzle with olive oil, salt and pepper. Roast skin side down for 30 minutes.
-Heat 1 tablespoon olive oil in large skilled. Add diced onions. Cook until translucent. Add garlic and cook for 1 minute longer. Add turkey, 1 tablespoon vegeta, red pepper, salt and pepper. Cook until turkey is browned and almost cooked through. Rough chop the mushrooms and add to the pan. Cook until mushrooms are softened. Add rice and spinach and stir until spinach is just wilted.
-Stuff the squash with the meat and rice mixture and top with bread crumbs. (Either toss bread crumbs with 2 teaspoons olive oil, or I just spray them with spray olive oil to make sure that they brown in the oven.
-Bake stuffed squash in oven until bread crumbs are browned.', 'https://www.foodista.com/recipe/8QRN8DXZ/turkey-and-rice-stuffed-acorn-squash', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'olive oil
-acorn squash
-brown rice
-onion
-garlic
-lean ground turkey
-baby bella mushrooms
-spinach
-vegeta seasoning
-bell pepper
-salt and pepper
-whole wheat bread crumbs
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (691, 'Easiest Breakfast Ever: Sunny Fruit Parfait', NULL, '2021-04-27 14:56:14.317171', '2021-04-27 14:56:14.317171', 'https://spoonacular.com/recipeImages/716433-556x370.jpg', 45, '', 'http://fullbellysisters.blogspot.com/2011/04/easiest-breakfast-ever-sunny-fruit.html', 'Full Belly Sisters', 'apple
-raisins
-sunflower seeds
-yogurt
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (692, 'Banana & Cream Cheese Stuffed French Toast', NULL, '2021-04-27 14:56:14.35625', '2021-04-27 14:56:14.35625', 'https://spoonacular.com/recipeImages/633971-556x370.jpg', 45, '<ol><li>In a small bowl combine the softened cream cheese, honey, cinnamon, nutmeg and lemon juice, set aside while preparing the batter.</li><li>Whisk together all of the batter ingredients until thoroughly mixed. (This is a breeze if you use a blender.) Pour the batter into a wide, shallow dish (like a pie plate).</li><li>Spread the filling mixture equally over 1 side of each slice of bread, divide the sliced bananas between 4 slices of the bread, top with the remaining 4 slices, press lightly.</li><li>Melt 2 t. butter and 2 t. oil in a 12 inch nonstick skillet over medium heat until the butter foams and then subsides. Working with one sandwich at a time dip both sides in the batter and let the excess drip away, add to the hot pan, repeat with a second sandwich. Cook until golden brown on the first side, around 3-5 minutes, flip and repeat on the second side. Repeat this process with the remaining, oil, butter and sandwiches. To serve, cut into triangles and serve with maple syrup.</li></ol>', 'http://www.foodista.com/recipe/ZJMSFPMM/banana-cream-cheese-stuffed-french-toast', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'baking powder
-bananas
-butter
-canola oil
-cinnamon
-cream cheese
-eggs
-flour
-ground nutmeg
-honey
-lemon juice
-maple syrup
-milk
-salt
-white sandwich bread
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (693, 'Moroccan Chicken Tagine', NULL, '2021-04-27 14:56:14.363203', '2021-04-27 14:56:14.363203', 'https://spoonacular.com/recipeImages/652421-556x370.jpg', 45, '<ol><li>In a pie plate, combine the flour and Moroccan spice mixture. Add chicken pieces and toss to coat.</li><li>Heat oil in your pressure cooker over medium-high heat. Once hot, add the chicken pieces and allow to brown for one minute per side. Remove chicken from pressure cooker and set aside.</li><li>Reduce heat to medium and add ginger and onions. Saute for three minutes, until onions are semi-translucent. Add garlic and cook for another minute.</li><li>Add the apricots, whole tomatoes, chicken broth or stock, and browned chicken pieces to the pot.</li><li>Cover, and bring to low pressure over medium-high heat. Once you have reached pressure, cook for eight minutes then remove from heat and release the pressure using the quick release method (open the steam valve).</li><li>Stir in the chick peas, almonds, and honey and let them warm for a few minutes.</li><li>Check your chicken for done-ness and taste the tagine. Adjust salt and pepper as needed. Serve over couscous and garnish with cilantro leaves.</li><li>*If using a Dutch Oven instead, follow steps 1-4 as described, then bring the mixture to a boil, reduce to a simmer, and cook for 20-25 minutes or until apricots are tender. Continue with step 6.</li></ol>', 'http://www.foodista.com/recipe/V36XNVKB/moroccan-chicken-tagine', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'Spice Rub
-almond
-apricot
-canned chick peas
-canned tomatoes
-cilantro
-extra virgin olive oil
-fat free chicken broth
-flour
-fresh ginger root
-garlic clove
-ground pepper
-honey
-onion
-skinless boneless chicken breasts
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (696, 'Spinach and Gorgonzola Stuffed Flank Steak', NULL, '2021-04-27 14:56:14.392311', '2021-04-27 14:56:14.392311', 'https://spoonacular.com/recipeImages/661259-556x370.jpg', 45, 'Preheat oven to 375.
-Butterfly the steak by using a long sharp knife holding it parallel to the work surface, cut through the long side of the steak, stopping about  inch from the opposite side. If the steak is already thin, just pound it with a mallet to  inch thick.
-In a large skillet over medium heat add 1 tablespoon olive oil and saut` the shallots until soft, 2 minutes. Add the spinach and cook until just wilted, about 2 to 3 minutes. Transfer to a colander.
-When cool enough to handle, squeeze out all the moisture from the spinach and transfer to a medium bowl. Stir in the bread crumbs and cheese. Season with salt and pepper.
-Place the steak on a sheet of plastic wrap. Smear the spinach mixture evenly over the steak, leaving about 1 inch border along the side edge. Beginning with the side near you and using the plastic wrap as an aid, rollup the steak, gently pressing on the filling.
-Tie the rolled steak with twine at 2-3 inch interval.
-Season the outside with salt and pepper.
-Heat the remaining 2 tablespoons olive oil in a large ovenproof skillet over medium high heat. Sear the roast on all sided, about 2 minutes per side.
-Place in the oven and roast for 20 to 25 minutes.
-Transfer to a cutting board, tend with aluminum foil and allow resting for 10 minutes.
-To serve, remove the twine from the roast and cut into  inch to 1 inch thick slices.', 'https://www.foodista.com/recipe/SWTFLZXM/spinach-and-gorgonzola-stuffed-flank-steak', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'flank steak
-olive oil
-shallot
-spinach
-bread crumbs
-gorgonzola
-salt and pepper
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (697, 'Easy Chicken Tikka Masala', NULL, '2021-04-27 14:56:14.432572', '2021-04-27 14:56:14.432572', NULL, 45, 'In a small bowl mix all the spices including the ginger. Set aside.
-In a large saucepan, heat the oil .
-Add the onions and cook until golden brown.
-Add the garlic and continue to cook for a minute.
-Stir in the spices and allow the flavours to infuse.
-Stir in the tomato paste.
-Add the chopped tomato and pour in the water. Simmer and season with salt to taste.
-Add the chicken pieces stirring well to coat the meat with the sauce. Continue to simmer until the chicken is cooked and the sauce has thickened, about 12 minutes.
-Stir in the yogurt and continue to simmer 5 minutes.
-Garnish with chopped fresh cilantro
-Serve with bismati rice.', 'https://www.foodista.com/recipe/7Q3RC88N/easy-chicken-tikka-masala', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'chicken breasts
-grape seed oil
-onion
-garlic
-garam masala
-cumin
-coriander
-turmeric
-cardamon
-cinnamon
-fresh ginger
-cayenne
-paprika
-tomato paste
-tomato
-water
-plain yogurt
-fresh coriander
-salt
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (698, 'Stuffed Pork Tenderloin with Marsala-Port Sauce', NULL, '2021-04-27 14:56:14.443549', '2021-04-27 14:56:14.443549', 'https://spoonacular.com/recipeImages/662075-556x370.jpg', 45, 'Preheat the oven to 450 .
-In large skillet, over medium heat warm the olive oil. Add the onions, shallots and mushrooms. Cook until the onions are translucent. Remove from the heat.
-In a small food processor add the dried apricots, raisins, dried cranberries, parsley and the onion mushrooms mixture.  Pulse for a few times until everything is minced and well combined.
-Cut the tenderloin in half crosswise. Butterfly each sections making sure not to go completely thru the meat.
-Salt and pepper generously each section. Spread the onion mushroom mixture over on side. Place the other half of the meat  over the mixture and seal the sides with toothpicks. Season generously with salt and pepper on each side.
-In the same pan that the onions were cooked, heat  teaspoon of olive oil and add the pork tenderloin. Sear each side for about 3-5 minutes.
-Place in the hot over and cook for another 20 to 30  minutes, or until no juices are running off the pork tenderloin.
-Remove from the oven, transfer the meat on a dish and cover with aluminum foil.
-Pour off any fat from the pan, or bits of meat that may have fallen from the pork.  Add the marsala and port wine. Bring to a boil and with a spatula scrape up any browned bits on the bottom of the pan. Add any pan juices from the tenderloin and continue cooking until the sauce is reduced to  cup. Remove from the heat and add the butter and cream. Swirl around to ensure butter is melted.
-Remove the toothpicks and cut the pork tenderloin crosswise. Arrange on a plate and pour the sauce over it, or alongside.', 'https://www.foodista.com/recipe/2RKS457F/stuffed-pork-tenderloin-with-marsala-port-sauce', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'shallot
-yellow onion
-mushrooms
-dried apricots
-raisins
-dried cranberries
-flat leaf parsley leaves
-pork tenderloin
-marsala
-port
-butter
-heavy cream
-olive oil
-salt and pepper
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (699, 'Bacon & Egg Toast Cups', NULL, '2021-04-27 14:56:14.453432', '2021-04-27 14:56:14.453432', 'https://spoonacular.com/recipeImages/633265-556x370.jpg', 45, 'Preheat oven to 375.
-Lightly butter six standard muffin cups.
-Flatten the bread slices slightly with a rolling pin, and with a four-and-a-half inch cookie cutter, cut into four rounds. Cut each round in half, then press the two halves into each muffin cup, overlapping slightly and making sure bread comes up to the edges. Use extra bread and crusts to patch any holes if necessary. Brush with remaining butter.
-In a large skillet, cook the bacon until almost crisp, about four minutes, flipping once.
-Lay one bacon slice in each bread cup and crack an egg over each. Season with salt & pepper.
-Bake until egg whites are just set, about twenty-five minutes. The bacon will continue to cook in the oven.
-Run a small knife around cups to loosen toast cups.', 'https://www.foodista.com/recipe/P6LXBQR8/bacon-egg-toast-cups', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'unsalted butter
-white sandwich bread
-bacon
-eggs
-Salt & Pepper
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (700, 'Strawberry-Mango Quinoa Salad', NULL, '2021-04-27 14:56:14.463096', '2021-04-27 14:56:14.463096', 'https://spoonacular.com/recipeImages/661925-556x370.jpg', 45, '<ol><li>Prepare the quinoa: In a medium saucepan combine the quinoa, water and 1/4 t. salt. Bring to a boil, reduce heat to low, cover and simmer until the liquid is just absorbed, about 15 minutes. Spread the cooked quinoa out on a baking sheet to cool for about 20 minutes.</li><li>In a large bowl whisk together lime juice, zest, honey, sour cream and olive oil. Add the cooled quinoa, strawberries, mango, cucumber and mint. Toss well to combine and season with salt &amp; pepper. Serve immediately.</li></ol>', 'http://www.foodista.com/recipe/K2BYJP76/strawberry-mango-quinoa-salad', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'cucumber
-fresh mint
-honey
-lime juice
-lime zest
-mango
-olive oil
-bell pepper
-quinoa
-salt
-sour cream
-strawberries
-water
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (701, 'Rosemary Walnut Bread', NULL, '2021-04-27 14:56:14.499347', '2021-04-27 14:56:14.499347', 'https://spoonacular.com/recipeImages/658813-556x370.jpg', 45, '<ol><li>Combine first four ingredients, add yeast, and let stand for 5 minutes.</li><li>Stir in two cups flour, cover with plastic, and place in a warm spot (85 degrees) for 15 minutes.</li><li>Add rest of flour, nuts, lemon, rosemary, and 2 eggs.</li><li>Mix in bowl until it sticks together, then turn onto floured surface and knead for 10 minutes.</li><li>Rub top with olive oil and place in oiled bowl.</li><li>Cover with damp cloth, and let rise for 1 hour.</li><li>Return dough to floured surface and form into two leaf-shaped loaves.</li><li>Make three diagonal slashes,  inch deep.</li><li>Brush top with egg, and let rise for 30 minutes.</li><li>Bake in 375 degree oven for 40 minutes.</li><li>Let stand twenty minutes before slicingor as long as you can wait.</li></ol>', 'http://www.foodista.com/recipe/74NR222W/rosemary-walnut-bread', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'cream cheese
-dry yeast
-eggs
-flour
-honey
-lemon zest
-milk
-olive oil
-rosemary
-salt
-walnuts
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (703, 'Easy Chicken with White Wine Sauce', NULL, '2021-04-27 14:56:19.448136', '2021-04-27 14:56:19.448136', 'https://spoonacular.com/recipeImages/641912-556x370.jpg', 45, '<ol><li>Heat the oil in a 10-inch skillet over medium heat.  Add the chicken and cook for 10 minutes or until well browned on both sides.  Remove the chicken from the skillet.</li><li>Add the shallot and thyme to the skillet and cook and stir for 30 seconds.  Stir in the wine and cook for 2 minutes or until the mixture is reduced by half.  Stir in the concentrated broth.  Return the chicken to the skillet.  Cook for 5 minutes or until the chicken is cooked through.</li></ol>', 'http://www.foodista.com/recipe/Y7KMH5RY/easy-chicken-with-white-wine-sauce', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'chicken broth
-dry white wine
-fresh thyme leaves
-olive oil
-shallot
-skinless boneless chicken breast halves
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (704, 'Chapchae (Korean Stir-Fried Noodles)', NULL, '2021-04-27 14:56:19.459828', '2021-04-27 14:56:19.459828', 'https://spoonacular.com/recipeImages/637440-556x370.jpg', 45, 'Cook noodles according to package directions
-In a large pan or wok over medium heat, heat olive oil and 1 Tbsp sesame oil
-Add onion slices and garlic and saut for about 1 min
-Add rest of vegetables and cook for 4-5 min, until the vegetables are half-cooked and still a bit crispy
-Turn heat to low and add cooked noodles, soy sauce, sugar, and the remaining sesame oil
-Mix to combine and cook for another 2 min
-Add salt or more soy sauce if needed (or if you want it a bit sweeter, add a touch more sugar)
-If using sesame seeds, add them at finish', 'https://www.foodista.com/recipe/RSDBG48H/chapchae-korean-stir-fried-noodles', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'sweet potato vermicelli
-sweet onion
-garlic
-baby spinach
-carrots
-scallions
-mushrooms
-zucchini
-olive oil
-sesame oil
-soy sauce
-sugar
-salt
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (705, 'Brussels Sprouts with Bacon and Shallots', NULL, '2021-04-27 14:56:19.467251', '2021-04-27 14:56:19.467251', 'https://spoonacular.com/recipeImages/636365-556x370.jpg', 45, '<ol><li>In a large skillet place the bacon and cook until golden brown.</li><li>Add the shallots and cook until tender. Add the Brussels sprouts and saut to high heat to give it a nice golden outside.</li><li>Add a squeeze of lemon, salt and pepper to season and serve.</li></ol>', 'http://www.foodista.com/recipe/G3FR8CXJ/brussels-sprouts-with-bacon-and-shallots', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'bacon
-brussels sprouts
-lemon juice
-salt and pepper
-shallot
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (706, 'Fast Tiramisu', NULL, '2021-04-27 14:56:19.540688', '2021-04-27 14:56:19.540688', 'https://spoonacular.com/recipeImages/642614-556x370.jpg', 45, 'First thing: make the coffee and let it cool down, THEN add the rum!
-Second, beat the whipping cream, and put it in the fridge (do not add sugar in it, just vanilla sugar, if you have one envelope in the house)
-Beat the egg yolks with the sugar (6 tbsp sugar) until become thick and lemon colored.
-Then add mascarpone cheese, beat until incorporated, and vanilla bean or vanilla sugar.
-At the end add whipping cream, beat until incorporated.
-In a pan (26cm / 40cm) line up the lady fingers, after you soaked Them one by one into the coffee (just 1 second each side). Add half of the cream, THEN line up the other half of lady fingers (same soaked in coffee) but in the opposite way.
-On the top you put the rest of the cream and garnish with cocoa.
-Put it in the fridge for at Least 6 hours!
-Good luck!
-No baking, just 30 minutes and Tiramisu is ready!', 'https://www.foodista.com/recipe/2QR423YJ/fast-tiramisu', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'egg yolks
-cane sugar
-mascarpone cheese
-heavy whipping cream
-ladyfingers
-coffee liqueur
-coffee
-unsweetened cocoa powder
-vanilla sugar
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (707, 'Crepes Suzette', NULL, '2021-04-27 14:56:19.581806', '2021-04-27 14:56:19.581806', 'https://spoonacular.com/recipeImages/640767-556x370.jpg', 45, '<ol><li>FOR THE CREPES: Combine all liquid ingredients in a blender. Add the dry ingredients and 1/4 cup melted butter; mix on high.</li><li>Let batter rest for 30 minutes.</li><li>Heat a nonstick 10 inch skillet over medium high heat. Brush bottom and sides of pan with a bit of melted butter.</li><li>Ladle 1/2 cup batter into skillet and swirl to coat bottom evenly. Cook until lightly browned, about 1-2 minutes. Using a spatula or your fingers, flip the crepe and cook the other side until lightly browned, about 30 seconds to 1 minute.</li><li>Transfer crepes to a platter. Layer crepes over each other with parchment paper in between.</li><li>If necessary, add more butter to the pan. Repeat with the rest of the batter.</li><li>FOR THE SAUCE: Melt 1/4 cup butter in a skillet over LOW fire. Add the sugar and allow to melt. Be patient. Make sure that the heat is at its lowest. Add the lemon juice and mix well. Add the lemon zest.</li><li>Add the crepes, 3-4 at a time and allow to cook in the sauce for 1 minute. Remove from the pan. Arrange on a plate and pour the sauce over the crepes and serve warm.</li><li>Makes 8 crepes. Serving size is 2 crepes.</li></ol>', 'http://www.foodista.com/recipe/KD8ZMRJ6/crepes-suzette', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'butter
-eggs
-flour
-lemon juice
-lemon zest
-milk
-salt
-sugar
-unsalted butter
-water
-white sugar
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (708, 'Banana Foster Bread Pudding', NULL, '2021-04-27 14:56:19.594164', '2021-04-27 14:56:19.594164', 'https://spoonacular.com/recipeImages/634091-556x370.jpg', 45, 'Preheat oven to 325 degrees.  In a large bowl, cream together the butter and sugar.  Beat in eggs then stir in the cream, milk, liqueur, cinnamon, vanilla and bread.  Once well combined fold in the sliced bananas carefully.  Pour into a 13x9 baking dish and cook for 90 minutes or until completely set.  This can be served hot, room temp or cold. It can be topped with vanilla ice cream, whipped cream or as I did with the following topping.
-In a sauce pan over medium high heat melt the butter then add the brown sugar.  Once melted add the banana slices and stir gently, cook until the syrup has reduced and the bananas have caramelized.  This will take about 5-10 minutes, be careful to not let your sugar burn. When ready ladle some of this hot sauce over each serving of bread pudding.', 'https://www.foodista.com/recipe/4RYKKRMV/banana-foster-bread-pudding', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'butter
-brown sugar
-eggs
-bread
-heavy cream
-milk
-banana liqueur
-ground cinnamon
-vanilla
-bananas
-bananas
-butter
-brown sugar
 ');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (709, 'Whole Wheat Chocolate Chip Cookies', NULL, '2021-04-27 14:56:19.603741', '2021-04-27 14:56:19.603741', 'https://spoonacular.com/recipeImages/665276-556x370.jpg', 45, '<ol><li>Place two racks in the upper and lower thirds of the oven and preheat to 350F. Line two baking sheets with parchment paper.</li><li>Sift the dry ingredients into a large bowl, pouring back into the bowl any bits of grain or other ingredients that may remain in the sifter.</li><li>Add the butter and the sugars. Beat with a standing mixer fitted with a paddle attachment. With the mixer on low-speed, mix just until the butter and sugars are blended, about 2 minutes. Use a spatula to scrape down the sides of the bowl.</li><li>Add the eggs one at a time, mixing until each is combined.</li><li>Mix in the vanilla.</li><li>Add the flour mixture to the bowl and blend on low-speed until the flour is barely combined, about 30 seconds, scraping down the sides and bottom of the bowl</li><li>Add the chocolate all at once and mix on low-speed until the chocolate is evenly combined. Use a spatula to scrape down the sides and bottom of the bowl, then scrape the batter out onto a work surface, and use your hands to fully incorporate all the ingredients.</li><li>Scoop mounds of dough about 3 tablespoons in size onto the baking sheet, leaving 3 inches between them, or about 6 to a sheet.</li><li>Bake the cookies for 16 to 20 minutes, rotating the sheets halfway through, until the cookies are evenly brown.</li><li>Transfer the cookies, still on the parchment, to the counter to cool. Give them a quick sprinkling with a pinch of sea salt.</li><li>Repeat with the remaining dough.</li><li>These cookies are best eaten warm from the oven or later that same day. They also keep beautifully in the freezer, either by freezing the dough or freezing the cookies once they''re cooled. 20-30 seconds in the microwave is all you need to warm one up!</li></ol>', 'http://www.foodista.com/recipe/KNYGVP3R/whole-wheat-chocolate-chip-cookies', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'baking powder
 baking soda
@@ -9882,27 +19295,6 @@ shallot
 vegetable oil
 whole garlic cloves
 ');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (730, 'Green Bean Poriyal', NULL, '2021-04-27 14:56:19.979256', '2021-04-27 14:56:19.979256', 'https://spoonacular.com/recipeImages/795431-556x370.jpg', 45, 'Soak the tamarind pulp in 2/3 cup boiling water for 40 minutes. Strain the tamarind into a small bowl, pressing down on the pulp to squeeze as much liquid as you can. Set the drained tamarind liquid aside.In a large frying pan or wok, heat the oil over medium heat until hot. Add the mustard seeds and cumin seeds to the pan and cook for a few minutes. Now add the urad and toor or chana dals, chilli, asafetida and curry leaves. Fry for another few minutes until the mustard seeds turn grey and begin to splutter and pop.Now add the green beans, about 3 tablespoons of the tamarind water, and salt. Reduce the heat to medium-low and cover. Cook until the beans are tender, about 5 to 7 minutes. Stir in the coconut and cook for another few minutes.Remove from heat and taste for seasoning. Serve warm alongside some fresh cooked white rice and your favorite dal dishes.', 'http://foodandspice.blogspot.com/2016/07/green-bean-poriyal.html', 'Lisa''s Vegetarian Kitchen', 'asafetida
-brown mustard seeds
-chana dal
-coconut oil
-cumin seeds
-curry leaves
-red chili
-sea salt
-tamarind pulp
-unsweetened shredded coconut
-urad dal
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (731, 'Slow Cooker Kahlua Pork with Sweet Chili Pineapple Sauce', NULL, '2021-04-27 14:56:19.998273', '2021-04-27 14:56:19.998273', 'https://spoonacular.com/recipeImages/660288-556x370.jpg', 660, '<ol><li>Place the pork, fat side up, in the slow cooker. Using a fork, pierce the roast all over and pour the liquid smoke over it to coat. Sprinkle the sea salt evenly over the roast and cover. Cook on low for 10 hours (the roast is done when the meat begins to fall apart when shredded with a fork.)</li><li>In a small saucepan, whisk together the pineapple juice, rice vinegar, honey, chili sauce and hoisin sauce. Bring the mixture to a boil and cook the sauce until reduced by half stirring with a heat resistant spatula frequently. Set aside.</li><li>When the roast is done, transfer to a cutting board and shred the meat using two forks. Return the shredded meat back to the slow cooker and serve immediately with the sauce.</li></ol>', 'http://www.foodista.com/recipe/NQB678JF/slow-cooker-kahlua-pork-with-sweet-chili-pineapple-sauce', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'chili-garlic sauce
-hoisin sauce
-honey
-liquid smoke
-pineapple juice
-pork butt
-rice vinegar
-sea-salt
-');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (732, 'Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant', NULL, '2021-04-27 14:56:20.004749', '2021-04-27 14:56:20.004749', 'https://spoonacular.com/recipeImages/798400-556x370.jpg', 45, 'Rinse the black-eyed peas and soak in several inches of water for 6 hours or overnight. Drain and rinse, then transfer to a large saucepan and cover with fresh water. Bring to a boil, reduce heat to medium-low, cover, and simmer for 40 to 60 minutes. Take care not to overcook  the beans should be tender but not be falling apart. Drain and set aside.To prepare the eggplant, cut of the stem and bottom edge and then cut in half lengthwise. Score the flesh into diagonal 1-inch lines, then turn and score again until you have a diagonal pattern. Take care not to cut through the skin. Sprinkle with some salt and let sit for 40 minutes. Rinse and squeeze out any excess water. Brush the eggplant with some oil and transfer to a roasting pan. Bake in a preheated 400 oven until the flesh appears collapsed and is wrinkly. Remove from heat and let cool for about 10 minutes, season with a bit of salt, and remove the flesh from the eggplant. If there is too much water, drain in a strainer. Set aside.Heat the oil over medium heat in the same saucepan used to cook the black-eyed peas. When hot, toss in the shallots and chilies and saut for 2 to 3 minutes. Now add the spices and stir for another minute, until fragrant. Add the tomato, cook for another few minutes, and then add the eggplant and black-eyed peas, and cook for another few minutes, stirring often.Pour a few tablespoons of water into the pan and add handfuls of chard at a time until wilted. Add more water as necessary. Add the lemon juice and salt to taste near the end of the cooking time. Remove from heat, cover, and let sit for a few minutes before serving.', 'http://foodandspice.blogspot.com/2016/08/spicy-black-eyed-pea-curry-with-swiss.html', 'Lisa''s Vegetarian Kitchen', 'black eyed peas
 curry powder
 garam masala
@@ -9978,6 +19370,23 @@ olive oil
 bell pepper
 salt
 watermelon
+');
+INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (761, 'Pasta e Fagioli (Pasta and Beans)', NULL, '2021-04-27 14:56:47.604041', '2021-04-27 14:56:47.604041', 'https://spoonacular.com/recipeImages/654835-556x370.jpg', 45, 'In a large stock pan over medium-high heat, add the olive oil and the onion. Allow the onion to cook until it is tender (about 3 minutes). Add the tomato (or marinara sauce) and garlic and incorporate it into the mixture. Cook for just 1-2 minutes (be careful not to burn the garlic).
+Add the vegetable stock, water, salt, pepper and red pepper flakes. Bring this to a boil and then add your pasta. Lower the heat and allow the pasta to cook until its about 3/4 of the way finished (still slightly firm).
+Add your beans and allow the mixture to continue cooking until the pasta is fully cooked (about 10-15 minutes). Add the parsley toward the end of your cooking time. Taste and adjust the seasoning as needed.
+Serve in individual bowls with extra parsley as garnish and sprinkle with the Parmesan cheese.', 'https://www.foodista.com/recipe/QF3SKD4Y/pasta-e-fagioli-pasta-and-beans', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'olive oil
+cannellini beans
+vegetable stock
+water
+tomatoes
+onion
+garlic clove
+elbow macaroni
+parmesan cheese
+red pepper flakes
+salt
+black pepper
+fresh parsley
 ');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (739, 'Turkey Enchilada Bake', NULL, '2021-04-27 14:56:46.973358', '2021-04-27 14:56:46.973358', NULL, 45, '<ol><li>1.Make the turkey mixture: Roast the vegetables: Preheat oven to 400 degrees.Cut the tomatillos in half, slice the onion into  in slices and remove garlic from covering. Place on baking sheet. Roast till tomatillos are tender and start to brown, about 20 minutes.</li><li>2.Meanwhile,make the sauce: Add tomatillos, onion, garlic, tomatoes, green chilies, chipotles, chili powder, cumin, paprika, and coriander to blender or food processor. Blend until smooth.</li><li>In a large bowel, add the turkey, beans, and sauce, Mix together until everything is evenly distributed.</li><li>3.Layer 1:In a 9 by 13 baking dish, spread salsa on the bottom evenly. place 3.5 tortillas on top, making sure they cover evenly. Add 1 cup of turkey mixture on top of tortillas, spreading evenly. Add 1 cup of cheese on top, sprinkling evenly. Place  cup of thinly sliced red onion on top of cheese.</li><li>4.Layer 2: Repeat of layer 1</li><li>5.Layer 3:Place tortillas, then turkey. Place the sliced of avocado on top of turkey so they evenly cover. Add lime juice evenly over avocado, this will help them stay green. Top with final cup of cheese. Cover with foil.</li><li>6.Place in oven and bake for 30 min, rotating  way. Remove foil and chook for another 10 minutes.</li><li>7.Let cool for at least 10 minutes. Serve with chopped cilantro and a dollop of sour cream. Serve with tortillas chips. Enjoy!</li><li>Your can find step by step pictures on how to make the turkey mixture on my Mini Mexican Bell Pepper Recipe</li><li>Again, I made a double batch of turkey when I made those, so this recipe was even easier. I highly recommend doing so.</li></ol>', 'http://www.foodista.com/recipe/KX5B3NYB/turkey-enchilada-bake', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'avocados
 canned black beans
@@ -10157,29 +19566,6 @@ salt
 vegetable oil
 yellow cornmeal
 ');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (751, 'Seared Pork Chops W/ Mango Salsa', NULL, '2021-04-27 14:56:47.277255', '2021-04-27 14:56:47.277255', 'https://spoonacular.com/recipeImages/659674-556x370.jpg', 45, '<ol><li>In a bowl thoroughly mix dry rub ingredients (cumin, mustard powder, cayenne, garlic powder, onion powder, 1 tablespoon salt, 2 teaspoons black pepper).</li><li>Dust and massage dry rub into pork chops, rest in fridge for about 10min</li><li>Prep mango, bell pepper, onion, scallions, tomato, and cilantro set aside.</li><li>Heat pan w/ oil to med high, sear pork chops. 2-3 minutes on each side.</li><li>Let pork chops rest 5-8 minutes before serving.</li><li>Take salsa bowl, add juice of a whole lime, add salt and pepper to taste.</li><li>Mix thoroughly</li><li>Place pork chop on plate and top with mango salsa.</li></ol>', 'http://www.foodista.com/recipe/D7NJGN5C/seared-pork-chops-w-mango-salsa', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'bell pepper
-bell pepper
-cayenne
-cilantro
-cumin
-garlic powder
-lime
-mango
-mustard powder
-onion
-onion powder
-pork chops
-salt
-scallions
-tomato
-vegetable oil
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (752, 'Butternut Squash Frittata', NULL, '2021-04-27 14:56:47.31786', '2021-04-27 14:56:47.31786', 'https://spoonacular.com/recipeImages/636589-556x370.jpg', 45, '<ol><li>Preheat oven to 350</li><li>Spray a 10 oz oven safe dish with cooking spray</li><li>Add your butternut squash</li><li>In a measuring cup add your eggs and milk. Mix until combined. Pour over butternut squash.</li><li>Sprinkle with pepper and top with cheese.</li><li>Bake in oven for 30-35 minutes, until middle is slightly firm</li><li>Let it cool for a few minutes</li></ol>', 'http://www.foodista.com/recipe/XQXFKGHT/butternut-squash-frittata', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'butternut squash
-goat cheese
-liquid egg substitute
-non-fat milk
-bell pepper
-');
 INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (753, 'Caramel Apple-Brownie Cheesecake', NULL, '2021-04-27 14:56:47.352946', '2021-04-27 14:56:47.352946', 'https://spoonacular.com/recipeImages/636989-556x370.jpg', 45, '<ol><li>Preheat oven to 350F (180 C).  Bake pecans in a single layer in a shallow pan for about 7-8 minutes or until lightly toasted and fragrant, stirring halfway through.Remove from oven, let cool down, and chop.  Reserve.</li><li>Reduce oven temperature to 325F (about 160 C). Grease and flour a 9-inch (22.5 cm) springform pan. Sprinkle pecans over bottom of the prepared pan and reserve.</li><li>In a heavy-duty electric stand mixer, beat cream cheese, granulated sugar, and vanilla at medium speed until well-blended and smooth.  Add 3 eggs (1 at a time), beating after  each addition until just blended.  Reserve.</li><li>In a separate large bowl, whisk together brown sugar, melted butter, and remaining egg until blended.  Then stir in the flour, cinnamon, baking powder, and salt.  Add the peeled and diced apples to the mixture and stir gently.  Spoon batter into prepared pan.  Carefully spoon cream cheese mixture over batter.</li><li>Bake at 325F ( about 160 C) for 70 minutes or until set.  Remove from oven, and gently run a knife around outer edge of cheesecake to loosen from sides of pan but do NOT remove sides of pan.  Cool completely in pan on a wire rack  for about 2 hours.  Remove side of the pan and transfer to a serving plate.</li><li>Meanwhile, prepare Caramel Apple Topping and Caramel Sauce.  Spoon topping over cheesecake; drizzle with 1/2 cup Caramel Sauce.  Reserve 1 cup Caramel Sauce to drizzle over the cheesecake later if you have not served the whole dessert at once.</li><li>For the Caramel Apple Topping: In a large skillet over medium heat, melt the butter; then, add both the sugar and lemon juice.  Cook, stirring constantly with a long-handled wooden spoon, for 5 to 6 minutes or until mixture turns a light golden brown.  Add the apple wedges and cook, stirring often, for 15 to 18 additional minutes or until apples are tender and caramelized.  Remove from heat and let cool for 20 minutes.</li><li>Meanwhile, prepare Caramel Apple Topping and Caramel Sauce.  Spoon topping over cheesecake; drizzle with 1/2 cup Caramel Sauce.  Reserve 1 cup Caramel Sauce to drizzle over the cheesecake later if you have not served the whole dessert at once.</li><li>For the Caramel Sauce: In a medium saucepan over medium-high heat, bring the brown sugar, butter, whipping cream, and honey to a boil, stirring constantly; then, boil  stirring constantly for 2 minutes.  Remove from heat, stir in the vanilla, and cool 15 minutes before serving.</li></ol>', 'http://www.foodista.com/recipe/GL53TRMC/caramel-apple-brownie-cheesecake', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'apples
 baking powder
 brown sugar
@@ -10239,61 +19625,13 @@ ginger powder
 sriracha
 tofu
 ');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (758, 'Homemade Creamy Ramen Soup', NULL, '2021-04-27 14:56:47.49134', '2021-04-27 14:56:47.49134', 'https://spoonacular.com/recipeImages/646974-556x370.jpg', 45, '<ol><li>In a food processor combine onions, carrots, and garlic and mince well. The pieces should be very small. Heat oil in a soup pot. Add minced vegetables and saute, mixing occasionally, until just soft [7 - 10 minutes]. Add flour, poultry seasoning, turmeric, sea salt, and celery seed and stir constantly for about 30 seconds, coating the vegetables well.</li><li>Pour in the broth and water. Add kombu if you are using it. Bring to boil and then simmer, covered, for 30 minutes.</li><li>After 30 minutes, pour in non-dairy milk and noodles. Let simmer an additional 10 minutes or until noodles are soft.</li><li>Remove from heat and serve immediately.</li></ol>', 'http://www.foodista.com/recipe/8ZNQGLHN/homemade-creamy-ramen-soup', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'carrots
-celery seed
-extra virgin olive oil
-garlic
-gluten-free flour
-kombu
-onions
-poultry seasoning
-rice milk
-rice noodles
-sea-salt
-turmeric
-vegetable broth
-water
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (759, 'Chilled Swiss Oatmeal', NULL, '2021-04-27 14:56:47.528145', '2021-04-27 14:56:47.528145', 'https://spoonacular.com/recipeImages/638604-556x370.jpg', 10, '<p>-In a small bowl, add oatmeal, yogurt, milk and combine. Let it sit for few minutes or several hours in the refrigerator.  Then add apples, banana, dried fruits and stir until well combined. Top with nuts before serving.</p><p>Note: it tastes best when allowed to sit overnight. Add fruits right before serving to prevent browning and being mushy.</p>', 'https://www.foodista.com/recipe/K232GXCT/chilled-swiss-oatmeal', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'old-fashioned oatmeal
-vanilla yogurt
-milk
-apple
-banana
-cranberry
-walnuts
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (760, 'Easy Banana Pudding', NULL, '2021-04-27 14:56:47.548002', '2021-04-27 14:56:47.548002', 'https://spoonacular.com/recipeImages/715407-556x370.jpg', 45, 'In a mixing bowl combine your 2 cups of milk with your vanilla pudding mix, and beat accordingly for 2 minutes. Add in your condensed milk and stir well. Add your entire can of whipped cream and your tbsp of vanilla. Mix well.Place in your refrigerator for 30 minutes covered with Saran Wrap. Once cooled and gelled, remove from fridge and alternate pudding, wafers, and banana slices into the serving bowl of your choice. Serve immediately, or place back in the refrigerator until serving.', 'http://www.pinkwhen.com/easy-banana-pudding-recipe/', 'Jen West', 'bananas
-instant vanilla pudding
-milk
-sweetened condensed milk
-vanilla
-vanilla wafers
-whipped cream
-');
-INSERT INTO public.recipes (id, title, description, created_at, updated_at, img_url, "time", instructions, url, author, ingredients_string) VALUES (761, 'Pasta e Fagioli (Pasta and Beans)', NULL, '2021-04-27 14:56:47.604041', '2021-04-27 14:56:47.604041', 'https://spoonacular.com/recipeImages/654835-556x370.jpg', 45, 'In a large stock pan over medium-high heat, add the olive oil and the onion. Allow the onion to cook until it is tender (about 3 minutes). Add the tomato (or marinara sauce) and garlic and incorporate it into the mixture. Cook for just 1-2 minutes (be careful not to burn the garlic).
-Add the vegetable stock, water, salt, pepper and red pepper flakes. Bring this to a boil and then add your pasta. Lower the heat and allow the pasta to cook until its about 3/4 of the way finished (still slightly firm).
-Add your beans and allow the mixture to continue cooking until the pasta is fully cooked (about 10-15 minutes). Add the parsley toward the end of your cooking time. Taste and adjust the seasoning as needed.
-Serve in individual bowls with extra parsley as garnish and sprinkle with the Parmesan cheese.', 'https://www.foodista.com/recipe/QF3SKD4Y/pasta-e-fagioli-pasta-and-beans', 'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', 'olive oil
-cannellini beans
-vegetable stock
-water
-tomatoes
-onion
-garlic clove
-elbow macaroni
-parmesan cheese
-red pepper flakes
-salt
-black pepper
-fresh parsley
-');
 
 
 --
 -- Name: recipes_id_seq; Type: SEQUENCE SET; Schema: public; Owner: patricieknopova
 --
 
-SELECT pg_catalog.setval('public.recipes_id_seq', 761, true);
+SELECT pg_catalog.setval('public.recipes_id_seq', 1463, true);
 
 
 --
