@@ -19,8 +19,6 @@ ActiveRecord::Schema.define(version: 2021_05_04_195618) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "api_id"
-    t.string "img_url_ingr"
   end
 
   create_table "menus", force: :cascade do |t|
