@@ -10,48 +10,6 @@ const UNMATCH_MUTLIPLIER = 1000;
 const MIDDLEMATCH_MULTIPLIER = 100;
 const STARTMATCH_MULTIPLIER = 1;
 const MAX_DISTANCE = UNMATCH_MUTLIPLIER * 10;
-const INGREDIENTS = JSON.parse(document.getElementById('search-dislike-data').dataset.ingredients);
-
-const selectCallback = (event, ingredient) => {
-  event.preventDefault(); // don't submit form on enter
-  const ingredientInput = document.getElementById('q');
-  const inputValue = ingredientInput.value
-  const index = INGREDIENTS.indexOf(inputValue)
-  if (index > -1) {
-    INGREDIENTS.splice(index, 1)
-  };
-  const ingredientSetDiv = document.getElementById('ingredient-set');
-  const ingredientSetInput = document.getElementById('ingredient-set-input');
-  const ingredientSet = new Set(ingredientSetInput.value.split(','));
-  // displaying ingredient above search bar and adding to query string
-  if (!ingredientSet.has(ingredient)) {
-    ingredientSet.add(ingredient);
-    ingredientSetInput.value = Array.from(ingredientSet).filter(x => x).join(',');
-    ingredientSetDiv.innerHTML += '<span>' + ingredient + '</span> ';
-    ingredientInput.value = '';
-  }
- };
-
-
-const xselectCallback = (event, ingredient) => {
-  event.preventDefault(); // don't submit form on enter
-  const ingredientXInput = document.getElementById('x');
-  const inputXValue = ingredientXInput.value
-  const index = INGREDIENTS.indexOf(inputXValue)
-  if (index > -1) {
-    INGREDIENTS.splice(index, 1)
-  };
-  const ingredientXSetDiv = document.getElementById('ingredient-dislike-set');
-  const ingredientXSetInput = document.getElementById('ingredient-dislike-set-input');
-  const ingredientXSet = new Set(ingredientXSetInput.value.split(','));
-  // displaying ingredient above search bar and adding to query string
-  if (!ingredientXSet.has(ingredient)) {
-    ingredientXSet.add(ingredient);
-    ingredientXSetInput.value = Array.from(ingredientXSet).filter(x => x).join(',');
-    ingredientXSetDiv.innerHTML += '<span>' + ingredient + '</span> ';
-    ingredientXInput.value = '';
-  }
- };
 
 
 // Computes distance between two strings as a number.
@@ -70,9 +28,53 @@ const distance = (sA, sB) => {
 }
 
 const autocompleteSearch = function() {
-  if (document.getElementById('search-dislike-data') == null) {
+  if (document.getElementById('search-data') == null) {
     return
   }
+
+  const INGREDIENTS = JSON.parse(document.getElementById('search-dislike-data').dataset.ingredients);
+
+  const selectCallback = (event, ingredient) => {
+    event.preventDefault(); // don't submit form on enter
+    const ingredientInput = document.getElementById('q');
+    const inputValue = ingredientInput.value
+    const index = INGREDIENTS.indexOf(inputValue)
+    if (index > -1) {
+      INGREDIENTS.splice(index, 1)
+    };
+    const ingredientSetDiv = document.getElementById('ingredient-set');
+    const ingredientSetInput = document.getElementById('ingredient-set-input');
+    const ingredientSet = new Set(ingredientSetInput.value.split(','));
+    // displaying ingredient above search bar and adding to query string
+    if (!ingredientSet.has(ingredient)) {
+      ingredientSet.add(ingredient);
+      ingredientSetInput.value = Array.from(ingredientSet).filter(x => x).join(',');
+      ingredientSetDiv.innerHTML += '<span>' + ingredient + '</span> ';
+      ingredientInput.value = '';
+    }
+   };
+
+
+  const xselectCallback = (event, ingredient) => {
+    event.preventDefault(); // don't submit form on enter
+    const ingredientXInput = document.getElementById('x');
+    const inputXValue = ingredientXInput.value
+    const index = INGREDIENTS.indexOf(inputXValue)
+    if (index > -1) {
+      INGREDIENTS.splice(index, 1)
+    };
+    const ingredientXSetDiv = document.getElementById('ingredient-dislike-set');
+    const ingredientXSetInput = document.getElementById('ingredient-dislike-set-input');
+    const ingredientXSet = new Set(ingredientXSetInput.value.split(','));
+    // displaying ingredient above search bar and adding to query string
+    if (!ingredientXSet.has(ingredient)) {
+      ingredientXSet.add(ingredient);
+      ingredientXSetInput.value = Array.from(ingredientXSet).filter(x => x).join(',');
+      ingredientXSetDiv.innerHTML += '<span>' + ingredient + '</span> ';
+      ingredientXInput.value = '';
+    }
+   };
+
   const XsearchInput = document.getElementById('x');
 
   if (INGREDIENTS && XsearchInput) {
@@ -100,9 +102,6 @@ const autocompleteSearch = function() {
   }
 
 
-  if (document.getElementById('search-data') == null) {
-    return
-  }
 
   const searchInput = document.getElementById('q');
 
