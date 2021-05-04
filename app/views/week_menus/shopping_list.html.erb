@@ -1,14 +1,17 @@
 <div class="shopping-list">
   <div class= list_container>
   <h1 style="text-align:center;"><b>Shopping list for week <%= @week_number %></b></h1>
-    <ul class="list" id="list-ingredients">
-     <% @shopping_list.each do |ingredient|%>
+    <ul id="myUL">
+    <% @shopping_list.each do |ingredient|%>
+  <li> <%= ingredient.name %></li>
 
-    <li><%= ingredient.name %></li>
+
      <% end %>
-    </ul>
+
+</ul>
+
+
 
   </div>
 </div>
-
 

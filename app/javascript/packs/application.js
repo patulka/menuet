@@ -27,12 +27,14 @@ import "bootstrap";
 
 // Internal imports, e.g:
 import { autocompleteSearch } from '../components/autocomplete';
-import { showHideIngredientInfo } from '../components/shopping';
+import { shoppingList } from '../components/shopping';
+
 
 
 document.addEventListener('turbolinks:load', () => {
   autocompleteSearch()
-  showHideIngredientInfo()
+  shoppingList()
+
   // Call your functions here, e.g:
   // initSelect2();
 });

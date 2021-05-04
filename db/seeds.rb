@@ -1,6 +1,7 @@
 puts "Cleaning database"
 
 RecipeIngredient.destroy_all
+ShoppingList.destroy_all
 Menu.destroy_all
 WeekMenu.destroy_all
 User.destroy_all
