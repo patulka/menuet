@@ -95,6 +95,7 @@ const autocompleteSearch = function() {
   }
   const ingredients = JSON.parse(document.getElementById('search-data').dataset.ingredients)
   const searchInput = document.getElementById('q');
+  // const notSelectedIngredients = ingredients - ingredientSet
 
   if (ingredients && searchInput) {
     new autocomplete({
@@ -103,6 +104,7 @@ const autocompleteSearch = function() {
       delay: 50,
       cache: false,
       onSelect: selectCallback,
+      // add the notSelectedIngredients somehow
       source: function(input, suggest) {
         // map ingredients to name and distance (from searched input)
         let choices = ingredients.map(ingredient => {
