@@ -10,10 +10,16 @@ const UNMATCH_MUTLIPLIER = 1000;
 const MIDDLEMATCH_MULTIPLIER = 100;
 const STARTMATCH_MULTIPLIER = 1;
 const MAX_DISTANCE = UNMATCH_MUTLIPLIER * 10;
+const INGREDIENTS = JSON.parse(document.getElementById('search-dislike-data').dataset.ingredients);
 
 const selectCallback = (event, ingredient) => {
   event.preventDefault(); // don't submit form on enter
   const ingredientInput = document.getElementById('q');
+  const inputValue = ingredientInput.value
+  const index = INGREDIENTS.indexOf(inputValue)
+  if (index > -1) {
+    INGREDIENTS.splice(index, 1)
+  };
   const ingredientSetDiv = document.getElementById('ingredient-set');
   const ingredientSetInput = document.getElementById('ingredient-set-input');
   const ingredientSet = new Set(ingredientSetInput.value.split(','));
@@ -30,6 +36,11 @@ const selectCallback = (event, ingredient) => {
 const xselectCallback = (event, ingredient) => {
   event.preventDefault(); // don't submit form on enter
   const ingredientXInput = document.getElementById('x');
+  const inputXValue = ingredientXInput.value
+  const index = INGREDIENTS.indexOf(inputXValue)
+  if (index > -1) {
+    INGREDIENTS.splice(index, 1)
+  };
   const ingredientXSetDiv = document.getElementById('ingredient-dislike-set');
   const ingredientXSetInput = document.getElementById('ingredient-dislike-set-input');
   const ingredientXSet = new Set(ingredientXSetInput.value.split(','));
@@ -62,10 +73,9 @@ const autocompleteSearch = function() {
   if (document.getElementById('search-dislike-data') == null) {
     return
   }
-  const Xingredients = JSON.parse(document.getElementById('search-dislike-data').dataset.ingredients)
   const XsearchInput = document.getElementById('x');
 
-  if (Xingredients && XsearchInput) {
+  if (INGREDIENTS && XsearchInput) {
     new autocomplete({
       selector: XsearchInput,
       minChars: 1,
@@ -74,7 +84,7 @@ const autocompleteSearch = function() {
       onSelect: xselectCallback,
       source: function(input, suggest) {
         // map ingredients to name and distance (from searched input)
-        let choices = ingredients.map(ingredient => {
+        let choices = INGREDIENTS.map(ingredient => {
           return {
             'ingredient': ingredient,
             'distance': distance(input, ingredient),
@@ -93,10 +103,10 @@ const autocompleteSearch = function() {
   if (document.getElementById('search-data') == null) {
     return
   }
-  const ingredients = JSON.parse(document.getElementById('search-data').dataset.ingredients)
+
   const searchInput = document.getElementById('q');
 
-  if (ingredients && searchInput) {
+  if (INGREDIENTS && searchInput) {
     new autocomplete({
       selector: searchInput,
       minChars: 1,
@@ -105,7 +115,7 @@ const autocompleteSearch = function() {
       onSelect: selectCallback,
       source: function(input, suggest) {
         // map ingredients to name and distance (from searched input)
-        let choices = ingredients.map(ingredient => {
+        let choices = INGREDIENTS.map(ingredient => {
           return {
             'ingredient': ingredient,
             'distance': distance(input, ingredient),
