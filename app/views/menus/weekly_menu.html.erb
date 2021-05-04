@@ -5,7 +5,7 @@
 
       <!-- button to save the week menu only for signed-in users -->
       <% if user_signed_in? %>
-       <%= link_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
+       <%= button_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-lg btn-red mt-3" %>
       <% end %>
     </div>
 
