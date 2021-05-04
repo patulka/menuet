@@ -4,8 +4,13 @@
 //have a look on rails frontend lecture
 // test it in .js console
 
-const listened_btn_1 = document.getElementById("listened-btn-1");
-listened_btn_1.addEventListener("click", (event) => {
-  console.log(event);
-  console.log(event.currentTarget);
-});
+
+const shuffleRecipeOnClinck = () => {
+  const listenedBtn = document.querySelector('#listened-btn-1');
+  if istenedBtn () {
+    window.addEventListener('click', () => {
+      console.log("THE BUTTON WAS CLICKED!");
+  });
+}
+
+export { shuffleRecipeOnClinck };

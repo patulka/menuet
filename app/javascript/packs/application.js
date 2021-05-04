@@ -27,10 +27,11 @@ import "bootstrap";
 
 // Internal imports, e.g:
 import { autocompleteSearch } from '../components/autocomplete';
-
+import { shuffleRecipeOnClinck } from '../components/shuffling_single_recipes';
 
 document.addEventListener('turbolinks:load', () => {
-  autocompleteSearch()
+  autocompleteSearch();
+  shuffleRecipeOnClinck()
   // Call your functions here, e.g:
   // initSelect2();
 });
