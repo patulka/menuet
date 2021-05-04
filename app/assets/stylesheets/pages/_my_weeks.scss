@@ -45,6 +45,12 @@
   text-align: center;
 }
 
+
+.save {
+  position: absolute;
+  margin: 5px 5px;
+}
+
 /*tablets and bigger*/
 @media(min-width: 576px) and (max-width:991px) {
   #sidebar {

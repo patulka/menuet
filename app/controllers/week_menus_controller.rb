@@ -24,4 +24,13 @@ class WeekMenusController < ApplicationController
     end
   end
 
+  def shopping_list
+    week_menu = WeekMenu.find(params[:id])
+
+    @ingredients = []
+    week_menu.recipes.each do |recipe|
+      @ingredients << recipe.ingredients
+    end
+    @ingredients = @ingredients.flatten.to_set
+  end
 end
