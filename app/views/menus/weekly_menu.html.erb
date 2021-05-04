@@ -2,7 +2,7 @@
   <div class="main-container">
 
       <h1>Suggested weekly meal plan</h1>
-      <!-- refreshing the search with the original queries -- ingredients choden by user -->
+      <!-- refreshing the search with the original queries -- ingredients chosen by user -->
       <%= link_to "Give me different one", weekly_menu_path(:q => @params_q, :qq => @params_qq), :method => :get, class: "btn btn-transparent" %>
 
       <div id="menu-page-title">
@@ -12,7 +12,6 @@
         <% end %>
       </div>
 
-    <!-- .first(7) added, because @menus has currently 21 recipes to have buffer for shuffling -->
     <div class="recipe-cards">
       <% @menus.each do |recipe| %>
         <% @counter += 1  %>
