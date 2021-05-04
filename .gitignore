@@ -40,3 +40,6 @@ yarn-debug.log*
 *.swp
 .DS_Store
 .backup_menuet_development.sql
+.hello_fresh_api.rb
+.hello_fresh.scraper.rb
+.scraper.rb

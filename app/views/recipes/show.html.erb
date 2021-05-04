@@ -30,8 +30,10 @@
       </div>
     </div>
     <div id="recipe-instructions">
-      <h3> <b> Instructions </b></h3>
-      <p><%= @recipe.instructions.html_safe %></p>
+      <% if @recipe.instructions %>
+        <h3> <b> Instructions </b></h3>
+        <p><%= @recipe.instructions.html_safe %></p>
+      <% end %>
     </div>
   </div>
 </div>
