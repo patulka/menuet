@@ -26,8 +26,8 @@ class WeekMenusController < ApplicationController
       ingredients = ingredients.flatten.to_set
 
       ingredients.each do |ingredient|
-        if ShoppingList.where("week_menu_id = '#{week_menu[:id]}'").where("ingredient_id = '#{ingredient[:id]}'")== []
-          ShoppingList.create(ingredient: ingredient, week_menu: week_menu)
+        if ShoppingList.where("week_menu_id = '#{@week_menu[:id]}'").where("ingredient_id = '#{ingredient[:id]}'")== []
+          ShoppingList.create(ingredient: ingredient, week_menu: @week_menu)
         end
       end
       redirect_to my_menu_plans_path
