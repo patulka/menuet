@@ -61,7 +61,7 @@ ingredients.each do |ingredient|
     ok = true if ingr.id == ingredient.id
 
     ingr.api_id = result["id"]
-    ingr.img_url = "https://spoonacular.com/cdn/ingredients_100x100/#{result["image"]}"
+    ingr.img_url_ingr = "https://spoonacular.com/cdn/ingredients_100x100/#{result["image"]}"
     ingr.save
     num_saved += 1
   end

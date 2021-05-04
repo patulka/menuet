@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_04_111912) do
+ActiveRecord::Schema.define(version: 2021_05_04_195618) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2021_05_04_111912) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "api_id"
-    t.string "img_url"
+    t.string "img_url_ingr"
   end
 
   create_table "menus", force: :cascade do |t|
@@ -64,6 +64,15 @@ ActiveRecord::Schema.define(version: 2021_05_04_111912) do
     t.boolean "scraped", default: false
   end
 
+  create_table "shopping_lists", force: :cascade do |t|
+    t.bigint "ingredient_id", null: false
+    t.bigint "week_menu_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["ingredient_id"], name: "index_shopping_lists_on_ingredient_id"
+    t.index ["week_menu_id"], name: "index_shopping_lists_on_week_menu_id"
+  end
+
   create_table "user_recipe_favourites", force: :cascade do |t|
     t.bigint "recipe_id", null: false
     t.bigint "user_id", null: false
@@ -94,6 +103,8 @@ ActiveRecord::Schema.define(version: 2021_05_04_111912) do
 
   add_foreign_key "menus", "recipes"
   add_foreign_key "menus", "week_menus"
+  add_foreign_key "shopping_lists", "ingredients"
+  add_foreign_key "shopping_lists", "week_menus"
   add_foreign_key "user_recipe_favourites", "recipes"
   add_foreign_key "user_recipe_favourites", "users"
   add_foreign_key "week_menus", "users"
