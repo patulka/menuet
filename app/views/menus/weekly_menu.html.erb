@@ -5,7 +5,7 @@
 
       <!-- button to save the week menu only for signed-in users -->
       <% if user_signed_in? %>
-       <%= link_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
+       <%= link_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-md btn-red mt-3" %>
       <% end %>
     </div>
 
@@ -19,11 +19,17 @@
               <h1><%= @counter %> </h1>
             </div>
             <div class="our-card-body">
-              <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
-              <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
-              <p class="card-text"><strong>Ingredients</strong><br>
-                <%= recipe.ingredients_list.join(" - ") %>
-              </p>
+              <div class="our-card-title">
+                <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
+              </div>
+              <div class="our-card-author">
+                <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
+              </div>
+              <div class="our-card-text">
+                <p class="card-text"><strong>Ingredients</strong><br>
+                  <%= recipe.ingredients_list.join(" - ") %>
+                </p>
+              </div>
               <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
             </div>
           </div>

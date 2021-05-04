@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+    h1 {
+      margin-bottom: 0px;
+    }
 }
 
 
@@ -52,6 +55,8 @@
     display: none;
   }
 }
+
+
 
 /*tablets and bigger*/
 @media(min-width: 576px) and (max-width:991px) {
