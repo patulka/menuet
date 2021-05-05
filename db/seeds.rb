@@ -1,13 +1,17 @@
+require 'database_cleaner'
+
 puts "Cleaning database"
 
-IngredientRelation.destroy_all
-RecipeIngredient.destroy_all
-ShoppingList.destroy_all
-UserRecipeFavourite.destroy_all
-Menu.destroy_all
-WeekMenu.destroy_all
-Recipe.destroy_all
-Ingredient.destroy_all
+DatabaseCleaner.clean_with(:truncation)
+
+# IngredientRelation.destroy_all
+# RecipeIngredient.destroy_all
+# ShoppingList.destroy_all
+# UserRecipeFavourite.destroy_all
+# Menu.destroy_all
+# WeekMenu.destroy_all
+# Recipe.destroy_all
+# Ingredient.destroy_all
 
 puts "Seeding recipes, ingredients and connections..."
 
