@@ -1,12 +1,16 @@
 #menu-page-title {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-    h1 {
-      margin-bottom: 0px;
-    }
+  margin-bottom: 80px;
 }
 
+#save-menu-option {
+  display: flex;
+  align-items: flex-end;
+      h1 {
+      margin-right: 20px;
+    }
+}
 
 #number {
   width: 100px;
@@ -55,10 +59,13 @@
 }
 
 
-
 /*tablets and bigger*/
 @media(min-width: 576px) and (max-width:991px) {
     .our-card {
+    flex-flow: row wrap;
+  }
+
+  #save-menu-option {
     flex-flow: row wrap;
   }
 
