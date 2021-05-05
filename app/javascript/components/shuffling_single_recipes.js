@@ -8,29 +8,16 @@ const shuffleRecipeOnClinck1 = () => {
     if (listenedBtn) {
     listenedBtn.addEventListener('click', () => {
       if (recipeCard) {
+        // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
+        // replaces the button with the message
         recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        // hides the clicked button
         listenedBtn.style.display = "none";
       }
     });
   }
 }
-
-
-
-// const shuffleRecipeOnClinck1 = () => {
-//   const listenedBtn = document.getElementById('listened-btn-1');
-//   const recipeCard = document.getElementById('our-card-1');
-
-//     if (listenedBtn) {
-//     listenedBtn.addEventListener('click', () => {
-//       if (recipeCard) {
-//         // recipeCard.innerHTML = newCard;
-//         recipeCard.insertAdjacentHTML('beforeend', "<h3>Don't be picky!!!</h3>");
-//       }
-//     });
-//   }
-// }
 
 
 const shuffleRecipeOnClinck2 = () => {
