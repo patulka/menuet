@@ -8,21 +8,19 @@
     <div class="second-container">
       <div id="sidebar">
 
+          <a href="#newest-week"><h4>The newest</h4></a>
 
-      <!-- SIDEBAR OPTION 1: navbar with newest and oldest weeks -->
-        <!--
-          <a href="#newest-week"><h4>The newest week</h4></a>
-          <a href="#oldest-week"><h4>The oldest week</h4></a>
-          <%= link_to "Create new week", weekly_menu_path %>
-      -->
+          <!-- displaying "Week 1-9" in sidebar -->
+          <!-- NB! NAVIGATION DOES NOT WORK YET -->
+          <!--     <% @week_number_navbar = @week_menus.count %>
+            <% @week_menus.each do |week_menu| %>
+              <h4>Week <%= @week_number_navbar %></h4>
+              <% @week_number_navbar -= 1 %>
+            <% end %> -->
 
-
-      <!-- SIDEBAR OPTION 2: displaying "Week 1-9" in sidebar, (but navigation not figured out yet. if used, the #sidebar height shall be enlarged to fit also many weeks) -->
-        <% @week_number_navbar = @week_menus.count %>
-        <% @week_menus.each do |week_menu| %>
-          <h4>Week <%= @week_number_navbar %></h4>
-          <% @week_number_navbar -= 1 %>
-        <% end %>
+          <a href="#oldest-week"><h4>The oldest</h4></a>
+          <!-- Sandra will kill me for this inline style... s. -->
+          <%= link_to "Create new", root_path, style: "color: white; font-family: 'Josefin Sans', sans-serif; font-size: 1.5rem" %>
 
       </div>
       <div id="weeks-container">
@@ -31,8 +29,8 @@
         <!-- grouped by weeks, ordered from newest to oldest (.reverse) -->
         <% @week_menus.reverse.each do |week_menu| %>
 
-          <!-- ONLY IF SIDEBAR OPTION 1: navbar with newest and oldest weeks -->
-          <!-- <a id="newest-week"></a> -->
+          <!-- anchor for sidebar links -->
+          <a id="newest-week"></a>
 
           <!-- box with one menu plan == 7 recipes -->
             <div id="one-menu">
@@ -68,8 +66,8 @@
         <% end %>
       </div>
     </div>
-          <!-- ONLY IF SIDEBAR OPTION 1: navbar with newest and oldest weeks -->
-          <!-- <a id="oldest-week"></a> -->
+          <!-- anchor for sidebar links -->
+          <a id="oldest-week"></a>
   </div>
 <% end %>
 
