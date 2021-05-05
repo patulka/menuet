@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+    h1 {
+      margin-bottom: 0px;
+    }
 }
 
 
@@ -23,14 +26,43 @@
 
 /*landscape phones and smaller*/
 @media (max-width: 575px) {
-  .our-card-image {
-    width: 200px;
+
+  #menu-page-title {
+    width: 90%;
+    flex-flow: row wrap;
+      h1 {
+        font-size: 40px;
+    }
   }
 
+  .our-card {
+    flex-flow: row wrap;
+  }
+
+  .our-card-body {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .our-card-image {
+    width: 300px;
+    height: 180px;
+    margin: 0px auto;
+  }
+
+  #number {
+    display: none;
+  }
 }
+
+
 
 /*tablets and bigger*/
 @media(min-width: 576px) and (max-width:991px) {
+    .our-card {
+    flex-flow: row wrap;
+  }
 
 }
 

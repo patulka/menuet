@@ -8,11 +8,11 @@
     <div id="menu-page-title">
       <!-- button to save the week menu only for signed-in users -->
       <% if user_signed_in? %>
-       <%= button_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-lg btn-red mt-3" %>
+       <%= button_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-md btn-red mt-3" %>
       <% end %>
     </div>
 
-    <div class="recipe-cards">
+    <div id="recipe-cards">
       <% @menus.each do |recipe| %>
         <% @counter += 1  %>
           <div class="our-card" id="our-card-<%= @counter %>">
@@ -21,19 +21,24 @@
               <h1><%= @counter %> </h1>
             </div>
             <div class="our-card-body">
+              <div class="our-card-title">
+                <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
+              </div>
+              <div class="our-card-author">
+                <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
+              </div>
+              <div class="our-card-text">
+                <p class="card-text"><strong>Ingredients</strong><br>
+                  <%= recipe.ingredients_list.join(" - ") %>
+                </p>
+              </div>
 
               <button class="btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Dont'like it, give me another!</button>
-              <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
-              <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
-              <p class="card-text"><strong>Ingedrients</strong><br>
-                <%= recipe.ingredients_list.join(" - ") %>
-              </p>
-              <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
 
+              <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
             </div>
           </div>
       <% end %>
     </div>
-
   </div>
 </div>

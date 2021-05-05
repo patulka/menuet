@@ -1,22 +1,50 @@
 .our-card {
   width: 100%;
   margin: 60px 0px;
-  display: flex;
   padding-bottom: 60px;
   border-bottom: 2px solid #184d47;
+  display: flex;
 }
 
 .our-card-body {
-  padding: 50px 70px;
+  padding: 0px 70px;
   background-color: white;
   margin-left: -40px;
   line-height: 30px;
   clip-path: polygon( 5% 0%, 100% 0%, 100% 100%, 0% 100%);
 
     h3 {
+      margin-top: 10px;
       margin-bottom: 20px;
     }
 }
+
+.our-card-image {
+  width: 600px;
+  height: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-card-title {
+  margin: 30px 0px;
+  height: 73px;
+  overflow: scroll;
+}
+
+.our-card-author {
+  margin-bottom: 10px;
+  height: 90px;
+  overflow: scroll;
+}
+
+.our-card-text {
+  height: 90px;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+
+
 
 // cards for the my menu page
 
