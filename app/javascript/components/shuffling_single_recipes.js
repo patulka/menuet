@@ -11,7 +11,7 @@ const shuffleRecipeOnClinck1 = () => {
         // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
         // replaces the button with the message
-        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        recipeCard.insertAdjacentHTML('beforebegin', "<h5 style='float: right'>Don't be picky!!!</h5>");
         // hides the clicked button
         listenedBtn.style.display = "none";
       }
@@ -29,7 +29,7 @@ const shuffleRecipeOnClinck2 = () => {
         // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
         // replaces the button with the message
-        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        recipeCard.insertAdjacentHTML('beforebegin', "<h5 style='float: right'>Don't be picky!!!</h5>");
         // hides the clicked button
         listenedBtn.style.display = "none";
       }
@@ -47,7 +47,7 @@ const shuffleRecipeOnClinck3 = () => {
         // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
         // replaces the button with the message
-        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        recipeCard.insertAdjacentHTML('beforebegin', "<h5 style='float: right'>Don't be picky!!!</h5>");
         // hides the clicked button
         listenedBtn.style.display = "none";
       }
@@ -65,7 +65,7 @@ const shuffleRecipeOnClinck4 = () => {
         // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
         // replaces the button with the message
-        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        recipeCard.insertAdjacentHTML('beforebegin', "<h5 style='float: right'>Don't be picky!!!</h5>");
         // hides the clicked button
         listenedBtn.style.display = "none";
       }
@@ -83,7 +83,7 @@ const shuffleRecipeOnClinck5 = () => {
         // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
         // replaces the button with the message
-        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        recipeCard.insertAdjacentHTML('beforebegin', "<h5 style='float: right'>Don't be picky!!!</h5>");
         // hides the clicked button
         listenedBtn.style.display = "none";
       }
@@ -101,7 +101,7 @@ const shuffleRecipeOnClinck6 = () => {
         // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
         // replaces the button with the message
-        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        recipeCard.insertAdjacentHTML('beforebegin', "<h5 style='float: right'>Don't be picky!!!</h5>");
         // hides the clicked button
         listenedBtn.style.display = "none";
       }
@@ -119,7 +119,7 @@ const shuffleRecipeOnClinck7 = () => {
         // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
         // replaces the button with the message
-        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        recipeCard.insertAdjacentHTML('beforebegin', "<h5 style='float: right'>Don't be picky!!!</h5>");
         // hides the clicked button
         listenedBtn.style.display = "none";
       }
