@@ -34,9 +34,11 @@ import { shuffleRecipeOnClinck4 } from '../components/shuffling_single_recipes';
 import { shuffleRecipeOnClinck5 } from '../components/shuffling_single_recipes';
 import { shuffleRecipeOnClinck6 } from '../components/shuffling_single_recipes';
 import { shuffleRecipeOnClinck7 } from '../components/shuffling_single_recipes';
+import { showHideIngredientInfo } from '../components/shopping';
 
 document.addEventListener('turbolinks:load', () => {
   autocompleteSearch();
+  showHideIngredientInfo()
   shuffleRecipeOnClinck1();
   shuffleRecipeOnClinck2();
   shuffleRecipeOnClinck3();
@@ -44,6 +46,7 @@ document.addEventListener('turbolinks:load', () => {
   shuffleRecipeOnClinck5();
   shuffleRecipeOnClinck6();
   shuffleRecipeOnClinck7();
+
   // Call your functions here, e.g:
   // initSelect2();
 });

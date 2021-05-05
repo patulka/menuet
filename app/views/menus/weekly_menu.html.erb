@@ -1,16 +1,16 @@
 <div class="container">
   <div class="main-container">
 
-      <h1>Suggested weekly meal plan</h1>
-      <!-- refreshing the search with the original queries -- ingredients chosen by user -->
-      <%= link_to "Give me different one", weekly_menu_path(q: @params_q, qq: @params_qq), class: "btn btn-transparent" %>
+    <h1>Suggested weekly meal plan</h1>
+    <!-- refreshing the search with the original queries -- ingredients chosen by user -->
+    <%= link_to "Give me different one", weekly_menu_path(q: @params_q, qq: @params_qq), class: "btn btn-transparent" %>
 
-      <div id="menu-page-title">
-        <!-- button to save the week menu only for signed-in users -->
-        <% if user_signed_in? %>
-          <%= link_to "Save this one",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
-        <% end %>
-      </div>
+    <div id="menu-page-title">
+      <!-- button to save the week menu only for signed-in users -->
+      <% if user_signed_in? %>
+       <%= button_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-lg btn-red mt-3" %>
+      <% end %>
+    </div>
 
     <div class="recipe-cards">
       <% @menus.each do |recipe| %>

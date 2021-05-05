@@ -3,17 +3,28 @@ class MenusController < ApplicationController
 
   def weekly_menu
     # puts all searched ingredients (that are not an empty string) to one array
+    negative_query_list = ([params[:x]] + params[:xx].split(',')).reject { |x| x == "" }
+    if negative_query_list.empty?
+      sql_not_like = ""
+    else
+      sql_not_like = negative_query_list.map { |q| "ingredients.name NOT LIKE \'%#{q}%\'"}.join(' AND ')
+    end
+
+    # puts all searched ingredients (that are not an empty string) to one array
     query_list = ([params[:q]] + params[:qq].split(',')).reject { |q| q == "" }
     menus_match = []
-    unless query_list.empty?
+    if query_list.empty?
+      sql_like = ""
+    else
       # sql query to find all recipes which has at least one of the searched ingredients
-      sql_like = query_list.map { |q| "ingredients.name LIKE \'%#{q}\'"}.join(' OR ')
+      sql_like = query_list.map { |q| "ingredients.name LIKE \'%#{q}%\'"}.join(' OR ')
       # set of recipes with searched ingredients
-      menus_match = sample_from_db(RecipeIngredient.joins(:ingredient)
-                      .where(sql_like)
+    end
+
+    menus_match = sample_from_db(RecipeIngredient.joins(:ingredient)
+                      .where(sql_not_like).where(sql_like)
                       .joins(:recipe), 7)
                     .map { |x| x.recipe } # selecting just recipe from join table
-    end
 
     # set of recipes without searched ingredients
     menus_rand = sample_from_db(Recipe, 7 - menus_match.count)

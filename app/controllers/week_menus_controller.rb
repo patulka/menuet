@@ -18,10 +18,39 @@ class WeekMenusController < ApplicationController
       params["menus"].each { |menu|
         Menu.create(week_menu: @week_menu, recipe_id: menu)
       }
+      # creating shopping list
+      ingredients = []
+      @week_menu.recipes.each do |recipe|
+        ingredients << recipe.ingredients
+      end
+      ingredients = ingredients.flatten.to_set
+
+      ingredients.each do |ingredient|
+        if ShoppingList.where("week_menu_id = '#{@week_menu[:id]}'").where("ingredient_id = '#{ingredient[:id]}'")== []
+          ShoppingList.create(ingredient: ingredient, week_menu: @week_menu)
+        end
+      end
       redirect_to my_menu_plans_path
     else
       render 'weekly-menu'
     end
   end
 
+  def shopping_list
+    week_menu = WeekMenu.find(params[:id])
+    if ShoppingList.where("week_menu_id = '#{week_menu[:id]}'") == []
+      ingredients = []
+      week_menu.recipes.each do |recipe|
+        ingredients << recipe.ingredients
+      end
+      ingredients = ingredients.flatten.to_set
+
+      ingredients.each do |ingredient|
+        if ShoppingList.where("week_menu_id = '#{week_menu[:id]}'").where("ingredient_id = '#{ingredient[:id]}'")== []
+          ShoppingList.create(ingredient: ingredient, week_menu: week_menu)
+        end
+      end
+    end
+    @shopping_list = ShoppingList.joins(:ingredient).where("week_menu_id = '#{week_menu[:id]}'").map { |x| x.ingredient }
+  end
 end

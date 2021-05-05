@@ -1,8 +1,11 @@
 puts "Cleaning database"
 
+RecipeIngredient.destroy_all
+Menu.destroy_all
+WeekMenu.destroy_all
+User.destroy_all
 Recipe.destroy_all
 Ingredient.destroy_all
-RecipeIngredient.destroy_all
 
 puts "Seeding recipes, ingredients and connections..."
 
