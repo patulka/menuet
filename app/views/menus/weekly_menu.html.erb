@@ -17,12 +17,12 @@
         <% @counter += 1  %>
 
           <div class="our-card" id="our-card-<%= @counter %>">
+              <button class="btn-try-absolute btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Try another!</button>
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
               <h1><%= @counter %> </h1>
             </div>
             <div class="our-card-body">
-              <button class="try-absolute btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Try another!</button>
               <div class="our-card-title">
                 <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
               </div>
