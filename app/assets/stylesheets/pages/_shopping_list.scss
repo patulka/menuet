@@ -1,0 +1,20 @@
+.list {
+  column-count: 3;
+
+    li {
+      line-height: 30px;
+    }
+}
+
+#list-ingredients {
+  margin: 50px 0px;
+}
+
+
+/*tablets and bigger*/
+@media(min-width: 576px) and (max-width:991px) {
+  .list {
+    column-count: 2;
+  }
+
+}

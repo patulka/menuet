@@ -1,9 +1,9 @@
 <div class="container">
   <div class="main-container">
-    <h1 style="text-align:center"><b>Shopping list for week <%= @week_number %></b></h1>
+    <h1 style="text-align:center"><b>Shopping list for the week <%= @week_number %></b></h1>
     <ul class="list" id="list-ingredients">
      <% @shopping_list.each do |ingredient|%>
-      <li><%= ingredient.name %></li>
+      <li><%= ingredient.name.capitalize %></li>
      <% end %>
     </ul>
 
