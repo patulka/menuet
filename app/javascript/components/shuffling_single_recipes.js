@@ -19,7 +19,6 @@ const shuffleRecipeOnClinck1 = () => {
   }
 }
 
-
 const shuffleRecipeOnClinck2 = () => {
   const listenedBtn = document.getElementById('listened-btn-2');
   const recipeCard = document.getElementById('our-card-2');
@@ -27,8 +26,12 @@ const shuffleRecipeOnClinck2 = () => {
     if (listenedBtn) {
     listenedBtn.addEventListener('click', () => {
       if (recipeCard) {
+        // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
-        recipeCard.insertAdjacentHTML('beforeend', "<h3>Don't be picky!!!</h3>");
+        // replaces the button with the message
+        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        // hides the clicked button
+        listenedBtn.style.display = "none";
       }
     });
   }
@@ -41,8 +44,12 @@ const shuffleRecipeOnClinck3 = () => {
     if (listenedBtn) {
     listenedBtn.addEventListener('click', () => {
       if (recipeCard) {
+        // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
-        recipeCard.insertAdjacentHTML('beforeend', "<h3>Don't be picky!!!</h3>");
+        // replaces the button with the message
+        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        // hides the clicked button
+        listenedBtn.style.display = "none";
       }
     });
   }
@@ -55,8 +62,12 @@ const shuffleRecipeOnClinck4 = () => {
     if (listenedBtn) {
     listenedBtn.addEventListener('click', () => {
       if (recipeCard) {
+        // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
-        recipeCard.insertAdjacentHTML('beforeend', "<h3>Don't be picky!!!</h3>");
+        // replaces the button with the message
+        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        // hides the clicked button
+        listenedBtn.style.display = "none";
       }
     });
   }
@@ -69,8 +80,12 @@ const shuffleRecipeOnClinck5 = () => {
     if (listenedBtn) {
     listenedBtn.addEventListener('click', () => {
       if (recipeCard) {
+        // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
-        recipeCard.insertAdjacentHTML('beforeend', "<h3>Don't be picky!!!</h3>");
+        // replaces the button with the message
+        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        // hides the clicked button
+        listenedBtn.style.display = "none";
       }
     });
   }
@@ -83,8 +98,12 @@ const shuffleRecipeOnClinck6 = () => {
     if (listenedBtn) {
     listenedBtn.addEventListener('click', () => {
       if (recipeCard) {
+        // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
-        recipeCard.insertAdjacentHTML('beforeend', "<h3>Don't be picky!!!</h3>");
+        // replaces the button with the message
+        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        // hides the clicked button
+        listenedBtn.style.display = "none";
       }
     });
   }
@@ -97,8 +116,12 @@ const shuffleRecipeOnClinck7 = () => {
     if (listenedBtn) {
     listenedBtn.addEventListener('click', () => {
       if (recipeCard) {
+        // keeping this for the option of replacing the whole card with new recipe
         // recipeCard.innerHTML = newCard;
-        recipeCard.insertAdjacentHTML('beforeend', "<h3>Don't be picky!!!</h3>");
+        // replaces the button with the message
+        recipeCard.insertAdjacentHTML('beforebegin', "<h3 style='float: right'>Don't be picky!!!</h3>");
+        // hides the clicked button
+        listenedBtn.style.display = "none";
       }
     });
   }

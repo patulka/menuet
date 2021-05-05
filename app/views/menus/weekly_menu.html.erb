@@ -18,7 +18,9 @@
 
           <div class="our-card" id="our-card-<%= @counter %>">
             <!-- button for shuffling single recipes - currently only showing message "Dont be picky" -->
-            <button class="btn-try-absolute btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Try another!</button>
+            <button class="btn-try-absolute btn btn-transparent" id="listened-btn-<%= @counter %>">Try another!</button>
+            <!-- OPTION FOR HAVING THE BUTTON RED -->
+            <!-- <button class="btn-try-absolute btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Try another!</button> -->
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
               <h1><%= @counter %> </h1>
