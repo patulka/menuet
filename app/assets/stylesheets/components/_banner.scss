@@ -19,7 +19,7 @@
 }
 
 #banner-inner-text {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 #ingredient-set {
@@ -34,7 +34,7 @@
 }
 
 #ingredient-dislike-set {
-  margin: 20px auto 10px auto;
+  margin-left: 10px;
   min-height: 20px;
   span {
     padding: 5px;
@@ -43,3 +43,13 @@
     color: #46606C;
   }
 }
+
+
+#dislike-set {
+  display: flex;
+}
+
+.search-form {
+  margin-bottom: 30px;
+}
+
