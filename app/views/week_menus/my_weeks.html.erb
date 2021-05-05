@@ -36,11 +36,11 @@
 
           <!-- box with one menu plan == 7 recipes -->
             <div id="one-menu">
-              <div class="underline">
+              <div class="underline-1">
                 <h3>Week <%= @week_number %> </h3>
 
                 <% if user_signed_in? %>
-                 <%= link_to "shopping list",shopping_list_week_menu_path(week_menu), class: "btn btn-lg btn-info mt-3" %>
+                 <%= link_to "shopping list",shopping_list_week_menu_path(week_menu), class: "btn btn-md btn-red mb-1" %>
                 <% end %>
               </div>
               <div id="card-lists">
