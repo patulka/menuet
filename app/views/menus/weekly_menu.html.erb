@@ -1,19 +1,21 @@
 <div class="container">
   <div class="main-container">
-    <div id="menu-page-title">
-      <h1>Suggested weekly meal plan</h1>
 
+    <h1>Suggested weekly meal plan</h1>
+    <!-- refreshing the search with the original queries -- ingredients chosen by user -->
+    <%= link_to "Give me different one", weekly_menu_path(q: @params_q, qq: @params_qq), class: "btn btn-transparent" %>
+
+    <div id="menu-page-title">
       <!-- button to save the week menu only for signed-in users -->
       <% if user_signed_in? %>
-       <%= link_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-md btn-red mt-3" %>
+       <%= button_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-md btn-red mt-3" %>
       <% end %>
     </div>
 
     <div id="recipe-cards">
-
       <% @menus.each do |recipe| %>
         <% @counter += 1  %>
-          <div class="our-card">
+          <div class="our-card" id="our-card-<%= @counter %>">
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
               <h1><%= @counter %> </h1>
@@ -30,12 +32,13 @@
                   <%= recipe.ingredients_list.join(" - ") %>
                 </p>
               </div>
+
+              <button class="btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Dont'like it, give me another!</button>
+
               <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
             </div>
           </div>
       <% end %>
     </div>
-
-
   </div>
 </div>

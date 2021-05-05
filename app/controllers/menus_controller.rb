@@ -25,10 +25,15 @@ class MenusController < ApplicationController
                       .where(sql_not_like).where(sql_like)
                       .joins(:recipe), 7)
                     .map { |x| x.recipe } # selecting just recipe from join table
+
     # set of recipes without searched ingredients
     menus_rand = sample_from_db(Recipe, 7 - menus_match.count)
     # all 7 recipes together
     @menus = menus_match + menus_rand
+
+    # saving the users queries, to be able to use them for "Give me different weekly menu"
+    @params_q = params[:q]
+    @params_qq = params[:qq]
 
     @counter = 0
   end
@@ -38,4 +43,5 @@ class MenusController < ApplicationController
   def sample_from_db(query, number)
     query.where("COALESCE(TRIM(img_url, '')) != ''").order('RANDOM()').limit(number)
   end
+
 end
