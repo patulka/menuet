@@ -15,12 +15,14 @@
     <div id="recipe-cards">
       <% @menus.each do |recipe| %>
         <% @counter += 1  %>
+
           <div class="our-card" id="our-card-<%= @counter %>">
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
               <h1><%= @counter %> </h1>
             </div>
             <div class="our-card-body">
+              <button class="try-absolute btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Try another!</button>
               <div class="our-card-title">
                 <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
               </div>
@@ -33,7 +35,7 @@
                 </p>
               </div>
 
-              <button class="btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Dont'like it, give me another!</button>
+
 
               <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
             </div>
