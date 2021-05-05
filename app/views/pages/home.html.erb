@@ -6,16 +6,6 @@
           <h1>It takes one click</h1>
           <!-- Form for ingredients you don't want-->
           <%= form_tag weekly_menu_path, method: :get do %>
-            <div class="search-form" id="search-dislike-data" data-ingredients="<%= @ingredients.to_json %>">
-              <!-- display of multiple ingredient -->
-              <div id="ingredient-dislike-set"></div>
-              <%= text_field_tag :x, nil,
-                autocomplete: :on,
-                class: "form-control search-input",
-                placeholder: "Search by ingredients you don't want..." %>
-              <!-- Saving multiple ingredients to search query -->
-              <input type="hidden" id="ingredient-dislike-set-input" name="xx">
-            </div>
           <!-- Form for ingredients you want-->
             <div class="search-form" id="search-data" data-ingredients="<%= @ingredients.to_json %>">
               <!-- display of multiple ingredient -->
@@ -26,6 +16,22 @@
                 placeholder: "Search by ingredients..." %>
               <!-- Saving multiple ingredients to search query -->
               <input type="hidden" id="ingredient-set-input" name="qq">
+            </div>
+            <!-- Form for ingredients you don't want-->
+            <div class="search-form" id="search-dislike-data" data-ingredients="<%= @ingredients.to_json %>">
+
+              <div id="dislike-set">
+                <h5>Something to avoid?</h5>
+                <div id="ingredient-dislike-set"></div>
+                </div>
+                <%= text_field_tag :x, nil,
+                  autocomplete: :on,
+                  class: "form-control search-input",
+                  placeholder: "Add ingredients to avoid..." %>
+                <!-- Saving multiple ingredients to search query -->
+                <input type="hidden" id="ingredient-dislike-set-input" name="xx">
+                <!-- display of multiple ingredient -->
+
               <%= submit_tag "Get my meal plan", class: "btn btn-lg btn-red mt-3" %>
             </div>
           <% end %>
