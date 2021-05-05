@@ -15,13 +15,14 @@
     </div>
 
     <div id="recipe-cards">
-      <% @menus.each do |recipe| %>
-        <% @counter += 1  %>
-
-          <div class="our-card" id="our-card-<%= @counter %>">
+      <% @days.each_with_index do |day, day_index| %>
+        <% day_index += 1 %>
+        <% day.each_with_index do |recipe, recipe_index| %>
+          <% style = recipe_index > 0 ? "display:none" : "" %>
+          <div class="our-card" id="our-card-<%= day_index %>" style="<%= style %>">
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
-              <h2>day<span style="font-size: 45px"> <%= @counter %></span></h2>
+              <h2>day<span style="font-size: 45px"> <%= day_index %></span></h2>
             </div>
             <div class="our-card-body">
               <div class="our-card-title">
@@ -44,6 +45,7 @@
               <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
             </div>
           </div>
+        <% end %>
       <% end %>
     </div>
   </div>

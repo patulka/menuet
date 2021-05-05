@@ -23,13 +23,22 @@ class MenusController < ApplicationController
 
     menus_match = sample_from_db(RecipeIngredient.joins(:ingredient)
                       .where(sql_not_like).where(sql_like)
-                      .joins(:recipe), 7)
+                      .joins(:recipe), 21)
                     .map { |x| x.recipe } # selecting just recipe from join table
 
     # set of recipes without searched ingredients
-    menus_rand = sample_from_db(Recipe, 7 - menus_match.count)
+    menus_rand = sample_from_db(Recipe, 21 - menus_match.count)
     # all 7 recipes together
     @menus = menus_match + menus_rand
+
+    @days = []
+    (0..6).each do |day|
+      menus = []
+      (0..2).each do |menu|
+        menus << @menus[day * 3 + menu]
+      end
+      @days << menus
+    end
 
     # saving the users queries, to be able to use them for "Give me different weekly menu"
     @params_q = params[:q]
