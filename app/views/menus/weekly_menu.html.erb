@@ -2,16 +2,15 @@
   <div class="main-container">
     <div id="menu-page-title">
       <div id="save-menu-option">
-
-      <h1>Suggested weekly meal plan</h1>
+        <h1>Suggested weekly meal plan</h1>
 
         <% if user_signed_in? %>
-         <%= button_to "Save it!",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-sm btn-red mb-3" %>
+          <%= button_to "Save it!",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-sm btn-red mb-3" %>
         <% end %>
       </div>
 
       <!-- refreshing the search with the original queries -- ingredients chosen by user -->
-        <%= link_to "Create a new one", weekly_menu_path(q: @params_q, qq: @params_qq, x: @params_x, xx: @params_xx), class: "btn btn-transparent mb-3" %>
+      <%= link_to "Create a new one", weekly_menu_path(q: @params_q, qq: @params_qq, x: @params_x, xx: @params_xx), class: "btn btn-transparent mb-3" %>
 
         <!-- button to save the week menu only for signed-in users -->
     </div>

@@ -19,6 +19,14 @@
 }
 
 
+.underline-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
 /*landscape phones and smaller*/
 @media (max-width: 575px) {
   #sidebar {
@@ -55,6 +63,10 @@
 @media(min-width: 576px) and (max-width:991px) {
   #sidebar {
     display:none;
+  }
+
+  .underline-1 {
+    flex-flow: row wrap;
   }
 
 }
