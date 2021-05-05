@@ -1,3 +1,7 @@
+a:hover {
+  text-decoration: none;
+}
+
 #sidebar {
   width: 300px;
   margin-top: 60px;
@@ -12,7 +16,6 @@
   }
   // making sidebar sticky
   position: sticky; top: 50px;
-
 }
 
 .second-container {
