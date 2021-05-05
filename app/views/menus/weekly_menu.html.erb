@@ -3,7 +3,7 @@
 
     <h1>Suggested weekly meal plan</h1>
     <!-- refreshing the search with the original queries -- ingredients chosen by user -->
-    <%= link_to "Give me different one", weekly_menu_path(q: @params_q, qq: @params_qq), class: "btn btn-transparent" %>
+    <%= link_to "Give me different one", weekly_menu_path(q: @params_q, qq: @params_qq, x: @params_x, xx: @params_xx), class: "btn btn-transparent" %>
 
     <div id="menu-page-title">
       <!-- button to save the week menu only for signed-in users -->
