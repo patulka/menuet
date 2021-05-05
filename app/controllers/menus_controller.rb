@@ -34,6 +34,9 @@ class MenusController < ApplicationController
     # saving the users queries, to be able to use them for "Give me different weekly menu"
     @params_q = params[:q]
     @params_qq = params[:qq]
+    @params_x = params[:x]
+    @params_xx = params[:xx]
+
 
     @counter = 0
   end
