@@ -4,7 +4,7 @@
       <div id="save-menu-option">
         <h1>Suggested weekly meal plan</h1>
         <!-- refreshing the search with the original queries -- ingredients chosen by user -->
-        <%= link_to "Try different recipes", weekly_menu_path(q: @params_q, qq: @params_qq, x: @params_x, xx: @params_xx), class: "btn btn-sm btn-transparent mb-3" %>
+        <%= link_to "Change menu", weekly_menu_path(q: @params_q, qq: @params_qq, x: @params_x, xx: @params_xx), class: "btn btn-sm btn-transparent mb-3" %>
       </div>
       <% if user_signed_in? %>
         <%= button_to "Save it!",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-red mb-3" %>
@@ -21,12 +21,16 @@
           <div class="our-card" id="our-card-<%= @counter %>">
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
-              <h2><em>day</em><span style="font-size: 45px"> <%= @counter %></span></h2>
+              <h2>day<span style="font-size: 45px"> <%= @counter %></span></h2>
             </div>
             <div class="our-card-body">
               <div class="our-card-title">
                 <!-- button for shuffling single recipes - currently only showing message "Dont be picky" -->
-                <h3 class="card-title"><strong><%= recipe.title %></strong>   <span><a class="" id="listened-btn-<%= @counter %>"><i class="fas fa-sync-alt" style="color: #c64756; font-size: 20px"></i></a></span></h3>
+                <div class="title-prep-time">
+                  <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
+                  <p><i class="far fa-clock"></i> <%= recipe.time %> mins</p>
+                </div>
+                <a class="mt-2" id="listened-btn-<%= @counter %>"><i class="fas fa-sync-alt" style="color: #c64756; font-size: 20px"></i></a>
               </div>
               <div class="our-card-author">
                 <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
