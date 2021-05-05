@@ -37,7 +37,6 @@ class MenusController < ApplicationController
     @params_x = params[:x]
     @params_xx = params[:xx]
 
-
     @counter = 0
   end
 
