@@ -3,7 +3,6 @@
     <div id="menu-page-title">
       <div id="save-menu-option">
         <h1>Suggested weekly meal plan</h1>
-
         <% if user_signed_in? %>
           <%= button_to "Save it!",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-sm btn-red mb-3" %>
         <% end %>
@@ -18,7 +17,12 @@
     <div id="recipe-cards">
       <% @menus.each do |recipe| %>
         <% @counter += 1  %>
+
           <div class="our-card" id="our-card-<%= @counter %>">
+            <!-- button for shuffling single recipes - currently only showing message "Dont be picky" -->
+            <button class="btn-try-absolute btn btn-transparent" id="listened-btn-<%= @counter %>">Try another!</button>
+            <!-- OPTION FOR HAVING THE BUTTON RED -->
+            <!-- <button class="btn-try-absolute btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Try another!</button> -->
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
               <h2><em>day</em><span style="font-size: 45px"> <%= @counter %></span></h2>
@@ -36,7 +40,7 @@
                 </p>
               </div>
 
-              <button class="btn btn-red mt-3 mb-3" id="listened-btn-<%= @counter %>">Dont'like it, give me another!</button>
+
 
               <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
             </div>

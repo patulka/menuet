@@ -46,3 +46,12 @@ input#subscription_btn {
     color: #184d47;
   }
 }
+
+// btn for shuffling single recipe (currently gving message Dont be picky!)
+.btn-try-absolute {
+  position: absolute;
+  right: 70px;
+  top: -40px;
+  z-index: 5;
+
+}
