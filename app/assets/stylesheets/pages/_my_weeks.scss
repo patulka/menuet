@@ -10,12 +10,14 @@ a:hover {
   background-color: #184d47;
   padding: 20px 20px;
   height: 40vh;
+  // height: 80vh;
   h4 {
     margin-bottom: 30px;
     color: white;
   }
   // making sidebar sticky
   position: sticky; top: 50px;
+  overflow: auto;
 }
 
 .second-container {
