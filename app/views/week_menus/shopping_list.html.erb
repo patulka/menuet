@@ -1,9 +1,9 @@
 <div class="shopping-list">
   <div class= list_container>
   <h1 style="text-align:center;"><b>Shopping list for week <%= @week_number %></b></h1>
-    <ul id="myUL">
+    <ul id="list" data-list-id= "<%= @shopping_list %>">
     <% @shopping_list.each do |ingredient|%>
-  <li> <%= ingredient.name %></li>
+  <li id="<%= ingredient.id %>" class="ingredient"> <%= ingredient.name %><span class="close">&times;</span></li>
 
 
      <% end %>
