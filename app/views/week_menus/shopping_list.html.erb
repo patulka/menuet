@@ -2,12 +2,16 @@
   <div class="main-container">
     <h1 style="text-align:center"><b>Shopping list for the week <%= @week_number %></b></h1>
     <ul class="list" id="list-ingredients">
-     <% @shopping_list.each do |item|%>
-      <div class="item">
-        <li><%= item.ingredient.name.capitalize %></li>
-        <%= link_to raw("<i class='fas fa-times item-delete'></i>"), shopping_list_path(item), method: :delete %>
-      </div>
-     <% end %>
+      <% @shopping_list.each do |category|%>
+        <% next if category[:items] == [] %>
+        <%= category[:name].capitalize %>
+        <% category[:items].each do |item| %>
+          <div class="item">
+            <li><%= item.ingredient.name.capitalize %></li>
+            <%= link_to raw("<i class='fas fa-times item-delete'></i>"), shopping_list_path(item), method: :delete %>
+          </div>
+        <% end %>
+      <% end %>
     </ul>
 
   </div>

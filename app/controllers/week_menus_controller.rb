@@ -13,6 +13,9 @@ class WeekMenusController < ApplicationController
     @week_number_navbar = 1 # from 1 to x
   end
 
+
+  $categories = [Ingredient.where("name = 'vegetable'")[0], Ingredient.where("name = 'fruit'")[0], Ingredient.where("name = 'spices'")[0], Ingredient.where("name = 'bread'")[0], Ingredient.where("name = 'dairy'")[0], Ingredient.where("name = 'cheese'")[0], Ingredient.where("name = 'fish'")[0], Ingredient.where("name = 'seafood'")[0], Ingredient.where("name = 'meat'")[0]]
+
   # creates lines in a week_menu db and menu db == saving weeks to be displayed on my-menu-plans page
   def create
     @week_menu = WeekMenu.new
@@ -54,6 +57,15 @@ class WeekMenusController < ApplicationController
         end
       end
     end
-    @shopping_list = ShoppingList.where(week_menu: week_menu)
+    categorized = []
+    @shopping_list = $categories.map do |c|
+      ret = ShoppingList.select("shopping_lists.*")
+                        .where(week_menu: week_menu)
+                        .where("ingredient_id IN (SELECT child_id from ingredient_relations WHERE parent_id = #{c.id})")
+      ret.each { |item| categorized << item.id }
+      { name: c.name, items: ret.all }
+    end
+    others = ShoppingList.where(week_menu: week_menu).all.reject { |item| categorized.include? item.id }
+    @shopping_list << { name: "Others", items: others}
   end
 end
