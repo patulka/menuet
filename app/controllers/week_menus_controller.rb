@@ -41,7 +41,7 @@ class WeekMenusController < ApplicationController
 
   def shopping_list
     week_menu = WeekMenu.find(params[:id])
-    if ShoppingList.where("week_menu_id = '#{week_menu[:id]}'") == []
+    if ShoppingList.where(week_menu: week_menu) == []
       ingredients = []
       week_menu.recipes.each do |recipe|
         ingredients << recipe.ingredients
@@ -49,11 +49,11 @@ class WeekMenusController < ApplicationController
       ingredients = ingredients.flatten.to_set
 
       ingredients.each do |ingredient|
-        if ShoppingList.where("week_menu_id = '#{week_menu[:id]}'").where("ingredient_id = '#{ingredient[:id]}'")== []
+        if ShoppingList.where(week_menu: week_menu).where(ingredient: ingredient) == []
           ShoppingList.create(ingredient: ingredient, week_menu: week_menu)
         end
       end
     end
-    @shopping_list = ShoppingList.joins(:ingredient).where("week_menu_id = '#{week_menu[:id]}'").map { |x| x.ingredient }
+    @shopping_list = ShoppingList.where(week_menu: week_menu)
   end
 end

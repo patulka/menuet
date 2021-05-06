@@ -2,8 +2,11 @@
   <div class="main-container">
     <h1 style="text-align:center"><b>Shopping list for the week <%= @week_number %></b></h1>
     <ul class="list" id="list-ingredients">
-     <% @shopping_list.each do |ingredient|%>
-      <li><%= ingredient.name.capitalize %></li>
+     <% @shopping_list.each do |item|%>
+      <div class="item">
+        <li><%= item.ingredient.name.capitalize %></li>
+        <%= link_to raw("<i class='fas fa-times item-delete'></i>"), shopping_list_path(item), method: :delete %>
+      </div>
      <% end %>
     </ul>
 
