@@ -10,9 +10,9 @@
 
       <%#  button to save the week menu only for signed-in users %>
       <% if user_signed_in? %>
-        <%# @menus now include 21 recipes. .first(7) will be used only if JS fails
-        (the .js responsible for choosing the recipes, which are currently visible -- see below) %>
-        <%= button_to "Save it!", week_menus_path(menus: @menus.first(7).map{|menu| menu.id}), class: "btn btn-red mb-3", form: {id: "submit-meal-plan-btn"} %>
+        <%# @menus_first_option will be saved only if JS fails
+        (the JS responsible for choosing the recipes, which are currently visible -- see below) %>
+        <%= button_to "Save it!", week_menus_path(menus: @menus_first_option.map{|menu| menu.id}), class: "btn btn-red mb-3", form: {id: "submit-meal-plan-btn"} %>
       <% end %>
 
     </div>

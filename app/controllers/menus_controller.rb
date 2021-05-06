@@ -33,6 +33,14 @@ class MenusController < ApplicationController
     # 21 recipes
     @menus = menus_match + menus_rand
 
+    # backup in case JS does not work -- first option for the particular day to be passed to the save button
+    @menus_first_option = []
+    @menus.each_with_index do |menu, index|
+      if (index == 0 || (index) % 3 == 0 )
+        @menus_first_option << menu
+      end
+    end
+
     # 21 recipes distributed in days (3 recipes == 3 options per day)
     @days = []
     (0..6).each do |day| # 7 days
