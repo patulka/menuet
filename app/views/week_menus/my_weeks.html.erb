@@ -10,11 +10,11 @@
 
           <a href="#newest-week"><h4>The newest</h4></a>
 
-          <%# displaying "Week 1-9" in sidebar %>
-          <%# NB! NAVIGATION DOES NOT WORK YET %>
+          <%# displaying links to weeks in sidebar %>
             <% @week_number_navbar = @week_menus.count %>
             <% @week_menus.each do |week_menu| %>
-              <h4>Week <%= @week_number_navbar %></h4>
+              <a href="#nav-week-<%= @week_number_navbar %>"><h4>Week <%= @week_number_navbar %></h4></a>
+           <!--    <h4>Week <%= @week_number_navbar %></h4> -->
               <% @week_number_navbar -= 1 %>
             <% end %>
 
@@ -33,6 +33,7 @@
         <% @week_menus.reverse.each do |week_menu| %>
 
           <%# box with one menu plan == 7 recipes %>
+          <a id="nav-week-<%= @week_number %>"> <%# anchor for sidebar links %>
             <div id="one-menu">
               <div class="underline-1">
                 <h3>Week <%= @week_number %> </h3>
@@ -60,7 +61,7 @@
               </div>
 
             </div>
-
+          </a>
           <%# the lower on the page, the older week, the lower number %>
           <% @week_number -= 1 %>
 
