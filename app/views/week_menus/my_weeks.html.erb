@@ -8,19 +8,20 @@
     <div class="second-container">
       <div id="sidebar">
 
-          <a href="#newest-week"><h4>The newest</h4></a>
+        <h4> <%= link_to "Create new", root_path, style: "color: white" %> </h4>
 
-          <%# displaying links to weeks in sidebar %>
-            <% @week_number_navbar = @week_menus.count %>
-            <% @week_menus.each do |week_menu| %>
-              <a href="#nav-week-<%= @week_number_navbar %>"><h4>Week <%= @week_number_navbar %></h4></a>
-           <!--    <h4>Week <%= @week_number_navbar %></h4> -->
-              <% @week_number_navbar -= 1 %>
-            <% end %>
+        <a href="#oldest-week"><h4>The oldest</h4></a>
+        <a href="#newest-week"><h4>The newest</h4></a>
 
-          <a href="#oldest-week"><h4>The oldest</h4></a>
-          <%# Sandra will kill me for this inline style... s. %>
-          <%= link_to "Create new", root_path, style: "color: white; font-family: 'Josefin Sans', sans-serif; font-size: 1.5rem" %>
+        <%# displaying links to weeks in sidebar %>
+          <% @week_menus.each do |week_menu| %>
+            <a href="#nav-week-<%= @week_number_navbar %>"><h4>Week <%= @week_number_navbar %></h4></a>
+            <%# <h4>Week <%= @week_number_navbar </h4> %>
+            <%# <% @week_number_navbar -= 1  # from x to 1 %>
+            <% @week_number_navbar += 1 %> <%# # from x to 1 %>
+          <% end %>
+
+
 
       </div>
 

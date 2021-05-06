@@ -8,6 +8,9 @@ class WeekMenusController < ApplicationController
 
     # for display of week number on my-menu-plans page (week one on the bottom)
     @week_number = @week_menus.count
+    # for display of week number in green navbar on my-menu-plans page (week one on the bottom)
+    # @week_number_navbar = @week_menus.count # from x to 1
+    @week_number_navbar = 1 # from 1 to x
   end
 
   # creates lines in a week_menu db and menu db == saving weeks to be displayed on my-menu-plans page
