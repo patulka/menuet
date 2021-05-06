@@ -35,6 +35,7 @@ import { shuffleRecipeOnClinck5 } from '../components/shuffling_single_recipes';
 import { shuffleRecipeOnClinck6 } from '../components/shuffling_single_recipes';
 import { shuffleRecipeOnClinck7 } from '../components/shuffling_single_recipes';
 import { showHideIngredientInfo } from '../components/shopping';
+import { showDislikePreferences } from '../components/filter_ingredients';
 
 document.addEventListener('turbolinks:load', () => {
   autocompleteSearch();
@@ -46,6 +47,7 @@ document.addEventListener('turbolinks:load', () => {
   shuffleRecipeOnClinck5();
   shuffleRecipeOnClinck6();
   shuffleRecipeOnClinck7();
+  showDislikePreferences();
 
   // Call your functions here, e.g:
   // initSelect2();
