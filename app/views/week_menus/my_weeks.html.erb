@@ -1,4 +1,4 @@
-<!-- checking, if the user has already any saved menu plan -->
+<%# checking, if the user has already any saved menu plan %>
 <% if @week_menus.empty? %>
   <h1 style="text-align:center"> You do not have any meal plan saved yet.</h1>
   <div id="btn-div"> <%= link_to "Get my first meal plan", root_path, class: "btn btn-lg btn-red mt-3"%> </div>
@@ -10,43 +10,43 @@
 
           <a href="#newest-week"><h4>The newest</h4></a>
 
-          <!-- displaying "Week 1-9" in sidebar -->
-          <!-- NB! NAVIGATION DOES NOT WORK YET -->
-          <!--     <% @week_number_navbar = @week_menus.count %>
+          <%# displaying "Week 1-9" in sidebar %>
+          <%# NB! NAVIGATION DOES NOT WORK YET %>
+            <% @week_number_navbar = @week_menus.count %>
             <% @week_menus.each do |week_menu| %>
               <h4>Week <%= @week_number_navbar %></h4>
               <% @week_number_navbar -= 1 %>
-            <% end %> -->
+            <% end %>
 
           <a href="#oldest-week"><h4>The oldest</h4></a>
-          <!-- Sandra will kill me for this inline style... s. -->
+          <%# Sandra will kill me for this inline style... s. %>
           <%= link_to "Create new", root_path, style: "color: white; font-family: 'Josefin Sans', sans-serif; font-size: 1.5rem" %>
 
       </div>
-      <div id="weeks-container">
 
-        <!-- saved menu plans (earlier: weeks) of the current user -->
-        <!-- grouped by weeks, ordered from newest to oldest (.reverse) -->
+      <%# anchor for sidebar links %>
+      <a id="newest-week"></a>
+
+      <div id="weeks-container">
+        <%# saved menu plans (earlier: weeks) of the current user %>
+        <%# grouped by weeks, ordered from newest to oldest (.reverse) %>
         <% @week_menus.reverse.each do |week_menu| %>
 
-          <!-- anchor for sidebar links -->
-          <a id="newest-week"></a>
-
-          <!-- box with one menu plan == 7 recipes -->
+          <%# box with one menu plan == 7 recipes %>
             <div id="one-menu">
               <div class="underline-1">
                 <h3>Week <%= @week_number %> </h3>
 
                 <% if user_signed_in? %>
-                 <%= link_to "shopping list",shopping_list_week_menu_path(week_menu), class: "btn btn-md btn-red mb-1" %>
+                  <%= link_to "shopping list",shopping_list_week_menu_path(week_menu), class: "btn btn-md btn-red mb-1" %>
                 <% end %>
               </div>
-              <div id="card-lists">
 
-                <!-- card with a recipe -->
+              <%# card with a recipe %>
+              <div id="card-lists">
                 <% week_menu.menus.each do |menu| %>
                     <div id="recipe-card">
-                      <!-- adding a div to have the "save to favourites" be on the image-->
+                      <%# adding a div to have the "save to favourites" be on the image%>
                       <div class="img-and-icon">
                         <%= link_to "Save", recipe_user_recipe_favourites_path(menu.recipe.id), method: :post, class: "save btn btn-sm btn-red" %>
                         <img class="recipe-card-pic" src="<%= menu.recipe.img_url %>" alt="Card image cap">
@@ -58,15 +58,16 @@
 
                 <% end %>
               </div>
+
             </div>
 
-          <!-- the lower on the page, the older week, the lower number -->
+          <%# the lower on the page, the older week, the lower number %>
           <% @week_number -= 1 %>
 
         <% end %>
       </div>
     </div>
-          <!-- anchor for sidebar links -->
+          <%# anchor for sidebar links %>
           <a id="oldest-week"></a>
   </div>
 <% end %>
