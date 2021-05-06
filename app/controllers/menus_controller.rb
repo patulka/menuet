@@ -21,22 +21,26 @@ class MenusController < ApplicationController
       # set of recipes with searched ingredients
     end
 
+    # we fetch from db 21 recipes (not only 7 as before) to be able to shuffle the recipes
     menus_match = sample_from_db(RecipeIngredient.joins(:ingredient)
                       .where(sql_not_like).where(sql_like)
                       .joins(:recipe), 21)
                     .map { |x| x.recipe } # selecting just recipe from join table
 
     # set of recipes without searched ingredients
+    # (for the case we dont have enough recipes complying the search)
     menus_rand = sample_from_db(Recipe, 21 - menus_match.count)
-    # all 7 recipes together
+    # 21 recipes
     @menus = menus_match + menus_rand
 
+    # 21 recipes distributed in days (3 recipes == 3 options per day)
     @days = []
-    (0..6).each do |day|
+    (0..6).each do |day| # 7 days
       menus = []
       (0..2).each do |menu|
-        menus << @menus[day * 3 + menu]
+        menus << @menus[day * 3 + menu] # 3 options
       end
+      # array with 7 elements of arrays of 3 elements
       @days << menus
     end
 

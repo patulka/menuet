@@ -1,37 +1,43 @@
 <div class="container">
   <div class="main-container">
     <div id="menu-page-title">
+
       <div id="save-menu-option">
         <h1>Suggested weekly meal plan</h1>
-        <!-- refreshing the search with the original queries -- ingredients chosen by user -->
+        <% # refreshing the search with the original queries -- ingredients chosen by user %>
         <%= link_to "Change menu", weekly_menu_path(q: @params_q, qq: @params_qq, x: @params_x, xx: @params_xx), class: "btn btn-sm btn-transparent mb-3" %>
       </div>
+
+      <%#  button to save the week menu only for signed-in users %>
       <% if user_signed_in? %>
-        <%= button_to "Save it!",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-red mb-3" %>
+        <%# @menus now include 21 recipes. .first(7) will be used only if JS fails
+        (the .js responsible for choosing the recipes, which are currently visible -- see below) %>
+        <%= button_to "Save it!", week_menus_path(menus: @menus.first(7).map{|menu| menu.id}), class: "btn btn-red mb-3", form: {id: "submit-meal-plan-btn"} %>
       <% end %>
 
-
-        <!-- button to save the week menu only for signed-in users -->
     </div>
 
     <div id="recipe-cards">
+      <%# itirating over days and 3 recipe options in them... %>
       <% @days.each_with_index do |day, day_index| %>
-        <% day_index += 1 %>
         <% day.each_with_index do |recipe, recipe_index| %>
+          <%# ...but showing only first option for now (to be changed by JS on click) %>
           <% style = recipe_index > 0 ? "display:none" : "" %>
-          <div class="our-card" id="our-card-<%= day_index %>" style="<%= style %>">
+          <%# The custom attribute "data-recipe-id" is used by the JS which alters the Save buttons' action URL
+          (== We are "saving" recipes ids to html to be able to use them by JS. ). %>
+          <div class="our-card" id="our-card-<%= day_index %>-<%= recipe_index %>" style="<%= style %>" data-recipe-id="<%= recipe.id %>">
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
-              <h2>day<span style="font-size: 45px"> <%= day_index %></span></h2>
+              <h2>day<span style="font-size: 45px"> <%= day_index + 1 %></span></h2>
             </div>
             <div class="our-card-body">
               <div class="our-card-title">
-                <!-- button for shuffling single recipes - currently only showing message "Dont be picky" -->
                 <div class="title-prep-time">
                   <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
                   <p><i class="far fa-clock"></i> <%= recipe.time %> mins</p>
                 </div>
-                <a class="mt-2" id="listened-btn-<%= @counter %>"><i class="fas fa-sync-alt" style="color: #c64756; font-size: 20px"></i></a>
+                <%# button for shuffling single recipes - listened by JS %>
+                <a class="mt-2" id="listened-btn-<%= day_index %>-<%= recipe_index %>"><i class="fas fa-sync-alt" style="color: #c64756; font-size: 20px"></i></a>
               </div>
               <div class="our-card-author">
                 <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
