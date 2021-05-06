@@ -9017,13 +9017,22 @@ INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, up
 INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9048, 2237, 116, '2021-05-06 08:44:38.261293', '2021-05-06 08:44:38.261293');
 INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9049, 2393, 116, '2021-05-06 08:44:38.264913', '2021-05-06 08:44:38.264913');
 INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9050, 2404, 116, '2021-05-06 08:44:38.268401', '2021-05-06 08:44:38.268401');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9051, 1602, 1742, '2021-05-06 12:15:21.573059', '2021-05-06 12:15:21.573059');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9052, 1219, 1742, '2021-05-06 12:15:21.591006', '2021-05-06 12:15:21.591006');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9053, 1229, 1742, '2021-05-06 12:15:21.595822', '2021-05-06 12:15:21.595822');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9054, 2039, 1742, '2021-05-06 12:15:21.600791', '2021-05-06 12:15:21.600791');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9055, 149, 1742, '2021-05-06 12:15:21.607039', '2021-05-06 12:15:21.607039');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9056, 959, 1742, '2021-05-06 12:15:21.611894', '2021-05-06 12:15:21.611894');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9057, 1508, 1742, '2021-05-06 12:15:21.616096', '2021-05-06 12:15:21.616096');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9058, 2368, 1742, '2021-05-06 12:15:21.620766', '2021-05-06 12:15:21.620766');
+INSERT INTO public.ingredient_relations (id, child_id, parent_id, created_at, updated_at) VALUES (9059, 1199, 1742, '2021-05-06 12:15:21.625944', '2021-05-06 12:15:21.625944');
 
 
 --
 -- Name: ingredient_relations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: patricieknopova
 --
 
-SELECT pg_catalog.setval('public.ingredient_relations_id_seq', 9050, true);
+SELECT pg_catalog.setval('public.ingredient_relations_id_seq', 9059, true);
 
 
 --

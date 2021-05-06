@@ -1,31 +1,48 @@
 class MenusController < ApplicationController
   skip_before_action :authenticate_user!
 
+  def get_sql_ids(ingr_list)
+    if ingr_list.empty?
+      ""
+    else
+      id_list = ingr_list.map { |q| Ingredient.where("name = '#{q}'")[0] }
+                         .select { |x| x }
+                         .map { |ingredient| ingredient.id }
+                         .join(',')
+      "parent_id IN (#{id_list})"
+    end
+  end
+
+  # filtering out recipes with avoided ingredients and selecting recipes with wanted ingredients
+  def get_having_sql(sql_ids, incl)
+    if sql_ids == ""
+      ""
+    else
+      "COUNT(CASE WHEN #{sql_ids} THEN 1 ELSE NULL END)#{incl ? '>' : '='}0"
+    end
+  end
+
   def weekly_menu
     # puts all searched ingredients (that are not an empty string) to one array
     negative_query_list = ([params[:x]] + params[:xx].split(',')).reject { |x| x == "" }
-    if negative_query_list.empty?
-      sql_not_like = ""
-    else
-      sql_not_like = negative_query_list.map { |q| "ingredients.name NOT LIKE \'%#{q}%\'"}.join(' AND ')
-    end
+    sql_exclude_ids = get_sql_ids(negative_query_list)
+    sql_exclude_having = get_having_sql(sql_exclude_ids, false)
 
     # puts all searched ingredients (that are not an empty string) to one array
     query_list = ([params[:q]] + params[:qq].split(',')).reject { |q| q == "" }
-    menus_match = []
-    if query_list.empty?
-      sql_like = ""
-    else
-      # sql query to find all recipes which has at least one of the searched ingredients
-      sql_like = query_list.map { |q| "ingredients.name LIKE \'%#{q}%\'"}.join(' OR ')
-      # set of recipes with searched ingredients
-    end
+    sql_include_ids = get_sql_ids(query_list)
+    sql_include_having = get_having_sql(sql_include_ids, true)
+
+    having_sql = [sql_exclude_having, sql_include_having].reject { |x| x == "" }.join(' AND ')
 
     # we fetch from db 21 recipes (not only 7 as before) to be able to shuffle the recipes
-    menus_match = sample_from_db(RecipeIngredient.joins(:ingredient)
-                      .where(sql_not_like).where(sql_like)
-                      .joins(:recipe), 21)
-                    .map { |x| x.recipe } # selecting just recipe from join table
+    menus_match = sample_from_db(RecipeIngredient
+                    .select(:recipe_id)
+                    .joins("JOIN ingredient_relations ON recipe_ingredients.ingredient_id = ingredient_relations.child_id") # connecting ingredient_id with child_id
+                    .group(:recipe_id)
+                    .having(having_sql)
+                    .joins(:recipe), 21)
+                  .map { |x| x.recipe } # selecting just recipe from join table
 
     # set of recipes without searched ingredients
     # (for the case we dont have enough recipes complying the search)
@@ -36,7 +53,7 @@ class MenusController < ApplicationController
     # backup in case JS does not work -- first option for the particular day to be passed to the save button
     @menus_first_option = []
     @menus.each_with_index do |menu, index|
-      if (index == 0 || (index) % 3 == 0 )
+      if (index == 0 || (index) % 3 == 0)
         @menus_first_option << menu
       end
     end
@@ -62,9 +79,9 @@ class MenusController < ApplicationController
   end
 
   private
+
   # selecting number of recipes (query) which has an imgae (img_url is not empty)
   def sample_from_db(query, number)
     query.where("COALESCE(TRIM(img_url, '')) != ''").order('RANDOM()').limit(number)
   end
-
 end
