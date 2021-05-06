@@ -19,5 +19,7 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :shopping_lists, only: [:destroy]
+
   get "faq", to: "pages#faq"
 end

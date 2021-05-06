@@ -1,6 +1,5 @@
 .list {
   column-count: 3;
-
     li {
       line-height: 30px;
     }
@@ -9,6 +8,23 @@
 #list-ingredients {
   margin: 50px 0px;
 }
+
+.item {
+  display: flex;
+
+  &:hover .item-delete {
+    visibility: visible;
+  }
+  .item-delete {
+    color: #c64756;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+    margin-top: 0.6rem;
+    visibility: hidden
+  }
+}
+
 
 
 /*tablets and bigger*/
