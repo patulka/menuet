@@ -28,11 +28,13 @@ import "bootstrap";
 // Internal imports, e.g:
 import { autocompleteSearch } from '../components/autocomplete';
 import { showHideIngredientInfo } from '../components/shopping';
+import { showDislikePreferences } from '../components/filter_ingredients';
 import { shuffleRecipeOnClick } from '../components/shuffling_single_recipes';
 
 document.addEventListener('turbolinks:load', () => {
   autocompleteSearch();
   showHideIngredientInfo()
+  showDislikePreferences();
   shuffleRecipeOnClick();
 
   // Call your functions here, e.g:

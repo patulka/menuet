@@ -1,4 +1,28 @@
 // Specific CSS for your home-page
+#dislike-question:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid green;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid green;
+    margin-left: -10px;
+    transition: .5s ease;
+}
+
 #why-menuet {
   background-color: #184d47;
   padding-bottom: 30px;

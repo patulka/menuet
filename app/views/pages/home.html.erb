@@ -21,16 +21,19 @@
             <div class="search-form" id="search-dislike-data" data-ingredients="<%= @ingredients.to_json %>">
 
               <div id="dislike-set">
-                <h5>Something to avoid?</h5>
+                <div class="triangle ml-1 mr-1 mt-1"></div><div class="triangle-down ml-1 mr-1 mt-2" style="display: none"></div><h5 id="dislike-question">Something to avoid?</h5>
+                <!-- display of multiple ingredient -->
                 <div id="ingredient-dislike-set"></div>
-                </div>
+              </div>
+              <div id="dislike-answer" style="visibility: hidden">
                 <%= text_field_tag :x, nil,
                   autocomplete: :on,
                   class: "form-control search-input",
                   placeholder: "Add ingredients to avoid..." %>
                 <!-- Saving multiple ingredients to search query -->
                 <input type="hidden" id="ingredient-dislike-set-input" name="xx">
-                <!-- display of multiple ingredient -->
+              </div>
+
 
               <%= submit_tag "Get my meal plan", class: "btn btn-lg btn-red mt-3" %>
             </div>
