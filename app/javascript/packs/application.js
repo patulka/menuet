@@ -27,27 +27,15 @@ import "bootstrap";
 
 // Internal imports, e.g:
 import { autocompleteSearch } from '../components/autocomplete';
-import { shuffleRecipeOnClinck1 } from '../components/shuffling_single_recipes';
-import { shuffleRecipeOnClinck2 } from '../components/shuffling_single_recipes';
-import { shuffleRecipeOnClinck3 } from '../components/shuffling_single_recipes';
-import { shuffleRecipeOnClinck4 } from '../components/shuffling_single_recipes';
-import { shuffleRecipeOnClinck5 } from '../components/shuffling_single_recipes';
-import { shuffleRecipeOnClinck6 } from '../components/shuffling_single_recipes';
-import { shuffleRecipeOnClinck7 } from '../components/shuffling_single_recipes';
 import { showHideIngredientInfo } from '../components/shopping';
 import { showDislikePreferences } from '../components/filter_ingredients';
+import { shuffleRecipeOnClick } from '../components/shuffling_single_recipes';
 
 document.addEventListener('turbolinks:load', () => {
   autocompleteSearch();
   showHideIngredientInfo()
-  shuffleRecipeOnClinck1();
-  shuffleRecipeOnClinck2();
-  shuffleRecipeOnClinck3();
-  shuffleRecipeOnClinck4();
-  shuffleRecipeOnClinck5();
-  shuffleRecipeOnClinck6();
-  shuffleRecipeOnClinck7();
   showDislikePreferences();
+  shuffleRecipeOnClick();
 
   // Call your functions here, e.g:
   // initSelect2();

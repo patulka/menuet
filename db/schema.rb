@@ -10,15 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_04_195618) do
+ActiveRecord::Schema.define(version: 2021_05_05_092833) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "ingredient_relations", force: :cascade do |t|
+    t.bigint "child_id"
+    t.bigint "parent_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["child_id"], name: "index_ingredient_relations_on_child_id"
+    t.index ["parent_id"], name: "index_ingredient_relations_on_parent_id"
+  end
 
   create_table "ingredients", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "api_id"
+    t.string "img_url_ingr"
   end
 
   create_table "menus", force: :cascade do |t|
