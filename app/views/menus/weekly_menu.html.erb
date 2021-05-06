@@ -1,29 +1,46 @@
 <div class="container">
   <div class="main-container">
     <div id="menu-page-title">
-      <h1>Suggested weekly meal plan</h1>
-
-      <!-- button to save the week menu only for signed-in users -->
+      <div id="save-menu-option">
+        <h1>Suggested weekly meal plan</h1>
+        <!-- refreshing the search with the original queries -- ingredients chosen by user -->
+        <%= link_to "Change menu", weekly_menu_path(q: @params_q, qq: @params_qq, x: @params_x, xx: @params_xx), class: "btn btn-sm btn-transparent mb-3" %>
+      </div>
       <% if user_signed_in? %>
-       <%= link_to "Save this meal plan",week_menus_path(menus: @menus.map{|menu| menu.id}), method: :post, class: "btn btn-lg btn-red mt-3" %>
+        <%= button_to "Save it!",week_menus_path(menus: @menus.map{|menu| menu.id}), class: "btn btn-red mb-3" %>
       <% end %>
+
+
+        <!-- button to save the week menu only for signed-in users -->
     </div>
 
-    <div class="recipe-cards">
-
+    <div id="recipe-cards">
       <% @menus.each do |recipe| %>
         <% @counter += 1  %>
-          <div class="our-card">
+
+          <div class="our-card" id="our-card-<%= @counter %>">
             <img class="our-card-image" src="<%= recipe.img_url %>" alt="Card image cap">
             <div id="number">
-              <h1><%= @counter %> </h1>
+              <h2>day<span style="font-size: 45px"> <%= @counter %></span></h2>
             </div>
             <div class="our-card-body">
-              <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
-              <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
-              <p class="card-text"><strong>Ingedrients</strong><br>
-                <%= recipe.ingredients_list.join(" - ") %>
-              </p>
+              <div class="our-card-title">
+                <!-- button for shuffling single recipes - currently only showing message "Dont be picky" -->
+                <div class="title-prep-time">
+                  <h3 class="card-title"><strong><%= recipe.title %></strong></h3>
+                  <p><i class="far fa-clock"></i> <%= recipe.time %> mins</p>
+                </div>
+                <a class="mt-2" id="listened-btn-<%= @counter %>"><i class="fas fa-sync-alt" style="color: #c64756; font-size: 20px"></i></a>
+              </div>
+              <div class="our-card-author">
+                <p class="card-text"><strong>Author</strong><br><%= recipe.author %></p>
+              </div>
+              <div class="our-card-text">
+                <p class="card-text"><strong>Ingredients</strong><br>
+                  <%= recipe.ingredients_list.join(" - ") %>
+                </p>
+              </div>
+
               <%= link_to "Go to recipe", recipe_path(recipe), class: "btn btn-transparent"%>
             </div>
           </div>

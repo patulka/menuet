@@ -1,36 +1,73 @@
 #menu-page-title {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  margin-bottom: 80px;
 }
 
+#save-menu-option {
+  display: flex;
+  align-items: flex-end;
+      h1 {
+      margin-right: 20px;
+    }
+}
 
 #number {
   width: 100px;
   height:100px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   position: absolute;
   margin-top: -40px;
-  margin-left: -40px;
-  text-align: center;
-  h1 {
-      font-size: 70px;
-      margin-top: 15px;
+  margin-left: -30px;
+  h2 {
+      margin-top: 20px;
   }
 }
 
 
 /*landscape phones and smaller*/
 @media (max-width: 575px) {
-  .our-card-image {
-    width: 200px;
+
+  #menu-page-title {
+    width: 90%;
+    flex-flow: row wrap;
+      h1 {
+        font-size: 40px;
+    }
   }
 
+  .our-card {
+    flex-flow: row wrap;
+  }
+
+  .our-card-body {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .our-card-image {
+    width: 300px;
+    height: 180px;
+    margin: 0px auto;
+  }
+
+  #number {
+    display: none;
+  }
 }
+
 
 /*tablets and bigger*/
 @media(min-width: 576px) and (max-width:991px) {
+    .our-card {
+    flex-flow: row wrap;
+  }
+
+  #save-menu-option {
+    flex-flow: row wrap;
+  }
 
 }
 
