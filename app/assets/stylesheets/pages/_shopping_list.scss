@@ -13,15 +13,14 @@
   display: flex;
 
   &:hover .item-delete {
-    visibility: visible;
+    color: #c64756;
   }
   .item-delete {
-    color: #c64756;
+    color: #DAD9D6;
     font-size: 0.8rem;
     margin-bottom: 0;
     margin-left: 0.5rem;
     margin-top: 0.6rem;
-    visibility: hidden
   }
 }
 
