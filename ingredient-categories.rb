@@ -17,7 +17,7 @@ def ingr_from_name(name)
   Ingredient.where(ActiveRecord::Base::sanitize_sql_array(['name = ?', name]))[0] || Ingredient.create(name: name)
 end
 
-important_aisles = { "Meat" => 1391, "Cheese" => 405, "Seafood" => 1712, "Gluten Free" => 1713, "Milk, Eggs, Other Dairy" => 1714 }
+important_aisles = { "Meat" => 1391, "Cheese" => 405, "Seafood" => 1708, "Gluten Free" => 1707, "Milk, Eggs, Other Dairy" => 1709 }
 
 files = Dir["ingr_info_jsons/*.json"]
 files.each do |f|
