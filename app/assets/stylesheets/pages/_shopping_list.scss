@@ -1,5 +1,6 @@
 .list {
-  column-count: 3;
+  column-count: auto;
+  column-width: 16rem;
     li {
       line-height: 30px;
     }
@@ -7,6 +8,25 @@
 
 #list-ingredients {
   margin: 50px 0px;
+  padding: 30px;
+}
+
+#category {
+  background-color: white;
+  border: 2px solid green;
+  margin-top: 30px;
+  padding: 20px 50px;
+  border-radius: 3px;
+
+}
+
+.category-title {
+  border-bottom: 2px solid green;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .item {
@@ -25,7 +45,6 @@
 }
 
 
-
 /*tablets and bigger*/
 @media(min-width: 576px) and (max-width:991px) {
   .list {
@@ -33,3 +52,4 @@
   }
 
 }
+
