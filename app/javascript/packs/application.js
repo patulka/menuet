@@ -30,12 +30,15 @@ import { autocompleteSearch } from '../components/autocomplete';
 import { showHideIngredientInfo } from '../components/shopping';
 import { shuffleRecipeOnClick } from '../components/shuffling_single_recipes';
 import { showDislikePreferences } from '../components/filter_ingredients';
+import { activeNavbar } from '../components/active_navbar';
 
 document.addEventListener('turbolinks:load', () => {
   autocompleteSearch();
   showHideIngredientInfo();
   shuffleRecipeOnClick();
   showDislikePreferences();
+  activeNavbar();
+
 
   // Call your functions here, e.g:
   // initSelect2();
