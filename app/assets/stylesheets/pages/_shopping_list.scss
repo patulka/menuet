@@ -1,5 +1,6 @@
 .list {
-  column-count: 3;
+  column-count: auto;
+  column-width: 16rem;
     li {
       line-height: 30px;
     }
@@ -7,6 +8,25 @@
 
 #list-ingredients {
   margin: 50px 0px;
+  padding: 30px;
+}
+
+#category {
+  background-color: #F6F2D9;
+  margin-top: 30px;
+  padding: 20px 50px;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(255,240,173,0.3);
+
+}
+
+.category-title {
+  border-bottom: 2px solid green;
+  margin-bottom: 10px;
+  margin-left: -30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .item {
@@ -16,14 +36,13 @@
     color: #c64756;
   }
   .item-delete {
-    color: #DAD9D6;
+    color: #F4DB98;
     font-size: 0.8rem;
     margin-bottom: 0;
     margin-left: 0.5rem;
     margin-top: 0.6rem;
   }
 }
-
 
 
 /*tablets and bigger*/
@@ -33,3 +52,4 @@
   }
 
 }
+
