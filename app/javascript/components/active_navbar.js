@@ -1,5 +1,5 @@
 const activeNavbar = () => {
-
+// adding class current-page to the element with class corresponding to url
   const currentLocation = location.pathname.substr(1) // returns ending of the url
 
   if (currentLocation) {

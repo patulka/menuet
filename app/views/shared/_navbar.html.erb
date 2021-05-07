@@ -24,18 +24,19 @@
         <%# <li class="nav-item mr-3 "> %>
           <%# = link_to "FAQ", faq_path, class: "nav-link faq" %>
         <%# </li> %>
-        <li class="nav-item mr-3">
-          <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "nav-link" %>
-        </li>
         <li class="nav-item active">
           <p class="nav-link mr-9" style="font-size:18px;">Hi, <%= (current_user.email.split('@')[0]).capitalize %></p>
         </li>
-<!--         <li class="nav-item dropdown">
-          <%= image_tag "https://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
-          </div>
-        </li> -->
+        <li class="nav-item mr-3">
+          <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "nav-link" %>
+        </li>
+        <%# AVATAR PICTURE - CURRENTLY NOT VISIBLE  %>
+        <%#<li class="nav-item dropdown"> %>
+          <%#= image_tag "https://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+          <%#<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> %>
+            <%#= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
+          <%#  </div> %>
+        <%#</li> %>
       <% else %>
         <li class="nav-item mr-3">
           <%= link_to "FAQ", faq_path, class: "nav-link" %>
