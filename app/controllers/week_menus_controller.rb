@@ -1,6 +1,6 @@
 class WeekMenusController < ApplicationController
-  # for now (accesses for not-logged-ins will be set later)
-  skip_before_action :authenticate_user!
+  # # for now (accesses for not-logged-ins will be set later)
+  # skip_before_action :authenticate_user!
 
   # displays the saved menu plans (earlier: weeks) (saved by the create function below)
   def my_weeks
@@ -13,8 +13,18 @@ class WeekMenusController < ApplicationController
     @week_number_navbar = 1 # from 1 to x
   end
 
-
-  $categories = [Ingredient.where("name = 'vegetable'")[0], Ingredient.where("name = 'fruit'")[0], Ingredient.where("name = 'spices'")[0], Ingredient.where("name = 'bread'")[0], Ingredient.where("name = 'dairy'")[0], Ingredient.where("name = 'cheese'")[0], Ingredient.where("name = 'fish'")[0], Ingredient.where("name = 'seafood'")[0], Ingredient.where("name = 'meat'")[0]]
+  category_order = [
+  'vegetable',
+  'fruit',
+  'dairy',
+  'fish',
+  'meat',
+  'bread',
+  'staples',
+  'herbs',
+  'spices'
+  ]
+  $categories = category_order.map { |name| Ingredient.where("name = '#{name}'")[0] }
 
   # creates lines in a week_menu db and menu db == saving weeks to be displayed on my-menu-plans page
   def create

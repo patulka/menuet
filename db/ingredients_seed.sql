@@ -2333,6 +2333,7 @@ INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_ur
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2314, 'light treacle', '2021-05-06 08:32:56.693306', '2021-05-06 08:32:56.693306', NULL, NULL);
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2315, 'anchovies in extra virgin olive oil', '2021-05-06 08:32:56.708521', '2021-05-06 08:32:56.708521', NULL, NULL);
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2316, 'anchovies in olive oil', '2021-05-06 08:32:56.712693', '2021-05-06 08:32:56.712693', NULL, NULL);
+INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2428, 'staples', '2021-05-07 10:03:12.312364', '2021-05-07 10:03:12.312364', NULL, NULL);
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2317, 'vegetable oil shortening', '2021-05-06 08:32:56.771062', '2021-05-06 08:32:56.771062', NULL, NULL);
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2318, 'chocolate soy pudding', '2021-05-06 08:32:56.865859', '2021-05-06 08:32:56.865859', NULL, NULL);
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2319, 'pudding', '2021-05-06 08:32:56.870099', '2021-05-06 08:32:56.870099', NULL, NULL);
@@ -2443,13 +2444,14 @@ INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_ur
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2424, 'rosebud', '2021-05-06 08:33:04.360621', '2021-05-06 08:33:04.360621', NULL, NULL);
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2425, 'scoop tortilla chips', '2021-05-06 08:33:04.389569', '2021-05-06 08:33:04.389569', NULL, NULL);
 INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2426, 'parpadelle', '2021-05-06 08:33:04.426408', '2021-05-06 08:33:04.426408', NULL, NULL);
+INSERT INTO public.ingredients (id, name, created_at, updated_at, api_id, img_url_ingr) VALUES (2427, 'flour product', '2021-05-07 09:26:49.242544', '2021-05-07 09:26:49.242544', NULL, NULL);
 
 
 --
 -- Name: ingredients_id_seq; Type: SEQUENCE SET; Schema: public; Owner: patricieknopova
 --
 
-SELECT pg_catalog.setval('public.ingredients_id_seq', 2426, true);
+SELECT pg_catalog.setval('public.ingredients_id_seq', 2428, true);
 
 
 --
