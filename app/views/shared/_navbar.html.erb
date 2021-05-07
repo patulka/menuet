@@ -11,17 +11,17 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
-        <li class="nav-item mr-3 home">
-          <%= link_to "Get new meal plan" , root_path, class: "nav-link" %>
+        <li class="nav-item mr-3 ">
+          <%= link_to "Get new meal plan" , root_path, class: "nav-link home" %>
         </li>
-        <li class="nav-item mr-3 my-menu-plans">
-          <%= link_to "My meal plans" , my_menu_plans_path, class: "nav-link " %>
+        <li class="nav-item mr-3 ">
+          <%= link_to "My meal plans" , my_menu_plans_path, class: "nav-link my-menu-plans" %>
         </li>
-        <li class="nav-item mr-3 favourite-recipes">
-          <%= link_to "My favourite recipes" , favourite_recipes_path, class: "nav-link" %>
+        <li class="nav-item mr-3 ">
+          <%= link_to "My favourite recipes" , favourite_recipes_path, class: "nav-link favourite-recipes" %>
         </li>
-        <li class="nav-item mr-3 faq">
-          <%= link_to "FAQ", faq_path, class: "nav-link" %>
+        <li class="nav-item mr-3 ">
+          <%= link_to "FAQ", faq_path, class: "nav-link faq" %>
         </li>
         <li class="nav-item mr-3">
           <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "nav-link" %>
