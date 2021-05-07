@@ -17,7 +17,7 @@ def ingr_from_name(name)
   Ingredient.where(ActiveRecord::Base::sanitize_sql_array(['name = ?', name]))[0] || Ingredient.create(name: name)
 end
 
-important_aisles = { "Meat" => 1391, "Cheese" => 405, "Seafood" => 1708, "Gluten Free" => 1707, "Milk, Eggs, Other Dairy" => 1709 }
+important_aisles = { "Meat" => 1391, "Cheese" => 405, "Seafood" => ingr_from_name('seafood').id, "Gluten Free" => ingr_from_name('gluten free').id, "Milk, Eggs, Other Dairy" => ingr_from_name('dairy').id }
 
 files = Dir["ingr_info_jsons/*.json"]
 files.each do |f|
@@ -39,7 +39,7 @@ files.each do |f|
 
         super_parent = Ingredient.find(v)
         add_relation(ingredient, super_parent)
-        path_ingredients.each { |ingr| add_relation(ingr, super_parent) }
+        # path_ingredients.each { |ingr| add_relation(ingr, super_parent) }
       end
     end
 

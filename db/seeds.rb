@@ -48,13 +48,13 @@ connections_sql = File.read('db/recipe_ingredients_seed.sql')
 
 puts "Connections seeded."
 
-puts "Seeding ingredient relations..."
+# puts "Seeding ingredient relations..."
 
-relations_sql = File.read('db/ingredient_relations_seed.sql')
-  connection = ActiveRecord::Base.connection()
+# relations_sql = File.read('db/ingredient_relations_seed.sql')
+#   connection = ActiveRecord::Base.connection()
 
-  ActiveRecord::Base.transaction do
-    connection.execute(relations_sql)
-  end
+#   ActiveRecord::Base.transaction do
+#     connection.execute(relations_sql)
+#   end
 
-puts "Ingredient relations seeded."
+# puts "Ingredient relations seeded."
