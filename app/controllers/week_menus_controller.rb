@@ -1,6 +1,6 @@
 class WeekMenusController < ApplicationController
-  # for now (accesses for not-logged-ins will be set later)
-  skip_before_action :authenticate_user!
+  # # for now (accesses for not-logged-ins will be set later)
+  # skip_before_action :authenticate_user!
 
   # displays the saved menu plans (earlier: weeks) (saved by the create function below)
   def my_weeks
@@ -21,6 +21,7 @@ class WeekMenusController < ApplicationController
   'meat',
   'bread',
   'staples',
+  'herbs',
   'spices'
   ]
   $categories = category_order.map { |name| Ingredient.where("name = '#{name}'")[0] }

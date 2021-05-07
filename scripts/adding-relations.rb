@@ -55,7 +55,20 @@ end
 def rem(ingr_name_1, ingr_name_2)
   child = ingr_from_name(ingr_name_1)
   parent = ingr_from_name(ingr_name_2)
-  remove_relation(child.name, parent.name)
+  remove_relation(child, parent)
+end
+
+def remove_all(ingr_name_1, ingr_name_2)
+  child = ingr_from_name(ingr_name_1)
+  parent = ingr_from_name(ingr_name_2)
+  # any child of child gets any parent of parent
+  parent.parents.each { |parent2|
+    child.children.each { |child2|
+      remove_relation(child2, parent2)
+    }
+  }
+  nil
+
 end
 
 def repair_transitive_relations
