@@ -20,9 +20,10 @@
         <li class="nav-item mr-3 ">
           <%= link_to "My favourite recipes" , favourite_recipes_path, class: "nav-link favourite-recipes" %>
         </li>
-        <li class="nav-item mr-3 ">
-          <%= link_to "FAQ", faq_path, class: "nav-link faq" %>
-        </li>
+        <%# FAQS AT NAVBAR CURRENTLY VISIBLE ONLY TO NOT SIGNED IT USERS  %>
+        <%# <li class="nav-item mr-3 "> %>
+          <%# = link_to "FAQ", faq_path, class: "nav-link faq" %>
+        <%# </li> %>
         <li class="nav-item mr-3">
           <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "nav-link" %>
         </li>
